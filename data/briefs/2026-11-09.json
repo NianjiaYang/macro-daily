@@ -198,34 +198,34 @@
     {
       "q": "The 2-year Treasury yield rose 5 bp to 4.56%. What is the market signaling?",
       "options": [
-        "It expects the Fed to cut rates soon",
         "It expects higher Fed policy rates ahead",
+        "It expects the Fed to cut rates soon",
         "It expects a recession next quarter",
         "Nothing — the 2-year doesn't relate to Fed policy"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "The {{two-year-yield|2-year}} tracks expected Fed policy closely; rising yields mean traders expect a {{rate-hike|hike}} — consistent with ~85% December odds."
     },
     {
       "q": "Why did Friday's strong jobs report raise the odds of a Fed hike?",
       "options": [
         "More jobs mean lower inflation",
-        "A strong labor market lets the Fed focus on fighting inflation without fearing a downturn",
         "The Fed only targets unemployment",
-        "Jobs reports set the fed funds rate automatically"
+        "Jobs reports set the fed funds rate automatically",
+        "A strong labor market lets the Fed focus on fighting inflation without fearing a downturn"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "Under its dual mandate, a strong {{jobs-report|jobs report}} reduces the Fed's worry about employment, so it can tighten to fight inflation."
     },
     {
       "q": "Consensus expects 3.9% headline CPI but only 2.7% core CPI. What mostly explains the gap?",
       "options": [
         "Housing costs",
-        "Food and energy prices, especially war-driven fuel",
         "Rounding differences",
+        "Food and energy prices, especially war-driven fuel",
         "Core CPI includes more items"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "{{core-inflation|Core}} excludes food and energy. The gap reflects elevated fuel prices tied to the Iran war."
     }
   ],
