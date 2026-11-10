@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Macro Daily</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-name">Macro Daily</span>
+      </div>
+      <nav class="tabs" role="tablist">
+        <button role="tab" data-tab="brief" aria-selected="true">Brief</button>
+        <button role="tab" data-tab="dashboard" aria-selected="false">Dashboard</button>
+        <button role="tab" data-tab="glossary" aria-selected="false">Glossary <span class="count" id="glossaryCount"></span></button>
+        <button role="tab" data-tab="quiz" aria-selected="false">Quick check</button>
+        <button role="tab" data-tab="weekly" aria-selected="false">Weekly quiz</button>
+      </nav>
+      <select id="dateSelect" aria-label="Choose brief date"></select>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="tab-brief" class="tab-panel"></section>
+    <section id="tab-dashboard" class="tab-panel" hidden></section>
+    <section id="tab-glossary" class="tab-panel" hidden></section>
+    <section id="tab-quiz" class="tab-panel" hidden></section>
+    <section id="tab-weekly" class="tab-panel" hidden></section>
+  </main>
+
+  <footer class="wrap site-foot">Written by an AI model from free public sources and official data, for learning. Figures can contain errors; corrections are noted on each brief. Not investment advice.</footer>
+
+  <div id="scrim" class="scrim" hidden></div>
+  <div id="pop" class="pop" role="dialog" aria-modal="false" aria-labelledby="popTitle" hidden>
+    <div class="pop-head">
+      <div>
+        <div class="pop-cat" id="popCat"></div>
+        <h3 id="popTitle"></h3>
+      </div>
+      <button class="icon-btn" id="popClose" aria-label="Close">✕</button>
+    </div>
+    <div class="tier-tabs" role="tablist">
+      <button data-tier="0" role="tab">1 · Definition</button>
+      <button data-tier="1" role="tab">2 · Why it matters</button>
+      <button data-tier="2" role="tab">3 · Full reasoning</button>
+    </div>
+    <div class="pop-body" id="popBody"></div>
+    <div class="pop-related" id="popRelated"></div>
+    <div class="pop-foot">
+      <label class="learned-toggle"><input type="checkbox" id="popLearned"> I've got this</label>
+      <button class="btn-primary" id="popDeeper">Go deeper →</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

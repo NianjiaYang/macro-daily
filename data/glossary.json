@@ -1,0 +1,314 @@
+{
+  "terms": {
+    "dip-buying": {
+      "term": "Dip-buying",
+      "category": "Market behavior",
+      "firstSeen": "2026-11-09",
+      "definition": "Buying an asset right after its price has dropped sharply, on the bet that the drop was overdone and the price will recover.",
+      "why": "Monday's rally was largely dip-buying in chip stocks after a four-week slide. It tells you investors haven't abandoned the AI story — they saw last week's prices as a discount, not a warning.",
+      "chain": [
+        "Chip stocks fell hard last week on fears that AI spending would slow after the midterms.",
+        "Lower prices made those companies look cheaper relative to the earnings investors still expect.",
+        "Over the weekend no new bad news hit the sector (Nvidia's issue was company-specific), so buyers stepped back in.",
+        "Traders who had bet against the stocks rushed to close those bets, adding fuel to the bounce.",
+        "Whether the bounce lasts depends on whether the original fear — slower AI investment — is actually disproven."
+      ],
+      "related": ["relief-rally", "sector-rotation"]
+    },
+    "relief-rally": {
+      "term": "Relief rally",
+      "category": "Market behavior",
+      "firstSeen": "2026-11-09",
+      "definition": "A short, sharp rise in prices during a broader downtrend, usually after selling exhausts itself or a feared event turns out less bad than expected.",
+      "why": "The key question after a +2–3% day following four down weeks: is this a real turn or just a relief rally? Analysts look at whether gains hold through the next big catalyst — here, Tuesday's {{cpi|CPI}} report.",
+      "chain": [
+        "After a long decline, many sellers have already sold — there's less selling pressure left.",
+        "Any neutral or slightly good news can then trigger outsized gains.",
+        "But if the underlying problem (here, AI-spending worries plus rising rates) hasn't changed, prices can resume falling.",
+        "A durable turn usually needs a fundamental change: better earnings, softer inflation, or a shift in Fed expectations."
+      ],
+      "related": ["dip-buying", "cpi"]
+    },
+    "magnificent-7": {
+      "term": "Magnificent 7",
+      "category": "Equities",
+      "firstSeen": "2026-11-09",
+      "definition": "Nickname for the seven mega-cap tech stocks — Apple, Microsoft, Alphabet, Amazon, Meta, Nvidia and Tesla — that dominate U.S. index returns.",
+      "why": "Together they make up roughly a third of the S&P 500's value, so how they trade largely decides whether the index is up or down. Nvidia being the only one down Monday was notable.",
+      "chain": [
+        "The S&P 500 is {{cap-weighting|cap-weighted}}: bigger companies count more.",
+        "The Mag 7 grew so large that their moves now swamp the other ~490 stocks.",
+        "So a 'market' rally or sell-off is often really a Mag 7 story.",
+        "Analysts check 'breadth' (how many stocks are rising) to see whether a move is broad or concentrated."
+      ],
+      "related": ["cap-weighting", "idiosyncratic-risk"]
+    },
+    "semiconductor-etf": {
+      "term": "Semiconductor ETF",
+      "category": "Equities",
+      "firstSeen": "2026-11-09",
+      "definition": "An exchange-traded fund that holds a basket of chip-company stocks and trades like a single stock. SOXX and SMH are the best-known examples.",
+      "why": "Its daily move is a quick read on sentiment toward the whole chip sector. SOXX rising 7.5% while Nvidia — one of its biggest holdings — fell 5% shows money moved within the sector, not out of it.",
+      "chain": [
+        "An ETF lets investors buy an entire sector in one trade.",
+        "Its price reflects the weighted performance of its holdings.",
+        "When one big holding falls but the ETF rises sharply, the other holdings must have risen even more.",
+        "That gap is evidence of {{sector-rotation|rotation within the sector}}."
+      ],
+      "related": ["sector-rotation", "cap-weighting"]
+    },
+    "sector-rotation": {
+      "term": "Sector rotation",
+      "category": "Market behavior",
+      "firstSeen": "2026-11-09",
+      "definition": "Investors moving money from one group of stocks to another — between sectors, or between companies within a sector — rather than leaving the market altogether.",
+      "why": "Monday's chip trade was a textbook case: investors sold Nvidia on leadership risk and bought AMD, Broadcom and Marvell. Their conviction in chips didn't change; their preferred way to own it did.",
+      "chain": [
+        "Weekend reports created uncertainty about Nvidia's CEO — a company-specific risk.",
+        "Investors still wanted exposure to the AI chip theme.",
+        "So they sold Nvidia and bought its peers instead.",
+        "Result: the sector ETF rose ~7.5% while its largest member fell ~5%.",
+        "Lesson: a falling leader doesn't always mean a falling theme — check what its peers are doing."
+      ],
+      "related": ["idiosyncratic-risk", "semiconductor-etf"]
+    },
+    "idiosyncratic-risk": {
+      "term": "Idiosyncratic risk",
+      "category": "Risk",
+      "firstSeen": "2026-11-09",
+      "definition": "Risk specific to a single company — a scandal, lawsuit or failed product — as opposed to systematic risk, which hits the whole market (like interest rates or recessions).",
+      "why": "The investigation into Nvidia's CEO is idiosyncratic: it hurts Nvidia but not the chip industry's prospects. That's why the stock fell while peers rallied.",
+      "chain": [
+        "Systematic risk (rates, the economy) moves everything together and can't be diversified away.",
+        "Idiosyncratic risk affects one name and can be diversified away by holding many stocks.",
+        "When a company-specific shock hits, investors often swap into similar companies to keep their theme exposure.",
+        "This is why diversified portfolios and ETFs dampen single-stock blowups."
+      ],
+      "related": ["sector-rotation", "magnificent-7"]
+    },
+    "cap-weighting": {
+      "term": "Cap-weighting",
+      "category": "Equities",
+      "firstSeen": "2026-11-09",
+      "definition": "An index method where each company's weight equals its market capitalization (share price × shares outstanding). Bigger companies move the index more.",
+      "why": "Over the past month the average Russell 1000 stock rose ~0.8%, yet the index lost ~$4.8 trillion in value — Nvidia alone accounted for ~$1.27 trillion of that. In a cap-weighted index, a few giants can outweigh hundreds of small winners.",
+      "chain": [
+        "Market cap = price × shares; Nvidia is one of the largest companies in the world.",
+        "In a cap-weighted index, a 10% drop in Nvidia matters far more than a 10% rise in a small company.",
+        "So 'the average stock' and 'the index' can tell opposite stories.",
+        "Equal-weight indexes (every stock counts the same) are a common comparison to see the difference."
+      ],
+      "related": ["magnificent-7"]
+    },
+    "analyst-upgrade": {
+      "term": "Analyst upgrade",
+      "category": "Equities",
+      "firstSeen": "2026-11-09",
+      "definition": "When a sell-side research analyst raises their rating on a stock (e.g., from 'Perform' to 'Outperform'), signaling they expect it to do better.",
+      "why": "Oppenheimer's upgrade of AMD, plus news that Google Cloud picked AMD chips, helped send the stock up 13% — upgrades can move prices because many investors follow these calls.",
+      "chain": [
+        "Sell-side analysts at banks publish ratings and price targets for clients.",
+        "An upgrade signals new conviction, often based on a fresh catalyst (here, the Google Cloud win).",
+        "Fund managers who trust that analyst may buy, pushing the price up.",
+        "The effect is strongest when the upgrade comes alongside real business news, as it did here."
+      ],
+      "related": []
+    },
+    "treasury-yield": {
+      "term": "Treasury yield",
+      "category": "Rates",
+      "firstSeen": "2026-11-09",
+      "definition": "The annual return an investor earns for lending to the U.S. government by buying a Treasury bond. Yields move opposite to bond prices.",
+      "why": "Treasury yields are the base rate for almost all borrowing in the economy. The 10-year yield at 4.88% feeds directly into {{mortgage-rate|mortgage rates}} and corporate borrowing costs.",
+      "chain": [
+        "A bond pays a fixed coupon; if its price falls, that fixed coupon is a bigger percentage of the price — the yield rises.",
+        "Investors demand higher yields when they expect higher inflation or higher Fed rates.",
+        "Banks and companies price their loans as a spread above Treasury yields.",
+        "So rising Treasury yields ripple out to mortgages, car loans and corporate bonds."
+      ],
+      "related": ["two-year-yield", "basis-point", "mortgage-rate"]
+    },
+    "two-year-yield": {
+      "term": "2-year Treasury yield",
+      "category": "Rates",
+      "firstSeen": "2026-11-09",
+      "definition": "The yield on two-year U.S. government debt. Because it covers only the next couple of years, it closely tracks where traders expect the Fed's policy rate to go.",
+      "why": "It rose 5 {{basis-point|bp}} to 4.56% Monday — the bond market's way of saying it expects the Fed to raise rates, not cut them, in December.",
+      "chain": [
+        "If you can earn the Fed's rate by rolling short-term bills, a 2-year note must offer about the average expected Fed rate over two years.",
+        "When traders expect a {{rate-hike|hike}}, that average goes up — and so does the 2-year yield.",
+        "That's why analysts call it 'the note that tracks Fed policy most closely.'",
+        "Comparing the 2-year to the 10-year (the 'yield curve') shows how the market sees short- vs. long-run rates."
+      ],
+      "related": ["treasury-yield", "fedwatch", "rate-hike"]
+    },
+    "basis-point": {
+      "term": "Basis point (bp)",
+      "category": "Rates",
+      "firstSeen": "2026-11-09",
+      "definition": "One hundredth of a percentage point: 1 bp = 0.01%. A move from 4.51% to 4.56% is +5 bp.",
+      "why": "Rates people quote everything in basis points because small moves matter: on a $1 trillion of debt, 5 bp is $500 million a year in interest.",
+      "chain": [
+        "Saying 'up 0.05%' is ambiguous — is that 0.05 percentage points or 5% of the rate?",
+        "Basis points remove the ambiguity: always 0.01 percentage points.",
+        "Fed moves are typically 25 bp (a quarter point).",
+        "Credit spreads, yield moves and fees are all quoted this way."
+      ],
+      "related": ["treasury-yield", "rate-hike"]
+    },
+    "rate-hike": {
+      "term": "Rate hike",
+      "category": "Fed",
+      "firstSeen": "2026-11-09",
+      "definition": "When the Federal Reserve raises its target for the federal funds rate — the rate banks charge each other overnight — usually by 25 {{basis-point|bp}}.",
+      "why": "The Fed hiked in September (its first in three years), held in October, and markets now see ~85% odds of another hike on Dec. 9. Higher rates cool the economy but hit stock valuations and borrowers.",
+      "chain": [
+        "Inflation is running well above the Fed's 2% goal, partly from war-driven fuel prices.",
+        "The job market is strong (+165k jobs in October), so the Fed has little reason to worry about growth.",
+        "Raising rates makes borrowing more expensive, slowing spending and, eventually, inflation.",
+        "Higher rates also lower the present value of future profits — which hits long-duration growth stocks like tech hardest."
+      ],
+      "related": ["fomc", "fedwatch", "core-inflation"]
+    },
+    "fomc": {
+      "term": "FOMC",
+      "category": "Fed",
+      "firstSeen": "2026-11-09",
+      "definition": "The Federal Open Market Committee — the 12-member Fed committee that votes on interest rates. It meets eight times a year; the next meeting is Dec. 9.",
+      "why": "Every FOMC meeting is a scheduled market event. The statement and the Chair's press conference (currently Kevin Warsh) are parsed word-by-word for hints about future moves.",
+      "chain": [
+        "The FOMC includes the 7 Fed governors, the New York Fed president, and 4 rotating regional presidents.",
+        "It sets a target range for the federal funds rate.",
+        "Markets price expected decisions in advance via {{fedwatch|fed funds futures}}.",
+        "Surprises versus those expectations — not the decision itself — are what move markets."
+      ],
+      "related": ["rate-hike", "fedwatch"]
+    },
+    "fedwatch": {
+      "term": "Fed funds futures / FedWatch",
+      "category": "Fed",
+      "firstSeen": "2026-11-09",
+      "definition": "Fed funds futures are contracts whose payoff depends on the average fed funds rate in a given month. CME's FedWatch tool converts their prices into probabilities for each Fed meeting.",
+      "why": "When you read '85% odds of a December hike,' this is where it comes from. It's the market's real-money bet, and it shifted sharply after Friday's jobs report.",
+      "chain": [
+        "A futures price implies an expected average rate for the month.",
+        "Compare that to today's rate and you can back out how likely a move is.",
+        "Strong data (like the jobs beat) pushed the implied rate — and hike odds — higher.",
+        "Watch how these odds move after Tuesday's CPI; a big swing means the data surprised."
+      ],
+      "related": ["rate-hike", "two-year-yield", "jobs-report"]
+    },
+    "jobs-report": {
+      "term": "Jobs report (nonfarm payrolls)",
+      "category": "Economic data",
+      "firstSeen": "2026-11-09",
+      "definition": "The monthly Bureau of Labor Statistics release showing how many jobs the U.S. economy added (nonfarm payrolls) and the unemployment rate. Usually out the first Friday of the month.",
+      "why": "October's report showed +165k jobs vs. much lower expectations, and unemployment fell to 4.1%. A strong labor market gives the Fed room to {{rate-hike|hike}} without fearing a recession.",
+      "chain": [
+        "The Fed has a dual mandate: maximum employment and stable prices.",
+        "If employment is strong, the Fed can focus fully on fighting inflation.",
+        "A jobs 'beat' therefore raises the odds of tighter policy.",
+        "That's why the 10-year yield jumped after the report and hike odds rose to ~77–85%."
+      ],
+      "related": ["fedwatch", "rate-hike"]
+    },
+    "cpi": {
+      "term": "CPI (Consumer Price Index)",
+      "category": "Economic data",
+      "firstSeen": "2026-11-09",
+      "definition": "A monthly measure of the average change in prices paid by consumers for a basket of goods and services, published by the BLS. The headline inflation number most people hear.",
+      "why": "October CPI comes out Tuesday at 8:30 AM ET. Economists expect 3.9% year-over-year (up from 3.7%). A hot print would all but lock in a December {{rate-hike|hike}}.",
+      "chain": [
+        "CPI is reported month-over-month (m/m) and year-over-year (y/y).",
+        "Markets react to the surprise versus consensus forecasts, not the level itself.",
+        "Hotter-than-expected CPI → higher expected Fed rates → higher yields → pressure on stocks.",
+        "Cooler-than-expected CPI → the opposite, often sparking rallies in rate-sensitive stocks."
+      ],
+      "related": ["core-inflation", "rate-hike"]
+    },
+    "core-inflation": {
+      "term": "Core inflation",
+      "category": "Economic data",
+      "firstSeen": "2026-11-09",
+      "definition": "Inflation excluding food and energy prices, which swing a lot. It gives a cleaner read on underlying price pressure.",
+      "why": "Core CPI is expected at 2.7% y/y vs. 3.9% headline — the gap is mostly war-driven fuel prices. New Fed research says oil now passes into core more than it used to, weakening the case for 'looking through' energy shocks.",
+      "chain": [
+        "Central banks usually ignore one-off energy spikes because they fade on their own.",
+        "But if high oil prices raise transport and production costs, they bleed into core prices too.",
+        "Fed researchers find that pass-through has gotten stronger since the pandemic.",
+        "If true, the Fed can't simply wait out the oil shock — another reason markets expect a hike."
+      ],
+      "related": ["cpi", "wti", "rate-hike"]
+    },
+    "wti": {
+      "term": "WTI crude",
+      "category": "Commodities",
+      "firstSeen": "2026-11-09",
+      "definition": "West Texas Intermediate — the main U.S. benchmark price for crude oil, traded as futures in dollars per barrel.",
+      "why": "WTI fell ~4.3% to ~$86.90, near its lowest since late August, on hopes the Iran war de-escalates. Cheaper oil eases inflation pressure, which could soften the case for Fed hikes.",
+      "chain": [
+        "War in a major oil region raises the risk of supply disruption, pushing prices up.",
+        "Hopes for de-escalation reduce that 'risk premium,' so prices fall.",
+        "Lower oil feeds into lower gasoline (now ~$4.00 vs. $4.40 in early October).",
+        "Lower fuel prices pull down headline {{cpi|CPI}} — and, with a lag, {{core-inflation|core}}."
+      ],
+      "related": ["core-inflation", "cpi"]
+    },
+    "mortgage-rate": {
+      "term": "Mortgage rate",
+      "category": "Rates",
+      "firstSeen": "2026-11-09",
+      "definition": "The interest rate on a home loan. The 30-year fixed rate tracks the 10-year {{treasury-yield|Treasury yield}} plus a spread.",
+      "why": "30-year mortgage rates are around 7.2%. With the 10-year at 4.88%, housing affordability stays tight — one reason housing and regional banks feel rate moves first.",
+      "chain": [
+        "Most mortgages are packaged into bonds that compete with Treasuries for investors.",
+        "So mortgage rates move with the 10-year yield, plus a spread for prepayment and credit risk.",
+        "Higher rates raise monthly payments, cooling home demand.",
+        "That slows housing activity — one channel through which Fed hikes cool the economy."
+      ],
+      "related": ["treasury-yield"]
+    },
+    "going-concern": {
+      "term": "Going-concern warning",
+      "category": "Credit",
+      "firstSeen": "2026-11-09",
+      "definition": "A formal disclosure that there is 'substantial doubt' a company can keep operating over the next 12 months — usually because it may run out of cash to pay its bills.",
+      "why": "Sable Offshore's stock fell 75% after its quarterly filing included going-concern language; its only crude buyer had stopped purchasing. For credit analysts, this is a red flag for default.",
+      "chain": [
+        "Auditors and management must assess whether the company can meet obligations for the next year.",
+        "Relying on a single customer is concentration risk; when that buyer stopped, revenue dried up.",
+        "Without revenue, cash burns and debt payments loom.",
+        "The warning signals possible restructuring or {{chapter-11|bankruptcy}}, and equity holders are last in line."
+      ],
+      "related": ["chapter-11"]
+    },
+    "chapter-11": {
+      "term": "Chapter 11",
+      "category": "Credit",
+      "firstSeen": "2026-11-09",
+      "definition": "A form of U.S. bankruptcy that lets a company keep operating while it restructures its debts under court supervision.",
+      "why": "JetBlue denied it plans to file for Chapter 11. A filing typically wipes out most of the value for stockholders, so even a rumor can move the stock sharply.",
+      "chain": [
+        "A company that can't pay its debts can file to get court protection from creditors.",
+        "It negotiates a plan to cut or swap its debt, often converting bonds into new equity.",
+        "Creditors are paid in order of seniority; existing shareholders usually get little or nothing.",
+        "That's why going-concern warnings and bankruptcy rumors crush stock prices."
+      ],
+      "related": ["going-concern"]
+    },
+    "tokenization": {
+      "term": "Tokenization",
+      "category": "Market structure",
+      "firstSeen": "2026-11-09",
+      "definition": "Representing ownership of a real asset — like a share of stock — as a digital token on a blockchain, so it can be traded and settled electronically.",
+      "why": "NYSE said it will use the Avalanche blockchain to settle tokenized stock trades on its planned 24/7 platform — a sign traditional exchanges are adopting blockchain rails.",
+      "chain": [
+        "Today, stock trades settle one business day after the trade (T+1) through clearing houses.",
+        "A blockchain can record ownership transfer almost instantly, any hour.",
+        "That enables trading around the clock, including weekends.",
+        "Open questions: regulation, investor protection and how it links to existing systems."
+      ],
+      "related": []
+    }
+  }
+}

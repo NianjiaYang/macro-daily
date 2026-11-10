@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-09",
+  "weekday": "Monday",
+  "title": "Chips rebound, Fed hike bets hold",
+  "oneLiner": "Stocks had their best day in months as chip stocks rebounded from last week's AI sell-off — but the bond market is still betting on a December {{rate-hike|Fed rate hike}}, and Tuesday's {{cpi|CPI}} report is the next test.",
+  "scoreboard": [
+    {
+      "label": "Dow Jones",
+      "value": "+2.2%",
+      "note": "≈ +1,100 pts",
+      "dir": "up"
+    },
+    {
+      "label": "S&P 500",
+      "value": "+2.4%",
+      "note": "after worst week since Apr '25",
+      "dir": "up"
+    },
+    {
+      "label": "Nasdaq",
+      "value": "+2.7%",
+      "note": "tech-heavy",
+      "dir": "up"
+    },
+    {
+      "label": "Chip ETF (SOXX)",
+      "value": "+7.5%",
+      "note": "NVDA −5%",
+      "dir": "up",
+      "term": "semiconductor-etf"
+    },
+    {
+      "label": "10Y Treasury",
+      "value": "4.88%",
+      "note": "+2 bp",
+      "dir": "up",
+      "term": "treasury-yield"
+    },
+    {
+      "label": "2Y Treasury",
+      "value": "4.56%",
+      "note": "+5 bp",
+      "dir": "up",
+      "term": "two-year-yield"
+    },
+    {
+      "label": "WTI crude",
+      "value": "$86.90",
+      "note": "−4.3%",
+      "dir": "down",
+      "term": "wti"
+    },
+    {
+      "label": "Gold",
+      "value": "$4,150",
+      "note": "+1.8%",
+      "dir": "up"
+    },
+    {
+      "label": "Bitcoin",
+      "value": "$74,700",
+      "note": "off weekend high >$76k",
+      "dir": "down"
+    },
+    {
+      "label": "Dec. hike odds",
+      "value": "≈ 85%",
+      "note": "CME FedWatch",
+      "dir": "up",
+      "term": "fedwatch"
+    }
+  ],
+  "sections": [
+    {
+      "kicker": "Equities",
+      "title": "Stocks rebound after the AI rout",
+      "paragraphs": [
+        "Last week the S&P 500 had its **worst week since April 2025** — its fourth straight losing week — as investors worried that AI spending could slow after Democrats' strong midterm results.",
+        "On Monday, {{dip-buying|dip-buyers}} came back. AMD jumped 13% on an {{analyst-upgrade|Oppenheimer upgrade}} and news that Google Cloud picked its chips. Lam Research rose 10%, Broadcom and Marvell 9%, Intel and Micron 6%. The {{semiconductor-etf|iShares Semiconductor ETF (SOXX)}} closed up 7.5%.",
+        "A strong bounce after four down weeks can be a real turn — or just a {{relief-rally|relief rally}}. The test is whether it holds through Tuesday's inflation data."
+      ]
+    },
+    {
+      "kicker": "Single stock",
+      "title": "Nvidia falls while its sector rallies",
+      "paragraphs": [
+        "Nvidia fell about 5% — the only {{magnificent-7|Magnificent 7}} stock down on the day. Its board opened an investigation after weekend reports about CEO Jensen Huang's relationship with a woman alleged to be a Chinese spy; Huang acknowledged the relationship and said he'll cooperate.",
+        "Chip ETFs rose 5–7.5% even as their largest holding fell ~5%. That's {{sector-rotation|sector rotation}}: investors didn't abandon semiconductors, they swapped out of one name carrying {{idiosyncratic-risk|idiosyncratic risk}} and into its peers.",
+        "The bigger picture: the average Russell 1000 stock is *up* ~0.8% over the past month, yet the index has lost ~$4.8 trillion in value — Nvidia alone accounts for ~$1.27 trillion. That's {{cap-weighting|cap-weighting}} at work."
+      ]
+    },
+    {
+      "kicker": "Rates & the Fed",
+      "title": "The market expects a hike, not a cut",
+      "paragraphs": [
+        "The {{two-year-yield|2-year Treasury yield}} rose 5 {{basis-point|bp}} to 4.56%, while the 10-year edged up 2 bp to 4.88%. Traders now price about an 85% chance that the Fed raises rates at its Dec. 9 {{fomc|FOMC}} meeting, according to {{fedwatch|CME FedWatch}}.",
+        "The Fed hiked in September — its first increase in three years — then held in October. Chair Kevin Warsh said inflation \"remains elevated.\" Friday's {{jobs-report|October jobs report}} (+165k jobs, unemployment down to 4.1%) gave the Fed little reason to wait.",
+        "Higher expected rates ripple outward: 30-year {{mortgage-rate|mortgage rates}} are around 7.2%, and rate-sensitive corners like regional banks and housing feel it first."
+      ]
+    },
+    {
+      "kicker": "Commodities",
+      "title": "Oil slides, gold climbs",
+      "paragraphs": [
+        "{{wti|WTI crude}} fell ~4.3% to about $86.90, near its lowest since late August, on hopes the Iran war could de-escalate. Gold rose 1.8% to ~$4,150.",
+        "Why oil matters for the Fed: September's inflation spike came mostly from fuel. New Fed research, highlighted by WSJ's Nick Timiraos, finds oil now feeds into {{core-inflation|core inflation}} more strongly than before the pandemic — weakening the usual argument for \"looking through\" energy shocks."
+      ]
+    }
+  ],
+  "connections": {
+    "intro": "Markets move together, but not always the way the textbook predicts. Each card takes one of today's drivers, says what it should have done to another market, and compares that with what happened. The mismatches are where the day's real story is.",
+    "items": [
+      {
+        "driver": "Traders price about an 85% chance of a December {{rate-hike|hike}}",
+        "asset": "2-year Treasury yield",
+        "expected": "Rises. The {{two-year-yield|2-year yield}} follows where traders expect the Fed's rate to go.",
+        "actual": "Rose 5 {{basis-point|bp}}.",
+        "why": "The textbook link held. Friday's strong {{jobs-report|jobs report}} and the Fed chair's comment that inflation \"remains elevated\" gave the Fed little reason to wait, and the 2-year moved with those expectations.",
+        "puzzle": false
+      },
+      {
+        "driver": "Higher expected interest rates",
+        "asset": "Tech and chip stocks",
+        "expected": "Fall. Higher rates lower what investors will pay today for profits that arrive years from now, and tech is valued mostly on future profits.",
+        "actual": "Nasdaq +2.7%, chip ETF +7.5%.",
+        "why": "{{dip-buying|Dip-buying}} after four straight losing weeks outweighed the rates move for one day. The pressure from rates did not go away. That is why the brief asks whether this is a turn or only a {{relief-rally|relief rally}}.",
+        "puzzle": true
+      },
+      {
+        "driver": "Nvidia fell about 5%",
+        "asset": "Chip ETFs that hold Nvidia",
+        "expected": "Fall. Nvidia is their largest holding, so its drop should drag them down.",
+        "actual": "Rose 5–7.5%.",
+        "why": "Nvidia's problem was company-specific ({{idiosyncratic-risk|idiosyncratic risk}}), so investors kept their chip exposure and moved into its peers. That {{sector-rotation|sector rotation}} lifted the other holdings by more than Nvidia took away.",
+        "puzzle": true
+      },
+      {
+        "driver": "{{wti|Oil}} fell about 4.3%",
+        "asset": "Fed hike expectations",
+        "expected": "Ease. Cheaper fuel lowers inflation, which should reduce the pressure on the Fed to raise rates.",
+        "actual": "Hike odds held near 85% and the 2-year yield rose.",
+        "why": "One day of cheaper oil does not undo September's fuel-driven inflation spike, and new Fed research finds oil now feeds into {{core-inflation|core inflation}} more than it used to. Traders are waiting for Tuesday's {{cpi|CPI}} report before changing their view.",
+        "puzzle": true
+      }
+    ]
+  },
+  "headlines": [
+    "Copper miners ETF (COPX) fell for a record 11 straight weeks, down ~25% — equity investors are pricing in weaker demand.",
+    "Sable Offshore (SOC) plunged 75% after a {{going-concern|going-concern warning}}; its only crude buyer stopped purchasing.",
+    "JetBlue denied plans to file for {{chapter-11|Chapter 11}}.",
+    "NYSE will settle {{tokenization|tokenized}} stock trades on the Avalanche blockchain for its planned 24/7 trading platform.",
+    "Constellation Energy rose 10% after earnings; gold miner Barrick climbed 4%."
+  ],
+  "watch": {
+    "when": "Tue, Nov. 10 · 8:30 AM ET",
+    "title": "October CPI",
+    "text": "Consensus: 3.9% y/y headline (vs. 3.7%) and 2.7% {{core-inflation|core}} (vs. 2.6%), about 0.2% m/m. A hot print would all but lock in a December {{rate-hike|hike}}; a soft one could give the tech rebound room to run."
+  },
+  "sources": [
+    {
+      "name": "Yahoo Finance / Investopedia",
+      "title": "Markets News, Nov. 9, 2026: Dow Climbs 1,100 Points as Stocks Rebound",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-jump-132856289.html"
+    },
+    {
+      "name": "24/7 Wall St.",
+      "title": "2-Year Treasury Yield Climbs to 4.51%, Signaling December Rate Hike Bets",
+      "url": "https://247wallst.com/cards/the-note-that-tracks-fed-policy-most-closely-is-back-at-4-51-macro-release-01m718ptkcmsq0w7sy4sjeg56n"
+    },
+    {
+      "name": "AOL / Investopedia",
+      "title": "What to Expect from Tuesday's Closely Watched Inflation Report",
+      "url": "https://www.aol.com/articles/expect-tuesday-closely-watched-inflation-205323000.html"
+    },
+    {
+      "name": "The Motley Fool",
+      "title": "Stock Market Today, Nov. 9: AMD Jumps on Oppenheimer Upgrade",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/09/stock-market-today-nov-9-amd-jumps-on-oppenheimer-upgrade-and-google-cloud-chip-selection/"
+    },
+    {
+      "name": "U.S. Treasury",
+      "title": "Daily Treasury Par Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Chip ETFs rose ~7.5% Monday while Nvidia, their largest holding, fell ~5%. What best explains this?",
+      "options": [
+        "Investors exited the chip sector entirely",
+        "Investors rotated from Nvidia into other chip stocks because Nvidia's risk was company-specific",
+        "The ETF doesn't actually hold Nvidia",
+        "Rising Treasury yields helped chip stocks"
+      ],
+      "answer": 1,
+      "explain": "Nvidia's problem was {{idiosyncratic-risk|idiosyncratic}} (CEO investigation), so investors kept their chip exposure but moved it to peers — {{sector-rotation|sector rotation}}."
+    },
+    {
+      "q": "The 2-year Treasury yield rose 5 bp to 4.56%. What is the market signaling?",
+      "options": [
+        "It expects the Fed to cut rates soon",
+        "It expects higher Fed policy rates ahead",
+        "It expects a recession next quarter",
+        "Nothing — the 2-year doesn't relate to Fed policy"
+      ],
+      "answer": 1,
+      "explain": "The {{two-year-yield|2-year}} tracks expected Fed policy closely; rising yields mean traders expect a {{rate-hike|hike}} — consistent with ~85% December odds."
+    },
+    {
+      "q": "Why did Friday's strong jobs report raise the odds of a Fed hike?",
+      "options": [
+        "More jobs mean lower inflation",
+        "A strong labor market lets the Fed focus on fighting inflation without fearing a downturn",
+        "The Fed only targets unemployment",
+        "Jobs reports set the fed funds rate automatically"
+      ],
+      "answer": 1,
+      "explain": "Under its dual mandate, a strong {{jobs-report|jobs report}} reduces the Fed's worry about employment, so it can tighten to fight inflation."
+    },
+    {
+      "q": "Consensus expects 3.9% headline CPI but only 2.7% core CPI. What mostly explains the gap?",
+      "options": [
+        "Housing costs",
+        "Food and energy prices, especially war-driven fuel",
+        "Rounding differences",
+        "Core CPI includes more items"
+      ],
+      "answer": 1,
+      "explain": "{{core-inflation|Core}} excludes food and energy. The gap reflects elevated fuel prices tied to the Iran war."
+    }
+  ],
+  "corrections": [
+    {
+      "date": "2026-11-09",
+      "text": "Treasury yields now show the U.S. Treasury's official closing figures: the 2-year at 4.56% (first published as 4.51%, from a news report) and the 10-year at 4.88%, up 2 bp (first published as 4.87%, unchanged). The 5 bp rise in the 2-year is the same in both."
+    }
+  ]
+}
