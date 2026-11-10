@@ -1,6 +1,7 @@
 // Macro Daily — interactive brief viewer
 // Data: data/glossary.json, data/briefs/index.json, data/briefs/<date>.json, data/indicators.json,
 //       data/quizzes/index.json, data/quizzes/<week-ending date>.json
+// Optional, local only: me/profile.json, me/progress.json (written by the learner's AI tutor)
 // Inline term markup in text: {{term-id|display text}}, **bold**, *italic*
 
 const LEARNED_KEY = "mra.learned";
@@ -19,6 +20,7 @@ const state = {
   quiz: {},
   indicators: null,
   weekly: { list: [], quiz: null, answers: {}, scores: loadWeeklyScores() },
+  me: { profile: null, progress: null },
 };
 
 const $ = (s, el = document) => el.querySelector(s);
@@ -330,6 +332,105 @@ function renderWeekly() {
       <button type="button" class="btn-ghost" id="weeklyReset">Try again</button></div>` : ""}`;
 }
 
+/* ---------- My progress ---------- */
+const STATUS = [
+  { key: "mastered", label: "Mastered" },
+  { key: "learned", label: "Learned" },
+  { key: "review", label: "Needs review" },
+  { key: "seen", label: "Seen" },
+];
+const AREA_LABELS = { equities: "Equities", rates: "Rates", credit: "Credit", macro: "Macro and the Fed", fx: "FX", commodities: "Commodities" };
+const LEVEL_LABELS = { new: "New to markets", student: "Student", working: "Working in finance" };
+
+function termStatus(id) {
+  const p = state.me.progress;
+  if (p) return p.terms?.[id]?.status || null;
+  return state.learned.has(id) ? "learned" : null;
+}
+
+function renderProgress() {
+  const p = state.me.progress, prof = state.me.profile;
+  const personal = !!p;
+  const all = Object.entries(state.glossary);
+  const counts = { mastered: 0, learned: 0, review: 0, seen: 0 };
+  const cats = {};
+  all.forEach(([id, t]) => {
+    const st = termStatus(id);
+    const c = (cats[t.category] ||= { total: 0, mastered: 0, learned: 0, review: 0, seen: 0 });
+    c.total++;
+    if (st && st in counts) { counts[st]++; c[st]++; }
+  });
+  const known = counts.mastered + counts.learned;
+
+  // Quiz results: from the tutor's file when present, otherwise this browser's weekly scores.
+  const quizRows = [];
+  if (personal) {
+    Object.entries(p.briefs || {}).forEach(([d, b]) => { if (b.quickCheck) quizRows.push({ date: d, label: "Quick check", ...b.quickCheck }); });
+    Object.entries(p.weekly || {}).forEach(([d, w]) => quizRows.push({ date: d, label: "Weekly quiz", correct: w.correct, total: w.total }));
+  } else {
+    Object.entries(state.weekly.scores).forEach(([d, w]) => quizRows.push({ date: d, label: "Weekly quiz", correct: w.best, total: w.total }));
+  }
+  quizRows.sort((a, b) => b.date.localeCompare(a.date));
+  const qc = quizRows.reduce((n, r) => n + r.correct, 0), qt = quizRows.reduce((n, r) => n + r.total, 0);
+  const briefsRead = personal ? Object.values(p.briefs || {}).filter((b) => b.read).length : null;
+  const review = all.filter(([id]) => termStatus(id) === "review");
+  const stat = (v, l) => `<div class="tile"><div class="tile-label"><span>${esc(l)}</span></div><div class="tile-value">${esc(v)}</div></div>`;
+
+  $("#tab-progress").innerHTML = `
+    <div class="eyebrow">My progress${personal ? "" : " · this browser"}</div>
+    <h1 class="brief-title">${prof?.nickname ? esc(prof.nickname) + "’s progress" : "Your progress"}</h1>
+    ${prof ? `
+    <div class="prof">
+      ${prof.level ? `<span class="chip static">${esc(LEVEL_LABELS[prof.level] || prof.level)}</span>` : ""}
+      ${(prof.focusAreas || []).map((a) => `<span class="chip static${a === prof.primaryArea ? " primary" : ""}">${esc(AREA_LABELS[a] || a)}${a === prof.primaryArea ? " · main focus" : ""}</span>`).join("")}
+      ${prof.goal ? `<p class="prof-goal">Goal: ${esc(prof.goal)}</p>` : ""}
+    </div>` : ""}
+
+    <div class="scoreboard">
+      ${stat(`${known} of ${all.length}`, "Terms learned")}
+      ${stat(qt ? Math.round((qc / qt) * 100) + "%" : "–", "Quiz accuracy")}
+      ${briefsRead !== null ? stat(String(briefsRead), "Briefs read") : ""}
+      ${stat(String(counts.review), "Needs review")}
+    </div>
+
+    <article class="section">
+      <div class="eyebrow">Progress map</div>
+      <h2>By topic</h2>
+      <div class="legend">${STATUS.filter((s) => personal || s.key === "learned").map((s) => `<span><i class="sw ${s.key}"></i>${s.label}</span>`).join("")}<span><i class="sw none"></i>Not yet</span></div>
+      <div class="map">
+        ${Object.entries(cats).sort((a, b) => a[0].localeCompare(b[0])).map(([name, c]) => `
+          <div class="map-row">
+            <div class="map-name">${esc(name)}</div>
+            <div class="map-bar" role="img" aria-label="${esc(name)}: ${c.mastered + c.learned} of ${c.total} learned${c.review ? ", " + c.review + " need review" : ""}">
+              ${STATUS.map((s) => c[s.key] ? `<span class="seg ${s.key}" style="flex:${c[s.key]}"></span>` : "").join("")}
+              ${c.total - c.mastered - c.learned - c.review - c.seen ? `<span class="seg none" style="flex:${c.total - c.mastered - c.learned - c.review - c.seen}"></span>` : ""}
+            </div>
+            <div class="map-num">${c.mastered + c.learned}/${c.total}</div>
+          </div>`).join("")}
+      </div>
+    </article>
+
+    ${review.length ? `
+    <article class="section">
+      <div class="eyebrow">Review next</div>
+      <h2>Terms to revisit</h2>
+      <div class="review-list">${review.map(([id, t]) => `<button type="button" class="chip" data-term="${id}">${esc(t.term)}</button>`).join("")}</div>
+    </article>` : ""}
+
+    ${quizRows.length ? `
+    <article class="section">
+      <div class="eyebrow">Quizzes</div>
+      <h2>Results</h2>
+      <div class="quiz-hist">${quizRows.map((r) => `<div class="qh-row"><span>${esc(fmtDate(r.date, { weekday: "short", month: "short", day: "numeric" }))}</span><span>${esc(r.label)}</span><strong>${r.correct} / ${r.total}</strong></div>`).join("")}</div>
+    </article>` : ""}
+
+    ${personal ? `<div class="sources">Recorded by your AI tutor in the <code>me/</code> folder on this computer. It is not uploaded anywhere.</div>` : `
+    <div class="watch">
+      <div class="eyebrow">Want a personal tutor?</div>
+      <p style="margin:6px 0 0">This page shows what is saved in this browser: terms you ticked “I’ve got this” and your weekly quiz scores. To get onboarding, daily coaching and a full progress map, load the project into your own AI assistant. <a href="https://github.com/NianjiaYang/macro-daily#learn-with-your-own-ai-tutor" target="_blank" rel="noopener">See how</a>.</p>
+    </div>`}`;
+}
+
 /* ---------- Popover ---------- */
 function openTerm(id, anchor, tier = 0) {
   const t = state.glossary[id];
@@ -402,6 +503,10 @@ function refreshLearnedViews() {
       bar.style.width = (ids.length ? Math.round((n / ids.length) * 100) : 0) + "%";
       bar.parentElement.nextElementSibling.textContent = `${n} of ${ids.length} key terms learned`;
     }
+  } else if (state.tab === "progress") {
+    const anchorId = state.pop.anchor?.dataset?.term;
+    renderProgress();
+    if (anchorId) state.pop.anchor = $(`#tab-progress [data-term="${anchorId}"]`);
   } else if (state.tab === "glossary") {
     const anchorId = state.pop.anchor?.dataset?.term;
     renderGlossary();
@@ -424,6 +529,7 @@ function setTab(tab) {
   if (tab === "glossary") renderGlossary();
   if (tab === "quiz") renderQuiz();
   if (tab === "weekly") renderWeekly();
+  if (tab === "progress") renderProgress();
   try { history.replaceState(null, "", `#${tab}`); } catch {}
   window.scrollTo(0, 0);
 }
@@ -506,11 +612,12 @@ async function init() {
     $("#dateSelect").innerHTML = state.briefs.map((b) => `<option value="${b.date}">${esc(fmtDate(b.date, { month: "short", day: "numeric", year: "numeric" }))}</option>`).join("");
     updateGlossaryCount();
     state.indicators = await getJSON("data/indicators.json").catch(() => null);
+    [state.me.profile, state.me.progress] = await Promise.all([getJSON("me/profile.json").catch(() => null), getJSON("me/progress.json").catch(() => null)]);
     const wk = await getJSON("data/quizzes/index.json").catch(() => ({ quizzes: [] }));
     state.weekly.list = wk.quizzes.sort((a, b) => b.week.localeCompare(a.week));
     if (state.weekly.list.length) state.weekly.quiz = await getJSON(`data/quizzes/${state.weekly.list[0].week}.json`).catch(() => null);
     const hashTab = location.hash.slice(1);
-    if (["brief", "dashboard", "glossary", "quiz", "weekly"].includes(hashTab)) state.tab = hashTab;
+    if (["brief", "dashboard", "glossary", "quiz", "weekly", "progress"].includes(hashTab)) state.tab = hashTab;
     await loadBrief(state.briefs[0].date);
   } catch (err) {
     $("#tab-brief").innerHTML = `<div class="empty">Couldn't load data (${esc(err.message)}). Serve this folder over HTTP, e.g. <code>python3 -m http.server 8000 --directory web</code>.</div>`;
