@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-10",
+  "weekday": "Tuesday",
+  "title": "Hot CPI puts a bigger Fed hike on the table",
+  "oneLiner": "October {{cpi|CPI}} came in hotter than forecast, so stocks gave back part of Monday's rebound, the {{two-year-yield|2-year Treasury yield}} jumped 17 {{basis-point|bp}}, and traders began to price a small chance that the Fed's December {{rate-hike|hike}} is a half point instead of a quarter point.",
+  "scoreboard": [
+    {
+      "label": "Dow Jones",
+      "value": "−0.3%",
+      "note": "52,231.89",
+      "dir": "down"
+    },
+    {
+      "label": "S&P 500",
+      "value": "−0.4%",
+      "note": "7,520.93",
+      "dir": "down"
+    },
+    {
+      "label": "Nasdaq",
+      "value": "−0.7%",
+      "note": "25,065.87",
+      "dir": "down"
+    },
+    {
+      "label": "Nvidia",
+      "value": "≈ −5%",
+      "note": "second straight drop",
+      "dir": "down"
+    },
+    {
+      "label": "10Y Treasury",
+      "value": "4.98%",
+      "note": "+10 bp",
+      "dir": "up",
+      "term": "treasury-yield"
+    },
+    {
+      "label": "2Y Treasury",
+      "value": "4.73%",
+      "note": "+17 bp",
+      "dir": "up",
+      "term": "two-year-yield"
+    },
+    {
+      "label": "WTI crude",
+      "value": "$86.04",
+      "note": "−0.9%",
+      "dir": "down",
+      "term": "wti"
+    },
+    {
+      "label": "Gold",
+      "value": "≈ $4,031",
+      "note": "−2.6%",
+      "dir": "down"
+    },
+    {
+      "label": "Dollar index",
+      "value": "102.25",
+      "note": "+0.6%",
+      "dir": "up",
+      "term": "dollar-index"
+    },
+    {
+      "label": "Bitcoin",
+      "value": "≈ $73,700",
+      "note": "briefly below $73k",
+      "dir": "down"
+    },
+    {
+      "label": "Half-point hike odds",
+      "value": "≈ 14%",
+      "note": "from ≈ 0 before CPI",
+      "dir": "up",
+      "term": "fedwatch"
+    }
+  ],
+  "sections": [
+    {
+      "kicker": "Inflation",
+      "title": "October CPI beats forecasts, and core is the problem",
+      "paragraphs": [
+        "The Bureau of Labor Statistics said consumer prices rose **0.4%** in October from September. The {{consensus-forecast|consensus forecast}} was 0.3%. {{core-inflation|Core CPI}}, which leaves out food and energy, rose 0.3% against a forecast of 0.2%.",
+        "The headline number was actually cooler than September's 0.6%, because energy slowed sharply: it rose 0.7% after jumping 5.2% in September, and gasoline rose 1.0% after 9.1%. The trouble is in the rest of the basket. {{shelter-inflation|Shelter}} rose 0.3% and, by the BLS's count, made up more than 30% of the total increase. Food rose 0.5%. Used cars and trucks fell 1.2%.",
+        "There is no year-over-year figure this month. The government shutdown in 2025 stopped the BLS from collecting October 2025 prices, so there is nothing to compare with. That is why today's story is told entirely in {{month-over-month|month-over-month}} numbers."
+      ]
+    },
+    {
+      "kicker": "Rates & the Fed",
+      "title": "The debate moves from “whether” to “how much”",
+      "paragraphs": [
+        "The {{two-year-yield|2-year Treasury yield}} closed at 4.73%, up 17 {{basis-point|bp}}, and the 10-year closed at 4.98%, up 10 bp. The 2-year rose more because it follows the Fed's next few moves most closely, and those are what changed today.",
+        "Traders already expected a December hike. After the report, CNBC said a quarter-point hike at the Dec. 8–9 {{fomc|FOMC}} meeting is fully priced in, and {{fedwatch|CME FedWatch}} put the odds of a **half-point** hike at 13.6%, up from about zero before the release.",
+        "Fed Governor Christopher Waller set this up himself. Before the data, he said a core reading of about 0.3% would lead him to consider a half-point hike, and that is the number that arrived. Dallas Fed President Lorie Logan said she sees a need for two more quarter-point increases. The Fed held its rate at 3.75%–4% in October on a 10–2 vote.",
+        "Why housing feels this first: Realtor.com's economist told HousingWire {{mortgage-rate|mortgage rates}} had fallen for three straight weeks to 7.18%, and that rising Treasury yields and talk of more hikes could reverse that."
+      ]
+    },
+    {
+      "kicker": "Equities",
+      "title": "Stocks give back part of Monday's bounce",
+      "paragraphs": [
+        "The S&P 500 fell 0.38% to 7,520.93, the Dow fell 0.3% and the Nasdaq fell 0.74%. At midday the S&P 500 was down nearly 1% before recovering. Monday's brief asked whether the rebound was a turn or a {{relief-rally|relief rally}}; one hot inflation report was enough to interrupt it, though not to erase it.",
+        "The damage was concentrated in big technology stocks. At midday the {{equal-weight-index|equal-weight S&P 500}} was down only about 0.2%, which tells you the typical stock fell much less than the index. That is {{cap-weighting|cap-weighting}} again: the Nasdaq now sits 9.6% below its record, the S&P 500 4.1% below.",
+        "Nvidia fell about 5% for a second straight day (sources give 4.7% to 5.5%), leaving its market value near $4.07 trillion, the lowest since late March. The board's investigation of CEO Jensen Huang continued to weigh on the stock, and The Information reported that at least $7.5 billion of Nvidia hardware reached Chinese companies through a network linked to the woman at the center of the reports. This is still {{idiosyncratic-risk|idiosyncratic risk}}: Goldman Sachs called chip stocks “clearly in oversold territory” and kept Nvidia, Broadcom and AMD as top buys."
+      ]
+    },
+    {
+      "kicker": "Commodities & currencies",
+      "title": "Oil keeps sliding; gold and bitcoin fall with rising yields",
+      "paragraphs": [
+        "{{wti|WTI crude}} settled down 0.9% at $86.04 and {{brent|Brent}} down 1.2% at $91.49. Both closed at their lowest since Aug. 31 for a second day, and Brent briefly traded below $90 for the first time since August. President Trump said on Monday that the Iran war could end “fairly soon,” and ING analysts said the market is unwinding some of its geopolitical {{risk-premium|risk premium}}.",
+        "Gold fell 2.6% to about $4,031 an ounce, and the {{dollar-index|dollar index}} rose 0.6% to 102.25. The two are linked: higher US interest rates make dollars more attractive to hold, and gold pays no interest at all.",
+        "Bitcoin briefly dropped below $73,000 and slipped under its 200-day {{moving-average|moving average}}. Coinbase and Strategy each fell about 4%."
+      ]
+    }
+  ],
+  "connections": {
+    "intro": "Markets move together, but not always the way the textbook predicts. Each card takes one of today's drivers, says what it should have done to another market, and compares that with what happened. The mismatches are where the day's real story is.",
+    "items": [
+      {
+        "driver": "{{core-inflation|Core CPI}} rose 0.3%, above the 0.2% {{consensus-forecast|consensus}}",
+        "asset": "2-year Treasury yield",
+        "expected": "Rises. Hotter inflation means the Fed is likely to raise rates by more, and the {{two-year-yield|2-year yield}} follows the Fed's expected path.",
+        "actual": "Rose 17 {{basis-point|bp}} to 4.73%, more than the 10-year's 10 bp.",
+        "why": "The textbook link held. A Fed governor had said in advance that a core reading of about 0.3% would make him consider a half-point {{rate-hike|hike}}, so traders knew how to read the number the moment it came out.",
+        "puzzle": false
+      },
+      {
+        "driver": "Treasury yields jumped",
+        "asset": "Tech stocks",
+        "expected": "Fall. Higher rates lower what investors will pay today for profits that arrive years from now, and tech is valued mostly on future profits.",
+        "actual": "Nasdaq −0.7%, more than twice the Dow's −0.3%.",
+        "why": "The textbook link held today, after failing on Monday when {{dip-buying|dip-buying}} overpowered it. At midday the {{equal-weight-index|equal-weight S&P 500}} was down only about 0.2%, so the selling was mostly in the largest technology names.",
+        "puzzle": false
+      },
+      {
+        "driver": "Higher yields and a stronger dollar ({{dollar-index|dollar index}} +0.6%)",
+        "asset": "Gold",
+        "expected": "Falls. Gold pays no interest, so it looks worse when bonds pay more, and it is priced in dollars, so a stronger dollar makes it costlier for buyers abroad.",
+        "actual": "Fell 2.6% to about $4,031.",
+        "why": "The textbook link held. The sources read name the stronger dollar and rate-hike expectations as the reasons.",
+        "puzzle": false
+      },
+      {
+        "driver": "{{wti|Oil}} fell for a second day, to its lowest close since Aug. 31",
+        "asset": "Fed hike expectations",
+        "expected": "Ease. Cheaper fuel lowers inflation, which should take pressure off the Fed.",
+        "actual": "They rose. Half-point hike odds went from about zero to about 14%.",
+        "why": "The inflation that worried traders today was not in fuel. Energy prices slowed sharply in October, yet core prices still rose 0.3%, with {{shelter-inflation|shelter}} making up more than 30% of the increase. One strategist quoted by Reuters said “the oil shock has seeped into core.” Cheaper oil today does not pull those prices back down quickly.",
+        "puzzle": true
+      }
+    ]
+  },
+  "headlines": [
+    "Anthropic set terms for its IPO: 825 million shares at $70–$78 each, raising up to about $64 billion, with trading expected Nov. 19 or 20.",
+    "Hims & Hers fell as much as 15% after third-quarter results: revenue rose 49%, but gross margin dropped to 57% from 74% and the fourth-quarter forecast missed.",
+    "CoreWeave reported third-quarter revenue above analyst expectations after the close; traders will watch AI stocks on Wednesday for the reaction.",
+    "A net 37% of small businesses surveyed by the NFIB plan to raise prices in the next three months, the highest share since July 2022.",
+    "Philadelphia Fed President Anna Paulson said “further gradual tightening seems appropriate.”"
+  ],
+  "watch": {
+    "when": "Fri, Nov. 13 · 8:30 AM ET",
+    "title": "October PPI",
+    "text": "The Producer Price Index measures the prices businesses receive, so it shows whether cost pressure is building before it reaches shoppers. After today's {{cpi|CPI}}, a second hot inflation report would strengthen the case for a half-point {{rate-hike|hike}} at the Dec. 8–9 {{fomc|FOMC}} meeting. Before then, watch Wednesday's reaction in AI stocks to CoreWeave's results."
+  },
+  "sources": [
+    {
+      "name": "U.S. Bureau of Labor Statistics",
+      "title": "Consumer Price Index – October 2026",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+      "name": "CNBC",
+      "title": "CPI inflation report: October 2026",
+      "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+    },
+    {
+      "name": "Yahoo Finance",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds, Nvidia stock sinks",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+      "name": "CNBC",
+      "title": "Stock market today: Live updates",
+      "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
+    },
+    {
+      "name": "CNBC",
+      "title": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
+      "url": "https://cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+    },
+    {
+      "name": "Reuters via Free Malaysia Today",
+      "title": "US stocks fall as inflation data boosts bets on larger Fed rate hike",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/11/11/us-stocks-fall-as-inflation-data-boosts-bets-on-larger-fed-rate-hike"
+    },
+    {
+      "name": "HousingWire",
+      "title": "October CPI rises 0.4%, December Fed hike back in focus",
+      "url": "https://www.housingwire.com/articles/october-cpi-fed-hike/"
+    },
+    {
+      "name": "U.S. Bureau of Labor Statistics",
+      "title": "Schedule of Releases for the Producer Price Index",
+      "url": "https://www.bls.gov/schedule/news_release/ppi.htm"
+    },
+    {
+      "name": "U.S. Treasury",
+      "title": "Daily Treasury Par Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Headline CPI rose 0.4% in October, cooler than September's 0.6%. Why did markets still treat the report as “hot”?",
+      "options": [
+        "Because gasoline prices rose faster than in September",
+        "Because the year-over-year rate hit a new high",
+        "Because both headline and core came in above the consensus forecast, and core did not slow",
+        "Because the Fed raised rates the same morning"
+      ],
+      "answer": 2,
+      "explain": "Markets react to the gap between a number and the {{consensus-forecast|consensus forecast}}. Headline beat 0.3% and {{core-inflation|core}} beat 0.2%. Energy actually slowed, and no year-over-year figure was published."
+    },
+    {
+      "q": "The 2-year yield rose 17 bp while the 10-year rose 10 bp. Why did the 2-year move more?",
+      "options": [
+        "It tracks the Fed's next few rate decisions, which is what the CPI report changed",
+        "The Treasury sold more 2-year notes today",
+        "The 10-year is not affected by inflation",
+        "Shorter bonds always move more than longer ones"
+      ],
+      "answer": 0,
+      "explain": "The {{two-year-yield|2-year yield}} is the maturity most tied to expected Fed policy. Today's news was about the size of December's {{rate-hike|hike}}, so the 2-year took most of the move."
+    },
+    {
+      "q": "Oil fell to its lowest close since Aug. 31, yet the odds of a bigger Fed hike went up. What explains it?",
+      "options": [
+        "The Fed does not look at energy prices at all",
+        "Lower oil prices raise inflation",
+        "Traders expect oil to rebound next week",
+        "The price pressure in the report was in core items such as shelter, which cheaper oil does not quickly reverse"
+      ],
+      "answer": 3,
+      "explain": "Energy slowed in October, but {{core-inflation|core CPI}} still rose 0.3%, with {{shelter-inflation|shelter}} more than 30% of the total increase. Falling {{wti|oil}} helps the headline number, not the part that worried traders."
+    },
+    {
+      "q": "At midday the S&P 500 was down nearly 1% while the equal-weight S&P 500 was down only about 0.2%. What does that gap tell you?",
+      "options": [
+        "Most stocks fell more than the index",
+        "The selling was concentrated in the largest companies",
+        "Small companies were hit hardest",
+        "The two indexes hold different stocks"
+      ],
+      "answer": 1,
+      "explain": "An {{equal-weight-index|equal-weight index}} counts every company the same. The regular index uses {{cap-weighting|cap-weighting}}, so it falls more when the biggest stocks, such as Nvidia, lead the decline."
+    }
+  ]
+}

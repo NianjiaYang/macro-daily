@@ -309,6 +309,126 @@
         "Open questions: regulation, investor protection and how it links to existing systems."
       ],
       "related": []
+    },
+    "consensus-forecast": {
+      "term": "Consensus forecast",
+      "category": "Economic data",
+      "firstSeen": "2026-11-10",
+      "definition": "The average or middle prediction of economists surveyed before a data release. Markets react to how far the real number lands from it, not to the number alone.",
+      "why": "October CPI rose 0.4% against a 0.3% consensus, and core rose 0.3% against 0.2%. Those small misses moved every market on Tuesday because prices had been set for the forecast.",
+      "chain": [
+        "Before a release, news services survey economists and publish the consensus.",
+        "Traders set prices as if the consensus will come true.",
+        "If the number matches, little happens, even if the number is high.",
+        "If it is above the forecast (a 'hot' or 'beat' reading) or below it (a 'miss'), prices adjust at once.",
+        "That is why a 0.4% rise that was lower than last month's 0.6% still pushed yields up: it was higher than the 0.3% traders had priced."
+      ],
+      "related": ["cpi", "core-inflation"]
+    },
+    "month-over-month": {
+      "term": "Month-over-month (m/m) vs. year-over-year (y/y)",
+      "category": "Economic data",
+      "firstSeen": "2026-11-10",
+      "definition": "Two ways to state a change. Month-over-month compares with the previous month; year-over-year compares with the same month a year earlier.",
+      "why": "The BLS published no year-over-year inflation rate for October 2026 because the 2025 government shutdown stopped it from collecting October 2025 prices. Traders had only the month-over-month figures: 0.4% headline and 0.3% core.",
+      "chain": [
+        "A year-over-year rate needs the price level from twelve months ago.",
+        "The BLS did not collect October 2025 data during the shutdown, so that comparison does not exist.",
+        "Month-over-month numbers are newer and show the current pace, but they are noisier.",
+        "They also look small: a rate of 0.3% a month, kept up for a year, is well above the Fed's 2% target.",
+        "So a core reading of 0.3% a month is a warning sign even though the number looks tiny."
+      ],
+      "related": ["cpi", "consensus-forecast"]
+    },
+    "shelter-inflation": {
+      "term": "Shelter inflation",
+      "category": "Economic data",
+      "firstSeen": "2026-11-10",
+      "definition": "The part of CPI that measures the cost of housing: rent, and an estimate of what homeowners would pay to rent their own homes (owners' equivalent rent).",
+      "why": "Shelter rose 0.3% in October and made up more than 30% of the month's total price increase. It is part of core inflation, and it changes slowly, so it keeps inflation up even when fuel prices cool.",
+      "chain": [
+        "Housing is the largest single cost for most households, so it has a large weight in CPI.",
+        "Rents are set by leases that usually last a year, so shelter prices change slowly.",
+        "When shelter inflation is high, it tends to stay high for many months.",
+        "Cheaper oil does not lower anyone's rent.",
+        "That is why a report with slowing energy and steady shelter still worried the Fed and traders."
+      ],
+      "related": ["core-inflation", "cpi", "mortgage-rate"]
+    },
+    "dollar-index": {
+      "term": "Dollar index (DXY)",
+      "category": "Currencies",
+      "firstSeen": "2026-11-10",
+      "definition": "A number that tracks the value of the US dollar against a group of major currencies, mainly the euro and the yen. When it rises, the dollar is getting stronger.",
+      "why": "The dollar index rose 0.6% to 102.25 on Tuesday as US yields jumped after the CPI report. Gold fell 2.6% the same day.",
+      "chain": [
+        "Hot inflation data raised the interest rates traders expect in the US.",
+        "Higher US rates mean dollar deposits and bonds pay more than before.",
+        "Investors around the world buy dollars to earn that return, so the dollar rises.",
+        "Gold and oil are priced in dollars, so a stronger dollar makes them more expensive for buyers who use other currencies.",
+        "That lowers demand and is one reason gold fell on the same day."
+      ],
+      "related": ["treasury-yield", "rate-hike"]
+    },
+    "risk-premium": {
+      "term": "Risk premium",
+      "category": "Risk",
+      "firstSeen": "2026-11-10",
+      "definition": "The extra amount built into a price to pay for a risk. In oil, a geopolitical risk premium is the extra dollars per barrel buyers pay because a war might cut off supply.",
+      "why": "Oil fell again on Tuesday after President Trump said on Monday that the Iran war could end 'fairly soon.' ING analysts said the market is unwinding some of its geopolitical risk premium. Brent briefly traded below $90 for the first time since August.",
+      "chain": [
+        "When a war threatens oil shipments, buyers pay more today to be sure of supply.",
+        "That extra amount is the risk premium. It is fear, not an actual shortage.",
+        "When the chance of disruption falls, the premium shrinks and the price drops.",
+        "This can happen fast and without any change in how much oil is pumped.",
+        "It can also come back just as fast if talks fail."
+      ],
+      "related": ["wti", "brent"]
+    },
+    "equal-weight-index": {
+      "term": "Equal-weight index",
+      "category": "Equities",
+      "firstSeen": "2026-11-10",
+      "definition": "A version of a stock index in which every company counts the same, no matter its size. The equal-weight S&P 500 gives each of its companies the same share.",
+      "why": "At midday Tuesday the S&P 500 was down nearly 1% while the equal-weight version was down only about 0.2%. The gap showed that a few very large technology stocks, led by Nvidia, were doing most of the falling.",
+      "chain": [
+        "The regular S&P 500 is cap-weighted, so the largest companies move it most.",
+        "The equal-weight version shows what the typical stock did.",
+        "If the regular index falls much more than the equal-weight one, the biggest stocks are dragging it down.",
+        "If the equal-weight index falls more, the weakness is broad and the giants are holding the index up.",
+        "Comparing the two is a quick way to see how wide a market move really is."
+      ],
+      "related": ["cap-weighting", "magnificent-7"]
+    },
+    "brent": {
+      "term": "Brent crude",
+      "category": "Commodities",
+      "firstSeen": "2026-11-10",
+      "definition": "The main international price for crude oil, based on oil from the North Sea. It is the benchmark for about 80% of the world's crude; WTI is the main US benchmark.",
+      "why": "Brent settled at $91.49 on Tuesday, down 1.2%, after briefly trading below $90 for the first time since August. It reacts most directly to Middle East news such as the Iran war.",
+      "chain": [
+        "Oil is not one product; each grade and location has its own price.",
+        "Brent is used to price most oil traded outside the US.",
+        "WTI is priced inside the US, so it usually trades a few dollars lower.",
+        "The two normally move together, as they did on Tuesday.",
+        "When a Middle East supply risk rises or falls, Brent tends to show it first."
+      ],
+      "related": ["wti", "risk-premium"]
+    },
+    "moving-average": {
+      "term": "Moving average",
+      "category": "Market behavior",
+      "firstSeen": "2026-11-10",
+      "definition": "The average closing price over a set number of past days, recalculated every day. The 50-day and 200-day averages are the most watched.",
+      "why": "Bitcoin slipped below its 200-day moving average on Tuesday. The S&P 500 is above its 200-day average but below its 50-day, while the Nasdaq is below both.",
+      "chain": [
+        "Daily prices jump around, so traders smooth them by averaging many days.",
+        "The 200-day average is read as the long-term trend and the 50-day as the medium-term trend.",
+        "A price above its average suggests an uptrend; below it suggests a downtrend.",
+        "Many traders use the same lines, so crossing one can trigger buying or selling by itself.",
+        "It describes the past. It does not predict the future."
+      ],
+      "related": ["relief-rally", "dip-buying"]
     }
   }
 }
