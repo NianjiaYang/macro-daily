@@ -1,0 +1,275 @@
+{
+  "date": "2026-11-11",
+  "weekday": "Wednesday",
+  "title": "CoreWeave revives the AI trade while bonds take the day off",
+  "oneLiner": "Strong results and a raised forecast ({{earnings-guidance|guidance}}) from CoreWeave sent AI and chip stocks sharply higher, lifting the Nasdaq 1.6%, while the bond market was closed for Veterans Day, so Tuesday's inflation scare got no fresh push from {{treasury-yield|Treasury yields}}.",
+  "scoreboard": [
+    {
+      "label": "Dow Jones",
+      "value": "+0.5%",
+      "note": "52,486.49",
+      "dir": "up"
+    },
+    {
+      "label": "S&P 500",
+      "value": "+1.3%",
+      "note": "7,619.38",
+      "dir": "up"
+    },
+    {
+      "label": "Nasdaq",
+      "value": "+1.6%",
+      "note": "25,466.19",
+      "dir": "up"
+    },
+    {
+      "label": "CoreWeave",
+      "value": "≈ +24%",
+      "note": "beat and raised forecast",
+      "dir": "up",
+      "term": "earnings-guidance"
+    },
+    {
+      "label": "Nvidia",
+      "value": "≈ +3%",
+      "note": "first gain in three days",
+      "dir": "up"
+    },
+    {
+      "label": "10Y Treasury",
+      "value": "Closed",
+      "note": "Veterans Day; last 4.98%",
+      "dir": "flat",
+      "term": "treasury-yield"
+    },
+    {
+      "label": "2Y Treasury",
+      "value": "Closed",
+      "note": "Veterans Day; last 4.73%",
+      "dir": "flat",
+      "term": "two-year-yield"
+    },
+    {
+      "label": "WTI crude",
+      "value": "≈ $86.40",
+      "note": "≈ +0.4%",
+      "dir": "up",
+      "term": "wti"
+    },
+    {
+      "label": "Gold",
+      "value": "≈ $3,990",
+      "note": "≈ −1%",
+      "dir": "down"
+    },
+    {
+      "label": "Bitcoin",
+      "value": "≈ $74,500",
+      "note": "up more than 1%",
+      "dir": "up"
+    },
+    {
+      "label": "VIX",
+      "value": "17.49",
+      "note": "−10%",
+      "dir": "down",
+      "term": "vix"
+    }
+  ],
+  "sections": [
+    {
+      "kicker": "Equities",
+      "title": "One earnings report turns the AI trade around",
+      "paragraphs": [
+        "The S&P 500 rose 1.31% to 7,619.38, the Nasdaq rose 1.60% to 25,466.19 and the Dow rose 0.49% to 52,486.49. The gap between the Nasdaq and the Dow tells you where the buying was: 24/7 Wall St. put the technology sector up 3.2%, and the Nasdaq 100, which holds the largest technology companies, rose about 2.3%. Yahoo Finance said the Nasdaq erased its post-election losses.",
+        "The trigger was CoreWeave, a company that rents out data centers full of AI chips. After Tuesday's close it reported third-quarter revenue of $3.66 billion, up 168% from a year earlier and above the $3.55 billion analysts polled by LSEG expected. It also raised its {{earnings-guidance|guidance}} for 2026 revenue to $13.0–$13.3 billion, from $12.4–$13.2 billion in August, and said its {{revenue-backlog|revenue backlog}} reached about $132.5 billion, up from $104 billion in June. The stock rose about 24% to $60.51.",
+        "Why did one mid-sized company move the whole market? Because investors had been asking whether AI spending can last, and CoreWeave was the stock where that worry was sharpest. Its shares had fallen about 40% in the month before the report, and some of its bonds yielded more than 16%, the kind of rate only a {{high-yield-bond|high-yield bond}} pays. The company still lost $709 million in the quarter and paid $846 million in interest. What changed was the outlook: its finance chief said it does not plan more of that expensive borrowing through 2027 and expects about $9 billion of customer prepayments and deposits over the next three months.",
+        "The relief spread to the companies that sell into data centers. Micron and Dell each rose about 12%, Oracle about 9% and Broadcom about 4%; SanDisk, up more than 13%, led the S&P 500. The {{semiconductor-etf|iShares Semiconductor ETF}} rose about 6%. This was {{dip-buying|dip-buying}} with a reason attached, which is sturdier than a bounce on no news. It is still one report, though, and Tuesday's inflation problem has not gone away."
+      ]
+    },
+    {
+      "kicker": "Single-stock story",
+      "title": "Nvidia bounces, then new reports hit after the close",
+      "paragraphs": [
+        "Nvidia rose 2.9%, its first gain after falling about 10% over the previous two sessions. It was up nearly 5% earlier in the day and gave back part of that. The gain came despite an {{analyst-downgrade|analyst downgrade}}: Baird cut the stock to Neutral.",
+        "The story did not end at 4 p.m. In {{after-hours-trading|after-hours trading}} Nvidia fell again, after Yahoo Finance described new reports by The New York Times and The Wall Street Journal about CEO Jensen Huang, including a Journal report that the board is preparing to remove him. These are media reports, not company announcements. For a student the lesson is the same as Monday's: this is {{idiosyncratic-risk|idiosyncratic risk}}, a problem at one company, but when the company is this large it can move the indexes through {{cap-weighting|cap-weighting}}.",
+        "One sign of the shift: Apple rose about 2% to a record close just under $356. Investopedia said its market value of $5.16 trillion now puts it ahead of Nvidia as the largest company."
+      ]
+    },
+    {
+      "kicker": "Rates & the Fed",
+      "title": "No bond trading, but the hike debate keeps going",
+      "paragraphs": [
+        "The US bond market was closed for Veterans Day, while stock exchanges kept normal hours. So there are no new closing yields today: the 10-year stays at Tuesday's 4.98% and the {{two-year-yield|2-year}} at 4.73%. That matters for reading today's rally. On Tuesday the 10-year touched 5.03%, its highest in more than two weeks, and rising yields pushed technology stocks down. Today that pressure was simply switched off. Thursday, when bonds trade again, is the real test.",
+        "Fed officials kept talking. Governor Michelle Bowman said inflation is broadening and {{rate-hike|rate hikes}} may be needed. Chicago Fed President Austan Goolsbee called the October {{cpi|CPI}} report “borderline disturbing.” CNBC reported that Goldman Sachs now expects hikes in December and March, and that UBS expects quarter-point hikes at both meetings and sees limited support for a half-point move.",
+        "The {{vix|VIX}}, a measure of how much investors pay to protect against swings in the S&P 500, fell about 10% to 17.49. A falling VIX on a day like this says investors felt less need for protection, not that the risks are gone."
+      ]
+    },
+    {
+      "kicker": "Commodities & currencies",
+      "title": "Oil edges up on shipping attacks; gold slips again",
+      "paragraphs": [
+        "{{wti|WTI crude}} rose about 0.4% to about $86.40, bouncing off Tuesday's two-month low. Early in the day Reuters had {{brent|Brent}} up 1.1% at $92.53. The reason was the Strait of Hormuz: a research group counted 37 vessels attacked there and in nearby waters in October, the most in any month since the war began, and more attacks were reported this week. That put some {{risk-premium|risk premium}} back into the price.",
+        "The bounce was small because other news pulled the opposite way. Industry data from the American Petroleum Institute showed US {{crude-inventories|crude inventories}} rose by 9 million barrels last week, a sign of plenty of supply. The official government figures are delayed by the holiday.",
+        "Gold futures fell about 1% to about $3,990 an ounce. Trading Economics tied the drop to a stronger dollar, which it said reached its highest level since April 2025, and to expectations of a December {{rate-hike|hike}}; the {{dollar-index|dollar index}} was near 102.4 on Wednesday morning. Bitcoin rose more than 1% to near $74,500 after touching a three-month low overnight."
+      ]
+    }
+  ],
+  "connections": {
+    "intro": "Markets move together, but not always the way the textbook predicts. Each card takes one of today's drivers, says what it should have done to another market, and compares that with what happened. The mismatches are where the day's real story is.",
+    "items": [
+      {
+        "driver": "CoreWeave beat revenue forecasts and raised its 2026 {{earnings-guidance|guidance}}",
+        "asset": "Chip and AI hardware stocks",
+        "expected": "Rise. CoreWeave buys chips, servers and memory, so stronger demand at CoreWeave means more sales for its suppliers.",
+        "actual": "Rose sharply. The {{semiconductor-etf|iShares Semiconductor ETF}} gained about 6%; Micron and Dell gained about 12% each.",
+        "why": "The textbook link held. Investopedia attributed the chip rally to CoreWeave's results and Nvidia's rebound. The stocks had also fallen a lot beforehand, so there was room to recover.",
+        "puzzle": false
+      },
+      {
+        "driver": "Tuesday's hot {{cpi|CPI}} and Fed officials still talking about {{rate-hike|rate hikes}}",
+        "asset": "Tech stocks",
+        "expected": "Fall. Expected rate hikes lower what investors will pay today for profits that arrive years from now, which is what happened on Tuesday.",
+        "actual": "Rose. The Nasdaq gained 1.6% and the technology sector 3.2%.",
+        "why": "Two things outweighed it. The bond market was closed, so {{treasury-yield|yields}} could not rise further and add pressure today. And company news was stronger than the rate story: CoreWeave's report answered the market's biggest worry about AI spending. The rate question returns when bonds reopen on Thursday.",
+        "puzzle": true
+      },
+      {
+        "driver": "More attacks on ships near the Strait of Hormuz",
+        "asset": "Oil",
+        "expected": "Rises. A threat to shipping adds a {{risk-premium|risk premium}} to the price.",
+        "actual": "{{wti|WTI}} rose only about 0.4%, to about $86.40.",
+        "why": "The textbook link held, but weakly. Industry data showed US {{crude-inventories|crude inventories}} up 9 million barrels, and hopes for a US–Iran deal have not disappeared, so buyers were not willing to pay much more.",
+        "puzzle": false
+      },
+      {
+        "driver": "A stronger dollar and expectations of a December {{rate-hike|hike}}",
+        "asset": "Gold",
+        "expected": "Falls. Gold pays no interest and is priced in dollars, so higher rates and a stronger dollar both make it less attractive.",
+        "actual": "Gold futures fell about 1% to about $3,990.",
+        "why": "The textbook link held for a second day. Trading Economics named the stronger dollar and rate-hike expectations as the reasons.",
+        "puzzle": false
+      }
+    ]
+  },
+  "headlines": [
+    "Anthropic's IPO, planned for next week, could raise up to $64.4 billion plus a $26 billion private placement, at a valuation of up to $1.4 trillion, CNBC reported.",
+    "TSMC rose 2.19% after its board approved investments of up to $1 billion in Anthropic and OpenAI.",
+    "SoftBank fell 3% after reporting a quarterly net loss of ¥1.12 trillion, about $7 billion.",
+    "The US average gasoline price fell to $3.9788 a gallon, below $4 for the first time in 114 days, the Price Futures Group said.",
+    "Nebius, another company that rents out AI computing power, rose about 15% early in the day with CoreWeave; it reports results before the bell on Thursday."
+  ],
+  "watch": {
+    "when": "Fri, Nov. 13 · 8:30 AM ET",
+    "title": "October PPI, after bonds reopen Thursday",
+    "text": "First, Thursday: the bond market reopens, and {{treasury-yield|Treasury yields}} get their first chance to react to two days of news. If yields climb again, watch whether today's tech rally holds. Then Friday's Producer Price Index shows the prices businesses receive. After Tuesday's {{cpi|CPI}}, a second hot inflation report would strengthen the case for a bigger December {{rate-hike|hike}} from the {{fomc|FOMC}}."
+  },
+  "sources": [
+    {
+      "name": "Yahoo Finance (Investopedia)",
+      "title": "Markets News, Nov. 11, 2026: S&P 500, Nasdaq Surge as CoreWeave Paces Big AI Rally; Chip Stocks Jump as Nvidia Rebounds",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-futures-131247889.html"
+    },
+    {
+      "name": "CNBC",
+      "title": "Stock market news for Nov. 11, 2026",
+      "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
+    },
+    {
+      "name": "24/7 Wall St.",
+      "title": "S&P 500 Closes Up 1.3% as Tech Pulls the Market Higher",
+      "url": "https://247wallst.com/cards/tech-did-the-heavy-lifting-again-the-nasdaq-s-1-55-close-m-gspc-market-bell-01m766s5wqxj8egm37q8ks13gp"
+    },
+    {
+      "name": "Yahoo Finance",
+      "title": "Stock market today: Nvidia slides following reports of CEO's second affair, possible removal",
+      "url": "https://sg.finance.yahoo.com/news/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
+    },
+    {
+      "name": "CoreWeave",
+      "title": "CoreWeave Reports Strong Third Quarter 2026 Results",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "name": "The Next Web",
+      "title": "CoreWeave rules out new unsecured debt as revenue jumps 168% to $3.66bn",
+      "url": "https://thenextweb.com/news/coreweave-forecast-q3-2026-revenue-unsecured-debt"
+    },
+    {
+      "name": "Reuters via VOCM",
+      "title": "Strait of Hormuz Shipping Risks Push Oil Prices Up From Two-Month Lows",
+      "url": "https://vocm.com/2026/11/11/strait-of-hormuz-shipping-risks-push-oil-prices-up-from-two-month-lows"
+    },
+    {
+      "name": "Price Futures Group",
+      "title": "The 11th Day. The Energy Report 11/11/2026",
+      "url": "https://blog.pricegroup.com/2026/11/11/the-11th-day-the-energy-report-11-11-2026/"
+    },
+    {
+      "name": "Nexo",
+      "title": "Markets Today - November 11, 2026",
+      "url": "https://nexo.com/blog/markets-today-november-11"
+    },
+    {
+      "name": "Trading Economics",
+      "title": "Gold - Price - Chart - Historical Data - News",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "name": "U.S. Bureau of Labor Statistics",
+      "title": "Schedule of Releases for the Producer Price Index",
+      "url": "https://www.bls.gov/schedule/news_release/ppi.htm"
+    },
+    {
+      "name": "U.S. Treasury",
+      "title": "Daily Treasury Par Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "CoreWeave still lost $709 million in the quarter, yet its stock rose about 24%. What best explains the jump?",
+      "options": [
+        "Investors only look at revenue and ignore losses",
+        "Results beat forecasts and the company raised its guidance, easing a worry that had already pushed the stock down about 40%",
+        "The Fed cut interest rates",
+        "The company announced it would stop buying AI chips"
+      ],
+      "answer": 1,
+      "explain": "Stocks move on results compared with expectations. Revenue beat the forecast, {{earnings-guidance|guidance}} went up and the {{revenue-backlog|revenue backlog}} grew, after a month in which the stock had fallen about 40% on debt worries."
+    },
+    {
+      "q": "Tuesday's hot CPI pushed tech stocks down. On Wednesday the inflation picture had not improved, yet the Nasdaq rose 1.6%. Why?",
+      "options": [
+        "Inflation data was revised lower",
+        "The Fed said it would not raise rates",
+        "Tech stocks always rise on holidays",
+        "The bond market was closed, so yields added no new pressure, and strong company news from CoreWeave outweighed the rate story"
+      ],
+      "answer": 3,
+      "explain": "With no bond trading, {{treasury-yield|Treasury yields}} could not rise further, and CoreWeave's report answered the market's main worry about AI spending. The {{rate-hike|rate-hike}} question returns when bonds reopen."
+    },
+    {
+      "q": "Attacks on ships near the Strait of Hormuz continued, but WTI rose only about 0.4%. What held the price back?",
+      "options": [
+        "Industry data showed US crude inventories rose by 9 million barrels, a sign of ample supply",
+        "Oil traders were on holiday",
+        "The attacks lowered demand for oil",
+        "The dollar fell sharply"
+      ],
+      "answer": 0,
+      "explain": "Shipping attacks add a {{risk-premium|risk premium}}, but a large rise in {{crude-inventories|crude inventories}} says supply is plentiful, which pulls the price the other way."
+    },
+    {
+      "q": "Nvidia closed up 2.9%, then fell after 4 p.m. on new media reports. What does that show about after-hours trading?",
+      "options": [
+        "After-hours prices are set by the exchange, not by traders",
+        "Prices cannot change once the market closes",
+        "News that arrives after the close is priced right away, so the closing price is not always the latest word",
+        "After-hours moves always reverse the next morning"
+      ],
+      "answer": 2,
+      "explain": "{{after-hours-trading|After-hours trading}} lets investors react to news released after the close. Because one company's problem is {{idiosyncratic-risk|idiosyncratic risk}}, it hits that stock first, though a company this large can still move the indexes."
+    }
+  ]
+}

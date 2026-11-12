@@ -429,6 +429,128 @@
         "It describes the past. It does not predict the future."
       ],
       "related": ["relief-rally", "dip-buying"]
+    },
+    "earnings-guidance": {
+      "term": "Guidance (earnings guidance)",
+      "category": "Equities",
+      "firstSeen": "2026-11-11",
+      "definition": "A company's own forecast of its future revenue or profit, usually given with its quarterly results. “Raising guidance” means the company now expects to do better than it said before.",
+      "why": "CoreWeave raised its 2026 revenue guidance to $13.0–$13.3 billion from $12.4–$13.2 billion. The stock rose about 24%, and AI and chip stocks rose with it.",
+      "chain": [
+        "Each quarter a company reports what it earned and often says what it expects next.",
+        "Investors care more about the future than the past, so the forecast often matters more than the results.",
+        "A raised forecast tells investors that demand is stronger than the company thought a few months ago.",
+        "Analysts then lift their own estimates, and the stock price usually rises.",
+        "A “beat and raise” (results above forecasts plus higher guidance) is the strongest version of this signal."
+      ],
+      "related": [
+        "consensus-forecast",
+        "revenue-backlog"
+      ]
+    },
+    "revenue-backlog": {
+      "term": "Revenue backlog",
+      "category": "Equities",
+      "firstSeen": "2026-11-11",
+      "definition": "The value of signed customer contracts for work a company has not yet delivered or billed. It is future revenue that is already under contract.",
+      "why": "CoreWeave said its backlog reached about $132.5 billion at the end of September, up from $104 billion in June. That told investors demand for AI computing is still growing.",
+      "chain": [
+        "A customer signs a multi-year contract to rent computing power.",
+        "The company cannot count that money as revenue until it delivers the service.",
+        "Until then, the contract value sits in the backlog.",
+        "A growing backlog means future revenue is more predictable.",
+        "The risk: the company still has to build what it promised, and customers have to be able to pay."
+      ],
+      "related": [
+        "earnings-guidance"
+      ]
+    },
+    "high-yield-bond": {
+      "term": "High-yield (junk) bond",
+      "category": "Credit",
+      "firstSeen": "2026-11-11",
+      "definition": "A bond from a borrower that rating agencies judge more likely to miss payments. To attract buyers it has to pay a higher interest rate than safer bonds.",
+      "why": "Some CoreWeave bonds yielded more than 16% before its results, a sign investors doubted it could carry its debt. The company said it does not plan more of this kind of borrowing through 2027, which helped the stock.",
+      "chain": [
+        "Rating agencies grade borrowers on how likely they are to repay.",
+        "Borrowers below a certain grade are called high-yield, or junk.",
+        "Lenders demand extra interest to make up for the higher chance of loss.",
+        "When a bond's yield climbs far above safer bonds, the market is signaling worry about that borrower.",
+        "High interest costs then eat into profits, which can make the worry come true."
+      ],
+      "related": [
+        "treasury-yield",
+        "going-concern"
+      ]
+    },
+    "analyst-downgrade": {
+      "term": "Analyst downgrade",
+      "category": "Equities",
+      "firstSeen": "2026-11-11",
+      "definition": "When a research analyst lowers their rating on a stock, for example from “Outperform” to “Neutral,” signaling they expect it to do less well than before.",
+      "why": "Baird cut Nvidia to Neutral on Wednesday. The stock still rose 2.9% in regular trading, which shows a downgrade is one opinion among many and does not always win on the day.",
+      "chain": [
+        "Analysts at banks and brokers publish ratings on stocks for their clients.",
+        "A downgrade says the analyst sees less upside or more risk than before.",
+        "Some investors sell on the news, which can push the price down.",
+        "If other news is stronger, or the stock has already fallen a lot, the price may not drop at all."
+      ],
+      "related": [
+        "analyst-upgrade"
+      ]
+    },
+    "after-hours-trading": {
+      "term": "After-hours trading",
+      "category": "Market structure",
+      "firstSeen": "2026-11-11",
+      "definition": "Buying and selling of stocks after the regular session ends at 4:00 p.m. Eastern. Fewer people trade then, so prices can move more on less volume.",
+      "why": "Nvidia closed up 2.9% on Wednesday, then fell in after-hours trading on new media reports about its CEO. The closing price was not the last word on the day.",
+      "chain": [
+        "Regular US stock trading runs from 9:30 a.m. to 4:00 p.m. Eastern.",
+        "Companies often release earnings and big news after 4:00 p.m.",
+        "Electronic markets let investors trade on that news right away.",
+        "With fewer buyers and sellers, price swings can be larger than in the regular session.",
+        "The next morning's opening price usually reflects the after-hours move."
+      ],
+      "related": [
+        "idiosyncratic-risk"
+      ]
+    },
+    "vix": {
+      "term": "VIX (volatility index)",
+      "category": "Risk",
+      "firstSeen": "2026-11-11",
+      "definition": "An index that measures how much investors expect the S&P 500 to swing over the next 30 days, based on the prices of options. It is often called the market's “fear gauge.”",
+      "why": "The VIX fell about 10% to 17.49 on Wednesday as stocks rallied, showing that investors were paying less for protection than they were after Tuesday's inflation report.",
+      "chain": [
+        "Options are contracts that can protect a portfolio against a fall in stock prices.",
+        "When investors are nervous, they buy more protection and option prices rise.",
+        "The VIX turns those option prices into a single number.",
+        "A rising VIX means more fear; a falling VIX means investors are calmer.",
+        "It measures expected swings, not direction, and it can jump again quickly."
+      ],
+      "related": [
+        "relief-rally"
+      ]
+    },
+    "crude-inventories": {
+      "term": "Crude inventories",
+      "category": "Commodities",
+      "firstSeen": "2026-11-11",
+      "definition": "The amount of crude oil held in storage in the United States, reported every week. An industry group, the American Petroleum Institute, reports first; the government's Energy Information Administration follows with the official figure.",
+      "why": "Industry data showed US crude inventories rose by 9 million barrels last week. That sign of ample supply limited oil's bounce on Wednesday, even with new attacks on ships near the Strait of Hormuz.",
+      "chain": [
+        "Oil that is produced or imported but not yet used goes into storage.",
+        "If storage rises (a “build”), supply is running ahead of demand.",
+        "If storage falls (a “draw”), demand is running ahead of supply.",
+        "Traders compare the weekly change with what they expected.",
+        "A bigger build than expected usually pushes oil prices down."
+      ],
+      "related": [
+        "wti",
+        "brent",
+        "risk-premium"
+      ]
     }
   }
 }
