@@ -596,7 +596,16 @@ document.addEventListener("keydown", (e) => {
 window.addEventListener("resize", () => { if (!$("#pop").hidden) positionPop(); });
 window.addEventListener("scroll", () => { if (!$("#pop").hidden && window.innerWidth > 640) positionPop(); }, { passive: true });
 
-$("#dateSelect").addEventListener("change", (e) => loadBrief(e.target.value));
+// A specific day can be linked as ?date=YYYY-MM-DD. Without it the newest brief opens.
+function setDateInUrl(date) {
+  try {
+    const newest = state.briefs[0]?.date;
+    const query = date && date !== newest ? `?date=${date}` : "";
+    history.replaceState(null, "", `${location.pathname}${query}#${state.tab}`);
+  } catch {}
+}
+
+$("#dateSelect").addEventListener("change", async (e) => { await loadBrief(e.target.value); setDateInUrl(e.target.value); });
 
 async function loadBrief(date) {
   state.brief = await getJSON(`data/briefs/${date}.json`);
@@ -618,7 +627,11 @@ async function init() {
     if (state.weekly.list.length) state.weekly.quiz = await getJSON(`data/quizzes/${state.weekly.list[0].week}.json`).catch(() => null);
     const hashTab = location.hash.slice(1);
     if (["brief", "dashboard", "glossary", "quiz", "weekly", "progress"].includes(hashTab)) state.tab = hashTab;
-    await loadBrief(state.briefs[0].date);
+    let wanted = null;
+    try { wanted = new URLSearchParams(location.search).get("date"); } catch {}
+    const start = state.briefs.some((b) => b.date === wanted) ? wanted : state.briefs[0].date;
+    $("#dateSelect").value = start;
+    await loadBrief(start);
   } catch (err) {
     $("#tab-brief").innerHTML = `<div class="empty">Couldn't load data (${esc(err.message)}). Serve this folder over HTTP, e.g. <code>python3 -m http.server 8000 --directory web</code>.</div>`;
   }
