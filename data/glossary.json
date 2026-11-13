@@ -323,7 +323,10 @@
         "If it is above the forecast (a 'hot' or 'beat' reading) or below it (a 'miss'), prices adjust at once.",
         "That is why a 0.4% rise that was lower than last month's 0.6% still pushed yields up: it was higher than the 0.3% traders had priced."
       ],
-      "related": ["cpi", "core-inflation"]
+      "related": [
+        "cpi",
+        "core-inflation"
+      ]
     },
     "month-over-month": {
       "term": "Month-over-month (m/m) vs. year-over-year (y/y)",
@@ -338,7 +341,10 @@
         "They also look small: a rate of 0.3% a month, kept up for a year, is well above the Fed's 2% target.",
         "So a core reading of 0.3% a month is a warning sign even though the number looks tiny."
       ],
-      "related": ["cpi", "consensus-forecast"]
+      "related": [
+        "cpi",
+        "consensus-forecast"
+      ]
     },
     "shelter-inflation": {
       "term": "Shelter inflation",
@@ -353,7 +359,11 @@
         "Cheaper oil does not lower anyone's rent.",
         "That is why a report with slowing energy and steady shelter still worried the Fed and traders."
       ],
-      "related": ["core-inflation", "cpi", "mortgage-rate"]
+      "related": [
+        "core-inflation",
+        "cpi",
+        "mortgage-rate"
+      ]
     },
     "dollar-index": {
       "term": "Dollar index (DXY)",
@@ -383,7 +393,10 @@
         "This can happen fast and without any change in how much oil is pumped.",
         "It can also come back just as fast if talks fail."
       ],
-      "related": ["wti", "brent"]
+      "related": [
+        "wti",
+        "brent"
+      ]
     },
     "equal-weight-index": {
       "term": "Equal-weight index",
@@ -398,7 +411,10 @@
         "If the equal-weight index falls more, the weakness is broad and the giants are holding the index up.",
         "Comparing the two is a quick way to see how wide a market move really is."
       ],
-      "related": ["cap-weighting", "magnificent-7"]
+      "related": [
+        "cap-weighting",
+        "magnificent-7"
+      ]
     },
     "brent": {
       "term": "Brent crude",
@@ -413,7 +429,10 @@
         "The two normally move together, as they did on Tuesday.",
         "When a Middle East supply risk rises or falls, Brent tends to show it first."
       ],
-      "related": ["wti", "risk-premium"]
+      "related": [
+        "wti",
+        "risk-premium"
+      ]
     },
     "moving-average": {
       "term": "Moving average",
@@ -428,7 +447,10 @@
         "Many traders use the same lines, so crossing one can trigger buying or selling by itself.",
         "It describes the past. It does not predict the future."
       ],
-      "related": ["relief-rally", "dip-buying"]
+      "related": [
+        "relief-rally",
+        "dip-buying"
+      ]
     },
     "earnings-guidance": {
       "term": "Guidance (earnings guidance)",
@@ -550,6 +572,130 @@
         "wti",
         "brent",
         "risk-premium"
+      ]
+    },
+    "key-person-risk": {
+      "term": "Key-person risk",
+      "category": "Risk",
+      "firstSeen": "2026-11-12",
+      "definition": "The risk that a company depends so much on one leader that losing that person hurts the business or the stock.",
+      "why": "Nvidia fell 4.3% on Thursday, and as much as 14% during the day, after CEO Jensen Huang resigned, even though nothing changed that day about its products or customers.",
+      "chain": [
+        "Some companies are closely tied to one founder or chief executive.",
+        "Investors pay a higher price partly because they trust that person's decisions.",
+        "If the person leaves suddenly, nobody knows yet whether the strategy will hold.",
+        "Uncertainty makes investors demand a lower price until they see evidence.",
+        "The next earnings report and the choice of a permanent successor usually settle the question."
+      ],
+      "related": [
+        "idiosyncratic-risk",
+        "cap-weighting"
+      ]
+    },
+    "price-weighted-index": {
+      "term": "Price-weighted index",
+      "category": "Equities",
+      "firstSeen": "2026-11-12",
+      "definition": "An index where each stock's weight depends on its share price, not on the size of the company. The Dow Jones Industrial Average works this way.",
+      "why": "CNBC noted that Nvidia is about 6% of the S&P 500 but only about 2% of the Dow, so the same fall in Nvidia hurts the S&P 500 more.",
+      "chain": [
+        "A price-weighted index adds up the share prices of its members and divides by a fixed number.",
+        "A stock with a high share price moves the index more than a stock with a low one.",
+        "Share price alone says nothing about how big a company is.",
+        "So a very large company with a modest share price has little pull on the index.",
+        "The S&P 500 uses {{cap-weighting|cap-weighting}} instead, where size sets the weight."
+      ],
+      "related": [
+        "cap-weighting",
+        "equal-weight-index"
+      ]
+    },
+    "small-cap": {
+      "term": "Small-cap stocks (Russell 2000)",
+      "category": "Equities",
+      "firstSeen": "2026-11-12",
+      "definition": "Shares of smaller companies. The Russell 2000 is the best-known index of them.",
+      "why": "The Russell 2000 fell about 1.7% on Thursday while the S&P 500 fell 0.35%, as Treasury yields jumped and raised borrowing costs.",
+      "chain": [
+        "Small companies usually have less cash and rely more on borrowing than large ones.",
+        "More of their debt is short-term or has a rate that resets.",
+        "When interest rates rise, their interest bills rise sooner.",
+        "Higher interest bills leave less profit.",
+        "So small-cap stocks often fall more than large ones on days when yields jump."
+      ],
+      "related": ["treasury-yield", "rate-hike"]
+    },
+    "yield-curve": {
+      "term": "Yield curve",
+      "category": "Rates",
+      "firstSeen": "2026-11-12",
+      "definition": "A line that plots Treasury yields from short maturities, such as 2 years, to long ones, such as 10 or 30 years. It is flattening when short-term yields rise faster than long-term yields.",
+      "why": "On Thursday the 2-year yield rose 13 basis points and the 10-year 12, and Reuters said the curve flattened for a fourth straight session as traders priced in Fed rate hikes.",
+      "chain": [
+        "Short-term yields mostly follow what investors expect the Fed to do soon.",
+        "Long-term yields also reflect expected growth and inflation over many years.",
+        "When the Fed is expected to raise rates, short-term yields climb fastest.",
+        "The gap between short and long yields shrinks, and the curve flattens.",
+        "A flatter curve often signals that investors expect tighter policy to slow the economy later."
+      ],
+      "related": [
+        "two-year-yield",
+        "treasury-yield",
+        "rate-hike"
+      ]
+    },
+    "treasury-auction": {
+      "term": "Treasury auction (and a “tail”)",
+      "category": "Rates",
+      "firstSeen": "2026-11-12",
+      "definition": "The sale where the US government borrows by selling new Treasury debt to bidders. An auction “tails” when the yield it has to pay comes out higher than the market expected just before the sale.",
+      "why": "Reuters said Thursday's sale of 30-year bonds drew lackluster demand and tailed by half a basis point, one more sign of pressure on bonds.",
+      "chain": [
+        "The Treasury announces how much debt it will sell.",
+        "Investors submit bids stating the yield they will accept.",
+        "The Treasury fills the lowest-yield bids first until all the debt is sold.",
+        "If demand is weak, it must accept higher-yield bids to sell everything.",
+        "A tail tells the market that buyers wanted more compensation, which can push yields up."
+      ],
+      "related": [
+        "treasury-yield",
+        "basis-point"
+      ]
+    },
+    "jobless-claims": {
+      "term": "Initial jobless claims",
+      "category": "Economic data",
+      "firstSeen": "2026-11-12",
+      "definition": "The number of people who filed for unemployment benefits for the first time in a week. It is published every Thursday and is one of the quickest readings on layoffs.",
+      "why": "Claims rose by 9,000 to 200,000 in the week ended November 7, above the 195,000 consensus, yet Treasury yields still rose because inflation worries dominated.",
+      "chain": [
+        "When people lose a job, they can file a claim for unemployment benefits.",
+        "The Labor Department counts new claims each week.",
+        "Rising claims suggest more layoffs and a weakening job market.",
+        "A weaker job market usually means less spending and less inflation pressure.",
+        "That normally lowers expectations for Fed rate hikes and pulls yields down."
+      ],
+      "related": [
+        "jobs-report",
+        "consensus-forecast"
+      ]
+    },
+    "existing-home-sales": {
+      "term": "Existing home sales",
+      "category": "Economic data",
+      "firstSeen": "2026-11-12",
+      "definition": "The number of previously owned homes sold in a month, reported as an annual rate. It covers most of the US housing market.",
+      "why": "Sales fell 5.5% in October to an annual rate of 3.75 million, the lowest since August 2010, with mortgage rates near their highest in decades.",
+      "chain": [
+        "Most buyers need a mortgage to buy a home.",
+        "When {{mortgage-rate|mortgage rates}} rise, monthly payments rise and fewer people can afford to buy.",
+        "Owners with older, cheaper mortgages also become reluctant to sell.",
+        "Fewer buyers and fewer sellers mean fewer sales.",
+        "Falling sales are an early sign that higher rates are slowing the economy."
+      ],
+      "related": [
+        "mortgage-rate",
+        "treasury-yield"
       ]
     }
   }

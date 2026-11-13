@@ -1,0 +1,272 @@
+{
+  "date": "2026-11-12",
+  "weekday": "Thursday",
+  "title": "Nvidia loses its CEO and bonds come back swinging",
+  "oneLiner": "Nvidia fell 4.3% after CEO Jensen Huang resigned, and the bond market reopened with the 10-year {{treasury-yield|Treasury yield}} jumping to 5.10%, yet the S&P 500 slipped only 0.35% because money moved to Nvidia's rivals instead of leaving stocks.",
+  "scoreboard": [
+    {
+      "label": "Dow Jones",
+      "value": "−0.4%",
+      "note": "52,297.09",
+      "dir": "down"
+    },
+    {
+      "label": "S&P 500",
+      "value": "−0.4%",
+      "note": "7,592.40",
+      "dir": "down"
+    },
+    {
+      "label": "Nasdaq",
+      "value": "−0.4%",
+      "note": "25,366.09",
+      "dir": "down"
+    },
+    {
+      "label": "Russell 2000",
+      "value": "≈ −1.7%",
+      "note": "2,799.06; small companies",
+      "dir": "down",
+      "term": "small-cap"
+    },
+    {
+      "label": "Nvidia",
+      "value": "−4.3%",
+      "note": "$166.19; CEO resigned",
+      "dir": "down",
+      "term": "key-person-risk"
+    },
+    {
+      "label": "AMD",
+      "value": "+5.9%",
+      "note": "Nvidia's rival",
+      "dir": "up"
+    },
+    {
+      "label": "10Y Treasury",
+      "value": "5.10%",
+      "note": "+12 bp from Tuesday",
+      "dir": "up",
+      "term": "treasury-yield"
+    },
+    {
+      "label": "2Y Treasury",
+      "value": "4.86%",
+      "note": "+13 bp from Tuesday",
+      "dir": "up",
+      "term": "two-year-yield"
+    },
+    {
+      "label": "WTI crude",
+      "value": "$88.74",
+      "note": "≈ +2.6%",
+      "dir": "up",
+      "term": "wti"
+    },
+    {
+      "label": "Gold",
+      "value": "≈ $3,880",
+      "note": "≈ −3%",
+      "dir": "down"
+    },
+    {
+      "label": "Bitcoin",
+      "value": "≈ $71,500",
+      "note": "down nearly 4%",
+      "dir": "down"
+    },
+    {
+      "label": "VIX",
+      "value": "18.70",
+      "note": "+7%",
+      "dir": "up",
+      "term": "vix"
+    }
+  ],
+  "sections": [
+    {
+      "kicker": "Single-stock story",
+      "title": "Nvidia's CEO resigns, and the stock recovers most of its morning loss",
+      "paragraphs": [
+        "Wednesday's brief ended with media reports that Nvidia's board was preparing to remove CEO Jensen Huang. On Thursday it became official: CNBC reported that Huang resigned as chief executive and as a board member after days of media reports about his personal conduct, and that finance chief Colette Kress was named interim CEO.",
+        "The stock fell as much as 14% in the morning, touched its lowest price in a year, then recovered to close down 4.3% at $166.19. Trading was extremely heavy: the Motley Fool counted about 748 million shares, against an average of about 131 million. Reuters said Nvidia is down 11% this week and more than 30% from its October 6 peak, a loss of $1.8 trillion in market value in five weeks.",
+        "This is {{key-person-risk|key-person risk}}: the danger that a company depends heavily on one leader. It is a kind of {{idiosyncratic-risk|idiosyncratic risk}}, because nothing changed on Thursday about Nvidia's chips or its customers. That may be why buyers came back during the day. The first hard evidence comes soon: Nvidia reports quarterly results on November 17.",
+        "How much damage one stock does to an index depends on how the index is built. CNBC noted that Nvidia is about 6% of the S&P 500, which uses {{cap-weighting|cap-weighting}}, but only about 2% of the Dow, which is a {{price-weighted-index|price-weighted index}} where the share price sets the weight and company size does not."
+      ]
+    },
+    {
+      "kicker": "Equities",
+      "title": "Money moved to Nvidia's rivals instead of leaving the market",
+      "paragraphs": [
+        "The S&P 500 fell 0.35% to 7,592.40, the Nasdaq fell 0.39% to 25,366.09 and the Dow fell 189.40 points, or 0.36%, to 52,297.09. The day was rougher than those numbers suggest. At the open the Nasdaq was down 1.5%; later in the session all three indexes turned slightly positive; then they faded into the close.",
+        "The reason the indexes held up is that investors sold Nvidia and bought its competitors. AMD rose 5.9% and Broadcom 5.5%. The Motley Fool said investors appear to see a chance for rivals to win market share while Nvidia sorts out its leadership. Alphabet rose nearly 2%. This is a narrow form of {{sector-rotation|rotation}}: money staying inside the chip business and changing seats.",
+        "It was not a good day for the rest of the AI trade. The Philadelphia Semiconductor Index fell 0.5%, with Intel, Marvell and Micron each down about 2%. CoreWeave gave back about 7% of Wednesday's jump. Nebius, which rents out AI computing power as CoreWeave does, fell about 17% after its {{earnings-guidance|guidance}} disappointed, and Super Micro Computer fell about 11%.",
+        "Smaller companies had the worst day. The Russell 2000, an index of {{small-cap|small-cap}} stocks, fell about 1.7% to 2,799.06, more than four times the S&P 500's loss. Reuters said nine of the S&P 500's eleven sectors fell; energy rose 1.5% with oil, materials fell 1.5% and airline stocks fell about 5%. The {{vix|VIX}} rose about 7% to 18.70."
+      ]
+    },
+    {
+      "kicker": "Rates & the Fed",
+      "title": "Bonds reopen and yields jump past 5%",
+      "paragraphs": [
+        "Wednesday's brief called Thursday \"the real test,\" because the bond market had been closed for Veterans Day. The test went badly for bonds. According to the U.S. Treasury's official closing figures, the 10-year {{treasury-yield|Treasury yield}} rose 12 {{basis-point|basis points}} from Tuesday to 5.10%, and the {{two-year-yield|2-year yield}} rose 13 basis points to 4.86%. TechFlow said the 2-year is at its highest since October 14. When yields rise, bond prices fall, so this was a sell-off.",
+        "The cause is the same one that has run all week: Tuesday's hot {{cpi|CPI}} report and the {{rate-hike|rate hikes}} it may bring. TechFlow reported that futures prices now imply about 29 basis points of tightening at the December {{fomc|FOMC}} meeting. A normal hike is 25, so traders see a quarter-point hike as certain and a half-point hike as possible. Cleveland Fed President Beth Hammack said she supports raising rates but prefers gradual, smaller steps and sees no need for a half-point move now. Earlier this week Governor Christopher Waller had said a half-point hike was possible if inflation got worse.",
+        "Reuters noted that short-term yields rose more than long-term ones, so the {{yield-curve|yield curve}} flattened for a fourth straight session. That shape says investors expect the Fed to push short-term rates up now. A sale of new 30-year bonds also went poorly. In a {{treasury-auction|Treasury auction}} the government sells debt to the highest bidders, and Reuters said this one drew lackluster demand and \"tailed\" by half a basis point, meaning the government had to pay a slightly higher yield than the market expected.",
+        "The day's economic data pointed the other way, toward a slower economy. Initial {{jobless-claims|jobless claims}} rose by 9,000 to 200,000, above the 195,000 {{consensus-forecast|consensus}}. {{existing-home-sales|Existing home sales}} fell 5.5% in October to an annual rate of 3.75 million, below the 3.85 million expected and the lowest since August 2010; CNBC said {{mortgage-rate|mortgage rates}} are at their highest since 2000, aside from one month in 2023. Weak data usually pulls yields down. Today it did not, which is one of the puzzles below."
+      ]
+    },
+    {
+      "kicker": "Commodities & currencies",
+      "title": "Oil jumps on Iran; gold falls about 3%",
+      "paragraphs": [
+        "{{wti|WTI crude}} rose about 2.6% to settle at $88.74 a barrel, and {{brent|Brent}} rose 3.3% to $95.82. CNBC reported that President Trump posted that a deal with Iran was no longer needed. Hopes for a US–Iran deal had been holding oil down, as Wednesday's brief described. Remove that hope and the {{risk-premium|risk premium}} for the Strait of Hormuz goes back into the price.",
+        "Gold fell about 3% to about $3,880 an ounce, which TechFlow called its lowest level since October 2025. Gold pays no interest and is priced in dollars, so the day's two big moves both hurt it: Treasury yields jumped, and the {{dollar-index|dollar index}} rose 0.3% to about 103.18, which Reuters called its highest since April 2025. An investingLive headline tied gold's slide to higher yields and a stronger dollar.",
+        "Bitcoin fell nearly 4% to about $71,500. The sources read did not give a reason."
+      ]
+    }
+  ],
+  "connections": {
+    "intro": "Markets move together, but not always the way the textbook predicts. Each card takes one of today's drivers, says what it should have done to another market, and compares that with what happened. The mismatches are where the day's real story is.",
+    "items": [
+      {
+        "driver": "Nvidia's CEO resigned and the stock fell 4.3%",
+        "asset": "Rival chipmakers",
+        "expected": "Rise. When the leader in a business is distracted, customers and investors look harder at its competitors.",
+        "actual": "AMD rose 5.9% and Broadcom 5.5%.",
+        "why": "The textbook link held. The Motley Fool said investors appear to see possible market-share gains for rivals. This is {{key-person-risk|key-person risk}} at one company, so the money moved next door instead of leaving chips altogether.",
+        "puzzle": false
+      },
+      {
+        "driver": "Nvidia, one of the largest US companies, fell as much as 14% during the day",
+        "asset": "The S&P 500",
+        "expected": "Falls noticeably. With {{cap-weighting|cap-weighting}}, a stock that is about 6% of the index drags the whole index down with it.",
+        "actual": "The S&P 500 fell only 0.35%, and was briefly positive during the session.",
+        "why": "Two things softened the blow. Nvidia recovered to a 4.3% loss by the close, and gains in AMD, Broadcom and Alphabet offset part of it. A 4.3% drop in a stock with a 6% weight takes only about a quarter of a percentage point off the index, by simple multiplication.",
+        "puzzle": true
+      },
+      {
+        "driver": "Jobless claims above forecasts and home sales at their lowest since 2010",
+        "asset": "{{treasury-yield|Treasury yields}}",
+        "expected": "Fall. Signs of a slowing economy usually make investors expect lower interest rates ahead, so they buy bonds.",
+        "actual": "Rose sharply. The 10-year gained 12 {{basis-point|basis points}} to 5.10% and the 2-year 13 to 4.86%.",
+        "why": "Inflation outweighed growth. Bonds were closed on Wednesday, so Thursday was their first full chance to react to the week's {{rate-hike|rate-hike}} talk, and Vistap Global tied the rise in yields to inflation concerns. The sources read do not say how much the weak data mattered; on this evidence, very little.",
+        "puzzle": true
+      },
+      {
+        "driver": "The 10-year yield jumped to 5.10%",
+        "asset": "{{small-cap|Small-cap}} stocks",
+        "expected": "Fall more than large companies. Smaller firms borrow more at rates that reset often, so higher rates hit their profits faster.",
+        "actual": "The Russell 2000 fell about 1.7%, against 0.35% for the S&P 500.",
+        "why": "The textbook link held. Vistap Global linked the weakness in small companies to higher borrowing costs.",
+        "puzzle": false
+      },
+      {
+        "driver": "Higher yields and a dollar at its highest since April 2025",
+        "asset": "Gold",
+        "expected": "Falls. Gold pays no interest and is priced in dollars, so both moves make it less attractive.",
+        "actual": "Fell about 3% to about $3,880.",
+        "why": "The textbook link held for a third day, and more strongly, because yields moved more. An investingLive headline named higher yields and the stronger dollar.",
+        "puzzle": false
+      }
+    ]
+  },
+  "headlines": [
+    "The US government ran a budget deficit of $404 billion in October, a record for that month, Reuters reported. Bigger deficits mean more Treasury debt to sell.",
+    "The Fed's 2027 calendar drops one policy meeting: October will be used for a strategy review, and the year's last meeting moves to November from December, Reuters reported.",
+    "Cisco rose about 3% in {{after-hours-trading|after-hours trading}} after reporting quarterly revenue of $18.5 billion and raising its full-year revenue {{earnings-guidance|guidance}}.",
+    "Apple touched a record $359.37 during the day before closing down 0.1% at $354.88.",
+    "The UK economy grew 0.7% in the third quarter, in line with estimates."
+  ],
+  "watch": {
+    "when": "Fri, Nov. 13 · 8:30 AM ET",
+    "title": "October PPI, with yields already above 5%",
+    "text": "The Producer Price Index shows the prices businesses receive, and it arrives with the 10-year {{treasury-yield|Treasury yield}} at 5.10%. A second hot inflation report after Tuesday's {{cpi|CPI}} would strengthen the case for a half-point {{rate-hike|hike}} at the December {{fomc|FOMC}} meeting; a mild one would give bonds a rest. Four Fed officials also speak on Friday: Susan Collins, Lorie Logan, Michelle Bowman and Mary Daly. And watch whether Nvidia holds Thursday's recovery ahead of its results on November 17."
+  },
+  "sources": [
+    {
+      "name": "CNBC",
+      "title": "Nasdaq Composite slides as Nvidia shares tumble on Jensen Huang's exit; oil prices jump",
+      "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html"
+    },
+    {
+      "name": "Reuters via Investing.com",
+      "title": "Trading Day: Weathering the Nvidia storm",
+      "url": "https://www.investing.com/news/economy-news/trading-day-weathering-the-nvidia-storm-5023430"
+    },
+    {
+      "name": "The Motley Fool",
+      "title": "Stock Market Today, Nov. 12: Nvidia CEO's Stunning Exit Sends Wall Street Lower as Rivals Surge",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
+    },
+    {
+      "name": "TechFlow",
+      "title": "US Stock Market Trends (November 13): NVIDIA closes down 4.3% following Jensen Huang's resignation",
+      "url": "https://www.techflowpost.com/en-US/article/35340"
+    },
+    {
+      "name": "Vistap Global",
+      "title": "Stock Market Today, November 12, 2026: Stocks Fall as Treasury Yields Hit 5.10%, Oil Rises and Nvidia Faces Leadership Reset",
+      "url": "https://vistapglobal.com/stock-market-today-november-12-2026-stocks-fall-as-treasury-yields-hit-5-10-oil-rises-and-nvidia-faces-leadership-reset-amd-crwv-eprx-googl-modd-msft-nvda-ser-spcx-ttek-ual/"
+    },
+    {
+      "name": "investingLive",
+      "title": "investingLive European session wrap: Gold stumbles, equities mixed as Nvidia drags US futures down",
+      "url": "https://investinglive.com/news/investinglive-european-fx-news-wrap-12-nov/"
+    },
+    {
+      "name": "U.S. Treasury",
+      "title": "Daily Treasury Par Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
+    },
+    {
+      "name": "U.S. Bureau of Labor Statistics",
+      "title": "Schedule of Releases for the Producer Price Index",
+      "url": "https://www.bls.gov/schedule/news_release/ppi.htm"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Nvidia fell 4.3% after its CEO resigned, while AMD rose 5.9% and Broadcom 5.5%. What does that pattern tell you?",
+      "options": [
+        "Investors were selling all chip stocks",
+        "AMD and Broadcom reported strong earnings that day",
+        "Investors treated it as one company's problem and moved money to its competitors",
+        "The Fed announced support for chipmakers"
+      ],
+      "answer": 2,
+      "explain": "A CEO's sudden exit is {{key-person-risk|key-person risk}}, a kind of {{idiosyncratic-risk|idiosyncratic risk}}. It hurts that company, and investors saw a chance for rivals to win market share, so the money stayed in chips but changed seats."
+    },
+    {
+      "q": "Jobless claims came in above forecasts and existing home sales fell to their lowest since 2010. Why did Treasury yields rise anyway?",
+      "options": [
+        "Worries about inflation and Fed rate hikes outweighed the signs of slower growth",
+        "Weak economic data always pushes yields up",
+        "The bond market was closed, so yields were set by the stock market",
+        "The Treasury stopped selling bonds"
+      ],
+      "answer": 0,
+      "explain": "Weak {{jobless-claims|jobless claims}} and {{existing-home-sales|existing home sales}} would normally pull {{treasury-yield|Treasury yields}} down. But after Tuesday's hot CPI, traders are focused on {{rate-hike|rate hikes}}, and that pushed the 10-year up 12 basis points to 5.10%."
+    },
+    {
+      "q": "The Russell 2000 fell about 1.7% while the S&P 500 fell 0.35%. Why were small companies hit harder on a day when yields jumped?",
+      "options": [
+        "Small companies hold more gold",
+        "Nvidia is the largest stock in the Russell 2000",
+        "Small companies are not affected by interest rates",
+        "Small companies rely more on borrowing, so higher rates hurt their profits faster"
+      ],
+      "answer": 3,
+      "explain": "{{small-cap|Small-cap}} companies tend to carry more debt at rates that reset often. When the 10-year {{treasury-yield|Treasury yield}} jumps, their borrowing costs rise sooner than those of large, cash-rich companies."
+    },
+    {
+      "q": "Nvidia is about 6% of the S&P 500 but only about 2% of the Dow. Why the difference?",
+      "options": [
+        "The Dow excludes technology companies",
+        "The S&P 500 weights companies by market value, while the Dow weights them by share price",
+        "The Dow counts each company equally",
+        "Nvidia is listed twice in the S&P 500"
+      ],
+      "answer": 1,
+      "explain": "The S&P 500 uses {{cap-weighting|cap-weighting}}, so a company worth trillions gets a big weight. The Dow is a {{price-weighted-index|price-weighted index}}: a stock's weight depends on its share price, not on the size of the company."
+    }
+  ]
+}
