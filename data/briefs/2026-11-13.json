@@ -1,0 +1,300 @@
+{
+  "date": "2026-11-13",
+  "weekday": "Friday",
+  "title": "A cooler PPI brings no relief: yields climb and chip stocks slide",
+  "oneLiner": "Producer prices rose less than forecast in October, but the 10-year {{treasury-yield|Treasury yield}} still climbed to 5.15% and chip stocks sold off, so the Nasdaq fell 0.9% while the Dow edged up 0.1%. All three indexes still finished their best week since early August.",
+  "scoreboard": [
+    {
+      "label": "Dow Jones",
+      "value": "+0.1%",
+      "note": "52,347.55",
+      "dir": "up"
+    },
+    {
+      "label": "S&P 500",
+      "value": "−0.4%",
+      "note": "7,561.67",
+      "dir": "down"
+    },
+    {
+      "label": "Nasdaq",
+      "value": "−0.9%",
+      "note": "25,136.27",
+      "dir": "down"
+    },
+    {
+      "label": "Russell 2000",
+      "value": "−0.3%",
+      "note": "2,790.49; small companies",
+      "dir": "down",
+      "term": "small-cap"
+    },
+    {
+      "label": "Nvidia",
+      "value": "−2.0%",
+      "note": "$162.85; HSBC downgrade",
+      "dir": "down",
+      "term": "analyst-downgrade"
+    },
+    {
+      "label": "AMD",
+      "value": "≈ −9%",
+      "note": "Thursday's winner",
+      "dir": "down"
+    },
+    {
+      "label": "10Y Treasury",
+      "value": "5.15%",
+      "note": "+5 bp",
+      "dir": "up",
+      "term": "treasury-yield"
+    },
+    {
+      "label": "2Y Treasury",
+      "value": "4.88%",
+      "note": "+2 bp",
+      "dir": "up",
+      "term": "two-year-yield"
+    },
+    {
+      "label": "Dollar index",
+      "value": "103.38",
+      "note": "+0.2%; highest since April 2025",
+      "dir": "up",
+      "term": "dollar-index"
+    },
+    {
+      "label": "WTI crude",
+      "value": "$88.56",
+      "note": "−0.2%",
+      "dir": "down",
+      "term": "wti"
+    },
+    {
+      "label": "Gold",
+      "value": "≈ $3,886",
+      "note": "about flat; ≈ −4% on the week",
+      "dir": "flat"
+    },
+    {
+      "label": "Bitcoin",
+      "value": "≈ $69,000",
+      "note": "below $70,000",
+      "dir": "down"
+    },
+    {
+      "label": "VIX",
+      "value": "19.30",
+      "note": "+3%",
+      "dir": "up",
+      "term": "vix"
+    }
+  ],
+  "sections": [
+    {
+      "kicker": "Economic data",
+      "title": "Producer prices: a cooler month, a hotter year",
+      "paragraphs": [
+        "Thursday's brief said the {{ppi|Producer Price Index}} was the next test. It measures the prices businesses receive for what they sell, so it shows cost pressure before it reaches shoppers. The Bureau of Labor Statistics said the index rose 0.3% in October from September. The {{consensus-forecast|consensus forecast}} of economists polled by Dow Jones was 0.4%, and September's rise was 1.4%, so on a {{month-over-month|month-over-month}} basis this was a clear slowdown.",
+        "The yearly picture is less comfortable. Producer prices were 6.5% higher than a year earlier, which CNBC called the largest 12-month rise since November 2022. Investrade put the forecast for that figure at 6.6%, so it too was a touch below expectations, but it is still a high number.",
+        "The detail explains why nobody celebrated. Prices for goods rose 0.5% in the month and are up 10.2% over the year. Food rose 1.3%. Energy fell 0.1%; Brisk Markets noted that diesel fuel dropped 7.9%. Services rose 0.2%. The BLS's measure that leaves out foods, energy and trade services rose 0.5% in the month and 4.9% over the year. This is the same pattern as Tuesday's {{cpi|CPI}}: energy has stopped pushing prices up, and the rest of the basket is still rising."
+      ]
+    },
+    {
+      "kicker": "Rates & the Fed",
+      "title": "A softer number, and yields rose anyway",
+      "paragraphs": [
+        "Thursday's brief said a mild report “would give bonds a rest.” For a short while it did. Brisk Markets reported that right after the release the 10-year {{treasury-yield|Treasury yield}} eased toward 5.13% and the {{two-year-yield|2-year}} toward 4.84%, and S&P 500 futures rose 0.6%. It did not last. Yahoo Finance said the 10-year went as high as 5.17% during the day. By the U.S. Treasury's official closing figures, the 10-year ended at 5.15%, up 5 {{basis-point|basis points}}, and the 2-year at 4.88%, up 2.",
+        "For the week the moves are large. By the Treasury's figures the 2-year rose 37 basis points, from 4.51% last Friday, and the 10-year rose 29, from 4.86%. Investrade called it the 2-year's biggest weekly jump since September 2024. One small change on Friday: the 10-year rose more than the 2-year, so the {{yield-curve|yield curve}} steepened slightly after the four sessions of flattening that Thursday's brief described.",
+        "Fed officials gave bond buyers no reason to step in. Boston Fed President Susan Collins said on Friday that soon “some additional firming, tightening of policy is appropriate,” and that a tighter path than the one she had in mind a couple of months ago “might be appropriate,” according to Reuters. She described her best case as “a careful adjustment of policy.” Talk like this is called {{hawkish|hawkish}}: it leans toward higher interest rates to fight inflation.",
+        "The odds for the size of the next {{rate-hike|hike}} barely moved. CNBC reported that {{fedwatch|CME FedWatch}} shows a hike at the December {{fomc|FOMC}} meeting as fully priced in, with about an 87% chance of a quarter point and about 13% of a half point. That is about where the half-point odds stood after Tuesday's CPI. So the PPI report did not change what traders expect from the Fed in December, in either direction."
+      ]
+    },
+    {
+      "kicker": "Equities",
+      "title": "Thursday's rotation reverses, and the week still ends higher",
+      "paragraphs": [
+        "The Nasdaq fell 0.91% to 25,136.27 and the S&P 500 fell 0.4% to 7,561.67, while the Dow rose 50.46 points, or 0.1%, to 52,347.55. Stocks opened higher after the PPI report, with the Dow up 208 points, and then turned. The split between the indexes follows the sectors. 24/7 Wall St. put technology down 2.0%, while consumer staples rose 1.4%, communication services 1.1% and energy 1.0%. Staples are {{defensive-stocks|defensive stocks}}: companies that sell things people buy in any economy. The Dow holds less technology than the Nasdaq, which is why it finished up.",
+        "Nvidia fell another 2.0% to $162.85, a new 52-week low. StockTitan noted that is about 13% below its close of $186.64 on November 6, and Yahoo Finance said the company's market value closed below $4 trillion. HSBC issued an {{analyst-downgrade|analyst downgrade}}, cutting the stock to hold from buy and lowering its {{price-target|price target}} to $170 from $365.",
+        "The bigger change was in Nvidia's rivals. On Thursday investors sold Nvidia and bought its competitors: AMD rose 5.9% and Broadcom 5.5%. On Friday that {{sector-rotation|rotation}} reversed. AMD fell 8.75%, more than it had gained, and Broadcom fell about 5% (sources give 4.8% to about 6%) after Rothschild Redburn cut it to neutral. Yahoo Finance listed Intel and Micron down about 5% each and SanDisk down 9%, and described a chip-sector sell-off tied to the inflation data and to uncertainty after Jensen Huang's resignation. Investrade said industrial companies linked to AI data centers, such as Caterpillar, GE Vernova and Vertiv, declined too.",
+        "Some money looked for safety inside the stock market. CNBC said Apple rose nearly 1%, touched a record $360.80 during the day and passed $5.2 trillion in market value as investors sought safety. The Russell 2000 index of {{small-cap|small-cap}} stocks fell 0.31% to 2,790.49, a much smaller loss than Thursday's. The {{vix|VIX}} rose about 3% to 19.30, after climbing above 20 in the morning.",
+        "Step back to the whole week and the picture is better than Friday suggests. CNBC said the S&P 500 gained 2.5%, the Nasdaq 2.3% and the Dow 2.1%, the best week for all three since early August. Investrade said the S&P 500 and Nasdaq ended four-week losing streaks and that all eleven S&P 500 sectors rose for the week. That happened in a week with a hot CPI report, a 10-year yield above 5% and the resignation of Nvidia's CEO; Yahoo Finance put Nvidia's own loss for the week at roughly 12%."
+      ]
+    },
+    {
+      "kicker": "Commodities & currencies",
+      "title": "The dollar hits a new high for the year; gold stops falling; bitcoin drops below $70,000",
+      "paragraphs": [
+        "The {{dollar-index|dollar index}} rose 0.2% to 103.38, its highest since April 2025, and gained about 1% for the week, Investrade said. FXStreet counted a third straight weekly gain and tied it to the Fed. The logic is simple: when US interest rates rise, holding dollars pays more, so investors buy them. The Japanese yen tested 160 per dollar, and Japan's finance minister said the government would respond appropriately to currency swings.",
+        "Gold did something it had not done since Monday: it did not fall. December gold futures rose $1.00 to $3,886.30 an ounce, ending a three-day losing streak, according to Investrade. Gold still lost about 4% for the week, and FXStreet said Thursday's low of $3,852 was its lowest since October 2025. With yields and the dollar both higher on Friday, the textbook says gold should have dropped again. That is one of the puzzles below.",
+        "Oil was quiet. {{wti|WTI crude}} settled down 18 cents, or 0.2%, at $88.56 a barrel, and {{brent|Brent}} rose 2 cents to $95.84. Both lost about 2.5% for the week, their second weekly decline in a row. Reuters gave two reasons: an International Energy Agency report on Friday pointed to a growing global oil surplus, and the US plans to keep its blockade of Iran, which lowers the chance of renewed large-scale fighting. The {{risk-premium|risk premium}} has not vanished. Iran's military said four oil tankers were hit by explosions in the Strait of Hormuz, a claim Reuters could not immediately verify.",
+        "Bitcoin fell below $70,000 for the first time since August. CNBC reported a low of $67,632.68, with the price later near $69,231, and said it is on track for a sixth straight weekly decline. Leveraged bets worth more than $1 billion were forcibly closed this week, which adds selling on the way down."
+      ]
+    }
+  ],
+  "connections": {
+    "intro": "Markets move together, but not always the way the textbook predicts. Each card takes one of today's drivers, says what it should have done to another market, and compares that with what happened. The mismatches are where the day's real story is.",
+    "items": [
+      {
+        "driver": "The {{ppi|PPI}} rose 0.3% in October, below the 0.4% {{consensus-forecast|consensus}}",
+        "asset": "{{treasury-yield|Treasury yields}}",
+        "expected": "Fall. An inflation report that comes in below forecasts usually lowers the interest rates investors expect, so they buy bonds.",
+        "actual": "Yields eased right after the release, then rose. The 10-year closed up 5 {{basis-point|basis points}} at 5.15% and the 2-year up 2 at 4.88%.",
+        "why": "The monthly number was mild, but the rest of the report was not: prices are up 6.5% over the year, the most since November 2022, and the measure without foods, energy and trade services rose 0.5%. Yahoo Finance said the data keeps pressure on the Fed to hike, and Susan Collins said the same morning that more tightening is appropriate soon. The odds of a half-point {{rate-hike|hike}} stayed near 13%.",
+        "puzzle": true
+      },
+      {
+        "driver": "The 10-year yield rose to 5.15%, after touching 5.17%",
+        "asset": "Technology stocks against {{defensive-stocks|defensive stocks}}",
+        "expected": "Technology falls the most. Much of its value rests on profits expected far in the future, which are worth less today when interest rates rise. Companies with steady sales hold up better.",
+        "actual": "Technology fell 2.0% and consumer staples rose 1.4%. The Nasdaq lost 0.91% while the Dow gained 0.1%.",
+        "why": "The textbook link held. 24/7 Wall St. described the day as money moving out of technology and into everything else.",
+        "puzzle": false
+      },
+      {
+        "driver": "Nvidia fell another 2.0% and HSBC downgraded it",
+        "asset": "Rival chipmakers",
+        "expected": "Rise, as they did on Thursday, when investors bet that rivals would win business while Nvidia sorts out its leadership.",
+        "actual": "AMD fell 8.75% and Broadcom about 5%, both more than Nvidia.",
+        "why": "Thursday's {{sector-rotation|rotation}} did not last a second day. Yahoo Finance described a sell-off across chip stocks, tied to the inflation data and to uncertainty after Huang's resignation, and Broadcom received a downgrade of its own. When the worry spreads from one company to interest rates and the whole AI trade, it stops being {{idiosyncratic-risk|idiosyncratic risk}}, and competitors fall too.",
+        "puzzle": true
+      },
+      {
+        "driver": "{{hawkish|Hawkish}} Fed comments and the week's highest Treasury yields",
+        "asset": "The US dollar",
+        "expected": "Rises. Higher US interest rates pay investors more for holding dollars.",
+        "actual": "The {{dollar-index|dollar index}} rose 0.2% to 103.38, its highest since April 2025.",
+        "why": "The textbook link held. FXStreet tied the dollar's third straight weekly gain to Fed officials leaning toward more hikes.",
+        "puzzle": false
+      },
+      {
+        "driver": "Higher yields and a stronger dollar",
+        "asset": "Gold",
+        "expected": "Falls, as it did on each of the three days before. Gold pays no interest and is priced in dollars.",
+        "actual": "December gold futures rose $1.00 to $3,886.30, ending a three-day losing streak.",
+        "why": "The sources read do not explain this. One flat day after a loss of about 4% for the week is not evidence that the link has broken; a pause after a steep fall is common.",
+        "puzzle": true
+      }
+    ]
+  },
+  "headlines": [
+    "The Federal Aviation Administration halted departing flights at all US airports at 3:54 p.m. ET, citing a temporary telecommunications outage. Airline stocks slipped in {{after-hours-trading|after-hours trading}}; United fell 1.79%.",
+    "Cisco fell about 6% even though it reported record quarterly revenue of $18.5 billion. On Thursday evening it had risen about 3% after hours. Investrade said investors focused on slowing orders outside the largest cloud customers and on profit margins.",
+    "Anthropic's {{ipo|IPO}} is expected to price on Wednesday, November 18, at $70 to $78 a share and begin trading on Thursday, November 19, Investrade said.",
+    "Cerebras rose 16% before the opening bell after a surprise profit and revenue above expectations, and raised its 2026 revenue {{earnings-guidance|guidance}}.",
+    "Modine jumped more than 29% after hours on a report that Samsung is in talks to acquire it, CNBC said."
+  ],
+  "watch": {
+    "when": "Tue, Nov. 17 · after the close",
+    "title": "Nvidia's results, with no permanent CEO",
+    "text": "Nvidia reports quarterly results on Tuesday, November 17, at about 4:20 p.m. ET, its first report since Jensen Huang resigned. One thing to listen for, according to a commentator quoted by Investrade, is whether the company repeats its {{earnings-guidance|guidance}} for 70% sales growth. The same day brings October {{retail-sales|retail sales}}; the {{consensus-forecast|consensus}} is a 0.2% rise after 0.8% the month before, according to Newsquawk. On Wednesday, November 18, the Fed publishes the {{fomc-minutes|minutes}} of its October 27–28 meeting, which will show how close officials already were to another {{rate-hike|hike}} before this week's inflation reports."
+  },
+  "sources": [
+    {
+      "name": "CNBC",
+      "title": "Stock market news for Nov. 13, 2026",
+      "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+    },
+    {
+      "name": "Yahoo Finance",
+      "title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip to cap volatile week, Nvidia stock plunge deepens",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"
+    },
+    {
+      "name": "U.S. Bureau of Labor Statistics",
+      "title": "Producer Price Index news release, October 2026",
+      "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+    },
+    {
+      "name": "Investrade",
+      "title": "Market Review: November 13, 2026",
+      "url": "https://investrade.com/market-review-november-13-2026/"
+    },
+    {
+      "name": "24/7 Wall St.",
+      "title": "S&P 500 Closes Down 0.4% as Tech Drags and the Dow Holds Green",
+      "url": "https://247wallst.com/cards/money-moved-out-of-tech-and-into-everything-else-today-the-gspc-market-bell-01m7bbjh5wpep4vmjk7jwpas8h"
+    },
+    {
+      "name": "StockTitan",
+      "title": "Stocks Turn Lower in the Stock Market Today Live, November 13, 2026, After a Higher Open",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-13-2026"
+    },
+    {
+      "name": "Brisk Markets",
+      "title": "US PPI Report Slows to 0.3%",
+      "url": "https://www.briskmarkets.com/blog/us-ppi-report-slows-to-0-3-but-annual-prices-hit-four-year-high/"
+    },
+    {
+      "name": "Reuters via Yahoo Finance",
+      "title": "Fed's Collins says more rate hikes are coming, Bloomberg Television reports",
+      "url": "https://finance.yahoo.com/economy/policy/articles/feds-collins-says-more-rate-163318090.html"
+    },
+    {
+      "name": "Reuters via CNBC",
+      "title": "Oil prices set for second weekly decline as Trump to stay with Iran blockade",
+      "url": "https://www.cnbc.com/amp/2026/11/13/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade.html"
+    },
+    {
+      "name": "FXStreet",
+      "title": "US Dollar Weekly Forecast: Fed hawks keep bulls in charge",
+      "url": "https://fxstreet.com/analysis/us-dollar-weekly-forecast-inflation-wont-blink-the-fed-wont-back-down-202611131834"
+    },
+    {
+      "name": "Newsquawk",
+      "title": "Week in Focus: 16-20th November 2026",
+      "url": "https://www.newsquawk.com/headlines/week-in-focus--16-20th-november-2026-highlights-include-us-retail-sales-fomc-minutes-chinese-activity-data-pboc-lpr-rba-minutes-uk-inflation-and-uk-jobs"
+    },
+    {
+      "name": "U.S. Treasury",
+      "title": "Daily Treasury Par Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "The PPI rose 0.3% in October, below the 0.4% forecast, yet the 10-year Treasury yield rose 5 basis points to 5.15%. What best explains that?",
+      "options": [
+        "A cooler inflation report always pushes yields up",
+        "The monthly figure was mild, but prices were still up 6.5% over the year and Fed officials kept calling for higher rates",
+        "The bond market was closed on Friday",
+        "The Fed raised rates on Friday morning"
+      ],
+      "answer": 1,
+      "explain": "The {{ppi|PPI}} beat the {{consensus-forecast|consensus forecast}} for the month, which would normally pull {{treasury-yield|Treasury yields}} down. But the 12-month rise of 6.5% was the largest since November 2022, and the odds of a half-point {{rate-hike|hike}} in December did not fall, so bond buyers had little reason to step in."
+    },
+    {
+      "q": "On Thursday AMD rose 5.9% as Nvidia fell. On Friday Nvidia fell 2.0% and AMD fell 8.75%. What changed?",
+      "options": [
+        "AMD's CEO also resigned",
+        "Nvidia announced it would buy AMD",
+        "The Dow removed AMD from the index",
+        "The selling spread from one company's problem to chip stocks as a group, so rivals no longer benefited"
+      ],
+      "answer": 3,
+      "explain": "Thursday's move was {{sector-rotation|rotation}} driven by {{idiosyncratic-risk|idiosyncratic risk}}: a problem at Nvidia alone. On Friday the sources described a sell-off across the chip sector tied to inflation data and wider uncertainty. A worry that covers the whole group pulls competitors down too."
+    },
+    {
+      "q": "Technology stocks fell 2.0% on Friday while consumer staples rose 1.4%. Why do staples tend to hold up on a day when yields rise?",
+      "options": [
+        "People keep buying everyday goods in any economy, so these companies' profits are steady and depend less on far-off growth",
+        "Staples companies pay no taxes",
+        "Staples companies are the largest holders of gold",
+        "Staples stocks are not traded on days when yields rise"
+      ],
+      "answer": 0,
+      "explain": "Consumer staples are {{defensive-stocks|defensive stocks}}. Their sales change little with the economy, so investors move into them when rising {{treasury-yield|Treasury yields}} make fast-growing technology companies look expensive."
+    },
+    {
+      "q": "The dollar index rose to 103.38, its highest since April 2025, in a week when Fed officials kept talking about rate hikes. What is the link?",
+      "options": [
+        "The Fed sets the dollar index directly at each meeting",
+        "A stronger dollar causes the Fed to raise rates",
+        "Higher US interest rates pay investors more for holding dollars, so demand for dollars rises",
+        "The dollar rises whenever stocks fall"
+      ],
+      "answer": 2,
+      "explain": "{{hawkish|Hawkish}} comments raise the interest rates investors expect in the United States. Money moves toward the currency that pays more, and that buying lifts the {{dollar-index|dollar index}}."
+    }
+  ]
+}

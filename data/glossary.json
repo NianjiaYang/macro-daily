@@ -697,6 +697,135 @@
         "mortgage-rate",
         "treasury-yield"
       ]
+    },
+    "ppi": {
+      "term": "PPI (Producer Price Index)",
+      "category": "Economic data",
+      "firstSeen": "2026-11-13",
+      "definition": "A monthly measure of the change in prices that businesses receive for the goods and services they sell, published by the BLS. It is inflation measured at the producer's door instead of the shop counter.",
+      "why": "The PPI rose 0.3% in October, below the 0.4% forecast, but was up 6.5% from a year earlier, the largest 12-month rise since November 2022. Treasury yields rose anyway.",
+      "chain": [
+        "Businesses buy materials, fuel, freight and services from other businesses.",
+        "The PPI tracks the prices paid at that stage, before products reach shoppers.",
+        "When those costs rise, companies either accept lower profits or raise their own prices.",
+        "Price increases that are passed on show up later in the {{cpi|CPI}}.",
+        "So traders read the PPI as an early signal of consumer inflation, and of what the Fed may do about it."
+      ],
+      "related": [
+        "cpi",
+        "core-inflation",
+        "month-over-month"
+      ]
+    },
+    "hawkish": {
+      "term": "Hawkish (and dovish)",
+      "category": "Fed",
+      "firstSeen": "2026-11-13",
+      "definition": "A hawkish central banker leans toward higher interest rates to fight inflation. A dovish one leans toward lower rates to support jobs and growth.",
+      "why": "Boston Fed President Susan Collins said on Friday that “some additional firming, tightening of policy is appropriate” soon. Comments like that kept Treasury yields and the dollar rising even after a cooler PPI report.",
+      "chain": [
+        "Fed officials give speeches and interviews between meetings.",
+        "Traders listen for whether each official wants rates higher (hawkish) or lower (dovish).",
+        "Hawkish comments raise the interest rates that traders expect.",
+        "Higher expected rates push up {{treasury-yield|Treasury yields}} and the {{dollar-index|dollar}}.",
+        "They usually weigh on stocks and gold."
+      ],
+      "related": [
+        "rate-hike",
+        "fomc",
+        "fedwatch"
+      ]
+    },
+    "defensive-stocks": {
+      "term": "Defensive stocks",
+      "category": "Equities",
+      "firstSeen": "2026-11-13",
+      "definition": "Shares of companies whose sales hold steady in good and bad economies, such as makers of food and household goods (consumer staples), utilities and health care.",
+      "why": "On Friday the technology sector fell 2.0% while consumer staples rose 1.4%, as the 10-year Treasury yield climbed to 5.15%.",
+      "chain": [
+        "People keep buying food, soap and electricity whatever the economy does.",
+        "That makes these companies' profits steady and easy to predict.",
+        "Fast-growing technology companies are valued on profits expected far in the future.",
+        "Rising interest rates make those far-off profits worth less today.",
+        "So on days when yields rise, investors often move from technology into defensive stocks: a form of {{sector-rotation|sector rotation}}."
+      ],
+      "related": [
+        "sector-rotation",
+        "treasury-yield"
+      ]
+    },
+    "price-target": {
+      "term": "Price target",
+      "category": "Equities",
+      "firstSeen": "2026-11-13",
+      "definition": "An analyst's estimate of what a stock's share price will be at a future date, usually 12 months ahead. It comes with a rating such as buy, hold or sell.",
+      "why": "HSBC cut its price target for Nvidia to $170 from $365 and lowered its rating to hold from buy, after the CEO's resignation.",
+      "chain": [
+        "An analyst forecasts a company's future profits.",
+        "From those profits the analyst works out what the shares should be worth.",
+        "That value is published as a price target.",
+        "A large cut tells investors the analyst now expects lower profits or sees more risk.",
+        "It often arrives together with an {{analyst-downgrade|analyst downgrade}} and can push the stock down."
+      ],
+      "related": [
+        "analyst-downgrade",
+        "analyst-upgrade"
+      ]
+    },
+    "ipo": {
+      "term": "IPO (initial public offering)",
+      "category": "Market structure",
+      "firstSeen": "2026-11-13",
+      "definition": "The first sale of a company's shares to the public. After the IPO the shares trade on a stock exchange and anyone can buy them.",
+      "why": "Anthropic's IPO is expected to price on November 18 at $70 to $78 a share and begin trading on November 19.",
+      "chain": [
+        "A private company decides to sell shares to the public to raise money.",
+        "Banks collect orders from investors and help set a price range.",
+        "On the pricing date the company fixes the final price and sells the shares.",
+        "The next day the shares start trading on an exchange, where the price can jump or fall.",
+        "A very large IPO can pull money out of other stocks, because investors sell something else to pay for it."
+      ],
+      "related": [
+        "after-hours-trading"
+      ]
+    },
+    "retail-sales": {
+      "term": "Retail sales",
+      "category": "Economic data",
+      "firstSeen": "2026-11-13",
+      "definition": "A monthly Census Bureau report on how much money stores, restaurants and online sellers took in. It is the main quick reading on consumer spending.",
+      "why": "October retail sales are due on Tuesday, November 17. The consensus is a rise of 0.2%, after 0.8% the month before.",
+      "chain": [
+        "Consumer spending is the largest part of the US economy.",
+        "Retail sales show each month whether shoppers are spending more or less.",
+        "Strong spending means demand is strong, which lets businesses keep raising prices.",
+        "That would give the Fed more reason for a {{rate-hike|rate hike}}.",
+        "Weak spending points to a slowing economy and takes some pressure off."
+      ],
+      "related": [
+        "consensus-forecast",
+        "month-over-month",
+        "rate-hike"
+      ]
+    },
+    "fomc-minutes": {
+      "term": "FOMC minutes",
+      "category": "Fed",
+      "firstSeen": "2026-11-13",
+      "definition": "A detailed written record of a Fed policy meeting, published about three weeks after it. It shows what officials discussed and where they disagreed.",
+      "why": "The minutes of the Fed's October 27–28 meeting come out on Wednesday, November 18. They will show how close officials were to another hike before this week's inflation reports.",
+      "chain": [
+        "After each {{fomc|FOMC}} meeting the Fed publishes a short statement and its rate decision.",
+        "The statement says little about the debate behind the decision.",
+        "The minutes fill that in: how many officials worried about inflation, and how strongly.",
+        "Traders compare the tone with what they already expect.",
+        "If the minutes sound more {{hawkish|hawkish}} than expected, yields tend to rise."
+      ],
+      "related": [
+        "fomc",
+        "hawkish",
+        "rate-hike"
+      ]
     }
   }
 }

@@ -1,0 +1,111 @@
+{
+  "week": "2026-11-13",
+  "range": "Nov. 9–13, 2026",
+  "title": "Hot inflation, a CEO exit and a 5% yield: the week stocks rose anyway",
+  "questions": [
+    {
+      "kind": "term",
+      "q": "On Thursday the 2-year Treasury yield rose 13 basis points and the 10-year rose 12, and Reuters said short-term yields had risen more than long-term ones for a fourth straight session. What is that pattern called, and what does it signal?",
+      "options": [
+        "A Treasury auction tail; it signals that the government has stopped borrowing",
+        "A relief rally; it signals that bond prices are recovering",
+        "A flattening yield curve; it signals that investors expect the Fed to push short-term rates up now",
+        "A risk premium; it signals that oil supply is in danger"
+      ],
+      "answer": 2,
+      "explain": "The {{yield-curve|yield curve}} flattens when short-term yields rise faster than long-term ones. The {{two-year-yield|2-year yield}} follows the Fed's next few moves most closely, so it led the way in a week when traders priced in a December {{rate-hike|rate hike}}.",
+      "days": ["2026-11-12"]
+    },
+    {
+      "kind": "term",
+      "q": "On Thursday President Trump posted that a deal with Iran was no longer needed, and WTI crude rose about 2.6% to $88.74. No oil supply was actually lost that day. What explains the jump?",
+      "options": [
+        "The risk premium for the Strait of Hormuz went back into the price once hopes for a deal faded",
+        "US crude inventories fell to zero",
+        "The Fed cut interest rates",
+        "A stronger dollar always makes oil more expensive in dollars"
+      ],
+      "answer": 0,
+      "explain": "A {{risk-premium|risk premium}} is the extra amount buyers pay because something might go wrong. Hopes for a US–Iran deal had been holding {{wti|WTI}} down; when the hope was removed, the price rose even though supply had not changed.",
+      "days": ["2026-11-12"]
+    },
+    {
+      "kind": "term",
+      "q": "CoreWeave lost $709 million in the quarter, yet its stock rose about 24% on Wednesday. One reason was that its revenue backlog reached about $132.5 billion, up from $104 billion in June. What does that number tell investors?",
+      "options": [
+        "How much cash the company has in the bank",
+        "How much the company owes its lenders",
+        "How many shares were traded after hours",
+        "How much future revenue is already under signed contract but not yet delivered"
+      ],
+      "answer": 3,
+      "explain": "A {{revenue-backlog|revenue backlog}} is work customers have already agreed to pay for. Investors had been asking whether AI spending could last, and a growing backlog, together with raised {{earnings-guidance|guidance}}, answered that worry for the moment.",
+      "days": ["2026-11-11"]
+    },
+    {
+      "kind": "term",
+      "q": "On Thursday a sale of new 30-year Treasury bonds “tailed” by half a basis point. What does that mean?",
+      "options": [
+        "The sale was cancelled for lack of bidders",
+        "The government had to pay a slightly higher yield than the market expected, a sign of lackluster demand",
+        "The bonds were sold only to small investors",
+        "The bonds' yield came out lower than expected because demand was strong"
+      ],
+      "answer": 1,
+      "explain": "In a {{treasury-auction|Treasury auction}} the government sells debt to the highest bidders. A tail means buyers demanded more yield than expected. It came on a day when the 10-year {{treasury-yield|Treasury yield}} was already jumping to 5.10%.",
+      "days": ["2026-11-12"]
+    },
+    {
+      "kind": "connect",
+      "q": "Tuesday's CPI came in above forecasts and Friday's PPI came in below them, yet both reports worried the bond market. What did the two reports have in common?",
+      "options": [
+        "Both showed prices falling across the board",
+        "In both, energy had stopped driving prices up while the rest of the basket kept rising",
+        "Both were delayed by the Veterans Day holiday",
+        "Both showed gasoline as the main source of inflation"
+      ],
+      "answer": 1,
+      "explain": "In the {{cpi|CPI}}, energy slowed sharply but {{core-inflation|core}} prices still rose 0.3%. In the {{ppi|PPI}}, energy fell 0.1% while the measure without foods, energy and trade services rose 0.5%. Inflation that has spread beyond fuel does not fade when oil gets cheaper, which is why yields kept rising.",
+      "days": ["2026-11-10", "2026-11-13"]
+    },
+    {
+      "kind": "connect",
+      "q": "On Wednesday the Nasdaq rose 1.6% while the bond market was closed, and the brief called Thursday “the real test.” What did Thursday show?",
+      "options": [
+        "Bonds rallied and yields fell, confirming the stock rally",
+        "The bond market stayed closed for a second day",
+        "Stocks no longer react to interest rates",
+        "The rate pressure had only been switched off for a day: the 10-year yield jumped to 5.10% and small-cap stocks fell about 1.7%"
+      ],
+      "answer": 3,
+      "explain": "With bonds closed, {{treasury-yield|Treasury yields}} could not rise on Wednesday. When trading resumed, the 10-year gained 12 {{basis-point|basis points}} from Tuesday, and {{small-cap|small-cap}} companies, which rely more on borrowing, were hit hardest.",
+      "days": ["2026-11-11", "2026-11-12"]
+    },
+    {
+      "kind": "connect",
+      "q": "Monday's brief asked whether the chip-led rebound was a real turn or only a relief rally. By Friday the S&P 500 had gained 2.5% for the week and ended a four-week losing streak. What is the fairest reading?",
+      "options": [
+        "The rebound survived a hot CPI report and a 10-year yield above 5%, but Friday's 2.0% drop in technology shows the pressure from rates has not gone away",
+        "It was only a relief rally, because stocks ended the week lower than they started",
+        "Interest rates stopped mattering to stocks after Monday",
+        "The rebound happened because Treasury yields fell all week"
+      ],
+      "answer": 0,
+      "explain": "A {{relief-rally|relief rally}} fades when the original problem returns. This one held through the week's tests, helped by CoreWeave's results on Wednesday, which gave {{dip-buying|dip-buyers}} a reason. But yields ended the week higher, and on Friday technology fell while {{defensive-stocks|defensive stocks}} rose.",
+      "days": ["2026-11-09", "2026-11-10", "2026-11-11", "2026-11-13"]
+    },
+    {
+      "kind": "connect",
+      "q": "Gold fell 2.6% on Tuesday and about 3% on Thursday. On both days Treasury yields and the dollar index rose. Why do those two moves push gold down?",
+      "options": [
+        "Gold miners must pay the Fed's interest rate on their output",
+        "A stronger dollar means the US government sells its gold reserves",
+        "Gold pays no interest and is priced in dollars, so higher yields and a stronger dollar both make it less attractive to hold",
+        "Gold only falls when oil rises"
+      ],
+      "answer": 2,
+      "explain": "When {{treasury-yield|Treasury yields}} rise, bonds pay more while gold still pays nothing. When the {{dollar-index|dollar index}} rises, gold costs more for buyers using other currencies. The link held from Tuesday to Thursday; Friday, when gold was about flat, was the exception the sources did not explain.",
+      "days": ["2026-11-10", "2026-11-12", "2026-11-13"]
+    }
+  ]
+}
