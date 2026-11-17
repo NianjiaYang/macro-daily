@@ -1,0 +1,303 @@
+{
+  "date": "2026-11-16",
+  "weekday": "Monday",
+  "title": "The Nasdaq falls into a correction as the chip sell-off spreads",
+  "oneLiner": "Chip stocks sank again after a new US rule on remote access to advanced AI chips and more uncertainty at Nvidia, so the Nasdaq fell 2.5% and is now in a {{market-correction|correction}}. Money moved into Treasuries, where the 10-year {{treasury-yield|yield}} eased to 5.12%, and oil dropped about 3%.",
+  "scoreboard": [
+    {
+      "label": "Dow Jones",
+      "value": "−1.4%",
+      "note": "51,608.17",
+      "dir": "down"
+    },
+    {
+      "label": "S&P 500",
+      "value": "−1.9%",
+      "note": "7,416.59; third loss in a row",
+      "dir": "down"
+    },
+    {
+      "label": "Nasdaq",
+      "value": "−2.5%",
+      "note": "24,509.76; in a correction",
+      "dir": "down",
+      "term": "market-correction"
+    },
+    {
+      "label": "Russell 2000",
+      "value": "−1.7%",
+      "note": "2,742.94; small companies",
+      "dir": "down",
+      "term": "small-cap"
+    },
+    {
+      "label": "Nvidia",
+      "value": "−4.1%",
+      "note": "$156.14; results on Tuesday",
+      "dir": "down"
+    },
+    {
+      "label": "AMD",
+      "value": "−5.6%",
+      "note": "$504.28; chip export rule",
+      "dir": "down",
+      "term": "export-controls"
+    },
+    {
+      "label": "10Y Treasury",
+      "value": "5.12%",
+      "note": "−3 bp",
+      "dir": "down",
+      "term": "treasury-yield"
+    },
+    {
+      "label": "2Y Treasury",
+      "value": "4.83%",
+      "note": "−5 bp",
+      "dir": "down",
+      "term": "two-year-yield"
+    },
+    {
+      "label": "Dollar index",
+      "value": "≈ 103.50",
+      "note": "+0.1%; highest since April 2025",
+      "dir": "up",
+      "term": "dollar-index"
+    },
+    {
+      "label": "WTI crude",
+      "value": "≈ $85.72",
+      "note": "−3.2%",
+      "dir": "down",
+      "term": "wti"
+    },
+    {
+      "label": "Gold",
+      "value": "≈ $3,852",
+      "note": "−0.9%",
+      "dir": "down"
+    },
+    {
+      "label": "Bitcoin",
+      "value": "≈ $64,500",
+      "note": "weekend low near $62,000",
+      "dir": "down"
+    },
+    {
+      "label": "VIX",
+      "value": "≈ 23",
+      "note": "about +19%; sources differ",
+      "dir": "up",
+      "term": "vix"
+    }
+  ],
+  "sections": [
+    {
+      "kicker": "Equities",
+      "title": "The Nasdaq is now more than 10% below its record",
+      "paragraphs": [
+        "Friday's brief ended with the best week for stocks since early August. Monday took most of that back. The Nasdaq fell 626.52 points, or 2.5%, to 24,509.76. The S&P 500 fell 145.08 points, or 1.9%, to 7,416.59, its third loss in a row according to the Associated Press. The Dow fell 739.38 points, or 1.4%, to 51,608.17, and the Russell 2000 index of {{small-cap|small-cap}} stocks fell 1.7% to 2,742.94.",
+        "The Nasdaq's close matters for a second reason. The Weekend Spread said session coverage put it 10.9% below its high of October 6. A fall of 10% or more from a recent peak is called a {{market-correction|correction}}. It is a label, not a forecast, but it tells you this is no longer a one-day wobble.",
+        "The selling started in chips and spread. Nvidia fell 4.1% to $156.14. StockTitan noted that is about 10% below its $173.73 close on November 11, the last close before Jensen Huang's resignation was announced. Micron fell 7.6%, Intel 7.0%, AMD 5.6% to $504.28 and Broadcom 3.9%. SOXX, a {{semiconductor-etf|semiconductor ETF}}, lost 5.4%. Other large technology companies followed: the Motley Fool's quote bar showed Alphabet down 3.8%, Amazon 3.3%, Tesla 2.7% and Meta 2.4%. Apple lost about 1%, which made it the best performer among the big names.",
+        "The damage was wide. On the New York Stock Exchange, falling stocks outnumbered rising ones by 3.45 to 1, according to STL.News, which credited Reuters. That ratio is a measure of {{market-breadth|market breadth}}, and it shows that this was not only a technology story. 24/7 Wall St. put technology down 3.2%, energy down 2.0% and industrials down 1.8%, while consumer staples rose 0.3%. Staples are {{defensive-stocks|defensive stocks}}; Procter & Gamble rose 1.9% to a 52-week high. The {{vix|VIX}} jumped to about 23 from 19.30 on Friday. Yahoo Finance showed 22.91, up about 19%, and The Weekend Spread showed 23.72. StockTitan said it reached 24.05 during the afternoon, its highest in a week."
+      ]
+    },
+    {
+      "kicker": "Chips & policy",
+      "title": "Three pieces of bad news for chipmakers",
+      "paragraphs": [
+        "First, a new rule. On Monday the Commerce Department's Bureau of Industry and Security issued a rule on remote access to advanced AI chips. The United States already limits sales of its most advanced chips to China through {{export-controls|export controls}}. The gap was that a Chinese company could rent time on those chips in a data center in another country. StockTitan, citing CNBC, said the rule targets Chinese companies that lease Nvidia computing power from data centers abroad. The Motley Fool tied AMD's fall to the new restrictions, which it described as covering exports of advanced AI chips to Southeast Asian countries. For chipmakers the worry is simple: fewer customers they are allowed to serve.",
+        "Second, Nvidia's leadership. Friday's brief described investors waiting to see who runs the company. Over the weekend Treasury Secretary Scott Bessent urged the board to look outside the company for its next chief executive, and a person familiar with the matter told CNBC the board is not discussing bringing Huang back, StockTitan reported. Yahoo Finance said President Trump called reinstating Huang something that “certainly isn't a bad idea.” Chief Financial Officer Colette Kress is interim CEO. None of this settles the question that the {{key-person-risk|key-person risk}} entry in the glossary describes, and Yahoo Finance said the shares have fallen nearly 13% in five days.",
+        "Third, Asia sold off before New York opened. STL.News reported that South Korea's Kospi fell 3.6% and Japan's Nikkei 225 fell 2.4%. The Weekend Spread traced the selling to a research firm, SemiAnalysis, cutting its forecasts for spending on AI chips; that detail comes from one source, so treat it with care.",
+        "Early last week the briefs described Nvidia's trouble as {{idiosyncratic-risk|idiosyncratic risk}}: one company's problem, with rivals rising as it fell. By Friday the worry had spread to other chipmakers, and Monday confirmed it. A government rule and doubts about AI spending hit every chipmaker at once, and Nvidia's own results arrive on Tuesday evening."
+      ]
+    },
+    {
+      "kicker": "Rates & economic data",
+      "title": "Bonds rally as stocks fall, and a factory survey misses",
+      "paragraphs": [
+        "Treasury yields fell after rising in every session last week. By the U.S. Treasury's official closing figures, the 10-year {{treasury-yield|Treasury yield}} ended at 5.12%, down 3 {{basis-point|basis points}} from Friday's 5.15%, and the {{two-year-yield|2-year}} ended at 4.83%, down 5. Because the 2-year fell more than the 10-year, the {{yield-curve|yield curve}} steepened a little: the gap between the two is now 29 basis points, against 27 on Friday.",
+        "The sources read do not give one reason for the drop, but the textbook offers one. When stocks fall hard, some investors move money into government bonds, which are seen as the safest place to wait. That is called a {{flight-to-safety|flight to safety}}. More buyers push bond prices up, and yields move the opposite way.",
+        "The day's one economic report pointed the same direction. The New York Fed's {{empire-state-survey|Empire State Manufacturing Survey}} for November fell 18 points to 7.8. Economists polled by Dow Jones expected 16.7, StockTitan said, citing CNBC. Any reading above zero still means more factories reported growth than decline, so this is slower growth, not shrinkage. The detail was mixed. The new orders index was 3.0 and shipments 8.8. The employment index reached 18.1, its highest since June 2022. The prices-paid index fell 14 points to 45.9, which means cost increases are slowing but remain widespread.",
+        "Traders trimmed their bets on a large December {{rate-hike|hike}}. On Friday {{fedwatch|CME FedWatch}} showed about a 13% chance of a half-point move. On Monday morning The Weekend Spread put that at about 6%, with about 93% on a quarter point; STL.News gave 95.7% for a quarter point. Fed Chair Kevin Warsh spoke in San Francisco at the first hearing of the Fed's Productivity and Jobs Task Force and gave no signal on rates. He set out three ways AI could go: gains shared widely, growth with job losses, or a disappointment in which stock values fall and the economy slows. He said the technology “will have significant impact on the economy, with important implications for monetary policy down the road.”"
+      ]
+    },
+    {
+      "kicker": "Commodities & currencies",
+      "title": "Oil drops about 3% on a coming surplus; gold and bitcoin slide",
+      "paragraphs": [
+        "Oil fell sharply. {{brent|Brent}} fell about 3.5% to $92.44 a barrel, the Associated Press reported, and {{wti|WTI crude}} fell 3.2% to $85.72, according to The Weekend Spread. Reuters gave the reasons earlier in the day. The International Energy Agency now expects an {{oil-surplus|oil surplus}} in the fourth quarter: supply of 105 million barrels a day, 1.7 million more than forecast demand. It had previously forecast a shortfall. Shipments through the Strait of Hormuz have been “nearly restored to pre-war levels,” and President Trump extended a waiver that lets foreign-flagged ships carry oil between US ports.",
+        "The {{risk-premium|risk premium}} is shrinking but not gone. Iran's navy said on Sunday night that an oil tanker caught fire after hitting a naval mine east of the Strait of Hormuz, a claim Reuters could not verify. Cheaper oil hurt energy stocks, which fell 2.0%.",
+        "Gold fell again after Friday's pause. Gold futures lost 0.9% to about $3,852 an ounce, and The Weekend Spread said the spot price touched $3,830.74, its lowest since October 2025. That is a puzzle on a day when stocks sank; see the cards below.",
+        "The {{dollar-index|dollar index}} rose 0.1% to about 103.50, its highest since April 2, 2025, and the euro touched a 19-month low near 1.10 dollars, The Weekend Spread said. Bitcoin traded near $64,500 after falling to about $62,000 over the weekend. Yahoo Finance said it is down about half from its record and remains below its 200-day {{moving-average|moving average}}."
+      ]
+    }
+  ],
+  "connections": {
+    "intro": "Markets move together, but not always the way the textbook predicts. Each card takes one of today's drivers, says what it should have done to another market, and compares that with what happened. The mismatches are where the day's real story is.",
+    "items": [
+      {
+        "driver": "Stocks fell hard: the Nasdaq lost 2.5% and the {{vix|VIX}} jumped to about 23",
+        "asset": "{{treasury-yield|Treasury yields}}",
+        "expected": "Fall. In a {{flight-to-safety|flight to safety}}, investors sell stocks and buy government bonds, which pushes bond prices up and yields down.",
+        "actual": "The 10-year closed down 3 {{basis-point|basis points}} at 5.12% and the 2-year down 5 at 4.83%, by the Treasury's official figures.",
+        "why": "The textbook link held. A weaker {{empire-state-survey|factory survey}} and a drop of about 3% in oil pointed the same way, since slower growth and cheaper energy both ease pressure on the Fed. The odds of a half-point {{rate-hike|hike}} in December fell to about 6% from about 13%.",
+        "puzzle": false
+      },
+      {
+        "driver": "Treasury yields fell",
+        "asset": "Technology stocks",
+        "expected": "Rise, or at least hold up. Last week's briefs explained that higher yields hurt technology the most, so lower yields should help it the most.",
+        "actual": "Technology was the worst sector, down 3.2%, and the Nasdaq fell 2.5% into a {{market-correction|correction}}.",
+        "why": "The cause ran the other way. Stocks did not react to bonds on Monday; bonds reacted to stocks. The selling came from news about chips: a new {{export-controls|export rule}}, the open question of who will lead Nvidia, and a slide in Asian markets. Yields fell because investors were leaving stocks. A drop of 3 basis points is also too small to offset news like that.",
+        "puzzle": true
+      },
+      {
+        "driver": "A sharp sell-off in stocks, with yields lower too",
+        "asset": "Gold",
+        "expected": "Rises. Gold is a classic safe place in a scare, and lower yields make it less costly to hold something that pays no interest.",
+        "actual": "Gold futures fell 0.9% to about $3,852, and the spot price touched its lowest since October 2025.",
+        "why": "The sources read do not explain this. One thing that fits: the {{dollar-index|dollar index}} rose to about 103.50, its highest since April 2025, and a stronger dollar makes gold more expensive for buyers who use other currencies. On Monday investors looking for safety chose Treasuries and dollars, not gold.",
+        "puzzle": true
+      },
+      {
+        "driver": "Oil fell about 3% as the IEA forecast an {{oil-surplus|oil surplus}}",
+        "asset": "Energy stocks",
+        "expected": "Fall. Oil companies earn less on every barrel when the price drops.",
+        "actual": "The energy sector fell 2.0%, more than the S&P 500's 1.9%.",
+        "why": "The textbook link held. On Friday energy stocks rose 1.0% while oil was flat. On Monday {{wti|WTI}} lost 3.2% and energy went from one of the leaders to one of the weakest sectors.",
+        "puzzle": false
+      }
+    ]
+  },
+  "headlines": [
+    "Anthropic's {{ipo|IPO}} is still set to price on Wednesday night and begin trading on Thursday, November 19. Yahoo Finance said it targets a valuation of around $1.4 trillion and could be the largest public debut on record.",
+    "Tyson Foods rose 8.7% after its adjusted profit of $0.61 a share beat the $0.58 analysts expected, even though it expects sales to fall 3.5% to 5.5% in its 2027 fiscal year.",
+    "Intel fell 7.0%. Yahoo Finance reported a class action lawsuit alleging the company misled investors about PC sales and limits on its data center supply.",
+    "Summit Therapeutics fell about 16% after the Food and Drug Administration declined to approve its lung cancer drug ivonescimab with chemotherapy for now, StockTitan said.",
+    "Dell fell 7.0%, and STL.News listed other AI hardware and data center companies lower too: Super Micro Computer down 6.9%, CoreWeave 6.1% and Nebius 7.6%."
+  ],
+  "watch": {
+    "when": "Tue, Nov. 17 · 8:30 a.m. ET and after the close",
+    "title": "Retail sales in the morning, Nvidia in the evening",
+    "text": "October {{retail-sales|retail sales}} come out at 8:30 a.m. ET on Tuesday; the {{consensus-forecast|consensus}} is a 0.2% rise after 0.8% the month before, The Weekend Spread said. Home Depot and Disney report before the opening bell, and Fed officials Waller, Hammack and Williams speak during the day. Then, at about 4:20 p.m. ET, Nvidia reports its first results since Jensen Huang resigned, with interim CEO Colette Kress leading the call. After Monday's fall into a {{market-correction|correction}}, the question is whether the numbers and the {{earnings-guidance|guidance}} can steady chip stocks. On Wednesday the Fed publishes its {{fomc-minutes|minutes}} at 2:00 p.m. ET."
+  },
+  "sources": [
+    {
+      "name": "Associated Press via WTOP",
+      "title": "How major US stock indexes fared Monday 11/16/2026",
+      "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-monday-11-16-2026"
+    },
+    {
+      "name": "Yahoo Finance",
+      "title": "Stock market today: Dow and S&P 500 drop, Nasdaq sinks over 2% as Nvidia leads AI trade lower, Anthropic IPO looms",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html"
+    },
+    {
+      "name": "Motley Fool",
+      "title": "Stock Market Today, Nov. 16: Tech Selloff Deepens as AI Leadership Crisis Rattles Nasdaq",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-tech-selloff-deepens-as-ai-leadership-crisis-rattles-nasdaq/"
+    },
+    {
+      "name": "Motley Fool",
+      "title": "Stock Market Today, Nov. 16: Nvidia Sinks as U.S. Tightens AI Chip Restrictions and Analysts Slash Price Targets",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-nvidia-sinks-as-u-s-tightens-ai-chip-restrictions-and-analysts-slash-price-targets/"
+    },
+    {
+      "name": "StockTitan",
+      "title": "Stock Market Today Live, November 16, 2026: Tech Stocks Pull the Market Lower Before Nvidia's Results",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026"
+    },
+    {
+      "name": "The Weekend Spread",
+      "title": "The Close: Monday, November 16, 2026",
+      "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+    },
+    {
+      "name": "STL.News",
+      "title": "U.S. Stock Market Today: November 16, 2026",
+      "url": "https://www.stl.news/u-s-stock-market-today-november-16-2026/"
+    },
+    {
+      "name": "24/7 Wall St.",
+      "title": "S&P 500 Closes Down 2% as Nasdaq Leads Broad Market Lower",
+      "url": "https://247wallst.com/cards/tech-took-the-worst-of-it-the-nasdaq-s-2-54-drop-nearly-do-gspc-market-bell-01m7k2rvdndtgg635thrxjgnck"
+    },
+    {
+      "name": "Federal Reserve Bank of New York",
+      "title": "Empire State Manufacturing Survey, November 2026",
+      "url": "https://www.newyorkfed.org/survey/empire/empiresurvey_overview"
+    },
+    {
+      "name": "MLQ.ai",
+      "title": "New York Fed factory index falls to 7.8 in November as new orders slow while hiring hits a four-year high",
+      "url": "https://mlq.ai/news/new-york-fed-factory-index-falls-to-78-in-november-as-new-orders-slow-while-hiring-hits-a-four-year-high/"
+    },
+    {
+      "name": "Reuters via CNBC",
+      "title": "Oil prices fall on expectations of coming supply surplus",
+      "url": "https://www.cnbc.com/2026/11/16/oil-prices-fall-on-expectations-of-coming-supply-surplus.html"
+    },
+    {
+      "name": "NPR via KPBS",
+      "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
+      "url": "https://www.kpbs.org/news/science-technology/2026/11/16/u-s-tightens-controls-on-remote-access-to-ai-technology-amid-nvidia-fallout"
+    },
+    {
+      "name": "Yahoo Finance",
+      "title": "Warsh kicks off first task force hearing on how AI could fuel growth or disrupt jobs",
+      "url": "https://finance.yahoo.com/economy/policy/article/warsh-kicks-off-first-task-force-hearing-on-how-ai-could-fuel-growth-or-disrupt-jobs-171720426.html"
+    },
+    {
+      "name": "U.S. Treasury",
+      "title": "Daily Treasury Par Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "The Nasdaq closed 10.9% below its October 6 high. What does calling this a “correction” tell you?",
+      "options": [
+        "The exchange has corrected an error in the index",
+        "Prices are certain to recover within a month",
+        "The index has fallen 10% or more from a recent peak; it describes what has happened, not what comes next",
+        "The Fed has stepped in to stop the decline"
+      ],
+      "answer": 2,
+      "explain": "A {{market-correction|correction}} is a label for a fall of 10% or more from a recent high. It says nothing about the future, but it marks the point where a pullback has become a sustained decline."
+    },
+    {
+      "q": "Stocks fell sharply on Monday and the 10-year Treasury yield fell 3 basis points to 5.12%. Why would those two things happen together?",
+      "options": [
+        "Investors leaving stocks bought government bonds for safety, which pushed bond prices up and yields down",
+        "The Treasury lowers yields whenever stocks fall",
+        "Bond yields and stock prices always move in the same direction",
+        "The Fed cut interest rates on Monday"
+      ],
+      "answer": 0,
+      "explain": "This is a {{flight-to-safety|flight to safety}}. Extra demand for Treasuries raises their prices, and a bond's {{treasury-yield|yield}} falls when its price rises."
+    },
+    {
+      "q": "Last week higher yields hurt technology stocks. On Monday yields fell, yet technology was the worst sector, down 3.2%. What explains that?",
+      "options": [
+        "Lower yields always hurt technology stocks",
+        "Technology stocks do not respond to interest rates",
+        "The bond market was closed, so yields did not matter",
+        "The selling came from chip news, including a new export rule and doubts at Nvidia, and yields fell because money was leaving stocks"
+      ],
+      "answer": 3,
+      "explain": "The direction of cause matters. New {{export-controls|export controls}} and the leadership question at Nvidia pushed chip stocks down. Yields fell as a result of the {{flight-to-safety|flight to safety}}, so they could not also rescue the stocks."
+    },
+    {
+      "q": "The Empire State survey fell 18 points to 7.8, well below the 16.7 forecast. What does a reading of 7.8 mean?",
+      "options": [
+        "New York factories shrank by 7.8%",
+        "More factories still reported better conditions than worse ones, but by a much smaller margin than in October",
+        "Factory prices rose 7.8% over the year",
+        "Only 7.8% of factories answered the survey"
+      ],
+      "answer": 1,
+      "explain": "The {{empire-state-survey|Empire State survey}} is the share of firms reporting improvement minus the share reporting decline. Anything above zero means growth. Missing the {{consensus-forecast|consensus forecast}} by this much says growth slowed more than economists expected."
+    }
+  ]
+}

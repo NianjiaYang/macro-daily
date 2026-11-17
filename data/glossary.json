@@ -13,7 +13,10 @@
         "Traders who had bet against the stocks rushed to close those bets, adding fuel to the bounce.",
         "Whether the bounce lasts depends on whether the original fear — slower AI investment — is actually disproven."
       ],
-      "related": ["relief-rally", "sector-rotation"]
+      "related": [
+        "relief-rally",
+        "sector-rotation"
+      ]
     },
     "relief-rally": {
       "term": "Relief rally",
@@ -27,7 +30,10 @@
         "But if the underlying problem (here, AI-spending worries plus rising rates) hasn't changed, prices can resume falling.",
         "A durable turn usually needs a fundamental change: better earnings, softer inflation, or a shift in Fed expectations."
       ],
-      "related": ["dip-buying", "cpi"]
+      "related": [
+        "dip-buying",
+        "cpi"
+      ]
     },
     "magnificent-7": {
       "term": "Magnificent 7",
@@ -41,7 +47,10 @@
         "So a 'market' rally or sell-off is often really a Mag 7 story.",
         "Analysts check 'breadth' (how many stocks are rising) to see whether a move is broad or concentrated."
       ],
-      "related": ["cap-weighting", "idiosyncratic-risk"]
+      "related": [
+        "cap-weighting",
+        "idiosyncratic-risk"
+      ]
     },
     "semiconductor-etf": {
       "term": "Semiconductor ETF",
@@ -55,7 +64,10 @@
         "When one big holding falls but the ETF rises sharply, the other holdings must have risen even more.",
         "That gap is evidence of {{sector-rotation|rotation within the sector}}."
       ],
-      "related": ["sector-rotation", "cap-weighting"]
+      "related": [
+        "sector-rotation",
+        "cap-weighting"
+      ]
     },
     "sector-rotation": {
       "term": "Sector rotation",
@@ -70,7 +82,10 @@
         "Result: the sector ETF rose ~7.5% while its largest member fell ~5%.",
         "Lesson: a falling leader doesn't always mean a falling theme — check what its peers are doing."
       ],
-      "related": ["idiosyncratic-risk", "semiconductor-etf"]
+      "related": [
+        "idiosyncratic-risk",
+        "semiconductor-etf"
+      ]
     },
     "idiosyncratic-risk": {
       "term": "Idiosyncratic risk",
@@ -84,7 +99,10 @@
         "When a company-specific shock hits, investors often swap into similar companies to keep their theme exposure.",
         "This is why diversified portfolios and ETFs dampen single-stock blowups."
       ],
-      "related": ["sector-rotation", "magnificent-7"]
+      "related": [
+        "sector-rotation",
+        "magnificent-7"
+      ]
     },
     "cap-weighting": {
       "term": "Cap-weighting",
@@ -98,7 +116,9 @@
         "So 'the average stock' and 'the index' can tell opposite stories.",
         "Equal-weight indexes (every stock counts the same) are a common comparison to see the difference."
       ],
-      "related": ["magnificent-7"]
+      "related": [
+        "magnificent-7"
+      ]
     },
     "analyst-upgrade": {
       "term": "Analyst upgrade",
@@ -126,7 +146,11 @@
         "Banks and companies price their loans as a spread above Treasury yields.",
         "So rising Treasury yields ripple out to mortgages, car loans and corporate bonds."
       ],
-      "related": ["two-year-yield", "basis-point", "mortgage-rate"]
+      "related": [
+        "two-year-yield",
+        "basis-point",
+        "mortgage-rate"
+      ]
     },
     "two-year-yield": {
       "term": "2-year Treasury yield",
@@ -140,7 +164,11 @@
         "That's why analysts call it 'the note that tracks Fed policy most closely.'",
         "Comparing the 2-year to the 10-year (the 'yield curve') shows how the market sees short- vs. long-run rates."
       ],
-      "related": ["treasury-yield", "fedwatch", "rate-hike"]
+      "related": [
+        "treasury-yield",
+        "fedwatch",
+        "rate-hike"
+      ]
     },
     "basis-point": {
       "term": "Basis point (bp)",
@@ -154,7 +182,10 @@
         "Fed moves are typically 25 bp (a quarter point).",
         "Credit spreads, yield moves and fees are all quoted this way."
       ],
-      "related": ["treasury-yield", "rate-hike"]
+      "related": [
+        "treasury-yield",
+        "rate-hike"
+      ]
     },
     "rate-hike": {
       "term": "Rate hike",
@@ -168,7 +199,11 @@
         "Raising rates makes borrowing more expensive, slowing spending and, eventually, inflation.",
         "Higher rates also lower the present value of future profits — which hits long-duration growth stocks like tech hardest."
       ],
-      "related": ["fomc", "fedwatch", "core-inflation"]
+      "related": [
+        "fomc",
+        "fedwatch",
+        "core-inflation"
+      ]
     },
     "fomc": {
       "term": "FOMC",
@@ -182,7 +217,10 @@
         "Markets price expected decisions in advance via {{fedwatch|fed funds futures}}.",
         "Surprises versus those expectations — not the decision itself — are what move markets."
       ],
-      "related": ["rate-hike", "fedwatch"]
+      "related": [
+        "rate-hike",
+        "fedwatch"
+      ]
     },
     "fedwatch": {
       "term": "Fed funds futures / FedWatch",
@@ -196,7 +234,11 @@
         "Strong data (like the jobs beat) pushed the implied rate — and hike odds — higher.",
         "Watch how these odds move after Tuesday's CPI; a big swing means the data surprised."
       ],
-      "related": ["rate-hike", "two-year-yield", "jobs-report"]
+      "related": [
+        "rate-hike",
+        "two-year-yield",
+        "jobs-report"
+      ]
     },
     "jobs-report": {
       "term": "Jobs report (nonfarm payrolls)",
@@ -210,7 +252,10 @@
         "A jobs 'beat' therefore raises the odds of tighter policy.",
         "That's why the 10-year yield jumped after the report and hike odds rose to ~77–85%."
       ],
-      "related": ["fedwatch", "rate-hike"]
+      "related": [
+        "fedwatch",
+        "rate-hike"
+      ]
     },
     "cpi": {
       "term": "CPI (Consumer Price Index)",
@@ -224,7 +269,10 @@
         "Hotter-than-expected CPI → higher expected Fed rates → higher yields → pressure on stocks.",
         "Cooler-than-expected CPI → the opposite, often sparking rallies in rate-sensitive stocks."
       ],
-      "related": ["core-inflation", "rate-hike"]
+      "related": [
+        "core-inflation",
+        "rate-hike"
+      ]
     },
     "core-inflation": {
       "term": "Core inflation",
@@ -238,7 +286,11 @@
         "Fed researchers find that pass-through has gotten stronger since the pandemic.",
         "If true, the Fed can't simply wait out the oil shock — another reason markets expect a hike."
       ],
-      "related": ["cpi", "wti", "rate-hike"]
+      "related": [
+        "cpi",
+        "wti",
+        "rate-hike"
+      ]
     },
     "wti": {
       "term": "WTI crude",
@@ -252,7 +304,10 @@
         "Lower oil feeds into lower gasoline (now ~$4.00 vs. $4.40 in early October).",
         "Lower fuel prices pull down headline {{cpi|CPI}} — and, with a lag, {{core-inflation|core}}."
       ],
-      "related": ["core-inflation", "cpi"]
+      "related": [
+        "core-inflation",
+        "cpi"
+      ]
     },
     "mortgage-rate": {
       "term": "Mortgage rate",
@@ -266,7 +321,9 @@
         "Higher rates raise monthly payments, cooling home demand.",
         "That slows housing activity — one channel through which Fed hikes cool the economy."
       ],
-      "related": ["treasury-yield"]
+      "related": [
+        "treasury-yield"
+      ]
     },
     "going-concern": {
       "term": "Going-concern warning",
@@ -280,7 +337,9 @@
         "Without revenue, cash burns and debt payments loom.",
         "The warning signals possible restructuring or {{chapter-11|bankruptcy}}, and equity holders are last in line."
       ],
-      "related": ["chapter-11"]
+      "related": [
+        "chapter-11"
+      ]
     },
     "chapter-11": {
       "term": "Chapter 11",
@@ -294,7 +353,9 @@
         "Creditors are paid in order of seniority; existing shareholders usually get little or nothing.",
         "That's why going-concern warnings and bankruptcy rumors crush stock prices."
       ],
-      "related": ["going-concern"]
+      "related": [
+        "going-concern"
+      ]
     },
     "tokenization": {
       "term": "Tokenization",
@@ -378,7 +439,10 @@
         "Gold and oil are priced in dollars, so a stronger dollar makes them more expensive for buyers who use other currencies.",
         "That lowers demand and is one reason gold fell on the same day."
       ],
-      "related": ["treasury-yield", "rate-hike"]
+      "related": [
+        "treasury-yield",
+        "rate-hike"
+      ]
     },
     "risk-premium": {
       "term": "Risk premium",
@@ -623,7 +687,10 @@
         "Higher interest bills leave less profit.",
         "So small-cap stocks often fall more than large ones on days when yields jump."
       ],
-      "related": ["treasury-yield", "rate-hike"]
+      "related": [
+        "treasury-yield",
+        "rate-hike"
+      ]
     },
     "yield-curve": {
       "term": "Yield curve",
@@ -825,6 +892,120 @@
         "fomc",
         "hawkish",
         "rate-hike"
+      ]
+    },
+    "market-correction": {
+      "term": "Correction",
+      "category": "Market behavior",
+      "firstSeen": "2026-11-16",
+      "definition": "A fall of 10% or more in an index or stock from its most recent peak. A fall of 20% or more is called a bear market.",
+      "why": "The Nasdaq closed on Monday about 10.9% below its October 6 high, so it is now in a correction. The label shows the decline has lasted weeks, not one bad day.",
+      "chain": [
+        "An index reaches a high and then starts to fall.",
+        "Small falls are routine and get no special name.",
+        "Once the fall from the peak reaches 10%, it is called a correction.",
+        "The label describes the past. It does not say whether prices will fall further.",
+        "Investors watch whether buyers return, as in {{dip-buying|dip-buying}}, or the decline deepens."
+      ],
+      "related": [
+        "dip-buying",
+        "relief-rally",
+        "moving-average"
+      ]
+    },
+    "flight-to-safety": {
+      "term": "Flight to safety",
+      "category": "Market behavior",
+      "firstSeen": "2026-11-16",
+      "definition": "A move by investors out of risky assets such as stocks and into assets seen as safe, such as US Treasury bonds and the dollar, when they are worried.",
+      "why": "On Monday the Nasdaq fell 2.5% and the 10-year Treasury yield fell 3 basis points to 5.12%. Stocks and bond yields dropped together because money leaving stocks went into bonds.",
+      "chain": [
+        "Bad news makes investors less willing to hold stocks.",
+        "They sell stocks and look for somewhere safer to keep the money.",
+        "US Treasuries are a common choice, so demand for them rises.",
+        "Higher demand lifts bond prices, and yields fall when prices rise.",
+        "A falling {{treasury-yield|Treasury yield}} on a bad day for stocks is the sign of this move."
+      ],
+      "related": [
+        "treasury-yield",
+        "vix",
+        "defensive-stocks"
+      ]
+    },
+    "empire-state-survey": {
+      "term": "Empire State Manufacturing Survey",
+      "category": "Economic data",
+      "firstSeen": "2026-11-16",
+      "definition": "A monthly survey of manufacturers in New York State by the New York Fed. Its headline index is the share of firms saying business improved minus the share saying it got worse.",
+      "why": "November's index fell 18 points to 7.8, below the 16.7 economists expected. It is one of the first reports on each month's economy, so traders read it as an early signal for factories nationwide.",
+      "chain": [
+        "The New York Fed asks manufacturers whether orders, shipments, jobs and prices rose or fell.",
+        "For each question it subtracts the share answering “fell” from the share answering “rose.”",
+        "A number above zero means more firms are growing than shrinking.",
+        "The result comes out in the middle of the same month, before most national data.",
+        "A reading well below the {{consensus-forecast|consensus forecast}} suggests growth is slowing."
+      ],
+      "related": [
+        "consensus-forecast",
+        "ppi",
+        "retail-sales"
+      ]
+    },
+    "export-controls": {
+      "term": "Export controls",
+      "category": "Market structure",
+      "firstSeen": "2026-11-16",
+      "definition": "Government rules that limit which products a country's companies may sell abroad, and to whom. A company often needs a license before selling a controlled product.",
+      "why": "On Monday the Commerce Department issued a rule on remote access to advanced AI chips, aimed at Chinese companies that rent Nvidia computing power from data centers in other countries. AMD fell 5.6% and Nvidia 4.1%.",
+      "chain": [
+        "A government decides a technology is too sensitive to sell freely.",
+        "It requires companies to get a license before selling it to certain countries or buyers.",
+        "Buyers may look for a way around the rule, such as renting the technology in a third country.",
+        "The government tightens the rule to close that gap.",
+        "Each tightening shrinks the market the sellers can reach, so their share prices tend to fall."
+      ],
+      "related": [
+        "idiosyncratic-risk",
+        "semiconductor-etf"
+      ]
+    },
+    "market-breadth": {
+      "term": "Market breadth",
+      "category": "Equities",
+      "firstSeen": "2026-11-16",
+      "definition": "A measure of how many stocks are taking part in a market move, usually given as the number of rising stocks compared with falling ones.",
+      "why": "On Monday falling stocks outnumbered rising ones by 3.45 to 1 on the New York Stock Exchange. That shows the sell-off reached well beyond chipmakers.",
+      "chain": [
+        "Indexes such as the S&P 500 use {{cap-weighting|cap weighting}}, so a few giant companies can move them.",
+        "Breadth counts every stock equally: how many rose and how many fell.",
+        "If the index falls but most stocks rise, the drop comes from a few large names.",
+        "If most stocks fall too, the selling is broad.",
+        "Broad selling suggests a worry about the whole market, not one industry."
+      ],
+      "related": [
+        "cap-weighting",
+        "equal-weight-index",
+        "magnificent-7"
+      ]
+    },
+    "oil-surplus": {
+      "term": "Oil surplus",
+      "category": "Commodities",
+      "firstSeen": "2026-11-16",
+      "definition": "A period when the world produces more oil than it uses. The extra barrels go into storage, and prices tend to fall.",
+      "why": "The International Energy Agency now expects supply of 105 million barrels a day in the fourth quarter, 1.7 million more than forecast demand. Brent fell about 3.5% and WTI 3.2% on Monday.",
+      "chain": [
+        "Oil supply and demand rarely match exactly.",
+        "When supply is higher, the unsold barrels are stored and {{crude-inventories|crude inventories}} rise.",
+        "Sellers cut prices to find buyers.",
+        "Forecasters such as the International Energy Agency publish estimates of the gap.",
+        "When a forecast moves from shortfall to surplus, traders mark prices down at once."
+      ],
+      "related": [
+        "crude-inventories",
+        "wti",
+        "brent",
+        "risk-premium"
       ]
     }
   }
