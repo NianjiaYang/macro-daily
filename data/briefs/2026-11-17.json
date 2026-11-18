@@ -1,0 +1,306 @@
+{
+  "date": "2026-11-17",
+  "weekday": "Tuesday",
+  "title": "Stocks slide a fourth day, then Nvidia beats after the bell",
+  "oneLiner": "Software and bank stocks led a broad sell-off that took the Dow down 849 points and the S&P 500 to its lowest close since late July, even though {{retail-sales|retail sales}} were steady. After the close Nvidia's first results without Jensen Huang beat forecasts, and its shares rose in {{after-hours-trading|after-hours trading}}.",
+  "scoreboard": [
+    {
+      "label": "Dow Jones",
+      "value": "−1.6%",
+      "note": "50,759.42; down 849 points",
+      "dir": "down"
+    },
+    {
+      "label": "S&P 500",
+      "value": "−1.0%",
+      "note": "7,340.53; lowest close since late July",
+      "dir": "down"
+    },
+    {
+      "label": "Nasdaq",
+      "value": "−0.7%",
+      "note": "24,328.38; fourth loss in a row",
+      "dir": "down"
+    },
+    {
+      "label": "Russell 2000",
+      "value": "−1.5%",
+      "note": "2,701.87; small companies",
+      "dir": "down",
+      "term": "small-cap"
+    },
+    {
+      "label": "Nvidia",
+      "value": "−0.4%",
+      "note": "$155.39; up about 2–5% after hours",
+      "dir": "down",
+      "term": "after-hours-trading"
+    },
+    {
+      "label": "Salesforce",
+      "value": "≈ −9%",
+      "note": "software sell-off",
+      "dir": "down"
+    },
+    {
+      "label": "10Y Treasury",
+      "value": "5.10%",
+      "note": "−2 bp",
+      "dir": "down",
+      "term": "treasury-yield"
+    },
+    {
+      "label": "2Y Treasury",
+      "value": "4.80%",
+      "note": "−3 bp",
+      "dir": "down",
+      "term": "two-year-yield"
+    },
+    {
+      "label": "Dollar index",
+      "value": "≈ 103.6",
+      "note": "about flat",
+      "dir": "flat",
+      "term": "dollar-index"
+    },
+    {
+      "label": "WTI crude",
+      "value": "$86.01",
+      "note": "+0.3%",
+      "dir": "up",
+      "term": "wti"
+    },
+    {
+      "label": "Brent crude",
+      "value": "$93.14",
+      "note": "+0.8%",
+      "dir": "up",
+      "term": "brent"
+    },
+    {
+      "label": "Gold",
+      "value": "≈ flat",
+      "note": "$3,852 to $3,867; sources differ",
+      "dir": "flat"
+    },
+    {
+      "label": "Bitcoin",
+      "value": "≈ $64,000",
+      "note": "−1% to −1.5%; sources differ",
+      "dir": "down"
+    },
+    {
+      "label": "VIX",
+      "value": "≈ 26",
+      "note": "fourth rise in a row; sources differ",
+      "dir": "up",
+      "term": "vix"
+    }
+  ],
+  "sections": [
+    {
+      "kicker": "Equities",
+      "title": "A fourth losing day, led this time by software and banks",
+      "paragraphs": [
+        "Monday's brief described a chip sell-off. On Tuesday the selling moved to other parts of the market. The Dow fell 848.75 points, or 1.6%, to 50,759.42, and at its low it was down more than 1,000 points, CNBC said. The S&P 500 fell 76.06 points, or 1.0%, to 7,340.53, its lowest close since late July. The Nasdaq fell 181.37 points, or 0.7%, to 24,328.38, and the Russell 2000 index of {{small-cap|small-cap}} stocks fell 1.5% to 2,701.87. Since Friday's close the S&P 500 is down 2.9% and the Nasdaq 3.2%, the Associated Press said.",
+        "The losses were wide. Seventeen of every 20 stocks in the S&P 500 fell, according to the AP; Capp Notes counted 75 risers and 426 fallers. That kind of {{market-breadth|market breadth}} means investors were selling almost everything, not one industry. All 11 sectors fell. Financials were the worst, down about 1.9%, and energy fell the least, down about 0.5%, Capp Notes said.",
+        "Software took the hardest hits. Salesforce fell about 9%, Intuit 7.2% and ServiceNow 6.5%, and the iShares software fund IGV lost 3.3%, Capp Notes said. Microsoft fell 2.3% to $506.24. The sources read do not give a company reason for Salesforce. The AP described the general worries about AI stocks: that prices had risen too far, that high interest rates would limit borrowing for growth, and that Democratic midterm wins could bring tougher rules on AI data centers.",
+        "Banks fell on a related worry. The AP said investors asked how much the economy would suffer if AI spending pulled back, and JPMorgan Chase fell 2.4% after a technical problem slowed Zelle payments the day before. Health insurers fell too: UnitedHealth lost 5.4% after the government proposed more audits of Medicare Advantage plans, Capp Notes said.",
+        "One more shock came in the afternoon. CNN reported that a classified National Security Agency network had gone down, and traders told CNBC that the report pushed stocks to their lows. The NSA said it had “temporary degradation during scheduled routine maintenance.” The {{vix|VIX}} rose for a fourth day in a row and ended near 26; Capp Notes showed 25.46 and The Weekend Spread 26.06."
+      ]
+    },
+    {
+      "kicker": "Earnings",
+      "title": "Nvidia beats and guides higher; Home Depot and Disney fall anyway",
+      "paragraphs": [
+        "Nvidia fell as much as 3.7% during the day before closing down 0.4%, the AP said, at $155.39. After the close it reported its first quarter since Jensen Huang resigned. Revenue was $115.8 billion, up 103% from a year earlier and 20% from the previous quarter, according to the company. Analysts expected about $109 billion. Adjusted earnings were $2.68 a share against about $2.47 expected, the Yahoo Finance report said. Sales of data center chips, the business that sells to AI companies, were $107.6 billion, up 110%.",
+        "The bigger number for investors was the {{earnings-guidance|guidance}}. Nvidia expects about $130 billion in revenue this quarter, plus or minus 3%, against forecasts of about $124 billion to $125 billion. The quarter has one extra week, and the forecast assumes no data center chip sales to China. Its adjusted {{gross-margin|gross margin}} was 74.9% and is guided to 71% to 72%. Interim CEO Colette Kress said “Vera Rubin is off to an explosive start,” naming the company's newest chip system.",
+        "The shares rose in {{after-hours-trading|after-hours trading}}, but the sources read differ on how much: about 2% in The Weekend Spread, about 2.7% in the Yahoo Finance report, about 3% in Capp Notes and 4.55% on StockTitan's ticker at 6:23 p.m. ET. Two sources said the SEC is investigating Nvidia in connection with Huang's departure; the company has not commented. Huang said on X he would return if the board decided that was in shareholders' best interest, the AP reported. The board's choice of leader remains the open question behind the {{key-person-risk|key-person risk}} story.",
+        "Home Depot fell 2.4%. Its adjusted profit of $3.86 a share was just above the $3.84 expected, and sales grew 4.9% to $43.4 billion. But CNBC said its outlook implies fourth-quarter earnings of $2.77 a share, below the $2.81 analysts expected. The AP noted the housing market is weighed down by expensive {{mortgage-rate|mortgage rates}}. Home Depot also named its finance chief, Richard McPhail, as its next CEO. Disney fell 1.5% to $116.94 even though its adjusted profit of $1.77 a share beat the $1.67 expected and it raised its yearly dividend 33% to $2.00."
+      ]
+    },
+    {
+      "kicker": "Economic data & the Fed",
+      "title": "Shoppers kept spending, factories slipped and a Fed official called for more hikes",
+      "paragraphs": [
+        "October {{retail-sales|retail sales}} rose 0.2% to $748.2 billion, the Census Bureau said, after a 0.8% rise in September that was not revised. That matched the {{consensus-forecast|consensus}} named in Monday's brief. Sales were 6.8% higher than a year earlier. Car sales pulled the headline down: motor vehicles fell 1.6%, and sales outside autos rose 0.6%, CNBC said. Stripping out cars matters because a few big-ticket purchases can swing the total, so the 0.6% is a better read of everyday spending, and it was stronger than expected.",
+        "Other reports were weaker. {{industrial-production|Industrial production}} fell 0.4% in October against an expected 0.1% gain, The Weekend Spread said; factory output rose 0.3% but utilities fell 4.3%, according to StockTitan. The {{nahb-index|NAHB housing market index}} of builder confidence fell 4 points to 25, a 14-year low. And {{import-prices|import prices}} rose 1.1%, more than the 0.7% expected, CNBC said, the same rise as in September. Higher import prices can feed into what shoppers pay later, which is why the Fed watches them.",
+        "On the Fed, St. Louis Fed President Alberto Musalem gave one of the most hawkish views yet, CNBC said. He said the economy will likely need “several interest rate increases before the spring of 2027,” and CNBC reported he sees as many as four. His argument uses the {{real-interest-rate|real interest rate}}: the Fed's rate minus inflation. He wants it between 2% and 2.5% by spring and estimates it is about a full point below that now. Musalem does not vote on rates in that period. Capp Notes said New York Fed President Williams saw no need for “dramatic action.” {{fedwatch|CME FedWatch}} showed a 95.5% chance of a quarter-point {{rate-hike|hike}} in December and 4.5% for a half point, The Weekend Spread said."
+      ]
+    },
+    {
+      "kicker": "Rates & commodities",
+      "title": "Yields rise in the morning and fall by the close; oil edges up on Gulf attacks",
+      "paragraphs": [
+        "By the U.S. Treasury's official closing figures, the 10-year {{treasury-yield|Treasury yield}} ended at 5.10%, down 2 {{basis-point|basis points}} from 5.12% on Monday, and the {{two-year-yield|2-year}} ended at 4.80%, down 3 from 4.83%. The gap between them, the {{yield-curve|yield curve}}, is 30 basis points. The path mattered more than the close. The AP said the 10-year rose toward 5.15% in the morning after the retail sales report, then gave up the gain as investors moved into safer assets during the stock sell-off.",
+        "Oil rose a little. {{wti|WTI crude}} for December settled up 0.3% at $86.01 a barrel and {{brent|Brent}} up 0.8% at $93.14, Rigzone reported. Brent swung between $91.25 and $94.08 during the day, The Weekend Spread said. Fighting in the Gulf drove the gain: Rigzone reported vessel attacks near the Strait of Hormuz and a third Iranian strike on Bahrain in less than a week. A TD Securities strategist told it the {{risk-premium|risk premium}} should return as tensions grow. Monday's story limited the rise; the IEA still forecasts an {{oil-surplus|oil surplus}} of about 2 million barrels a day this quarter.",
+        "The {{dollar-index|dollar index}} was about flat near 103.6 after touching 103.69 during the day, its highest since April 2, 2025, The Weekend Spread said. Gold was roughly unchanged: Capp Notes showed $3,851.90 and The Weekend Spread $3,866.60. Bitcoin fell 1% to 1.5%, to near $64,000, still above its weekend low near $62,000."
+      ]
+    }
+  ],
+  "connections": {
+    "intro": "Markets move together, but not always the way the textbook predicts. Each card takes one of today's drivers, says what it should have done to another market, and compares that with what happened. The mismatches are where the day's real story is.",
+    "items": [
+      {
+        "driver": "Solid {{retail-sales|retail sales}} outside autos, faster {{import-prices|import prices}} and a Fed official calling for up to four more {{rate-hike|hikes}}",
+        "asset": "{{treasury-yield|Treasury yields}}",
+        "expected": "Rise. Strong spending and rising prices make more Fed hikes likely, and investors demand higher yields when they expect higher rates.",
+        "actual": "The 10-year rose toward 5.15% in the morning but closed down 2 {{basis-point|basis points}} at 5.10%, and the 2-year fell 3 to 4.80%.",
+        "why": "The link held for a few hours and then was outweighed. The AP said yields gave up their gain as investors moved into safer assets during the stock sell-off, which is the {{flight-to-safety|flight to safety}} from Monday's brief. Weak {{industrial-production|industrial production}} and a 14-year low in builder confidence also pointed to slower growth.",
+        "puzzle": true
+      },
+      {
+        "driver": "Oil rose: Brent up 0.8% on attacks in the Gulf",
+        "asset": "Airline stocks",
+        "expected": "Fall. Fuel is one of an airline's biggest costs, so dearer oil squeezes its profits.",
+        "actual": "United Airlines lost 4%.",
+        "why": "The textbook link held, with help. The AP said United was hurt both by rising oil prices and by an outage that delayed departures on Monday.",
+        "puzzle": false
+      },
+      {
+        "driver": "Oil rose on attacks in the Gulf",
+        "asset": "Energy stocks",
+        "expected": "Do better than the rest of the market, since oil companies earn more on every barrel when prices rise.",
+        "actual": "Energy was the best of the 11 sectors, but it still fell about 0.5%.",
+        "why": "The link held in relative terms. A gain of 0.3% in {{wti|WTI}} is small, and on a day when 17 of every 20 S&P 500 stocks fell, it was only enough to cushion energy stocks, not lift them.",
+        "puzzle": false
+      },
+      {
+        "driver": "{{mortgage-rate|Mortgage rates}} stay high and builder confidence falls to a 14-year low",
+        "asset": "Home Depot",
+        "expected": "Fall. When fewer people buy and renovate homes, they spend less on tools and materials.",
+        "actual": "Home Depot fell 2.4% even though its quarterly profit beat forecasts.",
+        "why": "The textbook link held. Its outlook implied holiday-quarter earnings below forecasts, and the AP tied the weakness to a housing market weighed down by expensive mortgage rates. Investors care more about the {{earnings-guidance|guidance}} than about the quarter just ended.",
+        "puzzle": false
+      },
+      {
+        "driver": "Nvidia's revenue and {{earnings-guidance|guidance}} beat forecasts",
+        "asset": "Nvidia shares",
+        "expected": "Rise, because a higher forecast means more future profit than investors had priced in.",
+        "actual": "The shares rose about 2% to 5% in {{after-hours-trading|after-hours trading}}, depending on the source and the time.",
+        "why": "The textbook link held, so far. The Weekend Spread said options had priced a move of about 7% either way, so the early gain was smaller than traders had braced for. The questions about who will lead the company and the SEC inquiry remain.",
+        "puzzle": false
+      }
+    ]
+  },
+  "headlines": [
+    "Anthropic is set to price its {{ipo|IPO}} on Wednesday evening at $70 to $78 a share and to start trading on the Nasdaq on Thursday under the ticker ANT, The Weekend Spread said.",
+    "The United States will require licenses for exports of advanced AI chips to Singapore, Malaysia, Thailand, Indonesia and Brazil, expected to take effect on November 19, Capp Notes reported. It extends Monday's {{export-controls|export controls}} story.",
+    "SELLAS Life Sciences rose 156% after positive late-stage results for a cancer vaccine, then fell 11% after hours when it proposed a $150 million share sale, StockTitan said.",
+    "Deutsche Bank's US-listed shares fell 5.5% after a leak of internal files, Capp Notes said.",
+    "Red Cat fell 31.7% after withdrawing its 2026 revenue target, StockTitan said."
+  ],
+  "watch": {
+    "when": "Wed, Nov. 18 · 1:00 p.m. and 2:00 p.m. ET",
+    "title": "A bond auction, the Fed's minutes and Anthropic's price",
+    "text": "Housing starts come out in the morning, and Target, Lowe's and TJX report before the opening bell. At 1:00 p.m. ET the Treasury sells $16 billion of 20-year bonds; weak demand at a {{treasury-auction|Treasury auction}} can push yields up. At 2:00 p.m. ET the Fed publishes the {{fomc-minutes|minutes}} of its October 27–28 meeting, which will show how many officials share Musalem's view. In the evening Anthropic prices its {{ipo|IPO}}, a test of demand for AI companies after four losing days. The first full day of trading on Nvidia's results will show whether the after-hours gain holds."
+  },
+  "sources": [
+    {
+      "name": "Associated Press via WTOP",
+      "title": "How major US stock indexes fared Tuesday 11/17/2026",
+      "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-tuesday-11-17-2026"
+    },
+    {
+      "name": "Associated Press via Action News 5",
+      "title": "Another wipeout hits Wall Street as Nvidia, other jittery AI stocks swing lower",
+      "url": "https://www.actionnews5.com/2026/11/17/another-wipeout-hits-wall-street-nvidia-other-jittery-ai-stocks-swing-lower/"
+    },
+    {
+      "name": "CNBC",
+      "title": "Stock market today: live updates",
+      "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+    },
+    {
+      "name": "CNBC",
+      "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+      "url": "https://cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
+    },
+    {
+      "name": "StockTitan",
+      "title": "Stock Market Today Live, November 17, 2026",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026"
+    },
+    {
+      "name": "The Weekend Spread",
+      "title": "The Close: Tuesday, November 17, 2026",
+      "url": "https://theweekendspread.substack.com/p/the-close-tuesday-november-17-2026"
+    },
+    {
+      "name": "Capp Notes",
+      "title": "Closing Look — Tuesday, November 17, 2026",
+      "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17"
+    },
+    {
+      "name": "NVIDIA",
+      "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+    },
+    {
+      "name": "Proactive via Yahoo Finance",
+      "title": "Nvidia beats third-quarter estimates as revenue more than doubles",
+      "url": "https://uk.finance.yahoo.com/news/nvidia-beats-third-quarter-estimates-214100513.html"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "title": "Advance Monthly Retail Trade Report, October 2026",
+      "url": "https://www.census.gov/retail/sales.html"
+    },
+    {
+      "name": "Rigzone",
+      "title": "Oil Prices Swing as Gulf Attacks Continue",
+      "url": "https://www.rigzone.com/news/oil_prices_swing_as_gulf_attacks_continue-17-nov-2026-185107-article"
+    },
+    {
+      "name": "U.S. Treasury",
+      "title": "Daily Treasury Par Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Retail sales rose only 0.2% in October, but sales outside autos rose 0.6%. Why do analysts look at the figure without cars?",
+      "options": [
+        "Car sales are not counted by the Census Bureau",
+        "A few big-ticket car purchases can swing the total, so the figure without them is a better read of everyday spending",
+        "Car prices never change, so they add nothing",
+        "The Fed sets its rate using car sales only"
+      ],
+      "answer": 1,
+      "explain": "{{retail-sales|Retail sales}} include cars, which are large and lumpy purchases. Motor vehicle sales fell 1.6% in October, so the headline understated how much people spent on everything else."
+    },
+    {
+      "q": "Strong spending figures pushed the 10-year yield toward 5.15% in the morning, yet it closed at 5.10%. What happened?",
+      "options": [
+        "The Fed cut rates during the afternoon",
+        "The Treasury changed how it calculates yields",
+        "Retail sales were revised down at noon",
+        "Stocks sold off and investors moved into safer assets such as Treasuries, which pushed yields down"
+      ],
+      "answer": 3,
+      "explain": "Two forces pulled in opposite directions. Hawkish news pushes {{treasury-yield|yields}} up, but a {{flight-to-safety|flight to safety}} pushes them down. By the close the flight to safety won."
+    },
+    {
+      "q": "Musalem wants the real interest rate between 2% and 2.5% and says it is about a point below that now. What is the real interest rate?",
+      "options": [
+        "The Fed's rate minus inflation, which shows how much borrowing really costs after rising prices",
+        "The rate banks charge their best customers",
+        "The 10-year Treasury yield",
+        "The rate after taxes"
+      ],
+      "answer": 0,
+      "explain": "The {{real-interest-rate|real interest rate}} subtracts inflation from the nominal rate. If inflation stays high, the Fed must raise its rate just to keep the real rate from falling, which is why Musalem sees up to four more {{rate-hike|hikes}}."
+    },
+    {
+      "q": "Home Depot's quarterly profit beat forecasts, yet its shares fell 2.4%. What best explains that?",
+      "options": [
+        "Profits that beat forecasts always make shares fall",
+        "Home Depot cut its dividend",
+        "Its outlook implied holiday-quarter earnings below forecasts, and investors price the future more than the past",
+        "The company was removed from the Dow"
+      ],
+      "answer": 2,
+      "explain": "Share prices reflect expected future profits. When {{earnings-guidance|guidance}} points lower, a beat on the quarter just ended matters less. High {{mortgage-rate|mortgage rates}} weighing on housing add to the worry."
+    }
+  ]
+}

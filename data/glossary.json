@@ -1007,6 +1007,99 @@
         "brent",
         "risk-premium"
       ]
+    },
+    "industrial-production": {
+      "term": "Industrial production",
+      "category": "Economic data",
+      "firstSeen": "2026-11-17",
+      "definition": "A monthly Federal Reserve measure of how much US factories, mines and utilities produce, adjusted for the time of year.",
+      "why": "October's figure fell 0.4% against an expected small gain, mostly because utilities fell. A weaker reading suggests slower growth, which can ease pressure on the Fed.",
+      "chain": [
+        "The Fed tracks the physical output of factories, mines and power and gas utilities.",
+        "Factories are the largest part, but utilities can swing a lot with the weather.",
+        "In October factory output rose while utility output fell sharply.",
+        "Traders compare the headline with the {{consensus-forecast|consensus forecast}}.",
+        "A miss points to slower growth and can push {{treasury-yield|yields}} down."
+      ],
+      "related": [
+        "empire-state-survey",
+        "consensus-forecast",
+        "retail-sales"
+      ]
+    },
+    "nahb-index": {
+      "term": "NAHB housing market index",
+      "category": "Economic data",
+      "firstSeen": "2026-11-17",
+      "definition": "A monthly survey of home builders by the National Association of Home Builders. Higher readings mean more builders see good conditions.",
+      "why": "November's index fell 4 points to 25, a 14-year low. It shows how hard high mortgage rates are hitting housing, which matters for builders and for stores such as Home Depot.",
+      "chain": [
+        "Builders rate current sales, expected sales and the number of buyers visiting.",
+        "The answers are combined into one index.",
+        "High {{mortgage-rate|mortgage rates}} make homes less affordable, so fewer buyers show up.",
+        "Builders start fewer homes, and owners put off renovations.",
+        "That reduces spending on materials, tools and furniture."
+      ],
+      "related": [
+        "mortgage-rate",
+        "existing-home-sales"
+      ]
+    },
+    "import-prices": {
+      "term": "Import prices",
+      "category": "Economic data",
+      "firstSeen": "2026-11-17",
+      "definition": "A monthly Bureau of Labor Statistics index of the prices of goods bought from other countries.",
+      "why": "Import prices rose 1.1% in October, more than the 0.7% expected. Dearer imports can show up later in what shoppers pay, so the Fed reads them as an early inflation signal.",
+      "chain": [
+        "US companies buy goods and materials from abroad.",
+        "If foreign costs, shipping or oil rise, those goods cost more at the border.",
+        "Importers pass some of the increase on to stores and then to shoppers.",
+        "That can push up {{cpi|CPI}} in later months.",
+        "A hot reading makes more Fed {{rate-hike|hikes}} more likely."
+      ],
+      "related": [
+        "cpi",
+        "ppi",
+        "dollar-index"
+      ]
+    },
+    "real-interest-rate": {
+      "term": "Real interest rate",
+      "category": "Fed",
+      "firstSeen": "2026-11-17",
+      "definition": "An interest rate minus inflation. It measures what borrowing really costs once rising prices are taken into account.",
+      "why": "St. Louis Fed President Musalem wants the real rate between 2% and 2.5% by spring and says it is about a point below that now. That gap is why he sees up to four more rate hikes.",
+      "chain": [
+        "The Fed sets a nominal rate, the number you see quoted.",
+        "Subtract inflation to get the real rate.",
+        "If inflation stays high, the real rate stays low even after hikes, so policy does little to slow the economy.",
+        "To raise the real rate, the Fed can raise its nominal rate or wait for inflation to fall.",
+        "Officials who expect inflation to stay high call for more {{rate-hike|hikes}}."
+      ],
+      "related": [
+        "rate-hike",
+        "cpi",
+        "hawkish"
+      ]
+    },
+    "gross-margin": {
+      "term": "Gross margin",
+      "category": "Equities",
+      "firstSeen": "2026-11-17",
+      "definition": "The share of each dollar of sales a company keeps after paying the direct cost of making what it sold.",
+      "why": "Nvidia's adjusted gross margin was 74.9%, and it expects 71% to 72% next quarter. Investors watch it to see whether a company can keep its prices high as costs rise.",
+      "chain": [
+        "Start with revenue.",
+        "Subtract the cost of goods sold, such as chips, memory and manufacturing.",
+        "Divide what is left by revenue to get the margin.",
+        "A high margin means customers pay well above cost, a sign of pricing power.",
+        "A falling margin in the {{earnings-guidance|guidance}} can worry investors even when revenue grows."
+      ],
+      "related": [
+        "earnings-guidance",
+        "revenue-backlog"
+      ]
     }
   }
 }

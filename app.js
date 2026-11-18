@@ -21,7 +21,117 @@ const state = {
   indicators: null,
   weekly: { list: [], quiz: null, answers: {}, scores: loadWeeklyScores() },
   me: { profile: null, progress: null },
+  account: { user: null, syncing: false, error: "" },
 };
+
+/* ---------- Optional account (Supabase, sign in with GitHub) ----------
+   Signed out: progress lives in this browser only, as before.
+   Signed in: ticked terms and weekly quiz scores are merged with the account and kept in sync.
+   The publishable key is public by design; row level security limits each reader to their own rows. */
+const SUPABASE_URL = "https://ypxgouhobiizrqqyspcv.supabase.co";
+const SUPABASE_KEY = "sb_publishable_PN-1QMNi_54mcR1Mdg6mXA_kXyEOjDU";
+let sb = null;
+try {
+  if (window.supabase?.createClient && /^https?:$/.test(location.protocol)) {
+    sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, { auth: { flowType: "pkce" } });
+  }
+} catch { sb = null; }
+
+async function signIn() {
+  if (!sb) return;
+  const redirectTo = `${location.origin}${location.pathname}#progress`;
+  const { error } = await sb.auth.signInWithOAuth({ provider: "github", options: { redirectTo } });
+  if (error) { state.account.error = error.message; if (state.tab === "progress") renderProgress(); }
+}
+
+async function signOut() {
+  if (!sb) return;
+  await sb.auth.signOut();
+  state.account.user = null;
+  if (state.tab === "progress") renderProgress();
+}
+
+// Merge browser progress with the account: union of ticked terms, best score per week.
+async function syncAccount() {
+  const user = state.account.user;
+  if (!sb || !user) return;
+  state.account.syncing = true;
+  state.account.error = "";
+  try {
+    const [lt, ws] = await Promise.all([
+      sb.from("learned_terms").select("term_id"),
+      sb.from("weekly_scores").select("week, correct, total, best"),
+    ]);
+    if (lt.error) throw lt.error;
+    if (ws.error) throw ws.error;
+    const remoteTerms = new Set(lt.data.map((r) => r.term_id));
+    const newTerms = [...state.learned].filter((id) => !remoteTerms.has(id));
+    remoteTerms.forEach((id) => state.learned.add(id));
+
+    const scores = state.weekly.scores;
+    ws.data.forEach((r) => {
+      const local = scores[r.week];
+      if (!local || r.best > local.best) scores[r.week] = { correct: r.correct, total: r.total, best: r.best };
+    });
+    const remoteWeeks = Object.fromEntries(ws.data.map((r) => [r.week, r.best]));
+    const newScores = Object.entries(scores)
+      .filter(([week, s]) => !(week in remoteWeeks) || s.best > remoteWeeks[week])
+      .map(([week, s]) => ({ user_id: user.id, week, correct: s.correct, total: s.total, best: s.best }));
+
+    if (newTerms.length) {
+      const { error } = await sb.from("learned_terms").upsert(newTerms.map((term_id) => ({ user_id: user.id, term_id })));
+      if (error) throw error;
+    }
+    if (newScores.length) {
+      const { error } = await sb.from("weekly_scores").upsert(newScores);
+      if (error) throw error;
+    }
+    saveLearned();
+    try { localStorage.setItem(WEEKLY_KEY, JSON.stringify(scores)); } catch {}
+  } catch (err) {
+    state.account.error = `Couldn't sync: ${err.message || err}`;
+  }
+  state.account.syncing = false;
+  refreshLearnedViews();
+  if (state.tab === "progress") renderProgress();
+}
+
+async function cloudSetLearned(id, on) {
+  const user = state.account.user;
+  if (!sb || !user) return;
+  const q = on
+    ? sb.from("learned_terms").upsert({ user_id: user.id, term_id: id })
+    : sb.from("learned_terms").delete().eq("user_id", user.id).eq("term_id", id);
+  const { error } = await q;
+  if (error) state.account.error = `Couldn't save to your account: ${error.message}`;
+}
+
+async function cloudSaveWeekly(week) {
+  const user = state.account.user, s = state.weekly.scores[week];
+  if (!sb || !user || !s) return;
+  const { error } = await sb.from("weekly_scores").upsert({ user_id: user.id, week, correct: s.correct, total: s.total, best: s.best, updated_at: new Date().toISOString() });
+  if (error) state.account.error = `Couldn't save to your account: ${error.message}`;
+}
+
+function accountBox() {
+  if (!sb) return "";
+  const a = state.account, u = a.user;
+  const name = u?.user_metadata?.user_name || u?.user_metadata?.preferred_username || u?.email || "your GitHub account";
+  const err = a.error ? `<p class="account-err">${esc(a.error)}</p>` : "";
+  if (u) return `
+    <div class="account">
+      <p>Signed in as <strong>${esc(name)}</strong>. ${a.syncing ? "Syncing…" : "Your ticked terms and weekly quiz scores are saved to your account and follow you to other devices."}</p>
+      ${err}
+      <button type="button" class="chip" id="signOut">Sign out</button>
+    </div>`;
+  return `
+    <div class="account">
+      <p>Sign in to keep your progress on any device. Optional: everything works without an account.</p>
+      <p class="account-fine">Stores your GitHub username and email, the terms you tick and your weekly quiz scores. Nothing else.</p>
+      ${err}
+      <button type="button" class="btn-primary" id="signIn">Sign in with GitHub</button>
+    </div>`;
+}
 
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -297,6 +407,7 @@ function renderWeekly() {
     const prev = w.scores[w.quiz.week];
     w.scores[w.quiz.week] = { correct, total: qs.length, best: Math.max(correct, prev?.best ?? 0) };
     saveWeeklyScores();
+    if (!prev || prev.best !== w.scores[w.quiz.week].best || prev.correct !== correct) cloudSaveWeekly(w.quiz.week);
   }
   const saved = w.scores[w.quiz.week];
 
@@ -377,7 +488,7 @@ function renderProgress() {
   const stat = (v, l) => `<div class="tile"><div class="tile-label"><span>${esc(l)}</span></div><div class="tile-value">${esc(v)}</div></div>`;
 
   $("#tab-progress").innerHTML = `
-    <div class="eyebrow">My progress${personal ? "" : " · this browser"}</div>
+    <div class="eyebrow">My progress${personal ? "" : state.account.user ? " · your account" : " · this browser"}</div>
     <h1 class="brief-title">${prof?.nickname ? esc(prof.nickname) + "’s progress" : "Your progress"}</h1>
     ${prof ? `
     <div class="prof">
@@ -425,9 +536,10 @@ function renderProgress() {
     </article>` : ""}
 
     ${personal ? `<div class="sources">Recorded by your AI tutor in the <code>me/</code> folder on this computer. It is not uploaded anywhere.</div>` : `
+    ${accountBox()}
     <div class="watch">
       <div class="eyebrow">Want a personal tutor?</div>
-      <p style="margin:6px 0 0">This page shows what is saved in this browser: terms you ticked “I’ve got this” and your weekly quiz scores. To get onboarding, daily coaching and a full progress map, load the project into your own AI assistant. <a href="https://github.com/NianjiaYang/macro-daily#learn-with-your-own-ai-tutor" target="_blank" rel="noopener">See how</a>.</p>
+      <p style="margin:6px 0 0">This page shows ${state.account.user ? "what is saved to your account" : "what is saved in this browser"}: terms you ticked “I’ve got this” and your weekly quiz scores. To get onboarding, daily coaching and a full progress map, load the project into your own AI assistant. <a href="https://github.com/NianjiaYang/macro-daily#learn-with-your-own-ai-tutor" target="_blank" rel="noopener">See how</a>.</p>
     </div>`}`;
 }
 
@@ -573,6 +685,9 @@ document.addEventListener("click", (e) => {
   const opt = e.target.closest(".opt");
   if (opt) { state.quiz[+opt.dataset.q] = +opt.dataset.o; renderQuiz(); return; }
 
+  if (e.target.closest("#signIn")) { signIn(); return; }
+  if (e.target.closest("#signOut")) { signOut(); return; }
+
   if (e.target.closest("#quizReset")) { state.quiz = {}; renderQuiz(); window.scrollTo(0, 0); return; }
 
   if (!pop.hidden && !pop.contains(e.target)) closePop();
@@ -583,6 +698,7 @@ $("#popLearned").addEventListener("change", (e) => {
   if (!id) return;
   e.target.checked ? state.learned.add(id) : state.learned.delete(id);
   saveLearned();
+  cloudSetLearned(id, e.target.checked);
   refreshLearnedViews();
 });
 
@@ -632,6 +748,15 @@ async function init() {
     const start = state.briefs.some((b) => b.date === wanted) ? wanted : state.briefs[0].date;
     $("#dateSelect").value = start;
     await loadBrief(start);
+    if (sb) {
+      sb.auth.onAuthStateChange((event, session) => {
+        const was = state.account.user?.id;
+        state.account.user = session?.user || null;
+        // Defer: Supabase asks that no other Supabase calls run inside this callback.
+        if (state.account.user && state.account.user.id !== was) setTimeout(syncAccount, 0);
+        else if (state.tab === "progress") renderProgress();
+      });
+    }
   } catch (err) {
     $("#tab-brief").innerHTML = `<div class="empty">Couldn't load data (${esc(err.message)}). Serve this folder over HTTP, e.g. <code>python3 -m http.server 8000 --directory web</code>.</div>`;
   }

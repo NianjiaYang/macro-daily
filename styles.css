@@ -237,3 +237,9 @@ main { padding-top: 28px; padding-bottom: 80px; }
 .qh-row { display: grid; grid-template-columns: 130px 1fr auto; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; font-variant-numeric: tabular-nums; }
 .watch a { color: var(--accent); }
 @media (max-width: 520px) { .map-row { grid-template-columns: 1fr 44px; } .map-name { grid-column: 1 / -1; } }
+
+/* Optional account box on My progress */
+.account { border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px; margin-bottom: 20px; background: var(--surface); }
+.account p { margin: 0 0 10px; font-size: 15px; line-height: 1.5; }
+.account .account-fine { font-size: 13px; color: var(--ink-2); }
+.account .account-err { font-size: 13px; color: #b42318; }
