@@ -1100,6 +1100,96 @@
         "earnings-guidance",
         "revenue-backlog"
       ]
+    },
+    "short-selling": {
+      "term": "Short selling",
+      "category": "Market behavior",
+      "firstSeen": "2026-11-19",
+      "definition": "Selling shares you have borrowed, hoping to buy them back later at a lower price and return them. The short seller profits if the price falls and loses if it rises.",
+      "why": "On November 19 the investigative outlet Hunterbrook disclosed that an affiliated fund was short AMD and published claims about AMD's chips reaching a blacklisted Chinese company. AMD fell 7.72%. The short seller gains from that fall, so readers should weigh the report knowing who benefits.",
+      "chain": [
+        "A short seller borrows shares from a broker and sells them right away.",
+        "Later the short seller must buy the same number of shares back to return them.",
+        "If the price has fallen, buying back costs less than the sale brought in, and the difference is profit.",
+        "Some short sellers publish research arguing a company has problems, which can push the price down.",
+        "The company usually disputes the claims, and the stock's next move depends on whether the claims hold up."
+      ],
+      "related": [
+        "export-controls",
+        "idiosyncratic-risk"
+      ]
+    },
+    "ipo-pop": {
+      "term": "IPO pop",
+      "category": "Market structure",
+      "firstSeen": "2026-11-19",
+      "definition": "The gain in a newly listed stock on its first day of trading, measured from the IPO price at which the company sold its shares.",
+      "why": "Anthropic sold shares at $83 and closed its first day at $97.17, a pop of about 17%. It opened at $111.50, so investors who bought at the first trade lost money by the close even though the IPO 'popped'.",
+      "chain": [
+        "Before listing, the company and its banks set an IPO price and sell shares to chosen investors at that price.",
+        "On the first day, anyone can trade the shares, and the price is set by supply and demand.",
+        "If demand is much bigger than the shares sold, the price jumps above the IPO price.",
+        "A big pop rewards the investors who got shares at the IPO price, but it also means the company could have sold its shares for more.",
+        "Whether the stock holds the gain in later days shows whether the first-day buyers were paying for lasting value or for excitement."
+      ],
+      "related": [
+        "ipo"
+      ]
+    },
+    "safe-haven": {
+      "term": "Safe haven",
+      "category": "Market behavior",
+      "firstSeen": "2026-11-19",
+      "definition": "An asset investors buy when they are worried, because they expect it to hold its value when riskier assets fall. Treasuries and gold are the classic examples.",
+      "why": "On November 19 Treasuries acted as a safe haven, with yields falling as stocks dropped 2%. Gold did not: it fell about 3% as the dollar rose and Fed hike bets grew, a reminder that safe havens do not always behave as expected.",
+      "chain": [
+        "When stocks fall sharply, investors look for places to park money that are less likely to lose value.",
+        "Buying Treasuries pushes their prices up and their yields down.",
+        "Gold is also bought in fearful times, because it is not tied to any one company or government.",
+        "But gold pays no interest, so when interest rates are expected to rise, holding gold costs more.",
+        "In a panic, investors may also sell gold to raise cash or cover losses elsewhere, so it can fall alongside stocks."
+      ],
+      "related": [
+        "flight-to-safety",
+        "dollar-index",
+        "treasury-yield"
+      ]
+    },
+    "philly-fed-index": {
+      "term": "Philadelphia Fed manufacturing index",
+      "category": "Economic data",
+      "firstSeen": "2026-11-19",
+      "definition": "A monthly survey of factories in the Philadelphia Fed's region. It subtracts the share of firms reporting worse conditions from the share reporting better ones, so a reading above zero means growth and below zero means shrinking.",
+      "why": "In November the index fell to 6.3 from 20.9, a six-month low. Factories in the region were still growing, but much more slowly, which added to signs of a slowing economy on the same day stocks fell 2%.",
+      "chain": [
+        "The Philadelphia Fed asks manufacturers each month whether business is better, worse or the same.",
+        "The index is the share saying better minus the share saying worse.",
+        "Because it comes out early in the month, it is one of the first readings on how factories are doing.",
+        "A sharp drop suggests demand for goods is slowing.",
+        "Slower growth can ease inflation pressure, which can pull bond yields down."
+      ],
+      "related": [
+        "empire-state-survey",
+        "industrial-production"
+      ]
+    },
+    "leading-economic-index": {
+      "term": "Leading Economic Index",
+      "category": "Economic data",
+      "firstSeen": "2026-11-19",
+      "definition": "A monthly index from the Conference Board that combines several measures that tend to turn before the overall economy does, such as building permits, jobless claims and stock prices.",
+      "why": "The index fell 0.3% in October to 99.3, pulled down by weak building permits. A falling leading index points to slower growth in the months ahead.",
+      "chain": [
+        "Some economic numbers change before the economy as a whole speeds up or slows down.",
+        "Building permits, for example, come before construction work, and jobless claims rise before broad job losses.",
+        "The Conference Board combines these signals into one index.",
+        "When the index falls, it suggests the economy is losing momentum.",
+        "Investors and the Fed weigh this against other data, such as inflation, when judging where rates should go."
+      ],
+      "related": [
+        "jobless-claims",
+        "existing-home-sales"
+      ]
     }
   }
 }

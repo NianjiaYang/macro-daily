@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-19",
+  "weekday": "Thursday",
+  "title": "Anthropic soars on debut while the rest of the market sinks",
+  "oneLiner": "Anthropic's shares closed 17% above their {{ipo|IPO}} price in the largest IPO on record, but the S&P 500 fell 2% for a sixth straight loss and the Dow dropped 1,101 points as AI and chip stocks reversed early gains. A {{short-selling|short seller}}'s report sank AMD, and gold fell about 3% even as investors fled stocks.",
+  "scoreboard": [
+    {
+      "label": "Dow Jones",
+      "value": "−2.2%",
+      "note": "49,097.06; down 1,101 points",
+      "dir": "down"
+    },
+    {
+      "label": "S&P 500",
+      "value": "−2.0%",
+      "note": "7,175.83; sixth loss in a row",
+      "dir": "down"
+    },
+    {
+      "label": "Nasdaq",
+      "value": "−2.3%",
+      "note": "23,879.20",
+      "dir": "down"
+    },
+    {
+      "label": "Russell 2000",
+      "value": "−2.2%",
+      "note": "2,655.11; small companies",
+      "dir": "down",
+      "term": "small-cap"
+    },
+    {
+      "label": "Anthropic (ANT)",
+      "value": "$97.17",
+      "note": "+17% from its $83 IPO price",
+      "dir": "up",
+      "term": "ipo-pop"
+    },
+    {
+      "label": "AMD",
+      "value": "−7.7%",
+      "note": "short-seller report",
+      "dir": "down",
+      "term": "short-selling"
+    },
+    {
+      "label": "Nvidia",
+      "value": "−3.3%",
+      "note": "erased an early 4.7% gain",
+      "dir": "down"
+    },
+    {
+      "label": "10Y Treasury",
+      "value": "5.04%",
+      "note": "−3 bp",
+      "dir": "down",
+      "term": "treasury-yield"
+    },
+    {
+      "label": "2Y Treasury",
+      "value": "4.76%",
+      "note": "−4 bp",
+      "dir": "down",
+      "term": "two-year-yield"
+    },
+    {
+      "label": "Dollar index",
+      "value": "≈ 103.9",
+      "note": "+0.1%; near a 19-month high",
+      "dir": "up",
+      "term": "dollar-index"
+    },
+    {
+      "label": "WTI crude",
+      "value": "$83.21",
+      "note": "about flat; lowest since Aug. 26",
+      "dir": "flat",
+      "term": "wti"
+    },
+    {
+      "label": "Brent crude",
+      "value": "$91.98",
+      "note": "about flat",
+      "dir": "flat",
+      "term": "brent"
+    },
+    {
+      "label": "Gold",
+      "value": "≈ −3%",
+      "note": "$3,628.30 futures, late trading",
+      "dir": "down",
+      "term": "safe-haven"
+    },
+    {
+      "label": "Bitcoin",
+      "value": "≈ $61,500",
+      "note": "−2.4%",
+      "dir": "down"
+    },
+    {
+      "label": "VIX",
+      "value": "≈ 28.4",
+      "note": "+16%; sources differ slightly",
+      "dir": "up",
+      "term": "vix"
+    }
+  ],
+  "sections": [
+    {
+      "kicker": "Equities",
+      "title": "A sixth losing day, and the worst one yet",
+      "paragraphs": [
+        "This brief follows Tuesday's; there is no brief for Wednesday. On Wednesday the S&P 500 slipped 0.2% to 7,323.63 for a fifth straight loss and the Dow fell 561.25 points, while the Nasdaq rose 0.4%, according to a Zacks recap on Yahoo Finance. Nvidia finished Wednesday 2.9% lower even after the strong results described in Tuesday's brief.",
+        "Thursday was much worse. The S&P 500 fell 147.80 points, or 2%, to 7,175.83, its sixth loss in a row and its longest losing streak since 2024, the Associated Press said. The Dow fell 1,101.11 points, or 2.2%, to 49,097.06, the Nasdaq fell 550.69 points, or 2.3%, to 23,879.20, and the Russell 2000 index of {{small-cap|small-cap}} stocks fell 2.2% to 2,655.11. The S&P 500 is now 8.2% below the record it set last month, the AP said. For the week so far, the S&P 500 is down 5.1% and the Dow 6.2%.",
+        "The day turned around sharply. The Nasdaq had been up as much as 2% early, Capp Notes said, as chip stocks bounced. By the close almost everything had fallen. Capp Notes counted 464 S&P 500 stocks down and 37 up, and only one of the 30 Dow stocks rose. That {{market-breadth|market breadth}} means investors were selling across the board. All 11 sectors fell. Consumer discretionary was the worst, down 2.79%, and energy held up best, down 0.65%.",
+        "Why did it happen? The AP said AI stocks kept falling on worries that their boom may be over. Yahoo Finance's live coverage listed worries about safety, how long the boom can last and the incoming Democratic-led Congress. Gold and copper also fell sharply while the dollar rose, which a strategist quoted by Strategitz called “panic and liquidation”: investors selling what they could to raise cash. The {{vix|VIX}} rose about 16% to near 28.4, close to an eight-month high."
+      ]
+    },
+    {
+      "kicker": "AI & chips",
+      "title": "Anthropic's record debut could not lift the AI trade",
+      "paragraphs": [
+        "Anthropic, the AI lab, sold 980 million shares at $83 each on Wednesday and raised $81.3 billion, the biggest {{ipo|IPO}} on record, topping SpaceX's debut in June, CNBC said. Its shares, listed on the Nasdaq under the ticker ANT, opened Thursday at $111.50, 34% above the IPO price, then slid toward $93 before closing at $97.17, up 17%. That first-day gain is called an {{ipo-pop|IPO pop}}. At the close the company was worth roughly $1.8 trillion on a fully diluted basis, CNBC said.",
+        "The strong debut did not spread to other AI stocks. One reason, from Vanda Research as reported by Yahoo Finance: individual investors sold other stocks, led by AMD, to raise money to buy Anthropic. An economist at Capital Economics told Decrypt that the IPO “has failed to rekindle enthusiasm for tech stocks.” Alphabet fell 3.46% and Amazon 3.87%, even though both are major Anthropic investors, Capp Notes said.",
+        "AMD fell 7.72%, and was down as much as 13% during the day, Strategitz said. The investigative outlet Hunterbrook disclosed that an affiliated fund was {{short-selling|short}} AMD and alleged that AMD's firmware “repeatedly appeared at a blacklisted Chinese company,” CNBC reported. That matters because of the {{export-controls|export controls}} covered in Monday's brief: selling advanced chips to blacklisted Chinese firms can bring penalties. AMD said the claims misrepresent its business.",
+        "Nvidia fell 3.30% after erasing an early 4.7% gain, Capp Notes said. Daiwa cut its {{price-target|price target}} to $185 from $245, and a CNBC report said former CEO Jensen Huang's legal exposure is growing. Micron fell 2.10% after rising as much as 7.8% early, CoreWeave fell 6.10% after a 10.5% morning gain, and the chip fund SMH lost 2.62%. In Asia, Taiwan's main index fell 4.40%."
+      ]
+    },
+    {
+      "kicker": "Economic data & the Fed",
+      "title": "The Fed's minutes point to more hikes as factory data weaken",
+      "paragraphs": [
+        "On Wednesday the Fed published the {{fomc-minutes|minutes}} of its October meeting. Strategitz said they read {{hawkish|hawkish}}: according to Nomura, “almost all” officials saw further tightening as likely appropriate, and Nomura flagged that Governor Waller had pushed for a half-point hike in December. {{fedwatch|CME FedWatch}} showed a 96.4% chance of a quarter-point {{rate-hike|hike}} at the December 9 meeting, Capp Notes said, up from 95.5% in Tuesday's brief.",
+        "Thursday's data were mostly softer. The {{philly-fed-index|Philadelphia Fed manufacturing index}} fell to 6.3 from 20.9, a six-month low. {{jobless-claims|Initial jobless claims}} were 203,000. The {{leading-economic-index|Conference Board's Leading Economic Index}} fell 0.3% in October to 99.3, pulled down by weak building permits. One bright spot was the Kansas City Fed's factory index, which rose to 18 from 11. All of these figures come from Capp Notes.",
+        "Housing data on Wednesday were mixed. Housing starts rose 9.9% in October to an annual pace of 1.309 million, but building permits, which point to future construction, fell 7.4%, Zacks said.",
+        "Walmart fell 1.04% even though its adjusted profit of 65 cents a share beat forecasts and it raised its sales outlook to growth of 4.9% to 5.2% for the year, Capp Notes said. Williams-Sonoma fell 15.16% after revenue came in just below estimates."
+      ]
+    },
+    {
+      "kicker": "Rates, commodities & crypto",
+      "title": "Bonds rally, and gold falls when you might expect it to rise",
+      "paragraphs": [
+        "By the U.S. Treasury's official closing figures, the 10-year {{treasury-yield|Treasury yield}} ended at 5.04%, down 3 {{basis-point|basis points}} from 5.07% on Wednesday, and the {{two-year-yield|2-year}} ended at 4.76%, down 4 from 4.80%. The {{yield-curve|yield curve}}, the gap between them, widened to 28 basis points from 27. Bond prices rose as investors left stocks for the safety of Treasuries, the {{flight-to-safety|flight to safety}} seen earlier this week.",
+        "Gold did not behave like a {{safe-haven|safe haven}}. Gold futures fell 3.04% to $3,628.30 in late trading, Capp Notes said, which tied the drop to a strong dollar and bets on Fed hikes. The {{dollar-index|dollar index}} rose about 0.1% to near 103.9, close to a 19-month high; Capp Notes showed 103.88 and Strategitz 103.95. Silver fell 4.75%. Strategitz cited Bespoke as saying gold's three-month fall is the fastest since 2013.",
+        "Oil barely moved. {{wti|WTI crude}} settled at $83.21, down 0.06% and its lowest since August 26, and {{brent|Brent}} settled at $91.98, up 0.03%, Capp Notes said. Reports from Iran's navy that two tankers hit mines in the Strait of Hormuz, which Reuters could not verify, offset worries about an {{oil-surplus|oil surplus}}. Bitcoin fell 2.39% to about $61,474 after climbing above $63,000 early."
+      ]
+    }
+  ],
+  "connections": {
+    "intro": "Markets move together, but not always the way the textbook predicts. Each card takes one of today's drivers, says what it should have done to another market, and compares that with what happened. The mismatches are where the day's real story is.",
+    "items": [
+      {
+        "driver": "Anthropic's {{ipo|IPO}} drew huge demand and closed 17% above its price",
+        "asset": "Other AI and chip stocks",
+        "expected": "Rise. Strong demand for one AI company suggests investors still want AI exposure, and a high valuation makes similar companies look cheaper by comparison.",
+        "actual": "Nvidia fell 3.30% after an early gain, AMD fell 7.72% and the chip fund SMH 2.62%.",
+        "why": "The link was outweighed. Vanda Research, reported by Yahoo Finance, said individual investors sold other stocks, led by AMD, to buy Anthropic. Money that went into the new stock came out of the old ones, and AMD also faced a {{short-selling|short seller}}'s report.",
+        "puzzle": true
+      },
+      {
+        "driver": "Stocks fell 2% and the {{vix|VIX}} jumped",
+        "asset": "Gold",
+        "expected": "Rise. Gold is a classic {{safe-haven|safe haven}} that investors buy when they are frightened.",
+        "actual": "Gold futures fell 3.04% to $3,628.30.",
+        "why": "Two things outweighed the safe-haven pull. Capp Notes pointed to a strong dollar and bets on Fed {{rate-hike|hikes}}: gold pays no interest, so higher rates make it less attractive. A strategist quoted by Strategitz called the moves “panic and liquidation,” meaning investors sold gold to raise cash.",
+        "puzzle": true
+      },
+      {
+        "driver": "Stocks fell 2% across the board",
+        "asset": "{{treasury-yield|Treasury yields}}",
+        "expected": "Fall. In a {{flight-to-safety|flight to safety}} investors buy Treasuries, and higher bond prices mean lower yields.",
+        "actual": "The 10-year fell 3 {{basis-point|basis points}} to 5.04% and the 2-year 4 to 4.76%.",
+        "why": "The textbook link held, even with {{hawkish|hawkish}} Fed minutes and 96.4% odds of a December hike pushing the other way. Weak factory data from the Philadelphia Fed also pointed to slower growth.",
+        "puzzle": false
+      },
+      {
+        "driver": "A broad sell-off with worries about AI and growth",
+        "asset": "Energy and utility stocks",
+        "expected": "Fall less than the market. Companies whose sales do not depend on the AI boom, and which people need in any economy, tend to hold up better.",
+        "actual": "Energy fell 0.65% and utilities 1.24%, the two smallest drops of the 11 sectors; the S&P 500 fell 2.02%.",
+        "why": "The textbook link held in relative terms. These are {{defensive-stocks|defensive stocks}}, and oil prices were steady, so energy companies had no new reason to fall.",
+        "puzzle": false
+      }
+    ]
+  },
+  "headlines": [
+    "Intuit fell about 10% after hours on a revenue forecast below estimates and agreed to sell Mailchimp to Bending Spoons for about $3.68 billion, Capp Notes said.",
+    "Palo Alto Networks rose 6.42% after its results beat forecasts, one of the few gainers, Strategitz said.",
+    "Trump, Xi and Putin issued a four-point “Declaration toward Peace” in Shenzhen, with no agreement on Ukraine or Iran, Capp Notes said.",
+    "Taiwan's financial regulator limited short selling from November 20 for stocks down 3.5% or more, after its main index fell 4.40%, Capp Notes said.",
+    "StoneX fell 26.71% after quarterly earnings of $0.66 a share missed the roughly $0.81 expected, Capp Notes said."
+  ],
+  "watch": {
+    "when": "Fri, Nov. 20 · 8:25 a.m. and 10:00 a.m. ET",
+    "title": "Waller speaks, and the S&P 500 tries to end its losing streak",
+    "text": "Fed Governor Waller, who Nomura said has pushed for a half-point {{rate-hike|hike}}, speaks at 8:25 a.m. ET, and Governor Cook at 12:15 p.m. ET. The University of Michigan's final November consumer sentiment and inflation expectations come out at 10:00 a.m. ET. Watch whether Anthropic holds above its $83 IPO price on its second day, and whether the S&P 500 can stop a six-day losing streak before the weekend."
+  },
+  "sources": [
+    {
+      "name": "Associated Press via WTOP",
+      "title": "How major US stock indexes fared Thursday 11/19/2026",
+      "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-thursday-11-19-2026"
+    },
+    {
+      "name": "Capp Notes",
+      "title": "Closing Look — Thursday, November 19, 2026",
+      "url": "https://cappnotes.substack.com/p/closing-look-thursday-november-19"
+    },
+    {
+      "name": "Strategitz",
+      "title": "Global Markets Close — November 19, 2026",
+      "url": "https://strategitz.substack.com/p/global-markets-close-november-19"
+    },
+    {
+      "name": "CNBC",
+      "title": "Anthropic IPO live updates: ANT stock price and Nasdaq debut",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
+    },
+    {
+      "name": "Decrypt",
+      "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
+      "url": "https://decrypt.co/383669/nvidia-amd-micron-ai-stocks-sink-anthropic-ipo-price"
+    },
+    {
+      "name": "Yahoo Finance",
+      "title": "Stock market today: Dow sinks 1,100 points, S&P 500 and Nasdaq tank 2% as Anthropic IPO grabs spotlight",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+    },
+    {
+      "name": "Zacks via Yahoo Finance",
+      "title": "Stock Market News for Nov 19, 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-19-132100065.html"
+    },
+    {
+      "name": "24/7 Wall St.",
+      "title": "S&P 500 Drops Nearly 2% at the Close as Rate Hike Talk Hits Markets",
+      "url": "https://247wallst.com/cards/the-dow-s-1-091-point-drop-came-alongside-declines-in-both-t-gspc-market-bell-01m7tszafyfeyqr7mh8p14494j"
+    },
+    {
+      "name": "U.S. Treasury",
+      "title": "Daily Treasury Par Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Anthropic opened at $111.50 and closed at $97.17, against an IPO price of $83. What was its first-day gain measured from?",
+      "options": [
+        "The opening price of $111.50",
+        "The closing price of the S&P 500",
+        "The IPO price of $83, the price at which the company sold its shares",
+        "Nvidia's share price"
+      ],
+      "answer": 2,
+      "explain": "An {{ipo-pop|IPO pop}} is measured from the {{ipo|IPO}} price. $97.17 is about 17% above $83. Investors who bought at the open paid $111.50, so they ended the day with a loss."
+    },
+    {
+      "q": "Stocks fell 2% and fear rose, yet gold fell about 3%. Which explanation fits the sources?",
+      "options": [
+        "A strong dollar and bets on Fed hikes made gold less attractive, and some investors sold it to raise cash",
+        "Gold always falls when stocks fall",
+        "Central banks banned gold trading for the day",
+        "Oil prices jumped, pulling money out of gold"
+      ],
+      "answer": 0,
+      "explain": "Gold is usually a {{safe-haven|safe haven}}, but it pays no interest. When {{rate-hike|rate hikes}} look likely and the {{dollar-index|dollar}} is strong, holding it costs more. In a panic, investors also sell what they can to raise cash."
+    },
+    {
+      "q": "Hunterbrook disclosed a short position in AMD and published claims about its chips. How does a short seller profit?",
+      "options": [
+        "By buying shares and collecting dividends",
+        "By lending money to AMD",
+        "By buying AMD's bonds",
+        "By selling borrowed shares and buying them back later at a lower price"
+      ],
+      "answer": 3,
+      "explain": "{{short-selling|Short selling}} means selling borrowed shares and buying them back later. If the price falls, the short seller keeps the difference. That is why readers should know the author of a negative report may profit from the fall; AMD said the claims misrepresent its business."
+    },
+    {
+      "q": "The Philadelphia Fed index fell to 6.3 from 20.9. What does a reading above zero still mean?",
+      "options": [
+        "Factories in the region are shrinking fast",
+        "More manufacturers in the region reported improving conditions than worsening ones, though far fewer than a month earlier",
+        "Inflation is exactly zero",
+        "The Fed will cut rates"
+      ],
+      "answer": 1,
+      "explain": "The {{philly-fed-index|Philadelphia Fed index}} is a diffusion index: positive means more firms say things are getting better than worse. Falling from 20.9 to 6.3 means growth slowed sharply, which helped pull {{treasury-yield|Treasury yields}} down."
+    }
+  ]
+}
