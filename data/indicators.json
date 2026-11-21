@@ -1,6 +1,7 @@
 {
- "updated": "2026-11-20T10:19-06:00",
+ "updated": "2026-11-21T15:43-06:00",
  "problems": [
+  "cpi-yoy: FAILED (The read operation timed out)",
   "hy-oas: skipped (no FRED key)"
  ],
  "series": [
@@ -2063,11 +2064,15 @@
     [
      "2026-11-19",
      4.76
+    ],
+    [
+     "2026-11-20",
+     4.63
     ]
    ],
-   "value": 4.76,
-   "asOf": "2026-11-19",
-   "change": -0.04,
+   "value": 4.63,
+   "asOf": "2026-11-20",
+   "change": -0.13,
    "stale": false
   },
   {
@@ -3094,11 +3099,15 @@
     [
      "2026-11-19",
      5.04
+    ],
+    [
+     "2026-11-20",
+     4.92
     ]
    ],
-   "value": 5.04,
-   "asOf": "2026-11-19",
-   "change": -0.03,
+   "value": 4.92,
+   "asOf": "2026-11-20",
+   "change": -0.12,
    "stale": false
   },
   {
@@ -3171,7 +3180,7 @@
    "value": 3.74,
    "asOf": "2026-09-01",
    "change": 0.34,
-   "stale": false
+   "stale": true
   }
  ]
 }

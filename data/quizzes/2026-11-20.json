@@ -1,0 +1,137 @@
+{
+  "week": "2026-11-20",
+  "range": "Nov. 16–20, 2026",
+  "title": "Good results, bad week: the AI sell-off pushes stocks into a correction",
+  "questions": [
+    {
+      "kind": "term",
+      "q": "On Monday the Nasdaq closed about 10.9% below its October 6 high. On Friday the Nasdaq-100 closed 19.84% below its record close. Which labels fit?",
+      "options": [
+        "Both were already in a bear market",
+        "Neither label applies until the Fed acts",
+        "The Nasdaq was in a correction on Monday, and by Friday the Nasdaq-100 was just short of a bear market",
+        "Monday was a bear market and Friday was a correction"
+      ],
+      "answer": 2,
+      "explain": "A {{market-correction|correction}} is a fall of 10% or more from a peak; a {{bear-market|bear market}} is 20% or more. Friday's close left the Nasdaq-100 49.41 points above the bear market line.",
+      "days": [
+        "2026-11-16",
+        "2026-11-20"
+      ]
+    },
+    {
+      "kind": "term",
+      "q": "On Tuesday St. Louis Fed President Musalem said he wants the real interest rate between 2% and 2.5% by spring and estimated it is about a full point below that now. What does that imply?",
+      "options": [
+        "The Fed needs to raise its rate, or inflation needs to fall, to close the gap",
+        "The Fed should cut rates right away",
+        "Inflation is already below zero",
+        "Treasury yields must rise to 2%"
+      ],
+      "answer": 0,
+      "explain": "The {{real-interest-rate|real interest rate}} is the Fed's rate minus inflation. If it is a point too low, the Fed would need more {{rate-hike|rate hikes}}, which is why CNBC reported Musalem sees as many as four.",
+      "days": [
+        "2026-11-17"
+      ]
+    },
+    {
+      "kind": "term",
+      "q": "On Thursday gold fell 3.04% and on Friday 4.63%, to a 14.5-month low, while stocks tumbled both days. What makes that unusual?",
+      "options": [
+        "Gold usually moves exactly with oil",
+        "Gold cannot be traded on Fridays",
+        "Gold always rises when bitcoin falls",
+        "Gold is normally treated as a safe haven that investors buy when they are frightened"
+      ],
+      "answer": 3,
+      "explain": "A {{safe-haven|safe haven}} is something investors buy in a panic. On Thursday Capp Notes blamed a strong dollar and hike bets. On Friday the dollar slipped and yields fell, and the sources read did not explain the drop.",
+      "days": [
+        "2026-11-19",
+        "2026-11-20"
+      ]
+    },
+    {
+      "kind": "term",
+      "q": "Anthropic sold shares at $83, closed its first day at $97.17, and ended Friday at about $88 to $89. What happened to its IPO pop?",
+      "options": [
+        "It grew to more than 30%",
+        "Most of it was given back, but the shares stayed above the $83 IPO price",
+        "It turned into a loss for everyone who bought at the IPO price",
+        "It cannot be measured until a year after the listing"
+      ],
+      "answer": 1,
+      "explain": "An {{ipo-pop|IPO pop}} is measured from the {{ipo|IPO}} price. The 17% first-day gain shrank to roughly 6% to 7% as AI stocks sold off on Friday.",
+      "days": [
+        "2026-11-19",
+        "2026-11-20"
+      ]
+    },
+    {
+      "kind": "connect",
+      "q": "On Tuesday Nvidia reported revenue of $115.8 billion, up 103%, and guided to about $130 billion. By Friday the stock had fallen 14% in a day. Which reading of the week fits the briefs?",
+      "options": [
+        "The results were later revised down by the company",
+        "Nvidia missed its revenue forecast",
+        "Strong results were outweighed by legal and regulatory risks: a California subpoena and a reported SEC look at its accounting",
+        "Interest rates were cut, which hurt growth stocks"
+      ],
+      "answer": 2,
+      "explain": "Results answer how the business is doing; an {{sec-investigation|SEC investigation}} and a subpoena raise questions about risk that results cannot settle. Since Huang's exit the briefs have tracked this as {{key-person-risk|key-person risk}} plus legal risk.",
+      "days": [
+        "2026-11-17",
+        "2026-11-20"
+      ]
+    },
+    {
+      "kind": "connect",
+      "q": "On Monday the 10-year Treasury yield fell 3 basis points to 5.12%, on Thursday 3 to 5.04%, and on Friday 12 to 4.92%. On Tuesday Musalem called for more hikes, and on Wednesday the Fed's minutes read hawkish. Why did yields fall anyway?",
+      "options": [
+        "The Fed bought bonds on each of those days",
+        "Each fall came on a day of heavy stock selling, when investors moved money into Treasuries",
+        "The Treasury stopped selling new bonds",
+        "Inflation data showed prices falling"
+      ],
+      "answer": 1,
+      "explain": "A {{flight-to-safety|flight to safety}} pushes bond prices up and {{treasury-yield|yields}} down. On these days fear about stocks outweighed {{hawkish|hawkish}} Fed talk, which on its own would push yields up.",
+      "days": [
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-19",
+        "2026-11-20"
+      ]
+    },
+    {
+      "kind": "connect",
+      "q": "Monday's brief covered a new US rule on remote access to AI chips, Thursday's a short seller's claim about AMD and a blacklisted Chinese company, and Friday's a California subpoena about whether chips reached China. What links the three?",
+      "options": [
+        "All three are about oil supply through the Strait of Hormuz",
+        "All three are about Fed interest-rate decisions",
+        "All three concern a company's IPO",
+        "All three involve export controls, the limits on selling advanced US chips to China"
+      ],
+      "answer": 3,
+      "explain": "{{export-controls|Export controls}} restrict which customers chipmakers can serve. Each story raised the chance of lost sales or penalties, which is why chip stocks fell on all three days.",
+      "days": [
+        "2026-11-16",
+        "2026-11-19",
+        "2026-11-20"
+      ]
+    },
+    {
+      "kind": "connect",
+      "q": "Consumer staples rose 0.3% on Monday and 0.67% on Friday, the only sector up that day, while technology led the losses. What pattern does that show?",
+      "options": [
+        "Money moving from AI-linked stocks into defensive ones whose sales hold up in any economy",
+        "Staples companies reported record AI revenue",
+        "Staples stocks always rise on Mondays and Fridays",
+        "Staples rose because oil prices fell to zero"
+      ],
+      "answer": 0,
+      "explain": "{{defensive-stocks|Defensive stocks}} such as food and household goods makers tend to hold up in sell-offs. The weak {{market-breadth|market breadth}} on both days shows the selling was wide, but staples were spared.",
+      "days": [
+        "2026-11-16",
+        "2026-11-20"
+      ]
+    }
+  ]
+}

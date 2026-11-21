@@ -1,0 +1,278 @@
+{
+  "date": "2026-11-20",
+  "weekday": "Friday",
+  "title": "Nvidia's 14% plunge drags the S&P 500 into a correction",
+  "oneLiner": "Nvidia fell 14% after Reuters reported an {{sec-investigation|SEC}} look at its accounting, and chip stocks went with it: the S&P 500 fell 3.7% for a seventh straight loss and is now in a {{market-correction|correction}}, and the Nasdaq is down for 2026. Investors bought Treasuries, pushing the 2-year yield down 13 basis points, but gold fell to a 14.5-month low.",
+  "scoreboard": [
+    {
+      "label": "Dow Jones",
+      "value": "−1.9%",
+      "note": "48,147.33; down 949.73 points",
+      "dir": "down"
+    },
+    {
+      "label": "S&P 500",
+      "value": "−3.7%",
+      "note": "6,910.39; seventh loss in a row",
+      "dir": "down",
+      "term": "market-correction"
+    },
+    {
+      "label": "Nasdaq",
+      "value": "−5.3%",
+      "note": "22,617.73; down 2.7% for 2026",
+      "dir": "down"
+    },
+    {
+      "label": "Nasdaq-100",
+      "value": "−5.6%",
+      "note": "25,028.98; 49 points above a bear market",
+      "dir": "down",
+      "term": "bear-market"
+    },
+    {
+      "label": "Russell 2000",
+      "value": "−2.8%",
+      "note": "2,581.79; small companies",
+      "dir": "down",
+      "term": "small-cap"
+    },
+    {
+      "label": "Nvidia",
+      "value": "−14.0%",
+      "note": "$125.53; worst day since Jan. 2025",
+      "dir": "down",
+      "term": "sec-investigation"
+    },
+    {
+      "label": "Anthropic (ANT)",
+      "value": "≈ $88–89",
+      "note": "−8.5% to −9.1%; still above $83 IPO price",
+      "dir": "down",
+      "term": "ipo"
+    },
+    {
+      "label": "10Y Treasury",
+      "value": "4.92%",
+      "note": "−12 bp",
+      "dir": "down",
+      "term": "treasury-yield"
+    },
+    {
+      "label": "2Y Treasury",
+      "value": "4.63%",
+      "note": "−13 bp",
+      "dir": "down",
+      "term": "two-year-yield"
+    },
+    {
+      "label": "Dollar index",
+      "value": "≈ 103.84",
+      "note": "−0.07%; off Thursday's 19-month high",
+      "dir": "flat",
+      "term": "dollar-index"
+    },
+    {
+      "label": "WTI crude",
+      "value": "$83.98",
+      "note": "+0.93%; third weekly fall",
+      "dir": "up",
+      "term": "wti"
+    },
+    {
+      "label": "Brent crude",
+      "value": "$92.57",
+      "note": "+0.64%",
+      "dir": "up",
+      "term": "brent"
+    },
+    {
+      "label": "Gold",
+      "value": "≈ −4.6%",
+      "note": "about $3,515 futures; 14.5-month low",
+      "dir": "down",
+      "term": "safe-haven"
+    },
+    {
+      "label": "Bitcoin",
+      "value": "≈ $58,994",
+      "note": "−4.72%; below $60,000",
+      "dir": "down"
+    },
+    {
+      "label": "VIX",
+      "value": "35.89",
+      "note": "+26.2%; highest close since late March",
+      "dir": "up",
+      "term": "vix"
+    }
+  ],
+  "sections": [
+    {
+      "kicker": "Equities",
+      "title": "The S&P 500 falls into a correction after its worst week since April 2025",
+      "paragraphs": [
+        "Thursday's brief described a sixth straight loss. Friday was worse. The S&P 500 fell 265.44 points, or 3.7%, to 6,910.39, its seventh loss in a row, the Associated Press said. The Nasdaq fell 1,261.47 points, or 5.3%, to 22,617.73, and the Dow fell 949.73 points, or 1.9%, to 48,147.33 after an early gain, StockInvest.us said. The Russell 2000 index of {{small-cap|small-cap}} stocks fell 2.8% to 2,581.79.",
+        "The S&P 500 is now more than 10% below its October 6 record, so it is in a {{market-correction|correction}}, the AP said. The last one was in March 2025, during the trade war. Capp Notes said the Dow, about 10% below its record, is in a correction too. For the week, the S&P 500 lost 8.6%, its worst week since April 2025, the Nasdaq 10%, the Dow 8% and the Russell 2000 7.5%. For 2026 the S&P 500 is now up just 0.9% and the Dow 0.2%, and the Nasdaq is down 2.7%.",
+        "The Nasdaq-100, which holds the largest Nasdaq companies, fell 5.61% to 25,028.98. 24/7 Wall St. worked out that its {{bear-market|bear market}} line, 20% below its record close of 31,224.47, is 24,979.58. Friday's close was 49.41 points above that line, and during the day the index dipped below it. A fall of about 0.2% on Monday would cross it.",
+        "Chips drove the fall. The PHLX Semiconductor Index lost 10.7%, the AP reported according to 24/7 Wall St., and technology was the worst sector, down 7.27%, Capp Notes said. The size of a company matters here. The S&P 500 is a {{cap-weighting|cap-weighted}} index, so its biggest companies, many of them in AI and chips, move it the most. The {{equal-weight-index|equal-weight}} version, where every company counts the same, fell only 1.98%, roughly half as much. Decliners still beat advancers 376 to 123, a weak {{market-breadth|market breadth}}, and consumer staples, up 0.67%, was the only sector that rose."
+      ]
+    },
+    {
+      "kicker": "AI & chips",
+      "title": "An SEC report adds to Nvidia's troubles, and the whole AI trade sells off",
+      "paragraphs": [
+        "Nvidia fell 14.01% to $125.53, its worst day since January 2025 and its seventh straight loss, Capp Notes said. The shares were already down more than 6% when Reuters reported that staff in the {{sec-investigation|SEC}}'s enforcement division were examining possible accounting issues, citing two people briefed on the matter, StockInvest.us said. Reuters said the scope and start date of the inquiry were unclear, and the SEC declined to comment. The Motley Fool quoted Reuters' own caution: investigations are not evidence of wrongdoing, and many close without enforcement action.",
+        "It was the second legal blow in two days. On Thursday California Attorney General Rob Bonta sent Nvidia an investigative subpoena. He said his office is looking at whether actions by Nvidia or Jensen Huang let China obtain advanced chips or confidential information, and whether Nvidia misled investors about that risk, the Motley Fool reported. The {{export-controls|export controls}} in Monday's brief are why that question matters.",
+        "Compare this with Tuesday's brief, when Nvidia's revenue rose 103% to $115.8 billion and beat forecasts. Good results have not been enough. The Motley Fool said the stock is down nearly 50% from its 52-week high of $243.37 in October, and has lost more than a quarter of its value since Huang stepped down on November 12. Its argument: legal and regulatory risks make buyers demand a lower price.",
+        "The selling spread across AI stocks. Capp Notes listed AMD down 13.25%, Micron 13.89%, Arm 14.09%, Broadcom 12.19%, CoreWeave 12.02% and Sandisk 16.05%. Anthropic fell in its first full session: Capp Notes had it down 8.50% at $88.91, and StockInvest.us down 9.1% at $88.30. Either way it is still above its $83 {{ipo|IPO}} price. Asia had already sold off before New York opened: Taiwan's main index fell 6.23%, a record 17.5% weekly loss, South Korea's Kospi 5.21% and Japan's Nikkei 5.06%, as SoftBank sank 14.48%, Capp Notes said."
+      ]
+    },
+    {
+      "kicker": "Economic data & the Fed",
+      "title": "Shoppers expect less inflation, but Fed officials still talk about hikes",
+      "paragraphs": [
+        "The University of Michigan's final November survey brought good news on prices. One-year {{inflation-expectations|inflation expectations}} fell to 3.7%, the lowest since March, from 4.3% at mid-month, Capp Notes said. {{consumer-sentiment|Consumer sentiment}} rose to 51.5 from 48.0 in October, StockInvest.us said, in line with estimates. One catch: the interviews ended Monday, before the week's sharpest losses, so the survey does not capture how people felt about Friday's sell-off.",
+        "Fed officials did not sound ready to wait. Philadelphia Fed President Anna Paulson said she would be open to back-to-back {{rate-hike|rate hikes}}, and Governor Lisa Cook warned that waiting longer to raise rates risks falling behind the curve, Capp Notes said. On the prediction market Kalshi, traders put a 90% chance on a quarter-point hike at the December 9 meeting, 9% on no change and 2% on a larger hike.",
+        "Those comments help explain why the Fed is not coming to the rescue. In past sell-offs, investors often expected the Fed to cut rates to support the economy. Here the Fed is worried about inflation, so falling stock prices alone are not a reason to change course."
+      ]
+    },
+    {
+      "kicker": "Rates, commodities & crypto",
+      "title": "Bonds rally hard, while gold and bitcoin keep falling",
+      "paragraphs": [
+        "Investors moved into government bonds. By the U.S. Treasury's official closing figures, the {{two-year-yield|2-year yield}} fell 13 {{basis-point|basis points}} to 4.63% from 4.76%, and the 10-year {{treasury-yield|Treasury yield}} fell 12 to 4.92% from 5.04%. Capp Notes said the 2-year's drop was about three times its average daily move this year and the 10-year's was its biggest since October 22. The {{yield-curve|yield curve}} widened to 29 basis points from 28. That is a {{flight-to-safety|flight to safety}}.",
+        "Riskier corporate debt was less calm. The {{credit-spread|credit spread}} on {{high-yield-bond|high-yield bonds}} widened to 3.52 percentage points on Thursday from 3.47, and has risen 18 basis points since Monday, Capp Notes said, citing FRED. The {{vix|VIX}} jumped 26.2% to 35.89, its highest close since late March.",
+        "Gold fell again. Gold futures dropped 4.63% to about $3,515, a 14.5-month low, and silver fell 7.41% to about $41.03, Capp Notes said. This time the dollar did not explain it: the {{dollar-index|dollar index}} slipped 0.07% to about 103.84, backing off Thursday's 19-month high, and the Japanese yen rose as a {{safe-haven|safe haven}}. Copper fell 2.82%.",
+        "Oil rose. {{wti|WTI crude}} settled up 0.93% at $83.98 but still fell for a third straight week, and {{brent|Brent}} rose 0.64% to $92.57 on worries about the war with Iran and buying before the holiday, Capp Notes said. UOB analysts said Iranian attacks on tankers near the Strait of Hormuz are running at about one a day in November. Bitcoin fell 4.72% to about $58,994, below $60,000 for the first time since July, and ether fell 7.82%."
+      ]
+    }
+  ],
+  "connections": {
+    "intro": "Markets move together, but not always the way the textbook predicts. Each card takes one of today's drivers, says what it should have done to another market, and compares that with what happened. The mismatches are where the day's real story is.",
+    "items": [
+      {
+        "driver": "The S&P 500 fell 3.7% and the {{vix|VIX}} jumped to 35.89",
+        "asset": "{{treasury-yield|Treasury yields}}",
+        "expected": "Fall. In a {{flight-to-safety|flight to safety}} investors buy Treasuries, and higher bond prices mean lower yields.",
+        "actual": "The 2-year fell 13 {{basis-point|basis points}} to 4.63% and the 10-year 12 to 4.92%.",
+        "why": "The textbook link held strongly, even though Fed officials Paulson and Cook talked about more {{rate-hike|hikes}} and Kalshi still priced a 90% chance of a December hike. Fear about stocks outweighed the hawkish talk for the day.",
+        "puzzle": false
+      },
+      {
+        "driver": "A broad sell-off led by AI and chip stocks",
+        "asset": "Consumer staples stocks",
+        "expected": "Fall less than the market, or rise. People buy food and household goods in any economy, so these {{defensive-stocks|defensive stocks}} do not depend on the AI boom.",
+        "actual": "Consumer staples rose 0.67%, the only one of 11 sectors to rise; General Mills gained 3.65%.",
+        "why": "The textbook link held. Investors moved money from the sectors at the center of the worry into ones far from it.",
+        "puzzle": false
+      },
+      {
+        "driver": "Stocks fell hard, Treasury yields dropped and the dollar slipped",
+        "asset": "Gold",
+        "expected": "Rise. Gold is a {{safe-haven|safe haven}}, and lower yields and a weaker dollar both make holding it more attractive.",
+        "actual": "Gold futures fell 4.63% to about $3,515, a 14.5-month low.",
+        "why": "The sources read do not explain this. On Thursday, when the dollar was rising, Capp Notes blamed the dollar and hike bets, but on Friday both of those moved in gold's favor. One possibility, which a strategist raised about Thursday, is that investors sold gold to raise cash, but no source read confirms that for Friday.",
+        "puzzle": true
+      },
+      {
+        "driver": "{{consumer-sentiment|Consumer sentiment}} rose to 51.5 from 48.0",
+        "asset": "Consumer discretionary stocks",
+        "expected": "Hold up. More confident shoppers spend more on things they do not strictly need, such as clothes, travel and cars.",
+        "actual": "Consumer discretionary fell 2.95%, worse than eight other sectors.",
+        "why": "The survey's interviews ended Monday, before the week's sharpest losses, StockInvest.us said, so it was old news. The day's fear about AI and falling share prices outweighed it.",
+        "puzzle": true
+      }
+    ]
+  },
+  "headlines": [
+    "Global Payments rose 9.95% after Bloomberg reported that the buyout firm GTCR is exploring a takeover worth about $50 billion including debt, Capp Notes said.",
+    "Bill Holdings agreed to a $63.25-a-share cash buyout by TPG and Corpay; its shares fell 4.12%, Capp Notes said.",
+    "Gap rose 11.44% after adjusted profit of $0.82 a share beat the $0.78 expected, even as it lowered its full-year outlook, Capp Notes said.",
+    "Intuit fell 12.77% after cutting its Credit Karma revenue outlook to $2.72 billion to $2.83 billion, Capp Notes said.",
+    "President Trump said US companies would face “tremendous penalties” for building data centers abroad, Capp Notes said."
+  ],
+  "watch": {
+    "when": "Mon, Nov. 23 · 9:45 a.m., 1:00 p.m. and 4:00 p.m. ET",
+    "title": "Does the Nasdaq-100 cross into a bear market?",
+    "text": "S&P Global's flash November purchasing managers' indexes (PMIs) come out at 9:45 a.m. ET, the Treasury sells 2-year notes at 1:00 p.m. ET, and New York Fed President John Williams speaks at 4:00 p.m. ET. Watch whether the Nasdaq-100 closes below 24,979.58, the {{bear-market|bear market}} line, and whether Treasuries keep rallying. It is a short week: US markets are closed Thursday for Thanksgiving, and on Friday stocks close at 1:00 p.m. ET and bonds at 2:00 p.m. ET."
+  },
+  "sources": [
+    {
+      "name": "Associated Press via WTOP",
+      "title": "How major US stock indexes fared Friday 11/20/2026",
+      "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-friday-11-20-2026"
+    },
+    {
+      "name": "Capp Notes",
+      "title": "Closing Look — Friday, November 20, 2026",
+      "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026"
+    },
+    {
+      "name": "StockInvest.us",
+      "title": "S&P 500 Enters Correction and Nasdaq Falls 5.3% as Chip Stocks Slide",
+      "url": "https://stockinvest.us/digest/digest-us-market-close-2026-11-20"
+    },
+    {
+      "name": "24/7 Wall St.",
+      "title": "The Nasdaq-100 Is Now Just 49 Points From a Bear Market",
+      "url": "https://247wallst.com/investing/2026/11/21/the-nasdaq-100-is-now-just-49-points-from-a-bear-market/"
+    },
+    {
+      "name": "The Motley Fool",
+      "title": "Here's Why Nvidia Stock Crashed on Friday",
+      "url": "https://www.fool.com/investing/2026/11/20/here-is-why-nvidia-stock-crashed-on-friday/"
+    },
+    {
+      "name": "U.S. Treasury",
+      "title": "Daily Treasury Par Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "The S&P 500 fell 3.7% on Friday, but the equal-weight version of the index fell only 1.98%. What explains the gap?",
+      "options": [
+        "The equal-weight index holds only consumer staples stocks",
+        "In the regular index the largest companies count the most, and many of them are AI and chip stocks that fell hardest",
+        "The equal-weight index closed early for the holiday",
+        "Small companies fell more than large ones"
+      ],
+      "answer": 1,
+      "explain": "The S&P 500 is {{cap-weighting|cap-weighted}}: Nvidia and other giants move it more than small members. In an {{equal-weight-index|equal-weight index}} each company counts the same, so a crash in a few big chip stocks pulls it down less."
+    },
+    {
+      "q": "The Nasdaq-100's record close was 31,224.47 and it closed Friday at 25,028.98. Why do commentators say it is near a bear market?",
+      "options": [
+        "It fell more than 5% in one day",
+        "It is below its 200-day average",
+        "It is down for 2026",
+        "It is about 19.8% below its record, just short of the 20% fall that defines a bear market"
+      ],
+      "answer": 3,
+      "explain": "A {{bear-market|bear market}} is a fall of 20% or more from the record; a {{market-correction|correction}} starts at 10%. 24/7 Wall St. put the line at 24,979.58, only 49.41 points below Friday's close."
+    },
+    {
+      "q": "Reuters reported that SEC enforcement staff are examining Nvidia's accounting. Why did the shares fall 14% when nothing has been proven?",
+      "options": [
+        "A probe adds uncertainty about the company's reported numbers and possible penalties, so buyers want a lower price for the risk",
+        "The SEC fined Nvidia on Friday",
+        "Nvidia announced that its revenue had fallen",
+        "The SEC suspended trading in the stock"
+      ],
+      "answer": 0,
+      "explain": "An {{sec-investigation|SEC investigation}} is not a finding of wrongdoing, and many close with no action. But investors price in the chance of restated results or penalties, on top of the {{key-person-risk|key-person risk}} after Huang's exit."
+    },
+    {
+      "q": "One-year inflation expectations fell to 3.7% from 4.3%, yet Kalshi still priced a 90% chance of a December rate hike. Why do expectations matter to the Fed at all?",
+      "options": [
+        "They set the price of gold",
+        "They decide how much the Treasury borrows",
+        "If people expect higher prices, they ask for higher wages and accept higher prices, which can keep inflation going",
+        "They measure how many people have jobs"
+      ],
+      "answer": 2,
+      "explain": "{{inflation-expectations|Inflation expectations}} can feed real inflation. A fall is welcome news for the Fed, but officials such as Paulson and Cook still talked about {{rate-hike|rate hikes}}, so one survey did not change the December outlook."
+    }
+  ]
+}

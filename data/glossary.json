@@ -1190,6 +1190,99 @@
         "jobless-claims",
         "existing-home-sales"
       ]
+    },
+    "bear-market": {
+      "term": "Bear market",
+      "category": "Market behavior",
+      "firstSeen": "2026-11-20",
+      "definition": "A fall of 20% or more in an index or stock from its record high. A fall of 10% to 20% is called a correction.",
+      "why": "On Friday the Nasdaq-100 closed 19.84% below its record, 49 points above the bear market line, after dipping below it during the day.",
+      "chain": [
+        "An index sets a record and then falls.",
+        "At a 10% fall it is in a {{market-correction|correction}}.",
+        "At a 20% fall, measured on closing prices, it is in a bear market.",
+        "The label describes losses already taken; it does not predict what comes next.",
+        "It still matters because headlines use it and some rules-based funds cut their holdings when losses reach set levels."
+      ],
+      "related": [
+        "market-correction",
+        "relief-rally",
+        "dip-buying"
+      ]
+    },
+    "sec-investigation": {
+      "term": "SEC investigation",
+      "category": "Companies & regulation",
+      "firstSeen": "2026-11-20",
+      "definition": "An inquiry by the Securities and Exchange Commission, the US regulator of stock markets, into whether a company or person broke securities laws, for example by publishing misleading accounts.",
+      "why": "Reuters reported that SEC enforcement staff were examining possible accounting issues at Nvidia, and its shares fell 14%. An investigation is not proof of wrongdoing.",
+      "chain": [
+        "Investors value a company using the numbers it reports, such as revenue and profit.",
+        "The SEC enforces rules that those numbers and other disclosures be accurate and complete.",
+        "When the SEC investigates, investors worry the numbers may be revised or that fines may follow.",
+        "Many investigations close with no action, but the outcome can take months or years to learn.",
+        "Until then, buyers demand a lower price for holding the uncertainty, so the share price falls."
+      ],
+      "related": [
+        "key-person-risk",
+        "idiosyncratic-risk"
+      ]
+    },
+    "consumer-sentiment": {
+      "term": "Consumer sentiment",
+      "category": "Economic data",
+      "firstSeen": "2026-11-20",
+      "definition": "A monthly survey measure, best known from the University of Michigan, of how households feel about their finances and the economy.",
+      "why": "The final November reading rose to 51.5 from 48.0 in October, but the interviews ended before the week's steepest stock losses.",
+      "chain": [
+        "Consumer spending is the largest part of the US economy.",
+        "People who feel confident about their jobs and income tend to spend more.",
+        "The survey asks households how they see their finances and the economy now and ahead.",
+        "A rising reading suggests spending may hold up; a falling one warns it may slow.",
+        "Because surveys are taken over several days, a sudden market fall may not show up until the next reading."
+      ],
+      "related": [
+        "inflation-expectations",
+        "retail-sales"
+      ]
+    },
+    "inflation-expectations": {
+      "term": "Inflation expectations",
+      "category": "Inflation & prices",
+      "firstSeen": "2026-11-20",
+      "definition": "How fast people, businesses or investors expect prices to rise in the future. The University of Michigan survey asks households about the year ahead and the next five to ten years.",
+      "why": "One-year expectations fell to 3.7%, the lowest since March, from 4.3% at mid-month. That is welcome news for a Fed that is raising rates to fight inflation.",
+      "chain": [
+        "If people expect prices to keep rising, workers ask for bigger raises.",
+        "Businesses that expect higher costs raise their own prices sooner.",
+        "Those actions can make inflation keep going on its own.",
+        "So the Fed watches expectations closely and acts to keep them from drifting up.",
+        "When expectations fall, the Fed has less reason to raise rates quickly."
+      ],
+      "related": [
+        "cpi",
+        "rate-hike",
+        "consumer-sentiment"
+      ]
+    },
+    "credit-spread": {
+      "term": "Credit spread",
+      "category": "Rates & bonds",
+      "firstSeen": "2026-11-20",
+      "definition": "The extra yield a company's bonds pay over a Treasury bond of similar length. It is the reward investors demand for the risk that the company will not pay them back.",
+      "why": "The spread on high-yield bonds widened to 3.52 percentage points on Thursday from 3.47, up 18 basis points since Monday, even as Treasury yields fell.",
+      "chain": [
+        "The US government is treated as almost sure to repay, so Treasury yields are the base rate.",
+        "Companies can fail, so their bonds must pay more than Treasuries to attract buyers.",
+        "That extra yield is the credit spread.",
+        "When investors grow more worried about the economy or about borrowers, they demand more, so spreads widen.",
+        "Wider spreads raise borrowing costs for companies, which can slow investment and hiring."
+      ],
+      "related": [
+        "high-yield-bond",
+        "treasury-yield",
+        "risk-premium"
+      ]
     }
   }
 }
