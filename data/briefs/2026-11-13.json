@@ -253,23 +253,21 @@
   ],
   "quiz": [
     {
+      "type": "short",
       "q": "The PPI rose 0.3% in October, below the 0.4% forecast, yet the 10-year Treasury yield rose 5 basis points to 5.15%. What best explains that?",
-      "options": [
-        "A cooler inflation report always pushes yields up",
-        "The monthly figure was mild, but prices were still up 6.5% over the year and Fed officials kept calling for higher rates",
-        "The bond market was closed on Friday",
-        "The Fed raised rates on Friday morning"
-      ],
-      "answer": 1,
-      "explain": "The {{ppi|PPI}} beat the {{consensus-forecast|consensus forecast}} for the month, which would normally pull {{treasury-yield|Treasury yields}} down. But the 12-month rise of 6.5% was the largest since November 2022, and the odds of a half-point {{rate-hike|hike}} in December did not fall, so bond buyers had little reason to step in."
+      "model": "The month was mild, but the {{ppi|PPI}} was still up 6.5% over 12 months, the largest rise since November 2022, and Fed officials kept calling for higher rates. The odds of a half-point December {{rate-hike|hike}} did not fall, so bond buyers had little reason to step in.",
+      "points": [
+        "Prices were still up a lot over the year (6.5%)",
+        "Fed officials stayed hawkish, so the odds of a big December hike did not fall"
+      ]
     },
     {
       "q": "On Thursday AMD rose 5.9% as Nvidia fell. On Friday Nvidia fell 2.0% and AMD fell 8.75%. What changed?",
       "options": [
-        "AMD's CEO also resigned",
-        "Nvidia announced it would buy AMD",
-        "The Dow removed AMD from the index",
-        "The selling spread from one company's problem to chip stocks as a group, so rivals no longer benefited"
+        "Rotation trades always reverse the next day as positions even out",
+        "Nvidia's fall made AMD the most expensive chip stock to own",
+        "Index funds had to sell AMD after Nvidia's weight in them fell",
+        "The worry spread from Nvidia alone to chip stocks as a group"
       ],
       "answer": 3,
       "explain": "Thursday's move was {{sector-rotation|rotation}} driven by {{idiosyncratic-risk|idiosyncratic risk}}: a problem at Nvidia alone. On Friday the sources described a sell-off across the chip sector tied to inflation data and wider uncertainty. A worry that covers the whole group pulls competitors down too."
@@ -277,23 +275,23 @@
     {
       "q": "Technology stocks fell 2.0% on Friday while consumer staples rose 1.4%. Why do staples tend to hold up on a day when yields rise?",
       "options": [
-        "People keep buying everyday goods in any economy, so these companies' profits are steady and depend less on far-off growth",
-        "Staples companies pay no taxes",
-        "Staples companies are the largest holders of gold",
-        "Staples stocks are not traded on days when yields rise"
+        "They hold large cash piles that earn more when yields rise",
+        "People buy everyday goods in any economy, so profits stay steady",
+        "Their prices are set by regulators, so their sales cannot fall",
+        "Higher yields lower their borrowing costs on short-term debt"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "Consumer staples are {{defensive-stocks|defensive stocks}}. Their sales change little with the economy, so investors move into them when rising {{treasury-yield|Treasury yields}} make fast-growing technology companies look expensive."
     },
     {
       "q": "The dollar index rose to 103.38, its highest since April 2025, in a week when Fed officials kept talking about rate hikes. What is the link?",
       "options": [
-        "The Fed sets the dollar index directly at each meeting",
-        "A stronger dollar causes the Fed to raise rates",
-        "Higher US interest rates pay investors more for holding dollars, so demand for dollars rises",
-        "The dollar rises whenever stocks fall"
+        "Higher US rates pay more for holding dollars, so demand rises",
+        "The Fed buys dollars at each meeting to support its rate path",
+        "Rate hikes cut the supply of dollars printed by the Treasury",
+        "A stronger dollar pushes the Fed to raise rates to defend it"
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": "{{hawkish|Hawkish}} comments raise the interest rates investors expect in the United States. Money moves toward the currency that pays more, and that buying lifts the {{dollar-index|dollar index}}."
     }
   ]

@@ -231,47 +231,45 @@
   ],
   "quiz": [
     {
+      "type": "short",
       "q": "The S&P 500 fell 3.7% on Friday, but the equal-weight version of the index fell only 1.98%. What explains the gap?",
-      "options": [
-        "The equal-weight index holds only consumer staples stocks",
-        "In the regular index the largest companies count the most, and many of them are AI and chip stocks that fell hardest",
-        "The equal-weight index closed early for the holiday",
-        "Small companies fell more than large ones"
-      ],
-      "answer": 1,
-      "explain": "The S&P 500 is {{cap-weighting|cap-weighted}}: Nvidia and other giants move it more than small members. In an {{equal-weight-index|equal-weight index}} each company counts the same, so a crash in a few big chip stocks pulls it down less."
+      "model": "The S&P 500 is {{cap-weighting|cap-weighted}}, so giants such as Nvidia move it the most, and many of them are AI and chip stocks that fell hardest. In an {{equal-weight-index|equal-weight index}} each company counts the same, so a crash in a few big stocks pulls it down less.",
+      "points": [
+        "The regular index gives the largest companies the most weight",
+        "The largest companies, AI and chip stocks, fell the most"
+      ]
     },
     {
       "q": "The Nasdaq-100's record close was 31,224.47 and it closed Friday at 25,028.98. Why do commentators say it is near a bear market?",
       "options": [
-        "It fell more than 5% in one day",
-        "It is below its 200-day average",
-        "It is down for 2026",
-        "It is about 19.8% below its record, just short of the 20% fall that defines a bear market"
+        "It is about 19.8% below its record, just short of 20%",
+        "It is more than 10% below its record, the bear market line",
+        "It fell more than 5% in a single session this week",
+        "It closed below its 200-day average for a full week"
       ],
-      "answer": 3,
+      "answer": 0,
       "explain": "A {{bear-market|bear market}} is a fall of 20% or more from the record; a {{market-correction|correction}} starts at 10%. 24/7 Wall St. put the line at 24,979.58, only 49.41 points below Friday's close."
     },
     {
       "q": "Reuters reported that SEC enforcement staff are examining Nvidia's accounting. Why did the shares fall 14% when nothing has been proven?",
       "options": [
-        "A probe adds uncertainty about the company's reported numbers and possible penalties, so buyers want a lower price for the risk",
-        "The SEC fined Nvidia on Friday",
-        "Nvidia announced that its revenue had fallen",
-        "The SEC suspended trading in the stock"
+        "The SEC fined the company and suspended its buybacks",
+        "A probe legally bars funds from holding the stock until it ends",
+        "Nvidia warned that the probe would cut its revenue forecast",
+        "A probe raises the risk of restated results or penalties"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "An {{sec-investigation|SEC investigation}} is not a finding of wrongdoing, and many close with no action. But investors price in the chance of restated results or penalties, on top of the {{key-person-risk|key-person risk}} after Huang's exit."
     },
     {
       "q": "One-year inflation expectations fell to 3.7% from 4.3%, yet Kalshi still priced a 90% chance of a December rate hike. Why do expectations matter to the Fed at all?",
       "options": [
-        "They set the price of gold",
-        "They decide how much the Treasury borrows",
-        "If people expect higher prices, they ask for higher wages and accept higher prices, which can keep inflation going",
-        "They measure how many people have jobs"
+        "They set the yield the Treasury must pay on new bonds",
+        "Expected price rises feed wage demands and price setting",
+        "They decide how much money the Fed prints each month",
+        "They measure whether consumers plan to cut back spending"
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": "{{inflation-expectations|Inflation expectations}} can feed real inflation. A fall is welcome news for the Fed, but officials such as Paulson and Cook still talked about {{rate-hike|rate hikes}}, so one survey did not change the December outlook."
     }
   ]

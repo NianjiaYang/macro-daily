@@ -258,45 +258,43 @@
     {
       "q": "The Nasdaq closed 10.9% below its October 6 high. What does calling this a “correction” tell you?",
       "options": [
-        "The exchange has corrected an error in the index",
-        "Prices are certain to recover within a month",
-        "The index has fallen 10% or more from a recent peak; it describes what has happened, not what comes next",
-        "The Fed has stepped in to stop the decline"
+        "It fell 20% or more from a peak and is likely to keep falling",
+        "It fell far enough that exchange rules paused trading for the whole day",
+        "It fell 10% or more from a recent peak; no forecast is implied",
+        "It fell 10%, a level that usually signals a rebound is near"
       ],
       "answer": 2,
       "explain": "A {{market-correction|correction}} is a label for a fall of 10% or more from a recent high. It says nothing about the future, but it marks the point where a pullback has become a sustained decline."
     },
     {
+      "type": "short",
       "q": "Stocks fell sharply on Monday and the 10-year Treasury yield fell 3 basis points to 5.12%. Why would those two things happen together?",
-      "options": [
-        "Investors leaving stocks bought government bonds for safety, which pushed bond prices up and yields down",
-        "The Treasury lowers yields whenever stocks fall",
-        "Bond yields and stock prices always move in the same direction",
-        "The Fed cut interest rates on Monday"
-      ],
-      "answer": 0,
-      "explain": "This is a {{flight-to-safety|flight to safety}}. Extra demand for Treasuries raises their prices, and a bond's {{treasury-yield|yield}} falls when its price rises."
+      "model": "Investors leaving stocks bought Treasuries for safety, a {{flight-to-safety|flight to safety}}. Extra demand raised bond prices, and a bond's {{treasury-yield|yield}} falls when its price rises.",
+      "points": [
+        "Money moved from stocks into Treasuries for safety",
+        "Higher bond prices mean lower yields"
+      ]
     },
     {
       "q": "Last week higher yields hurt technology stocks. On Monday yields fell, yet technology was the worst sector, down 3.2%. What explains that?",
       "options": [
-        "Lower yields always hurt technology stocks",
-        "Technology stocks do not respond to interest rates",
-        "The bond market was closed, so yields did not matter",
-        "The selling came from chip news, including a new export rule and doubts at Nvidia, and yields fell because money was leaving stocks"
+        "Chip news hit tech, and yields fell because money was leaving stocks",
+        "Lower yields shrink the value of future profits for growth stocks",
+        "Bonds were closed, so the drop in yields had no effect on stocks",
+        "Tech stocks only respond to long-term yields, which rose that day"
       ],
-      "answer": 3,
+      "answer": 0,
       "explain": "The direction of cause matters. New {{export-controls|export controls}} and the leadership question at Nvidia pushed chip stocks down. Yields fell as a result of the {{flight-to-safety|flight to safety}}, so they could not also rescue the stocks."
     },
     {
       "q": "The Empire State survey fell 18 points to 7.8, well below the 16.7 forecast. What does a reading of 7.8 mean?",
       "options": [
-        "New York factories shrank by 7.8%",
-        "More factories still reported better conditions than worse ones, but by a much smaller margin than in October",
-        "Factory prices rose 7.8% over the year",
-        "Only 7.8% of factories answered the survey"
+        "New York factory output grew 7.8% compared with a year earlier",
+        "Only 7.8% of the surveyed factories said that their conditions improved",
+        "Conditions shrank, since any reading below 50 means contraction",
+        "More firms still saw improvement than decline, by a smaller margin"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "The {{empire-state-survey|Empire State survey}} is the share of firms reporting improvement minus the share reporting decline. Anything above zero means growth. Missing the {{consensus-forecast|consensus forecast}} by this much says growth slowed more than economists expected."
     }
   ]

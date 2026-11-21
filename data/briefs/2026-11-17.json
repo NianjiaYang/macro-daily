@@ -259,47 +259,45 @@
   ],
   "quiz": [
     {
+      "type": "short",
       "q": "Retail sales rose only 0.2% in October, but sales outside autos rose 0.6%. Why do analysts look at the figure without cars?",
-      "options": [
-        "Car sales are not counted by the Census Bureau",
-        "A few big-ticket car purchases can swing the total, so the figure without them is a better read of everyday spending",
-        "Car prices never change, so they add nothing",
-        "The Fed sets its rate using car sales only"
-      ],
-      "answer": 1,
-      "explain": "{{retail-sales|Retail sales}} include cars, which are large and lumpy purchases. Motor vehicle sales fell 1.6% in October, so the headline understated how much people spent on everything else."
+      "model": "Cars are big, lumpy purchases that can swing the total. Motor vehicle sales fell 1.6% in October, so {{retail-sales|retail sales}} without autos give a better read of everyday spending.",
+      "points": [
+        "Car sales are large and volatile, so they can swing the total",
+        "Leaving them out shows the trend in everyday spending"
+      ]
     },
     {
       "q": "Strong spending figures pushed the 10-year yield toward 5.15% in the morning, yet it closed at 5.10%. What happened?",
       "options": [
-        "The Fed cut rates during the afternoon",
-        "The Treasury changed how it calculates yields",
-        "Retail sales were revised down at noon",
-        "Stocks sold off and investors moved into safer assets such as Treasuries, which pushed yields down"
+        "Retail sales were revised lower after the morning release",
+        "The Fed signaled a pause in hikes after the strong data",
+        "Stocks sold off and investors moved into Treasuries",
+        "A strong bond auction pulled long-term yields lower"
       ],
-      "answer": 3,
+      "answer": 2,
       "explain": "Two forces pulled in opposite directions. Hawkish news pushes {{treasury-yield|yields}} up, but a {{flight-to-safety|flight to safety}} pushes them down. By the close the flight to safety won."
     },
     {
       "q": "Musalem wants the real interest rate between 2% and 2.5% and says it is about a point below that now. What is the real interest rate?",
       "options": [
-        "The Fed's rate minus inflation, which shows how much borrowing really costs after rising prices",
-        "The rate banks charge their best customers",
-        "The 10-year Treasury yield",
-        "The rate after taxes"
+        "The rate banks charge their most creditworthy customers",
+        "The Fed's rate minus inflation, the true cost of borrowing",
+        "The 10-year Treasury yield adjusted for taxes on interest",
+        "The Fed's rate plus inflation, the total cost of borrowing"
       ],
-      "answer": 0,
+      "answer": 1,
       "explain": "The {{real-interest-rate|real interest rate}} subtracts inflation from the nominal rate. If inflation stays high, the Fed must raise its rate just to keep the real rate from falling, which is why Musalem sees up to four more {{rate-hike|hikes}}."
     },
     {
       "q": "Home Depot's quarterly profit beat forecasts, yet its shares fell 2.4%. What best explains that?",
       "options": [
-        "Profits that beat forecasts always make shares fall",
-        "Home Depot cut its dividend",
-        "Its outlook implied holiday-quarter earnings below forecasts, and investors price the future more than the past",
-        "The company was removed from the Dow"
+        "Its outlook pointed to weaker holiday earnings than forecast",
+        "Beating forecasts signals the company is underinvesting for growth",
+        "Investors price the past quarter more heavily than the next one",
+        "Share prices react only to dividends, not to profit figures"
       ],
-      "answer": 2,
+      "answer": 0,
       "explain": "Share prices reflect expected future profits. When {{earnings-guidance|guidance}} points lower, a beat on the quarter just ended matters less. High {{mortgage-rate|mortgage rates}} weighing on housing add to the worry."
     }
   ]

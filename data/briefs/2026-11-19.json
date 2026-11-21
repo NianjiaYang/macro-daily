@@ -246,43 +246,41 @@
     {
       "q": "Anthropic opened at $111.50 and closed at $97.17, against an IPO price of $83. What was its first-day gain measured from?",
       "options": [
-        "The opening price of $111.50",
-        "The closing price of the S&P 500",
-        "The IPO price of $83, the price at which the company sold its shares",
-        "Nvidia's share price"
+        "The $111.50 opening price, the first public trade",
+        "The midpoint of the price range set before the IPO",
+        "The price paid in the company's last private funding round",
+        "The $83 IPO price, at which the company sold its shares"
       ],
-      "answer": 2,
+      "answer": 3,
       "explain": "An {{ipo-pop|IPO pop}} is measured from the {{ipo|IPO}} price. $97.17 is about 17% above $83. Investors who bought at the open paid $111.50, so they ended the day with a loss."
     },
     {
-      "q": "Stocks fell 2% and fear rose, yet gold fell about 3%. Which explanation fits the sources?",
-      "options": [
-        "A strong dollar and bets on Fed hikes made gold less attractive, and some investors sold it to raise cash",
-        "Gold always falls when stocks fall",
-        "Central banks banned gold trading for the day",
-        "Oil prices jumped, pulling money out of gold"
-      ],
-      "answer": 0,
-      "explain": "Gold is usually a {{safe-haven|safe haven}}, but it pays no interest. When {{rate-hike|rate hikes}} look likely and the {{dollar-index|dollar}} is strong, holding it costs more. In a panic, investors also sell what they can to raise cash."
+      "type": "short",
+      "q": "Stocks fell 2% and fear rose, yet gold fell about 3%. Using the sources, explain why gold fell.",
+      "model": "Gold pays no interest. With {{rate-hike|rate hikes}} likely and the {{dollar-index|dollar}} strong, holding it cost more, and in a panic some investors sold what they could to raise cash. So it did not act as a {{safe-haven|safe haven}} that day.",
+      "points": [
+        "A strong dollar and bets on Fed hikes made gold, which pays no interest, less attractive",
+        "Some investors sold gold to raise cash"
+      ]
     },
     {
       "q": "Hunterbrook disclosed a short position in AMD and published claims about its chips. How does a short seller profit?",
       "options": [
-        "By buying shares and collecting dividends",
-        "By lending money to AMD",
-        "By buying AMD's bonds",
-        "By selling borrowed shares and buying them back later at a lower price"
+        "Selling borrowed shares and buying them back later for less",
+        "Buying shares now and selling them once the price recovers",
+        "Lending shares to other investors for a fee each month",
+        "Selling shares it owns before the price falls, then holding cash"
       ],
-      "answer": 3,
+      "answer": 0,
       "explain": "{{short-selling|Short selling}} means selling borrowed shares and buying them back later. If the price falls, the short seller keeps the difference. That is why readers should know the author of a negative report may profit from the fall; AMD said the claims misrepresent its business."
     },
     {
       "q": "The Philadelphia Fed index fell to 6.3 from 20.9. What does a reading above zero still mean?",
       "options": [
-        "Factories in the region are shrinking fast",
-        "More manufacturers in the region reported improving conditions than worsening ones, though far fewer than a month earlier",
-        "Inflation is exactly zero",
-        "The Fed will cut rates"
+        "Activity is shrinking, since readings below 50 signal a contraction",
+        "More firms saw improvement than decline, by a much smaller margin",
+        "Regional factory output grew 6.3% from the previous month",
+        "6.3% of firms said conditions improved, down from 20.9%"
       ],
       "answer": 1,
       "explain": "The {{philly-fed-index|Philadelphia Fed index}} is a diffusion index: positive means more firms say things are getting better than worse. Falling from 20.9 to 6.3 means growth slowed sharply, which helped pull {{treasury-yield|Treasury yields}} down."

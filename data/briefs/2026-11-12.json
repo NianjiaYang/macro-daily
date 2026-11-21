@@ -225,47 +225,45 @@
   ],
   "quiz": [
     {
+      "type": "short",
       "q": "Nvidia fell 4.3% after its CEO resigned, while AMD rose 5.9% and Broadcom 5.5%. What does that pattern tell you?",
-      "options": [
-        "Investors were selling all chip stocks",
-        "AMD and Broadcom reported strong earnings that day",
-        "Investors treated it as one company's problem and moved money to its competitors",
-        "The Fed announced support for chipmakers"
-      ],
-      "answer": 2,
-      "explain": "A CEO's sudden exit is {{key-person-risk|key-person risk}}, a kind of {{idiosyncratic-risk|idiosyncratic risk}}. It hurts that company, and investors saw a chance for rivals to win market share, so the money stayed in chips but changed seats."
+      "model": "Investors saw the CEO's exit as {{key-person-risk|key-person risk}}, a kind of {{idiosyncratic-risk|idiosyncratic risk}} that hurts one company. They kept their money in chips but moved it to rivals that could win market share.",
+      "points": [
+        "The problem was specific to Nvidia, not to the chip sector",
+        "Money moved to Nvidia's competitors instead of leaving chips"
+      ]
     },
     {
       "q": "Jobless claims came in above forecasts and existing home sales fell to their lowest since 2010. Why did Treasury yields rise anyway?",
       "options": [
-        "Worries about inflation and Fed rate hikes outweighed the signs of slower growth",
-        "Weak economic data always pushes yields up",
-        "The bond market was closed, so yields were set by the stock market",
-        "The Treasury stopped selling bonds"
+        "Weak data means more government borrowing, so bond supply jumps",
+        "Higher jobless claims signal a tight labor market and faster wage gains",
+        "Investors sold bonds to buy stocks after the weak housing report",
+        "Fears of inflation and Fed hikes outweighed the signs of slower growth"
       ],
-      "answer": 0,
+      "answer": 3,
       "explain": "Weak {{jobless-claims|jobless claims}} and {{existing-home-sales|existing home sales}} would normally pull {{treasury-yield|Treasury yields}} down. But after Tuesday's hot CPI, traders are focused on {{rate-hike|rate hikes}}, and that pushed the 10-year up 12 basis points to 5.10%."
     },
     {
       "q": "The Russell 2000 fell about 1.7% while the S&P 500 fell 0.35%. Why were small companies hit harder on a day when yields jumped?",
       "options": [
-        "Small companies hold more gold",
-        "Nvidia is the largest stock in the Russell 2000",
-        "Small companies are not affected by interest rates",
-        "Small companies rely more on borrowing, so higher rates hurt their profits faster"
+        "They borrow more at rates that reset, so higher yields hurt them sooner",
+        "They hold more long-term bonds, which lose value when yields rise",
+        "Index funds sell small caps first whenever bond yields go up",
+        "They depend more on exports, which higher yields make costlier"
       ],
-      "answer": 3,
+      "answer": 0,
       "explain": "{{small-cap|Small-cap}} companies tend to carry more debt at rates that reset often. When the 10-year {{treasury-yield|Treasury yield}} jumps, their borrowing costs rise sooner than those of large, cash-rich companies."
     },
     {
       "q": "Nvidia is about 6% of the S&P 500 but only about 2% of the Dow. Why the difference?",
       "options": [
-        "The Dow excludes technology companies",
-        "The S&P 500 weights companies by market value, while the Dow weights them by share price",
-        "The Dow counts each company equally",
-        "Nvidia is listed twice in the S&P 500"
+        "The Dow caps any single company's weight at about 2% of the index",
+        "The Dow gives each of its 30 companies an equal weight",
+        "The S&P weights by market value; the Dow weights by share price",
+        "The S&P adds extra weight to its fastest-growing companies"
       ],
-      "answer": 1,
+      "answer": 2,
       "explain": "The S&P 500 uses {{cap-weighting|cap-weighting}}, so a company worth trillions gets a big weight. The Dow is a {{price-weighted-index|price-weighted index}}: a stock's weight depends on its share price, not on the size of the company."
     }
   ]

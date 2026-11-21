@@ -228,34 +228,32 @@
   ],
   "quiz": [
     {
-      "q": "CoreWeave still lost $709 million in the quarter, yet its stock rose about 24%. What best explains the jump?",
-      "options": [
-        "Investors only look at revenue and ignore losses",
-        "Results beat forecasts and the company raised its guidance, easing a worry that had already pushed the stock down about 40%",
-        "The Fed cut interest rates",
-        "The company announced it would stop buying AI chips"
-      ],
-      "answer": 1,
-      "explain": "Stocks move on results compared with expectations. Revenue beat the forecast, {{earnings-guidance|guidance}} went up and the {{revenue-backlog|revenue backlog}} grew, after a month in which the stock had fallen about 40% on debt worries."
+      "type": "short",
+      "q": "CoreWeave still lost $709 million in the quarter, yet its stock rose about 24%. Why?",
+      "model": "Stocks move on results compared with expectations. Revenue beat forecasts, {{earnings-guidance|guidance}} went up and the {{revenue-backlog|revenue backlog}} grew. That eased the debt worries that had already pushed the stock down about 40% in a month.",
+      "points": [
+        "Results beat expectations and guidance was raised",
+        "The stock had already fallen on worries, so good news relieved them"
+      ]
     },
     {
       "q": "Tuesday's hot CPI pushed tech stocks down. On Wednesday the inflation picture had not improved, yet the Nasdaq rose 1.6%. Why?",
       "options": [
-        "Inflation data was revised lower",
-        "The Fed said it would not raise rates",
-        "Tech stocks always rise on holidays",
-        "The bond market was closed, so yields added no new pressure, and strong company news from CoreWeave outweighed the rate story"
+        "A revision showed October's inflation was cooler than first reported",
+        "Fed officials signaled that a December hike was now off the table",
+        "No bond trading meant no yield pressure, and CoreWeave's news helped",
+        "Lower oil prices eased inflation fears and lifted growth stocks"
       ],
-      "answer": 3,
+      "answer": 2,
       "explain": "With no bond trading, {{treasury-yield|Treasury yields}} could not rise further, and CoreWeave's report answered the market's main worry about AI spending. The {{rate-hike|rate-hike}} question returns when bonds reopen."
     },
     {
       "q": "Attacks on ships near the Strait of Hormuz continued, but WTI rose only about 0.4%. What held the price back?",
       "options": [
-        "Industry data showed US crude inventories rose by 9 million barrels, a sign of ample supply",
-        "Oil traders were on holiday",
-        "The attacks lowered demand for oil",
-        "The dollar fell sharply"
+        "US crude stockpiles rose sharply, a sign of ample supply",
+        "The attacks cut global oil demand by disrupting shipping",
+        "A sharply weaker dollar made oil cheaper for buyers abroad",
+        "Traders judged the attacks too small to affect supply"
       ],
       "answer": 0,
       "explain": "Shipping attacks add a {{risk-premium|risk premium}}, but a large rise in {{crude-inventories|crude inventories}} says supply is plentiful, which pulls the price the other way."
@@ -263,12 +261,12 @@
     {
       "q": "Nvidia closed up 2.9%, then fell after 4 p.m. on new media reports. What does that show about after-hours trading?",
       "options": [
-        "After-hours prices are set by the exchange, not by traders",
-        "Prices cannot change once the market closes",
-        "News that arrives after the close is priced right away, so the closing price is not always the latest word",
-        "After-hours moves always reverse the next morning"
+        "After-hours prices are set by the exchange until the next open",
+        "News after the close is priced right away, so the close isn't final",
+        "After-hours moves are not real trades until the morning confirms",
+        "After-hours moves usually reverse once the regular session opens"
       ],
-      "answer": 2,
+      "answer": 1,
       "explain": "{{after-hours-trading|After-hours trading}} lets investors react to news released after the close. Because one company's problem is {{idiosyncratic-risk|idiosyncratic risk}}, it hits that stock first, though a company this large can still move the indexes."
     }
   ]

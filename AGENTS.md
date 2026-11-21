@@ -79,7 +79,10 @@ Before step 1 on the first session, tell the learner in one sentence what a sess
    - `partial`: one of them is right, or both are right with one important error.
    - `missed`: neither is right, or they could not answer.
 3. **Your focus area.** Ask questions that connect the brief to their `primaryArea`. If their `goal` points at another of their focus areas, alternate between the two across sessions. Build each question from the brief's `connections` or `sections`. **Do not ask anything that one of the brief's `quiz` questions asks**, because that would give away a quick-check answer. Example for a rates learner, if the quiz does not cover it: "Oil fell, which should ease inflation worries. Why didn't rate expectations fall with it?" Explain terms at their `level`: plain words and an everyday comparison for `new`; the glossary `why` text for `student`; the full `chain` for `working`. The `why` text describes the day the term first appeared, so say which day it refers to.
-4. **Quick check.** Ask the brief's `quiz` questions one at a time, showing the options as A to D in the order given. `answer` is a 0-based index: 0 is A, 1 is B. After each reply, say whether it was right and give the explanation. "I don't know" counts as wrong: give the answer and explanation kindly and move on.
+4. **Quick check.** Ask the brief's `quiz` questions one at a time. Questions come in two types:
+   - Multiple-choice (no `type`, or `"type": "mcq"`): show the options as A to D in the order given. `answer` is a 0-based index: 0 is A, 1 is B. After each reply, say whether it was right and give the `explain` text.
+   - Short answer (`"type": "short"`): show only the question; do not offer options or hints. Compare the reply with `model` and `points`. It is right only if it makes every key point in substance (the wording can differ). Then say which points they made, give the model answer, and name any point they missed.
+   "I don't know" counts as wrong: give the answer and explanation kindly and move on.
 5. **Review.** Choose terms in this order: status `review` first, oldest `lastReviewed` first; then `learned` or `mastered` terms last reviewed more than 7 days ago. Terms that are only `seen` are not review items. Skip any term already asked in this session. Ask the learner to explain the term or apply it to the brief. If there is nothing to review, skip this step.
 6. **Wrap up.** Give a three-line summary: what they did, their quick-check score, and which terms come up for review next time. Add one entry to `sessions`.
 
@@ -129,7 +132,7 @@ Before step 1 on the first session, tell the learner in one sentence what a sess
 
 **Which terms a brief contains:** every `{{term-id|label}}` anywhere in the brief file, plus every `term` value in its `scoreboard`. When the learner has read the brief, add each of these that is not yet in `terms` with status `seen`, `correct` 0 and `wrong` 0.
 
-**Which terms a question tests:** quiz questions have no term field. A question tests the terms marked with `{{term-id|label}}` in its `q` and `explain` text. If it marks none, record only the score.
+**Which terms a question tests:** quiz questions have no term field. A question tests the terms marked with `{{term-id|label}}` in its `q`, `explain` and `model` text. If it marks none, record only the score.
 
 **Status rules**
 - `seen`: the term was in a brief the learner read.

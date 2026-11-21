@@ -18,6 +18,7 @@ const state = {
   glQuery: "",
   pop: { id: null, tier: 0, anchor: null },
   quiz: {},
+  drafts: { q: {}, wq: {} }, // short-answer text and whether the model answer is showing, per question
   indicators: null,
   weekly: { list: [], quiz: null, answers: {}, scores: loadWeeklyScores() },
   me: { profile: null, progress: null },
@@ -348,32 +349,55 @@ function renderGlossary() {
 const stripMarkup = (s) => s.replace(/\{\{[a-z0-9-]+\|([^}]+)\}\}/g, "$1");
 
 /* ---------- Quiz ---------- */
+// Two question types. Multiple choice (default): `options` and `answer`, the 0-based index of the right option.
+// Short answer (`type: "short"`): the reader writes an answer, then compares it with `model` and the key `points`
+// and marks it right or wrong. Stored answers: an option index, or true / false for short answer.
+const isShort = (q) => q.type === "short";
+const isRight = (q, a) => (isShort(q) ? a === true : a === q.answer);
+
+function renderQuestion(q, i, ans, key, label, after = "") {
+  const answered = ans !== undefined;
+  const head = `<span class="num">${label}</span><h3>${esc(q.q)}</h3>`;
+  if (!isShort(q)) {
+    return `${head}
+      ${q.options.map((o, j) => {
+        let cls = "opt";
+        if (answered && j === q.answer) cls += " correct";
+        else if (answered && j === ans) cls += " wrong";
+        return `<button type="button" class="${cls}" data-${key}="${i}" data-o="${j}" ${answered ? "disabled" : ""}>${esc(o)}</button>`;
+      }).join("")}
+      ${answered ? `<div class="explain">${isRight(q, ans) ? "✓ Correct. " : "✗ Not quite. "}${rich(q.explain)}${after}</div>` : ""}`;
+  }
+  const d = state.drafts[key][i] || { text: "", shown: false };
+  return `${head}
+    <textarea class="sa-input" data-sa="${key}:${i}" rows="3" placeholder="Write your answer in a sentence or two." ${d.shown ? "disabled" : ""}>${esc(d.text)}</textarea>
+    ${!d.shown ? `<button type="button" class="btn-ghost sa-check" data-sacheck="${key}:${i}" ${d.text.trim() ? "" : "disabled"}>Check my answer</button>` : `
+    <div class="sa-model">
+      <div class="sa-label">Model answer</div>
+      <p>${rich(q.model)}</p>
+      <div class="sa-label">Key points</div>
+      <ul>${q.points.map((pt) => `<li>${esc(pt)}</li>`).join("")}</ul>
+    </div>
+    ${!answered ? `
+    <div class="sa-grade">
+      <span>Did your answer make every key point?</span>
+      <button type="button" class="opt-small" data-sagrade="${key}:${i}" data-ok="1">Yes, all of them</button>
+      <button type="button" class="opt-small" data-sagrade="${key}:${i}" data-ok="0">No, I missed some</button>
+    </div>` : `<div class="explain">${ans ? "✓ Counted as correct." : "✗ Counted as not yet. Review the key points above."}${q.explain ? " " + rich(q.explain) : ""}${after}</div>`}`}`;
+}
+
 function renderQuiz() {
   const qs = state.brief.quiz || [];
   const answers = state.quiz;
   const done = Object.keys(answers).length;
-  const correct = qs.filter((q, i) => answers[i] === q.answer).length;
+  const correct = qs.filter((q, i) => isRight(q, answers[i])).length;
 
   $("#tab-quiz").innerHTML = `
     <div class="eyebrow">Quick check · ${esc(fmtDate(state.brief.date, { month: "long", day: "numeric" }))}</div>
     <h1 class="brief-title">Did today's brief stick?</h1>
     <p class="one-liner">${qs.length} questions on today's market moves. Click the underlined terms in explanations to review.</p>
-    ${qs.map((q, i) => {
-      const a = answers[i];
-      const answered = a !== undefined;
-      return `
-      <div class="quiz-q">
-        <span class="num">Question ${i + 1} of ${qs.length}</span>
-        <h3>${esc(q.q)}</h3>
-        ${q.options.map((o, j) => {
-          let cls = "opt";
-          if (answered && j === q.answer) cls += " correct";
-          else if (answered && j === a) cls += " wrong";
-          return `<button type="button" class="${cls}" data-q="${i}" data-o="${j}" ${answered ? "disabled" : ""}>${esc(o)}</button>`;
-        }).join("")}
-        ${answered ? `<div class="explain">${a === q.answer ? "✓ Correct. " : "✗ Not quite. "}${rich(q.explain)}</div>` : ""}
-      </div>`;
-    }).join("")}
+    ${qs.map((q, i) => `
+      <div class="quiz-q">${renderQuestion(q, i, answers[i], "q", `Question ${i + 1} of ${qs.length}${isShort(q) ? " · Short answer" : ""}`)}</div>`).join("")}
     ${done === qs.length && qs.length ? `
       <div class="score"><div><strong>${correct} / ${qs.length}</strong> correct</div>
       <button type="button" class="btn-ghost" id="quizReset">Try again</button></div>` : ""}`;
@@ -385,6 +409,7 @@ const KIND_LABELS = { term: "Term", connect: "Connecting the week" };
 async function loadWeekly(week) {
   state.weekly.quiz = await getJSON(`data/quizzes/${week}.json`);
   state.weekly.answers = {};
+  state.drafts.wq = {};
   renderWeekly();
 }
 
@@ -395,14 +420,14 @@ function renderWeekly() {
     el.innerHTML = `
       <div class="eyebrow">Weekly quiz</div>
       <h1 class="brief-title">The first weekly quiz arrives Friday</h1>
-      <p class="one-liner">Each Friday, 8 new questions cover the week: 4 on terms first seen that week and 4 that connect events across days.</p>`;
+      <p class="one-liner">Each Friday, 8 new questions cover the week: 4 on terms first seen that week and 4 that connect events across days, including 2 you answer in your own words.</p>`;
     return;
   }
   if (!w.quiz) { el.innerHTML = `<div class="empty">Loading…</div>`; return; }
   const qs = w.quiz.questions;
   const a = w.answers;
   const done = Object.keys(a).length;
-  const correct = qs.filter((q, i) => a[i] === q.answer).length;
+  const correct = qs.filter((q, i) => isRight(q, a[i])).length;
   if (done === qs.length && qs.length) {
     const prev = w.scores[w.quiz.week];
     w.scores[w.quiz.week] = { correct, total: qs.length, best: Math.max(correct, prev?.best ?? 0) };
@@ -423,20 +448,10 @@ function renderWeekly() {
       }).join("")}
     </div>` : ""}
     ${qs.map((q, i) => {
-      const ans = a[i];
-      const answered = ans !== undefined;
+      const days = (q.days || []).length ? ` <span class="from-days">From ${q.days.map((d) => esc(fmtDate(d, { weekday: "short", month: "short", day: "numeric" }))).join(", ")}.</span>` : "";
+      const label = `Question ${i + 1} of ${qs.length} · ${esc(KIND_LABELS[q.kind] || "Question")}${isShort(q) ? " · Short answer" : ""}`;
       return `
-      <div class="quiz-q">
-        <span class="num">Question ${i + 1} of ${qs.length} · ${esc(KIND_LABELS[q.kind] || "Question")}</span>
-        <h3>${esc(q.q)}</h3>
-        ${q.options.map((o, j) => {
-          let cls = "opt";
-          if (answered && j === q.answer) cls += " correct";
-          else if (answered && j === ans) cls += " wrong";
-          return `<button type="button" class="${cls}" data-wq="${i}" data-o="${j}" ${answered ? "disabled" : ""}>${esc(o)}</button>`;
-        }).join("")}
-        ${answered ? `<div class="explain">${ans === q.answer ? "✓ Correct. " : "✗ Not quite. "}${rich(q.explain)}${(q.days || []).length ? ` <span class="from-days">From ${q.days.map((d) => esc(fmtDate(d, { weekday: "short", month: "short", day: "numeric" }))).join(", ")}.</span>` : ""}</div>` : ""}
-      </div>`;
+      <div class="quiz-q">${renderQuestion(q, i, a[i], "wq", label, days)}</div>`;
     }).join("")}
     ${done === qs.length && qs.length ? `
       <div class="score"><div><strong>${correct} / ${qs.length}</strong> correct</div>
@@ -680,17 +695,41 @@ document.addEventListener("click", (e) => {
   const wopt = e.target.closest(".opt[data-wq]");
   if (wopt) { state.weekly.answers[+wopt.dataset.wq] = +wopt.dataset.o; renderWeekly(); return; }
 
-  if (e.target.closest("#weeklyReset")) { state.weekly.answers = {}; renderWeekly(); window.scrollTo(0, 0); return; }
+  if (e.target.closest("#weeklyReset")) { state.weekly.answers = {}; state.drafts.wq = {}; renderWeekly(); window.scrollTo(0, 0); return; }
 
-  const opt = e.target.closest(".opt");
+  const sac = e.target.closest("[data-sacheck]");
+  if (sac) {
+    const [k, i] = sac.dataset.sacheck.split(":");
+    const d = state.drafts[k][i];
+    if (d && d.text.trim()) { d.shown = true; k === "wq" ? renderWeekly() : renderQuiz(); }
+    return;
+  }
+  const sag = e.target.closest("[data-sagrade]");
+  if (sag) {
+    const [k, i] = sag.dataset.sagrade.split(":");
+    (k === "wq" ? state.weekly.answers : state.quiz)[+i] = sag.dataset.ok === "1";
+    k === "wq" ? renderWeekly() : renderQuiz();
+    return;
+  }
+
+  const opt = e.target.closest(".opt[data-q]");
   if (opt) { state.quiz[+opt.dataset.q] = +opt.dataset.o; renderQuiz(); return; }
 
   if (e.target.closest("#signIn")) { signIn(); return; }
   if (e.target.closest("#signOut")) { signOut(); return; }
 
-  if (e.target.closest("#quizReset")) { state.quiz = {}; renderQuiz(); window.scrollTo(0, 0); return; }
+  if (e.target.closest("#quizReset")) { state.quiz = {}; state.drafts.q = {}; renderQuiz(); window.scrollTo(0, 0); return; }
 
   if (!pop.hidden && !pop.contains(e.target)) closePop();
+});
+
+document.addEventListener("input", (e) => {
+  const ta = e.target.closest("[data-sa]");
+  if (!ta) return;
+  const [k, i] = ta.dataset.sa.split(":");
+  state.drafts[k][i] = { text: ta.value, shown: false };
+  const btn = document.querySelector(`[data-sacheck="${k}:${i}"]`);
+  if (btn) btn.disabled = !ta.value.trim();
 });
 
 $("#popLearned").addEventListener("change", (e) => {
@@ -726,6 +765,7 @@ $("#dateSelect").addEventListener("change", async (e) => { await loadBrief(e.tar
 async function loadBrief(date) {
   state.brief = await getJSON(`data/briefs/${date}.json`);
   state.quiz = {};
+  state.drafts.q = {};
   setTab(state.tab);
 }
 

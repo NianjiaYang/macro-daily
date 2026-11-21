@@ -215,45 +215,43 @@
     {
       "q": "Headline CPI rose 0.4% in October, cooler than September's 0.6%. Why did markets still treat the report as “hot”?",
       "options": [
-        "Because gasoline prices rose faster than in September",
-        "Because the year-over-year rate hit a new high",
-        "Because both headline and core came in above the consensus forecast, and core did not slow",
-        "Because the Fed raised rates the same morning"
+        "Gasoline prices rose faster than they did in September",
+        "The year-over-year inflation rate climbed to a new high",
+        "Both headline and core beat the consensus forecast",
+        "Fed officials called the report hot before its release"
       ],
       "answer": 2,
       "explain": "Markets react to the gap between a number and the {{consensus-forecast|consensus forecast}}. Headline beat 0.3% and {{core-inflation|core}} beat 0.2%. Energy actually slowed, and no year-over-year figure was published."
     },
     {
-      "q": "The 2-year yield rose 17 bp while the 10-year rose 10 bp. Why did the 2-year move more?",
-      "options": [
-        "It tracks the Fed's next few rate decisions, which is what the CPI report changed",
-        "The Treasury sold more 2-year notes today",
-        "The 10-year is not affected by inflation",
-        "Shorter bonds always move more than longer ones"
-      ],
-      "answer": 0,
-      "explain": "The {{two-year-yield|2-year yield}} is the maturity most tied to expected Fed policy. Today's news was about the size of December's {{rate-hike|hike}}, so the 2-year took most of the move."
+      "type": "short",
+      "q": "The 2-year yield rose 17 bp while the 10-year rose 10 bp after the CPI report. Why did the 2-year move more?",
+      "model": "The {{two-year-yield|2-year yield}} tracks the Fed's next few rate decisions. The CPI report changed expectations for the size of December's {{rate-hike|hike}}, a near-term question, so the 2-year took most of the move.",
+      "points": [
+        "The 2-year tracks expected Fed policy over the next year or two",
+        "The report changed expectations for near-term Fed moves, such as December's hike"
+      ]
     },
     {
       "q": "Oil fell to its lowest close since Aug. 31, yet the odds of a bigger Fed hike went up. What explains it?",
       "options": [
-        "The Fed does not look at energy prices at all",
-        "Lower oil prices raise inflation",
-        "Traders expect oil to rebound next week",
-        "The price pressure in the report was in core items such as shelter, which cheaper oil does not quickly reverse"
+        "The pressure was in core items like shelter, which oil barely affects",
+        "Cheaper oil lets people spend more elsewhere, which pushes inflation up",
+        "Traders expected the drop in oil to reverse within a few days",
+        "The Fed leaves energy out entirely when it decides on rate moves"
       ],
-      "answer": 3,
+      "answer": 0,
       "explain": "Energy slowed in October, but {{core-inflation|core CPI}} still rose 0.3%, with {{shelter-inflation|shelter}} more than 30% of the total increase. Falling {{wti|oil}} helps the headline number, not the part that worried traders."
     },
     {
       "q": "At midday the S&P 500 was down nearly 1% while the equal-weight S&P 500 was down only about 0.2%. What does that gap tell you?",
       "options": [
-        "Most stocks fell more than the index",
-        "The selling was concentrated in the largest companies",
-        "Small companies were hit hardest",
-        "The two indexes hold different stocks"
+        "Small companies fell harder than large ones did",
+        "The equal-weight index holds fewer technology stocks",
+        "Most individual stocks fell more than the index average",
+        "The selling was concentrated in the largest companies"
       ],
-      "answer": 1,
+      "answer": 3,
       "explain": "An {{equal-weight-index|equal-weight index}} counts every company the same. The regular index uses {{cap-weighting|cap-weighting}}, so it falls more when the biggest stocks, such as Nvidia, lead the decline."
     }
   ]
