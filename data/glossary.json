@@ -1283,6 +1283,59 @@
         "treasury-yield",
         "risk-premium"
       ]
+    },
+    "pmi": {
+      "term": "Purchasing managers' index (PMI)",
+      "category": "Economic data",
+      "firstSeen": "2026-11-23",
+      "definition": "A monthly survey of purchasing managers at companies, asking whether output, orders, prices and hiring went up or down. A reading above 50 means activity is growing; below 50 means it is shrinking.",
+      "why": "S&P Global's flash November composite PMI fell to 54.6 from 55.9, its lowest since July. That is still growth, only slower, so it did not stop stocks from rallying on Nvidia news.",
+      "chain": [
+        "Survey firms ask purchasing managers whether business got better or worse this month.",
+        "The answers are turned into an index where 50 means no change.",
+        "Purchasing managers see orders early, so the PMI is one of the first signs of where the economy is heading.",
+        "\"Flash\" readings come out near the end of the month, before the final numbers.",
+        "A falling PMI that stays above 50 means slower growth, not a contraction."
+      ],
+      "related": [
+        "consensus-forecast",
+        "industrial-production"
+      ]
+    },
+    "short-squeeze": {
+      "term": "Short squeeze",
+      "category": "Market behavior",
+      "firstSeen": "2026-11-23",
+      "definition": "A fast price rise that forces short sellers to buy shares back to limit their losses, and that buying pushes the price up even more.",
+      "why": "Nomura's Charlie McElligott, quoted by Yahoo Finance, said short squeezes and hedge unwinding were part of a surge of \"mechanical\" buying behind Monday's rally, when Nvidia rose 31% and the Nasdaq 6.5%.",
+      "chain": [
+        "After a long sell-off, many traders have bet on further falls by short selling.",
+        "Good news, such as Huang's return to Nvidia, sends the price up quickly.",
+        "Each short seller loses more as the price rises, so many buy back shares to close the bet.",
+        "Those forced purchases add to the buying and push the price up further.",
+        "Once the short sellers are out, that extra buying stops, so a squeeze says little about where prices go next."
+      ],
+      "related": [
+        "short-selling",
+        "relief-rally"
+      ]
+    },
+    "all-stock-deal": {
+      "term": "All-stock deal",
+      "category": "Companies & regulation",
+      "firstSeen": "2026-11-23",
+      "definition": "A takeover in which the buyer pays the target's owners with its own new shares instead of cash.",
+      "why": "CrowdStrike agreed to buy Zscaler for about $43.9 billion, paying 1.135 CrowdStrike shares for each Zscaler share. Zscaler rose 17.67% and CrowdStrike fell 8.92%.",
+      "chain": [
+        "The buyer offers its own shares, at a fixed exchange ratio, for each share of the target.",
+        "The target's shares jump toward the value of that offer.",
+        "The buyer issues new shares, so its existing owners each hold a smaller slice of the combined company.",
+        "Investors also ask whether the buyer is paying too much, which can push its stock down.",
+        "Because payment is in shares, the deal's value moves every day with the buyer's share price."
+      ],
+      "related": [
+        "idiosyncratic-risk"
+      ]
     }
   }
 }

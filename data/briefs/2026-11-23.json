@@ -1,0 +1,279 @@
+{
+  "date": "2026-11-23",
+  "weekday": "Monday",
+  "title": "Huang returns, Nvidia soars 31% and stocks have their best day since April 2025",
+  "oneLiner": "Nvidia's board reinstated Jensen Huang as chief executive, and the stock jumped 31% as chip and AI shares rebounded: the S&P 500 rose 4.7%, ending a seven-day losing streak, and the Nasdaq 6.5%, both their best day since April 2025. Bond yields did not move, the dollar rose as traders bet harder on a December {{rate-hike|rate hike}}, and oil fell after Libya restarted a pipeline.",
+  "scoreboard": [
+    {
+      "label": "Dow Jones",
+      "value": "+3.0%",
+      "note": "49,595.31; up 1,447.98 points",
+      "dir": "up"
+    },
+    {
+      "label": "S&P 500",
+      "value": "+4.7%",
+      "note": "7,237.17; best day since April 2025",
+      "dir": "up",
+      "term": "market-correction"
+    },
+    {
+      "label": "Nasdaq",
+      "value": "+6.5%",
+      "note": "24,089.56; best day since April 9, 2025",
+      "dir": "up"
+    },
+    {
+      "label": "Nasdaq-100",
+      "value": "+6.9%",
+      "note": "26,746.10; back away from the bear market line",
+      "dir": "up",
+      "term": "bear-market"
+    },
+    {
+      "label": "Russell 2000",
+      "value": "+3.4%",
+      "note": "2,669.66; small companies",
+      "dir": "up",
+      "term": "small-cap"
+    },
+    {
+      "label": "Nvidia",
+      "value": "+31.5%",
+      "note": "about $165; Huang back as CEO",
+      "dir": "up",
+      "term": "key-person-risk"
+    },
+    {
+      "label": "Anthropic (ANT)",
+      "value": "−1.43%",
+      "note": "$87.64; still above $83 IPO price",
+      "dir": "down",
+      "term": "ipo"
+    },
+    {
+      "label": "10Y Treasury",
+      "value": "4.92%",
+      "note": "unchanged",
+      "dir": "flat",
+      "term": "treasury-yield"
+    },
+    {
+      "label": "2Y Treasury",
+      "value": "4.63%",
+      "note": "unchanged",
+      "dir": "flat",
+      "term": "two-year-yield"
+    },
+    {
+      "label": "Dollar index",
+      "value": "≈ 104.35",
+      "note": "+0.52%; December hike bets",
+      "dir": "up",
+      "term": "dollar-index"
+    },
+    {
+      "label": "WTI crude",
+      "value": "$80.17",
+      "note": "−3.88%; lowest close since Aug. 26",
+      "dir": "down",
+      "term": "wti"
+    },
+    {
+      "label": "Brent crude",
+      "value": "$89.37",
+      "note": "−3.46%; Libya restarts a pipeline",
+      "dir": "down",
+      "term": "brent"
+    },
+    {
+      "label": "Gold",
+      "value": "≈ +3.4%",
+      "note": "about $3,634 futures; after a weekly drop of nearly 9%",
+      "dir": "up",
+      "term": "safe-haven"
+    },
+    {
+      "label": "Bitcoin",
+      "value": "≈ $61,100–61,250",
+      "note": "about flat; lagged the stock rally",
+      "dir": "flat"
+    },
+    {
+      "label": "VIX",
+      "value": "26.62",
+      "note": "−25.8% from 35.89",
+      "dir": "down",
+      "term": "vix"
+    }
+  ],
+  "sections": [
+    {
+      "kicker": "Equities",
+      "title": "A seven-day losing streak ends with the best day since April 2025",
+      "paragraphs": [
+        "Friday's brief left the S&P 500 in a {{market-correction|correction}} after seven straight losses. Monday turned that around. The S&P 500 rose 326.78 points, or 4.7%, to 7,237.17, the Associated Press said, and recovered just over half of last week's loss. The Nasdaq rose 1,471.82 points, or 6.5%, to 24,089.56, and the Dow rose 1,447.98 points, or 3%, to 49,595.31. The Russell 2000 index of {{small-cap|small-cap}} stocks rose 87.87 points, or 3.4%, to 2,669.66. Yahoo Finance and Capp Notes both called it the best day for the S&P 500 and the Nasdaq since April 2025.",
+        "The Nasdaq-100, which holds the largest Nasdaq companies, rose 6.86% to 26,746.10, Capp Notes said. On Friday it closed only 49 points above its {{bear-market|bear market}} line of 24,979.58, so Monday's jump pulled it well away from that line. For 2026, the AP said, the S&P 500 is now up 5.7%, the Nasdaq 3.6% and the Dow 3.2%; on Friday the Nasdaq had been down for the year.",
+        "Look at the size of companies again. On Friday the {{equal-weight-index|equal-weight}} S&P 500 fell about half as much as the regular index, because the giants that fell most count for more in a {{cap-weighting|cap-weighted}} index. Monday was the mirror image: the equal-weight fund RSP rose 2.59%, against 4.73% for the regular S&P 500, Capp Notes said, because the same giants led the bounce. The rally was still wide. Advancers beat decliners 417 to 83, a strong {{market-breadth|market breadth}}. Technology led the sectors, up 8.97%; only consumer staples, down 0.09%, and energy, down 1.06%, fell.",
+        "Why so fast? Nomura strategist Charlie McElligott, quoted by Yahoo Finance, pointed to a surge of \"mechanical\" buying: {{short-squeeze|short squeezes}} and options dealers unwinding their hedges. He warned that this kind of bounce guarantees nothing about what comes next. The {{vix|VIX}} fell 25.83% to 26.62 from 35.89 as hedges were unwound, Capp Notes said."
+      ]
+    },
+    {
+      "kicker": "AI & chips",
+      "title": "Nvidia brings back Jensen Huang, and the chip trade rebounds",
+      "paragraphs": [
+        "Nvidia said it had reinstated Jensen Huang as president, CEO and board director, effective immediately, Yahoo Finance reported. Capp Notes said the board's decision was unanimous and that the board received input from senior levels of the U.S. government; President Trump told CNBC he \"convinced\" the board to bring Huang back. Huang stepped down on November 12, the day covered in that day's brief, and the stock had fallen sharply since.",
+        "Nvidia rose 31.48% to about $165.05, 24/7 Wall St. reported, after rising as much as 35% during the day, Yahoo Finance said. Capp Notes said the company regained nearly $1 trillion in market value. Melius, Bernstein, StoneX and Oppenheimer all upgraded the stock. This is {{key-person-risk|key-person risk}} in reverse: when Huang left, investors marked the stock down because nobody knew whether his strategy would hold; with him back, much of that discount came off in one day.",
+        "Not every worry went away. Analysts noted that Nvidia still faces open investigations, including the accounting review behind Friday's {{sec-investigation|SEC}} report, Capp Notes said. The sources read did not report any change in those inquiries on Monday.",
+        "The rest of the AI trade followed. The iShares Semiconductor ETF (SOXX), a {{semiconductor-etf|semiconductor ETF}}, rose 13.63%, Capp Notes said. Micron rose 19.04%, Arm 16.08%, TSMC 14.08%, CoreWeave 22.32%, Dell 20.46% and AMD 6.85%. Anthropic did not join in: it fell 1.43% to $87.64 in its third session, 24/7 Wall St. said, still above its $83 {{ipo|IPO}} price. Asia was mixed. Taiwan's main index rose 2.16% after its record weekly fall, helped by new short-selling limits and buying by a government stabilization fund, but South Korea's Kospi fell 3.31%, and Japan was closed for a holiday, Capp Notes said."
+      ]
+    },
+    {
+      "kicker": "Economic data & the Fed",
+      "title": "Business activity slows a little, and a December hike looks almost certain",
+      "paragraphs": [
+        "S&P Global's flash November {{pmi|purchasing managers' indexes}} showed US business activity still growing, but more slowly. The composite index fell to 54.6 from 55.9, its lowest since July, Capp Notes said. The services index came in at 54.7, below the 55.7 expected, and manufacturing at 54.5. Anything above 50 means growth, so this is a slowdown, not a contraction. In Europe, Germany's composite PMI rose to 55.0, its highest since March 2022.",
+        "New York Fed President John Williams said that with inflation near 3.5%, the Fed has \"work to do,\" Capp Notes said, a signal that rates are likely to rise. Traders agreed. The CME {{fedwatch|FedWatch}} tool put the chance of a quarter-point {{rate-hike|hike}} at the December 9 meeting at about 98%, up from about 88% on Friday, Capp Notes said.",
+        "Put the two halves of the day together. Stocks soared on company news about Nvidia, not because the Fed turned friendlier. The Fed official who spoke kept pointing to higher rates, and the market priced a hike as close to certain."
+      ]
+    },
+    {
+      "kicker": "Rates, currencies & commodities",
+      "title": "Yields sit still, the dollar climbs and oil slides",
+      "paragraphs": [
+        "By the U.S. Treasury's official closing figures, the {{two-year-yield|2-year yield}} was unchanged at 4.63% and the 10-year {{treasury-yield|Treasury yield}} unchanged at 4.92%. The 30-year yield edged down to 5.29%. After Friday's 12 to 13 {{basis-point|basis point}} drop, bonds gave none of that rally back, even as stocks jumped. The {{credit-spread|credit spread}} on high-yield bonds had widened to 3.76 percentage points on Friday from 3.52 on Thursday, Capp Notes said, the latest figure available.",
+        "The {{dollar-index|dollar index}} rose 0.52% to about 104.35 on bets for a December Fed hike, and the euro fell 0.60% to 1.0904 dollars, leaving the dollar at a more than 19-month high against the euro, Capp Notes said.",
+        "Oil fell. {{wti|WTI}} crude dropped 3.88% to $80.17, its lowest close since August 26, and {{brent|Brent}} fell 3.46% to $89.37, after Libya restarted its Sharara pipeline and flows from the Middle East rose, Capp Notes said. More supply means lower prices, and energy was the worst sector of the day.",
+        "Gold futures rose 3.38% to $3,634.30 after a weekly drop of nearly 9%, silver rose 4.74% and copper 2.46%, Capp Notes said. Bitcoin barely moved: Capp Notes had it up 0.14% at about $61,250, and Yahoo Finance's quote showed about $61,114, down 0.08%. Capp Notes described it as lagging the stock rally."
+      ]
+    }
+  ],
+  "connections": {
+    "intro": "Markets move together, but not always the way the textbook predicts. Each card takes one of today's drivers, says what it should have done to another market, and compares that with what happened. The mismatches are where the day's real story is.",
+    "items": [
+      {
+        "driver": "Nvidia's board reinstated Jensen Huang as CEO",
+        "asset": "Other chip stocks",
+        "expected": "Rise. Nvidia sits at the center of the AI chip trade, so less {{key-person-risk|key-person risk}} at Nvidia lifts confidence in the whole AI spending story.",
+        "actual": "The SOXX chip ETF rose 13.63%; Micron rose 19.04%, Arm 16.08% and TSMC 14.08%.",
+        "why": "The textbook link held. The same stocks fell together last week on Nvidia's troubles, and rose together when one of those troubles was removed.",
+        "puzzle": false
+      },
+      {
+        "driver": "Traders raised December hike odds to about 98% after Williams said the Fed has \"work to do\"",
+        "asset": "The dollar",
+        "expected": "Rise. Higher US interest rates make dollar savings and bonds pay more, so investors buy dollars.",
+        "actual": "The dollar index rose 0.52% to about 104.35, and the euro fell to 1.0904 dollars.",
+        "why": "The textbook link held. Capp Notes put the dollar's rise down to bets on a December Fed hike.",
+        "puzzle": false
+      },
+      {
+        "driver": "Libya restarted its Sharara oil pipeline",
+        "asset": "Oil prices",
+        "expected": "Fall. More barrels on the market at the same demand means a lower price.",
+        "actual": "WTI fell 3.88% to $80.17, its lowest close since August 26, and Brent fell 3.46% to $89.37; energy was the worst sector.",
+        "why": "The textbook link held, even on a day when stocks and most commodities rose.",
+        "puzzle": false
+      },
+      {
+        "driver": "Stocks jumped 4.7%, the {{vix|VIX}} fell 26% and hike odds rose to about 98%",
+        "asset": "{{treasury-yield|Treasury yields}}",
+        "expected": "Rise. When fear fades, investors sell the safe Treasuries they bought in the {{flight-to-safety|flight to safety}}, and higher hike odds push short-term yields up too.",
+        "actual": "The 2-year and 10-year yields were both unchanged, at 4.63% and 4.92%; the 30-year edged down to 5.29%.",
+        "why": "The sources read do not explain this. Both forces pointed to higher yields, yet bonds kept all of Friday's gains.",
+        "puzzle": true
+      },
+      {
+        "driver": "Fear faded: the VIX fell 25.83% and the dollar rose 0.52%",
+        "asset": "Gold",
+        "expected": "Fall. Gold is a {{safe-haven|safe haven}} that investors buy when scared, and a stronger dollar makes it more expensive for buyers abroad.",
+        "actual": "Gold futures rose 3.38% to $3,634.30.",
+        "why": "The sources read do not explain this. Capp Notes notes only that the rise came after a weekly drop of nearly 9%, so part of it may be a bounce after heavy selling, but no source read says so.",
+        "puzzle": true
+      }
+    ]
+  },
+  "headlines": [
+    "CrowdStrike agreed to buy Zscaler in an {{all-stock-deal|all-stock deal}} valued at about $43.9 billion, paying 1.135 CrowdStrike shares for each Zscaler share; Zscaler rose 17.67% and CrowdStrike fell 8.92%, Capp Notes said.",
+    "Oracle rose 12.34% after reaffirming its target of more than $30 billion in free cash flow in fiscal 2029, 24/7 Wall St. said.",
+    "Hewlett Packard Enterprise rose 17.38% in regular trading, then fell about 5% after hours despite beating forecasts and adding $5 billion to its buyback, Capp Notes said.",
+    "Agilent rose 3.32%, then about 8% more after hours on results that beat forecasts and strong guidance, Capp Notes said.",
+    "China's Ministry of Finance sold $2 billion of three-year dollar bonds at a 4.75% coupon, Capp Notes said."
+  ],
+  "watch": {
+    "when": "Tue, Nov. 24 · 9:00 and 10:00 a.m. ET, then after the close",
+    "title": "Does the bounce last a second day?",
+    "text": "The S&P Case-Shiller and FHFA house price indexes come out at 9:00 a.m. ET, and the Conference Board's consumer confidence index and the Richmond Fed manufacturing index at 10:00 a.m. ET. Dell and Workday report after the close, Capp Notes said. Nomura's McElligott warned that a mechanical bounce guarantees nothing, so watch whether chip stocks hold their gains once {{short-squeeze|short covering}} is done. It is a short week: US markets are closed Thursday for Thanksgiving, and on Friday stocks close at 1:00 p.m. ET and bonds at 2:00 p.m. ET."
+  },
+  "sources": [
+    {
+      "name": "Associated Press via WTOP",
+      "title": "How major US stock indexes fared Monday 11/23/2026",
+      "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-monday-11-23-2026"
+    },
+    {
+      "name": "Capp Notes",
+      "title": "Closing Look — Monday, November 23, 2026",
+      "url": "https://cappnotes.substack.com/p/closing-look-monday-november-23-2026"
+    },
+    {
+      "name": "Yahoo Finance",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq post best day since April 2025 as Nvidia stock soars 31% on Jensen Huang's return",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"
+    },
+    {
+      "name": "24/7 Wall St.",
+      "title": "Stock Market Today: Dow, S&P 500, and Nasdaq Surge as Nvidia Leads a Major AI Rebound",
+      "url": "https://247wallst.com/investing/2026/11/23/stock-market-today-dow-sp-500-and-nasdaq-surge-as-nvidia-leads-a-major-ai-rebound/"
+    },
+    {
+      "name": "U.S. Treasury",
+      "title": "Daily Treasury Par Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Nvidia rose 31% on Monday even though nothing changed about its chips, customers or the open investigations. What best explains the jump?",
+      "options": [
+        "The SEC closed its accounting review of the company",
+        "Nvidia raised its sales forecast for the next quarter",
+        "Huang's return removed much of the key-person price discount",
+        "The Fed signaled it would skip the December rate hike"
+      ],
+      "answer": 2,
+      "explain": "{{key-person-risk|Key-person risk}} works both ways. When Huang left on November 12, investors cut the price because nobody knew if his strategy would hold. His reinstatement took much of that uncertainty away. Analysts noted the investigations, including the {{sec-investigation|SEC}} review, are still open, and Fed hike odds rose to about 98%."
+    },
+    {
+      "type": "short",
+      "q": "On Friday the equal-weight S&P 500 fell less than the regular index. On Monday it rose less: 2.59% against 4.73%. Why did the gap flip direction?",
+      "model": "The regular S&P 500 is {{cap-weighting|cap-weighted}}, so the largest companies move it the most. Those giants, many of them AI and chip stocks like Nvidia, fell hardest on Friday and rose hardest on Monday, so the regular index swung further both ways than the {{equal-weight-index|equal-weight index}}, where every company counts the same.",
+      "points": [
+        "The regular index gives the largest companies the most weight",
+        "The same giant AI and chip stocks led both the fall and the bounce"
+      ]
+    },
+    {
+      "q": "The flash composite PMI fell to 54.6 from 55.9. What does that reading say about US business activity in November?",
+      "options": [
+        "Activity is still growing, only more slowly than before",
+        "Activity is shrinking, because the index fell from October",
+        "Activity is shrinking, because the index is below 55 now",
+        "Activity grew faster, because services beat the forecast"
+      ],
+      "answer": 0,
+      "explain": "In a {{pmi|PMI}}, 50 is the line between growth and contraction. A reading of 54.6 is above 50, so activity is still growing; the fall from 55.9 means it grew more slowly. Capp Notes called it the lowest reading since July."
+    },
+    {
+      "q": "CrowdStrike agreed to buy Zscaler by paying in its own shares. Why did CrowdStrike's stock fall 8.92% while Zscaler's rose 17.67%?",
+      "options": [
+        "Zscaler holders get cash right away, while CrowdStrike must borrow the money",
+        "CrowdStrike missed its profit estimates, so traders sold it to buy Zscaler",
+        "Regulators approved the deal for Zscaler but blocked CrowdStrike's own plan",
+        "Zscaler holders get a buyout premium, and CrowdStrike's holders are diluted"
+      ],
+      "answer": 3,
+      "explain": "In an {{all-stock-deal|all-stock deal}} the buyer issues new shares to pay. The target's shares jump toward the offer value, while the buyer's existing owners now share the company with more holders and worry about overpaying. CrowdStrike's own results beat estimates, and the deal still needs regulatory and shareholder approval."
+    }
+  ]
+}
