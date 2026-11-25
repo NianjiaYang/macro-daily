@@ -1336,6 +1336,81 @@
       "related": [
         "idiosyncratic-risk"
       ]
+    },
+    "consumer-confidence": {
+      "term": "Consumer confidence (Conference Board)",
+      "category": "Economic data",
+      "firstSeen": "2026-11-24",
+      "definition": "A monthly survey by the Conference Board of how households feel about business conditions, jobs and their incomes, now and over the next six months. It is a cousin of the University of Michigan's consumer sentiment survey.",
+      "why": "In November the index jumped 11.4 points to 103.3, far above the forecast of about 92. Retailers that reported the same day, like Kohl's and Dollar Tree, rose sharply.",
+      "chain": [
+        "Households answer questions about business conditions, jobs and income.",
+        "Answers are combined into one index; a higher number means more confidence.",
+        "Confident households tend to spend more, and consumer spending is most of the US economy.",
+        "So a big beat lifts hopes for retail sales and for consumer company stocks.",
+        "Strong spending can also keep inflation up, which supports the case for higher Fed rates."
+      ],
+      "related": [
+        "consumer-sentiment",
+        "retail-sales",
+        "consensus-forecast"
+      ]
+    },
+    "takeover-premium": {
+      "term": "Takeover premium",
+      "category": "Companies & regulation",
+      "firstSeen": "2026-11-24",
+      "definition": "The extra amount a buyer offers above a company's recent share price to win control of it, usually stated as a percentage.",
+      "why": "Sanofi offered $175 a share in cash for Insmed, a 17.4% premium to Monday's close. Insmed rose 14.13%, staying a little under the offer because the deal is not expected to close until the first half of 2027.",
+      "chain": [
+        "A buyer must persuade the owners to sell, so it offers more than today's market price.",
+        "The target's shares jump toward the offer price once the deal is announced.",
+        "They usually stay a little below it, because holders wait months to be paid.",
+        "The gap also reflects the risk that regulators or shareholders block the deal.",
+        "As the closing date nears and the risk shrinks, the gap usually narrows."
+      ],
+      "related": [
+        "all-stock-deal",
+        "idiosyncratic-risk"
+      ]
+    },
+    "profit-taking": {
+      "term": "Profit-taking",
+      "category": "Market behavior",
+      "firstSeen": "2026-11-24",
+      "definition": "Selling an asset after its price has risen in order to lock in the gain, which can push the price back down for a while.",
+      "why": "Nvidia fell 5.86% on Tuesday, a day after jumping 31.48%. The Motley Fool described it as traders taking profits in high-growth semiconductor names.",
+      "chain": [
+        "A stock jumps sharply in a short time.",
+        "Traders who bought before the jump now hold a large, fast gain.",
+        "Some sell to lock it in, especially before a holiday or with risks still open.",
+        "That extra selling pushes the price down even with no new bad news.",
+        "A fall from profit-taking says less about the company than a fall on fresh news."
+      ],
+      "related": [
+        "dip-buying",
+        "relief-rally",
+        "short-squeeze"
+      ]
+    },
+    "value-stocks": {
+      "term": "Value stocks",
+      "category": "Equities",
+      "firstSeen": "2026-11-24",
+      "definition": "Shares that trade cheaply compared with the company's current profits or assets, often in mature businesses such as banks, health care, retail and industrials. The opposite is growth stocks, priced for fast future growth, like most AI and tech names.",
+      "why": "On Tuesday the Motley Fool said investors favored value sectors while tech fell. Health care rose 2.95% and the Dow closed above 50,000, while the Nasdaq fell 1.5%.",
+      "chain": [
+        "Growth stocks are priced on profits expected far in the future.",
+        "When doubts about that future rise, as with AI spending, growth stocks fall hardest.",
+        "Investors move money into cheaper value stocks with steadier profits today.",
+        "Indexes heavy in value names, like the Dow, can then rise while the Nasdaq falls.",
+        "This is one form of sector rotation."
+      ],
+      "related": [
+        "sector-rotation",
+        "defensive-stocks",
+        "cap-weighting"
+      ]
     }
   }
 }

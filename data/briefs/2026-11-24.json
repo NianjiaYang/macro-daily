@@ -1,0 +1,285 @@
+{
+ "date": "2026-11-24",
+ "weekday": "Tuesday",
+ "title": "The AI rally fizzles as the Dow closes above 50,000",
+ "oneLiner": "Monday's chip rebound fell apart: Nvidia gave back 5.86% and a margin warning from Hewlett Packard Enterprise dragged AI hardware stocks lower, so the Nasdaq fell 1.5% and the S&P 500 0.5%. Most other stocks rose, and the Dow closed above 50,000 on strong retail earnings, a big jump in consumer confidence and a $41 billion health care deal. Anthropic slipped below its IPO price, oil rose on Middle East attacks, and gold fell as a December {{rate-hike|rate hike}} looked close to certain.",
+ "scoreboard": [
+  {
+   "label": "Dow Jones",
+   "value": "+0.85%",
+   "note": "50,018.70; closed above 50,000",
+   "dir": "up",
+   "term": "value-stocks"
+  },
+  {
+   "label": "S&P 500",
+   "value": "−0.5%",
+   "note": "7,201.09; eighth loss in nine days",
+   "dir": "down",
+   "term": "cap-weighting"
+  },
+  {
+   "label": "Nasdaq",
+   "value": "−1.5%",
+   "note": "23,733.54; tech led the fall",
+   "dir": "down"
+  },
+  {
+   "label": "Nasdaq-100",
+   "value": "−1.99%",
+   "note": "26,214.17; weakest major average",
+   "dir": "down"
+  },
+  {
+   "label": "Russell 2000",
+   "value": "+0.6%",
+   "note": "2,684.94; small companies rose",
+   "dir": "up",
+   "term": "small-cap"
+  },
+  {
+   "label": "Nvidia",
+   "value": "−5.86%",
+   "note": "after +31.48% on Monday",
+   "dir": "down",
+   "term": "profit-taking"
+  },
+  {
+   "label": "Anthropic (ANT)",
+   "value": "−6.54%",
+   "note": "$81.90; below its $83 IPO price",
+   "dir": "down",
+   "term": "ipo"
+  },
+  {
+   "label": "10Y Treasury",
+   "value": "4.91%",
+   "note": "−1 bp",
+   "dir": "down",
+   "term": "treasury-yield"
+  },
+  {
+   "label": "2Y Treasury",
+   "value": "4.63%",
+   "note": "unchanged",
+   "dir": "flat",
+   "term": "two-year-yield"
+  },
+  {
+   "label": "Dollar index",
+   "value": "≈ 103.83",
+   "note": "−0.47%",
+   "dir": "down",
+   "term": "dollar-index"
+  },
+  {
+   "label": "WTI crude",
+   "value": "$82.05",
+   "note": "+2.35%; Strait of Hormuz attacks",
+   "dir": "up",
+   "term": "wti"
+  },
+  {
+   "label": "Brent crude",
+   "value": "$91.40",
+   "note": "+2.27%",
+   "dir": "up",
+   "term": "brent"
+  },
+  {
+   "label": "Gold",
+   "value": "≈ −2.5% to −2.7%",
+   "note": "about $3,555–3,562; December hike bets",
+   "dir": "down",
+   "term": "hawkish"
+  },
+  {
+   "label": "Bitcoin",
+   "value": "≈ $59,864",
+   "note": "−2.2%; back below $60,000",
+   "dir": "down"
+  },
+  {
+   "label": "VIX",
+   "value": "26.36",
+   "note": "−0.98%; still elevated",
+   "dir": "down",
+   "term": "vix"
+  }
+ ],
+ "sections": [
+  {
+   "kicker": "Equities",
+   "title": "Tech falls, most other stocks rise, and the Dow tops 50,000",
+   "paragraphs": [
+    "Monday's brief ended with the best day for stocks since April 2025. Tuesday took part of it back. The S&P 500 fell 36.08 points, or 0.5%, to 7,201.09, its eighth loss in the last nine days, the Associated Press said. The Nasdaq fell 356.02 points, or 1.5%, to 23,733.54, and the Nasdaq-100 fell 1.99% to 26,214.17, the weakest major average, Capp Notes said. The Dow went the other way: it rose 423.39 points, or 0.85%, to 50,018.70, closing above 50,000. The Russell 2000 index of {{small-cap|small-cap}} stocks rose 15.29 points, or 0.6%, to 2,684.94.",
+    "So did the market go up or down? Most stocks went up. \"Outside of tech, the majority of stocks climbed,\" the AP said, and in the S&P 500 advancers beat decliners 346 to 154, Capp Notes said. The index still fell because it is {{cap-weighting|cap-weighted}}: a few giant tech companies carry so much weight that their losses outweighed gains in hundreds of smaller ones. The {{equal-weight-index|equal-weight}} fund RSP, where every company counts the same, rose 0.54%. That is the mirror image of Monday, when the giants led the bounce and the equal-weight fund lagged.",
+    "The sector board shows the {{sector-rotation|rotation}}. Health care led, up 2.95%, followed by consumer staples, up 1.66%, and real estate, up 1.31%. Technology fell 3.26%, and industrials, down 0.53%, were the only other sector to fall, Capp Notes said. The Motley Fool, writing for Yahoo Finance, said investors favored {{value-stocks|value}} sectors, which is why the Dow, with its older industrial, health care and consumer companies, rose while the Nasdaq fell. Health care and consumer staples are also classic {{defensive-stocks|defensive stocks}}.",
+    "Even after Tuesday, this is a good week so far. The S&P 500 is up 4.2% for the week and 5.2% for the year, the Nasdaq 4.9% for the week and 2.1% for the year, the AP said. The {{vix|VIX}} barely moved, easing 0.98% to 26.36, a level Capp Notes still called elevated."
+   ]
+  },
+  {
+   "kicker": "AI & chips",
+   "title": "A margin warning from HPE turns the chip rebound around",
+   "paragraphs": [
+    "Nvidia fell 5.86%, a day after jumping 31.48% on Jensen Huang's return as CEO, and it remains about 35% below its October 6 record close, Capp Notes said. The Motley Fool described it as traders taking profits in semiconductor names. {{profit-taking|Profit-taking}} is common after a very sharp one-day gain: some buyers who got in cheaply sell to lock in the gain, and, as Monday's brief noted, Nomura's McElligott warned that a bounce driven by mechanical buying guarantees nothing.",
+    "The bigger trigger was an earnings report. Hewlett Packard Enterprise, which sells servers for AI data centers, beat forecasts and raised its revenue outlook, yet its stock fell 16.31%, Capp Notes said. The reason was profit per sale: HPE said its fourth-quarter {{gross-margin|gross margin}} moderated 210 basis points from the quarter before and warned of margin pressure, Investrade said, and those results weighed on rivals Dell and Super Micro. Dell fell 11.83% before its own report, then rose about 4% {{after-hours-trading|after hours}} on record revenue of $54.9 billion and a raised forecast, Capp Notes said.",
+    "The chip sell-off spread. The iShares Semiconductor ETF (SOXX), a {{semiconductor-etf|semiconductor ETF}}, fell 8.27% as HPE's outlook revived worries about data-center spending, Capp Notes said. Micron fell 11.01% after BNP {{analyst-downgrade|downgraded}} it to Neutral and cut its {{price-target|price target}} to $775 from $1,700, citing growing risks to big cloud companies' capacity plans in 2028, Investrade said. AMD fell 8.86%, Intel 8.15% and Analog Devices 17.37%, even though Analog Devices' quarterly profit of $4.06 a share beat estimates. Asia had the opposite day: South Korea's Kospi jumped 6.32% to 5,006.03 and Japan's Nikkei 225 rose 3.91%, catching up to Monday's U.S. chip rally after Japan's holiday, Capp Notes said.",
+    "Anthropic fell 6.54% to $81.90, closing below its $83 {{ipo|IPO}} price less than a week after its debut, Capp Notes said. Investrade noted the stock opened at $111.50 on November 19, so it has fallen far since its first trade. Investrade also cited an Axios report that OpenAI and Anthropic are struggling to make their most powerful models safe enough for public release."
+   ]
+  },
+  {
+   "kicker": "Economic data & the Fed",
+   "title": "Consumers feel much better, and the Fed still looks set to hike",
+   "paragraphs": [
+    "The Conference Board's {{consumer-confidence|consumer confidence}} index jumped 11.4 points to 103.3 in November, far above the {{consensus-forecast|forecast}} of about 92, Capp Notes and the Motley Fool said. Investrade called it the highest consumer confidence in nearly two years. Confident households tend to spend more, and retailers' results agreed: Kohl's rose 19.48%, Abercrombie & Fitch 19.69%, Dick's Sporting Goods 14.59% and Dollar Tree 11.18% after their quarterly reports, Capp Notes said.",
+    "Housing was softer. The S&P Cotality Case-Shiller index showed home prices in 20 big cities up 2.6% from a year earlier in September, a little below the 2.7% expected, and the FHFA house price index was flat for the month, Investrade said. The Richmond Fed's factory index rose to +3 in November from −2 in October.",
+    "New York Fed President John Williams said inflation is \"too high\" and signaled support for a December hike, Capp Notes said, a {{hawkish|hawkish}} message. Governor Christopher Waller has favored a possible half-point move at the December 8–9 meeting. The CME {{fedwatch|FedWatch}} tool priced about a 95% to 96% chance of a quarter-point {{rate-hike|hike}}, with the rest on a half-point hike, so traders see some hike as all but certain."
+   ]
+  },
+  {
+   "kicker": "Rates, currencies & commodities",
+   "title": "Oil rises on Middle East attacks; gold and silver slide",
+   "paragraphs": [
+    "By the U.S. Treasury's official closing figures, the {{two-year-yield|2-year yield}} was unchanged at 4.63%, the 10-year {{treasury-yield|Treasury yield}} slipped 1 {{basis-point|basis point}} to 4.91%, and the 30-year rose 1 basis point to 5.30%. For a second day, bonds barely reacted to big swings in stocks. In credit, the {{credit-spread|spread}} on {{high-yield-bond|high-yield bonds}} tightened 11 basis points to 3.56 percentage points, and investment-grade spreads tightened 2 basis points to 0.94, Capp Notes said, even as tech stocks fell.",
+    "The {{dollar-index|dollar index}} fell 0.47% to 103.83, Capp Notes said, and the euro rose to about 1.097 dollars, Investrade said. The Mexican peso was the exception: the dollar rose 1.84% against it, on Fed-hike bets and hot Mexican inflation, Capp Notes said.",
+    "Oil rose. {{wti|WTI}} crude settled up 2.35% at $82.05 and {{brent|Brent}} up 2.27% at $91.40, Capp Notes and Investrade said. Capp Notes pointed to attacks on vessels near the Strait of Hormuz, and Investrade to a Houthi attack in Riyadh's financial district. Fear of lost supply adds a {{risk-premium|risk premium}} to the price, the reverse of Monday, when Libya's restarted pipeline pushed oil down. Natural gas futures jumped 15.30% to $3.671 on a cold snap and short-covering.",
+    "Gold fell. Capp Notes had it down 2.64% at $3,555.00, back near a 14-month low, on hawkish Fed signals; Investrade had December futures down 2.45% at $3,561.90. Silver fell about 5.5% to 5.7%, to about $40.71 to $40.78, which Capp Notes put down to margin-driven selling. Bitcoin fell 2.20% to about $59,864, back below $60,000, Capp Notes said."
+   ]
+  }
+ ],
+ "connections": {
+  "intro": "Markets move together, but not always the way the textbook predicts. Each card takes one of today's drivers, says what it should have done to another market, and compares that with what happened. The mismatches are where the day's real story is.",
+  "items": [
+   {
+    "driver": "Hewlett Packard Enterprise warned of margin pressure on its AI servers",
+    "asset": "Other AI hardware and chip stocks",
+    "expected": "Fall. If one server maker earns less on each AI sale, investors expect rivals and their chip suppliers to face the same squeeze.",
+    "actual": "Dell fell 11.83%, Micron 11.01% and the SOXX chip ETF 8.27%.",
+    "why": "The textbook link held. Investrade said HPE's results and margins weighed on rivals Dell and Super Micro, and Capp Notes said HPE's outlook revived worries about data-center spending.",
+    "puzzle": false
+   },
+   {
+    "driver": "{{consumer-confidence|Consumer confidence}} jumped to 103.3, far above the forecast of about 92",
+    "asset": "Retail stocks",
+    "expected": "Rise. Households that feel better about the economy tend to spend more, which helps stores' sales.",
+    "actual": "Kohl's rose 19.48%, Abercrombie & Fitch 19.69% and Dollar Tree 11.18%; consumer discretionary rose 0.68% and staples 1.66%.",
+    "why": "The textbook link held, with a caveat. The Motley Fool said the confidence data, coupled with several strong earnings reports, drew investors to consumer names, and each of these retailers reported strong results that day, so the data was not the only reason.",
+    "puzzle": false
+   },
+   {
+    "driver": "Williams said inflation is \"too high\" and hike odds stayed around 95%",
+    "asset": "Gold",
+    "expected": "Fall. Gold pays no interest, so higher interest rates make it less attractive than bonds and savings.",
+    "actual": "Gold fell about 2.5% to 2.7%, back near a 14-month low.",
+    "why": "The textbook link held. Capp Notes credited hawkish Fed signals. Investrade noted gold fell even though yields and the dollar softened, which would normally help it, so the rate outlook outweighed both.",
+    "puzzle": false
+   },
+   {
+    "driver": "A December Fed hike stayed close to certain, at about 95% to 96% for a quarter point",
+    "asset": "The dollar",
+    "expected": "Rise. Higher US interest rates make dollar savings and bonds pay more, so investors buy dollars.",
+    "actual": "The dollar index fell 0.47% to 103.83, and the euro rose to about 1.097 dollars.",
+    "why": "The sources read do not explain this. One clue: the quarter-point odds of about 95% to 96% were a little below the about 98% reported in Monday's brief, but no source read today makes that link.",
+    "puzzle": true
+   },
+   {
+    "driver": "Tech stocks sold off and the Nasdaq-100 fell 1.99%",
+    "asset": "High-yield {{credit-spread|credit spreads}}",
+    "expected": "Widen. When stocks fall, investors usually demand more extra yield to hold risky company bonds.",
+    "actual": "High-yield spreads tightened 11 basis points to 3.56 percentage points.",
+    "why": "The sources read do not fully explain this; Capp Notes says only that spreads tightened despite the sell-off. The AP noted that most stocks outside tech rose, so the fall was narrow, but no source links that to credit.",
+    "puzzle": true
+   }
+  ]
+ },
+ "headlines": [
+  "Sanofi agreed to buy Insmed for about $41 billion in cash, or $175 a share, a 17.4% {{takeover-premium|premium}} to Monday's close, Investrade said; Insmed rose 14.13% and the deal is expected to close in the first half of 2027, Capp Notes said.",
+  "The U.S. is preparing to raise tariffs on China and dozens of other countries seen as harming American companies, according to headlines cited by Investrade, which said the news pushed stock futures lower before the open.",
+  "Best Buy rose 2.70% after beating sales and profit forecasts and raising its {{earnings-guidance|guidance}}; Burlington rose 3.90% despite a miss, helped by a new $750 million buyback, Capp Notes said.",
+  "Workday and Autodesk each fell about 4% after hours, Workday on soft subscription guidance; HP Inc. rose about 9% after hours on an upbeat fiscal 2027 outlook, Capp Notes said.",
+  "Shein agreed to pay $100 million to settle FTC allegations that it deceived consumers on shipping times, reviews and cotton origin, Capp Notes said."
+ ],
+ "watch": {
+  "when": "Wed, Nov. 25 · 8:30 a.m., 10:00 a.m. and 2:00 p.m. ET",
+  "title": "A whole week of data in one morning",
+  "text": "Because of Thanksgiving, Wednesday packs in the second estimate of third-quarter GDP, October PCE inflation, personal income and spending, durable goods orders and weekly {{jobless-claims|jobless claims}}, all at 8:30 a.m. ET. New home sales follow at 10:00 a.m. and the Fed's Beige Book at 2:00 p.m. ET, Capp Notes said. PCE is the inflation gauge the Fed watches most, so a hot reading would back the case for a December hike. Deere reports before the open. US markets are closed Thursday, and stocks close early, at 1:00 p.m. ET, on Friday."
+ },
+ "sources": [
+  {
+   "name": "Associated Press via WTOP",
+   "title": "How major US stock indexes fared Tuesday 11/24/2026",
+   "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-tuesday-11-24-2026"
+  },
+  {
+   "name": "Capp Notes",
+   "title": "Closing Look — Tuesday, November 24, 2026",
+   "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+  },
+  {
+   "name": "The Motley Fool via Yahoo Finance",
+   "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-24-221148355.html"
+  },
+  {
+   "name": "Investrade",
+   "title": "Market Review: November 24, 2026",
+   "url": "https://investrade.com/market-review-november-24-2026/"
+  },
+  {
+   "name": "Stock Market Watch",
+   "title": "Market Digest — Tuesday, November 24, 2026",
+   "url": "https://stockmarketwatch.com/digest/2026-11-24"
+  },
+  {
+   "name": "U.S. Treasury",
+   "title": "Daily Treasury Par Yield Curve Rates",
+   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Hewlett Packard Enterprise beat forecasts and raised its revenue outlook, yet Dell, which had not reported yet, fell 11.83% during the day. What best explains Dell's fall?",
+   "options": [
+    "Dell cut its own sales forecast during the session, before the bell",
+    "Higher Fed hike odds raised borrowing costs for hardware makers",
+    "HPE warned of thinner AI server margins, a risk rivals may share",
+    "The SEC widened its Nvidia review to cover the server makers too"
+   ],
+   "answer": 2,
+   "explain": "HPE's {{gross-margin|gross margin}} moderated 210 basis points from the quarter before, and Investrade said the results and margins weighed on rivals Dell and Super Micro. Dell's own report came after the close and showed record revenue and a raised forecast. FedWatch put hike odds at about 95% to 96%, so rates were not the new factor."
+  },
+  {
+   "type": "short",
+   "q": "Gold fell about 2.5% to 2.7% on Tuesday even though the dollar index fell 0.47%. Why did gold fall when a weaker dollar would normally help it?",
+   "model": "{{hawkish|Hawkish}} Fed signals outweighed the weaker dollar. Williams said inflation is \"too high\" and backed a December {{rate-hike|hike}}, which traders priced at about 95% to 96% odds, and gold, which pays no interest, loses appeal when rates are expected to rise. Capp Notes credited the hawkish Fed signals for the fall.",
+   "points": [
+    "A December rate hike looked close to certain after hawkish Fed comments",
+    "Gold pays no interest, so higher expected rates make it less attractive",
+    "The rate outlook outweighed the help from a weaker dollar"
+   ]
+  },
+  {
+   "q": "Sanofi offered $175 a share in cash for Insmed, a 17.4% premium to Monday's close, but Insmed rose only 14.13%. Why might the stock stay below the offer price?",
+   "options": [
+    "Holders must wait until 2027 to get paid, and the deal could still fail",
+    "Sanofi pays in its own shares, so the offer moves with Sanofi's price",
+    "The 17.4% premium is measured from the IPO price, not Monday's close",
+    "Insmed must stay below the offer until regulators approve the merger"
+   ],
+   "answer": 0,
+   "explain": "The deal is expected to close in the first half of 2027, so buyers today wait months for the $175 and carry the risk that the deal falls apart. That keeps the price a little under the offer, even with a {{takeover-premium|takeover premium}} of 17.4%. It is a cash deal, not an {{all-stock-deal|all-stock deal}}."
+  },
+  {
+   "q": "Consumer confidence jumped to 103.3, far above the forecast of about 92, and most S&P 500 stocks rose. Why did the S&P 500 itself still fall 0.5%?",
+   "options": [
+    "A reading above 100 points to a recession, so traders sold shares",
+    "Strong confidence made a Fed rate cut likely, so all sectors fell",
+    "The reading missed its forecast, and traders took it as weakness",
+    "Its largest weights are tech giants, and tech fell 3.26% that day"
+   ],
+   "answer": 3,
+   "explain": "The S&P 500 is {{cap-weighting|cap-weighted}}, so a few giant tech companies count for far more than hundreds of smaller ones. Advancers beat decliners 346 to 154 and the {{equal-weight-index|equal-weight}} fund rose 0.54%, but technology's 3.26% fall pulled the index down. {{consumer-confidence|Consumer confidence}} beat its forecast, and traders were betting on a hike, not a cut."
+  }
+ ]
+}
