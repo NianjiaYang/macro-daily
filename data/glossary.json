@@ -1411,6 +1411,96 @@
         "defensive-stocks",
         "cap-weighting"
       ]
+    },
+    "pce-inflation": {
+      "term": "PCE inflation",
+      "category": "Economic data",
+      "firstSeen": "2026-11-25",
+      "definition": "Inflation measured by the personal consumption expenditures (PCE) price index, published monthly by the Bureau of Economic Analysis. It tracks the prices of what households buy. Core PCE leaves out food and energy. It is the Fed's preferred inflation gauge.",
+      "why": "On Wednesday core PCE rose 3.3% from a year earlier, above the 3.2% expected and the highest in three years, and odds of a December Fed hike stayed at about 98%.",
+      "chain": [
+        "The Fed prefers PCE to CPI when it judges inflation.",
+        "A hotter core PCE reading tells the Fed inflation is not cooling on its own.",
+        "That supports raising interest rates.",
+        "Traders then price higher odds of a {{rate-hike|hike}}, which usually lifts short-term yields."
+      ],
+      "related": [
+        "core-inflation",
+        "cpi",
+        "rate-hike"
+      ]
+    },
+    "gdp": {
+      "term": "GDP (gross domestic product)",
+      "category": "Economic data",
+      "firstSeen": "2026-11-25",
+      "definition": "The total value of goods and services an economy produces. In the U.S. the Bureau of Economic Analysis reports quarterly growth as an annual rate, and revises each quarter twice after its first (advance) estimate.",
+      "why": "On Wednesday the second estimate put third-quarter growth at a 4.3% annual rate, up from the 3.4% first estimate, mainly because of stronger investment and consumer spending.",
+      "chain": [
+        "Faster GDP growth means more demand across the economy.",
+        "Strong demand makes it easier for companies to raise prices.",
+        "With inflation already above target, strong growth gives the Fed less reason to wait.",
+        "So good growth news can be bad news for rate-sensitive assets."
+      ],
+      "related": [
+        "pce-inflation",
+        "rate-hike",
+        "consensus-forecast"
+      ]
+    },
+    "beige-book": {
+      "term": "Beige Book",
+      "category": "Fed",
+      "firstSeen": "2026-11-25",
+      "definition": "A Federal Reserve report that collects comments from businesses and contacts in each of the Fed's 12 districts about growth, jobs and prices. It is stories rather than statistics, released several times a year ahead of Fed meetings.",
+      "why": "Wednesday's Beige Book said eight of 12 districts grew and found sustained cost pressures in energy, transportation, health care, insurance and tariff-related expenses.",
+      "chain": [
+        "Official data arrive with a delay; the Beige Book reports what businesses see now.",
+        "Fed officials read it before deciding on rates.",
+        "Reports of rising costs suggest inflation may stay high.",
+        "That supports the case for a {{rate-hike|rate hike}}."
+      ],
+      "related": [
+        "fomc",
+        "rate-hike",
+        "pce-inflation"
+      ]
+    },
+    "tariff": {
+      "term": "Tariff",
+      "category": "Companies & regulation",
+      "firstSeen": "2026-11-25",
+      "definition": "A tax a country charges on imported goods. It is paid when the goods enter the country, so it raises their cost and makes them less competitive with goods from elsewhere.",
+      "why": "On Wednesday the U.S. proposed new tariffs of up to 20% on China, the EU and 12 other partners. Mexico's index jumped 2.99% on hopes it was spared.",
+      "chain": [
+        "A tariff makes goods from the targeted country dearer for U.S. buyers.",
+        "Exporters there may sell less, so their shares can fall.",
+        "Countries left off the list can win U.S. sales from those that are on it.",
+        "Higher import costs can also push up U.S. prices, which matters for inflation."
+      ],
+      "related": [
+        "import-prices",
+        "export-controls",
+        "pce-inflation"
+      ]
+    },
+    "credit-watch": {
+      "term": "CreditWatch",
+      "category": "Credit",
+      "firstSeen": "2026-11-25",
+      "definition": "A warning by the rating agency S&P Global that it may soon change a borrower's credit rating. \"CreditWatch Negative\" means a downgrade is being considered. A credit rating grades how likely a borrower is to repay its debt, from AAA (safest) down to junk.",
+      "why": "On Wednesday S&P Global placed Nvidia's AA rating on CreditWatch Negative, citing management and governance risk, and Nvidia fell 3.91%.",
+      "chain": [
+        "A rating agency sees a new risk to a borrower, such as leadership turmoil.",
+        "It puts the rating on watch while it studies the risk.",
+        "A downgrade would make the company's borrowing more expensive.",
+        "Investors read the watch as a sign the risk is serious, which can weigh on the stock and bonds."
+      ],
+      "related": [
+        "credit-spread",
+        "key-person-risk",
+        "high-yield-bond"
+      ]
     }
   }
 }

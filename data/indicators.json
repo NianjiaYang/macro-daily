@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:40-06:00",
+ "updated": "2026-11-25T21:27-06:00",
  "problems": [
   "hy-oas: skipped (no FRED key)"
  ],
@@ -17,10 +17,6 @@
    "source": "New York Fed",
    "sourceUrl": "https://www.newyorkfed.org/markets/reference-rates/effr",
    "history": [
-    [
-     "2025-11-19",
-     3.88
-    ],
     [
      "2025-11-20",
      3.88
@@ -1032,10 +1028,14 @@
     [
      "2026-11-23",
      3.88
+    ],
+    [
+     "2026-11-24",
+     3.88
     ]
    ],
    "value": 3.88,
-   "asOf": "2026-11-23",
+   "asOf": "2026-11-24",
    "change": 0.0,
    "stale": false
   },
@@ -1052,10 +1052,6 @@
    "source": "U.S. Treasury",
    "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
    "history": [
-    [
-     "2025-11-19",
-     3.58
-    ],
     [
      "2025-11-20",
      3.55
@@ -2067,11 +2063,15 @@
     [
      "2026-11-24",
      4.63
+    ],
+    [
+     "2026-11-25",
+     4.61
     ]
    ],
-   "value": 4.63,
-   "asOf": "2026-11-24",
-   "change": 0.0,
+   "value": 4.61,
+   "asOf": "2026-11-25",
+   "change": -0.02,
    "stale": false
   },
   {
@@ -2087,10 +2087,6 @@
    "source": "U.S. Treasury",
    "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
    "history": [
-    [
-     "2025-11-19",
-     4.13
-    ],
     [
      "2025-11-20",
      4.1
@@ -3102,11 +3098,15 @@
     [
      "2026-11-24",
      4.91
+    ],
+    [
+     "2026-11-25",
+     4.85
     ]
    ],
-   "value": 4.91,
-   "asOf": "2026-11-24",
-   "change": -0.01,
+   "value": 4.85,
+   "asOf": "2026-11-25",
+   "change": -0.06,
    "stale": false
   },
   {

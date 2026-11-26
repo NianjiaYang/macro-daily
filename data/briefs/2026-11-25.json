@@ -1,0 +1,305 @@
+{
+ "date": "2026-11-25",
+ "weekday": "Wednesday",
+ "title": "A 1,100-point plunge is bought back as core inflation hits a three-year high",
+ "oneLiner": "Stocks crashed in the morning and recovered by the close. Hotter-than-expected {{pce-inflation|core PCE inflation}}, new {{tariff|tariff}} proposals and another AI sell-off sent the Dow down more than 1,100 points and the Nasdaq down about 4.6% at the lows, but buyers stepped in: the Dow finished up 0.33%, the S&P 500 down only 0.25% and most stocks rose. Nvidia fell 3.91% as S&P Global put its credit rating on watch, bonds rallied as investors looked for safety, and oil jumped after an attack on Saudi Arabia's largest refinery.",
+ "scoreboard": [
+  {
+   "label": "Dow Jones",
+   "value": "+0.33%",
+   "note": "50,182.95; erased a 1,100-point loss",
+   "dir": "up",
+   "term": "dip-buying"
+  },
+  {
+   "label": "S&P 500",
+   "value": "−0.25%",
+   "note": "7,182.78; was down 3.2% at the low",
+   "dir": "down",
+   "term": "cap-weighting"
+  },
+  {
+   "label": "Nasdaq",
+   "value": "−0.62%",
+   "note": "23,585.80; was down about 4.6% at the low",
+   "dir": "down"
+  },
+  {
+   "label": "Nasdaq-100",
+   "value": "−0.64%",
+   "note": "26,046.90",
+   "dir": "down"
+  },
+  {
+   "label": "Russell 2000",
+   "value": "+0.71%",
+   "note": "2,704.06; small companies rose",
+   "dir": "up",
+   "term": "small-cap"
+  },
+  {
+   "label": "Nvidia",
+   "value": "−3.91%",
+   "note": "$149.30; was down 8% at the open",
+   "dir": "down",
+   "term": "credit-watch"
+  },
+  {
+   "label": "Anthropic (ANT)",
+   "value": "+1.07%",
+   "note": "$82.79; just below its $83 IPO price",
+   "dir": "up",
+   "term": "ipo"
+  },
+  {
+   "label": "10Y Treasury",
+   "value": "4.85%",
+   "note": "−6 bp",
+   "dir": "down",
+   "term": "treasury-yield"
+  },
+  {
+   "label": "2Y Treasury",
+   "value": "4.61%",
+   "note": "−2 bp",
+   "dir": "down",
+   "term": "two-year-yield"
+  },
+  {
+   "label": "Core PCE (Oct.)",
+   "value": "3.3%",
+   "note": "year over year; forecast 3.2%",
+   "dir": "up",
+   "term": "pce-inflation"
+  },
+  {
+   "label": "Q3 GDP",
+   "value": "4.3%",
+   "note": "annual rate; revised up from 3.4%",
+   "dir": "up",
+   "term": "gdp"
+  },
+  {
+   "label": "WTI crude",
+   "value": "$83.68",
+   "note": "+1.99%; Saudi refinery attack",
+   "dir": "up",
+   "term": "wti"
+  },
+  {
+   "label": "Brent crude",
+   "value": "$94.61",
+   "note": "+3.51%",
+   "dir": "up",
+   "term": "brent"
+  },
+  {
+   "label": "Gold",
+   "value": "≈ −0.6% to −0.7%",
+   "note": "about $3,535–3,540; dipped below $3,500",
+   "dir": "down",
+   "term": "safe-haven"
+  },
+  {
+   "label": "Bitcoin",
+   "value": "≈ $60,000",
+   "note": "bounced from a $57,300 low",
+   "dir": "up"
+  },
+  {
+   "label": "VIX",
+   "value": "≈ 28.3",
+   "note": "+7.32%; topped 30 in the morning",
+   "dir": "up",
+   "term": "vix"
+  }
+ ],
+ "sections": [
+  {
+   "kicker": "Equities",
+   "title": "A morning rout, an afternoon comeback",
+   "paragraphs": [
+    "Wednesday was two different days. Stocks opened sharply lower: at the open the S&P 500 was down 2.1% and the Nasdaq 3.2%, Yahoo Finance said. At the lows the S&P 500 was down 3.2%, the Nasdaq about 4.6% to 4.7% and the Dow more than 1,100 points, to 48,913.74, Capp Notes and The Weekend Spread said. Then buyers stepped in and most of the loss disappeared.",
+    "At the close the Dow was up 164.25 points, or 0.33%, at 50,182.95, holding above 50,000 a day after its first close there. The S&P 500 fell 18.31 points, or 0.25%, to 7,182.78, the Nasdaq fell 147.74 points, or 0.62%, to 23,585.80, and the Nasdaq-100 fell 0.64% to 26,046.90, Capp Notes said. Buying a sharp fall like this is called {{dip-buying|dip-buying}}. The Weekend Spread called it \"a recovery, not a reversal\": tech still closed lower for a second day.",
+    "Under the surface most stocks rose. Advancers beat decliners 370 to 128 in the S&P 500, and the {{equal-weight-index|equal-weight}} fund RSP rose 0.83%, beating the {{cap-weighting|cap-weighted}} index, Capp Notes said. Smaller companies did best: the S&P MidCap 400 rose 1.23% and the Russell 2000 index of {{small-cap|small-cap}} stocks rose 0.71% to 2,704.06. Materials led the sectors, up 2.07%, followed by real estate, up 0.92%. Technology was the weakest sector, down 0.83%, with health care down 0.56%.",
+    "Fear rose even though prices recovered. The {{vix|VIX}} rose 7.32% to 28.29 after topping 30 in the morning, Capp Notes said; The Weekend Spread had it closing at 28.03. Over the three sessions since Friday the S&P 500 is still up 3.94% and the Nasdaq 4.28%, The Weekend Spread said."
+   ]
+  },
+  {
+   "kicker": "AI & chips",
+   "title": "Nvidia's credit rating goes on watch and the AI trade slides again",
+   "paragraphs": [
+    "Nvidia fell 3.91% to $149.30, after falling as much as 8% at the open, Yahoo Finance said, and it is down 27% in November, Capp Notes said, citing CNBC. A new reason appeared: S&P Global placed Nvidia's AA credit rating on {{credit-watch|CreditWatch Negative}}, citing management and governance risk. A credit rating grades how safe a company's bonds are, so the move is a warning that the leadership turmoil could make Nvidia a riskier borrower. Jensen Huang faces House committees on December 1 over the investigations behind his brief exit, The Weekend Spread said.",
+    "Nomura strategist Charlie McElligott said Monday's rebound changed little. \"What did Monday change?\" he asked in a note quoted by Yahoo Finance. \"Not much!\" His point: Huang's return does not fix higher interest rates, wider {{credit-spread|credit spreads}} and higher volatility, which tighten financial conditions and leave the AI trade exposed to any new setback.",
+    "Memory, chip-equipment and cloud names fell hard. Lam Research fell 5.68%, Sandisk 5.57%, Oracle 5.13% and Micron 4.53%, Capp Notes said. The chip funds closed well off their lows: the iShares Semiconductor ETF (SOXX), a {{semiconductor-etf|semiconductor ETF}}, fell only 0.50%, Capp Notes said, after the Philadelphia Semiconductor index had been down more than 6% in the morning, Yahoo Finance said. Ambarella plunged 19.77% after giving a weak revenue forecast, blaming memory-chip shortages. Meta went the other way, up 3.40%.",
+    "Anthropic rose 1.07% to $82.79, still just below its $83 {{ipo|IPO}} price, Capp Notes said, after dipping to $74 in the morning, The Weekend Spread said."
+   ]
+  },
+  {
+   "kicker": "Economic data & the Fed",
+   "title": "Faster growth, stickier inflation and a hike that looks locked in",
+   "paragraphs": [
+    "Because of Thanksgiving, a week of data arrived in one morning. The biggest was {{pce-inflation|PCE inflation}}, the price gauge the Fed watches most. Prices rose 0.3% in October and 3.8% from a year earlier, in line with forecasts, Capp Notes said, and the highest annual reading since 2023, Yahoo Finance said. {{core-inflation|Core}} PCE, which leaves out food and energy, rose 3.3% from a year earlier, above the 3.2% expected and up from 3.1%, the highest in three years, The Weekend Spread said. Core prices rose 0.3% for a third month in a row, the Motley Fool said.",
+    "The economy is growing fast. The Bureau of Economic Analysis revised third-quarter {{gdp|GDP}} growth up to a 4.3% annual rate from its first estimate of 3.4%, mainly because of stronger investment and consumer spending. Growth was 2.2% in the second quarter. Economists had expected 3.5%, Yahoo Finance said. Weekly {{jobless-claims|jobless claims}} fell to 189,000, below the 200,000 expected, and personal income rose 0.7% with spending up 0.3%, The Weekend Spread said. Durable goods orders rose only 0.2%, short of forecasts.",
+    "The Fed's {{beige-book|Beige Book}}, a survey of businesses in its 12 districts, said eight districts grew and prices rose moderately. It found \"sustained cost pressures\" in energy, transportation, health care, insurance and tariff-related expenses, Yahoo Finance said. Strong growth plus sticky inflation is the mix that makes a central bank raise rates. The CME {{fedwatch|FedWatch}} tool put the chance of a quarter-point {{rate-hike|hike}} at the December 8–9 meeting at about 98%, Yahoo Finance and Capp Notes said.",
+    "Trade added to the worry. The U.S. Trade Representative proposed new {{tariff|tariffs}} of up to 20% on China, the European Union and 12 other trading partners, after an eight-month investigation into excess manufacturing capacity, Yahoo Finance said. They would be added on top of existing tariffs and would start in January at the earliest, after hearings and public comment."
+   ]
+  },
+  {
+   "kicker": "Rates, currencies & commodities",
+   "title": "Bonds rally, oil jumps on a refinery attack",
+   "paragraphs": [
+    "Bonds rallied even though inflation came in hot. By the U.S. Treasury's official closing figures, the {{two-year-yield|2-year yield}} fell 2 {{basis-point|basis points}} to 4.61%, the 10-year {{treasury-yield|Treasury yield}} fell 6 basis points to 4.85% and the 30-year fell 6 basis points to 5.24%. Yahoo Finance said investors fled to Treasurys as they sold tech, a {{flight-to-safety|flight to safety}}. Lower yields reach households quickly: the average 30-year {{mortgage-rate|mortgage rate}} fell to 7.21% from 7.28% a week earlier, Freddie Mac data showed, Yahoo Finance said.",
+    "Oil rose. {{brent|Brent}} crude settled up 3.51% at $94.61 and {{wti|WTI}} up 1.99% at $83.68, Capp Notes said, after Yemen's Houthis said they struck Ras Tanura, Saudi Arabia's largest refinery. The threat to supply added to oil's {{risk-premium|risk premium}}. Natural gas fell 1.62% to $3.269 on forecasts for warmer weather.",
+    "Gold fell for a second day. Capp Notes had it settling down 0.71% at $3,534.70, after dipping below $3,500 during the day for the first time since August 2025; The Weekend Spread had futures down about 0.6% at $3,540. Two other sources read showed gold slightly higher, so the move is shown as approximate. The dollar's move is left out because sources disagree on its direction: Capp Notes had the dollar index down 0.10% at 103.71, The Weekend Spread up 0.2% at 104.05. Bitcoin ended near $60,000 after an intraday low of $57,300, The Weekend Spread said."
+   ]
+  },
+  {
+   "kicker": "World markets",
+   "title": "Asia's chip markets take the hit; Mexico rallies",
+   "paragraphs": [
+    "South Korea's Kospi plunged 6.16% to 4,697.51 as Samsung Electronics fell 9.87% and SK Hynix 10.32%, erasing Tuesday's jump, Capp Notes said. Taiwan's Taiex fell 4.80% and Japan's Nikkei 225 fell 2.78%, with SoftBank Group down 14.83%. Europe's Stoxx 600 fell 1.06% as banks and tech fell on rate-hike fears and AI doubts.",
+    "Mexico's main index jumped 2.99% on optimism that Mexico was spared the new U.S. tariffs, and Brazil and India also rose, Capp Notes said."
+   ]
+  }
+ ],
+ "connections": {
+  "intro": "Markets move together, but not always the way the textbook predicts. Each card takes one of today's drivers, says what it should have done to another market, and compares that with what happened. The mismatches are where the day's real story is.",
+  "items": [
+   {
+    "driver": "{{pce-inflation|Core PCE inflation}} came in at 3.3%, above the 3.2% expected, and a December hike looked about 98% likely",
+    "asset": "The 2-year Treasury yield",
+    "expected": "Rise. The 2-year yield tracks where traders expect the Fed's rate to go, and hotter inflation means more hikes.",
+    "actual": "It fell 2 basis points to 4.61%.",
+    "why": "Fear outweighed inflation. Yahoo Finance said investors fled to Treasurys as they sold tech, and that the inflation report came in largely as expected overall, because headline PCE matched forecasts. With a December hike already priced, the safety bid mattered more.",
+    "puzzle": true
+   },
+   {
+    "driver": "AI stocks sold off and the Nasdaq fell about 4.6% at the low",
+    "asset": "The 10-year Treasury yield and mortgage rates",
+    "expected": "Fall. In a {{flight-to-safety|flight to safety}}, money leaving stocks buys Treasurys, which pushes their yields down.",
+    "actual": "The 10-year yield fell 6 basis points to 4.85%, and the 30-year mortgage rate fell to 7.21% from 7.28% a week earlier.",
+    "why": "The textbook link held. Yahoo Finance said investors flocked to bonds as they went risk-off, and that the sell-off was sending mortgage rates lower.",
+    "puzzle": false
+   },
+   {
+    "driver": "Yemen's Houthis said they struck Ras Tanura, Saudi Arabia's largest refinery",
+    "asset": "Oil",
+    "expected": "Rise. An attack on a major producer raises the risk of lost supply, so traders pay more for oil now.",
+    "actual": "Brent settled up 3.51% at $94.61 and WTI up 1.99% at $83.68.",
+    "why": "The textbook link held. Capp Notes credited the Houthi attack for Brent's gain, and The Weekend Spread called oil the day's upside outlier while stocks sold off.",
+    "puzzle": false
+   },
+   {
+    "driver": "The U.S. proposed new {{tariff|tariffs}} of up to 20% on China, the EU and 12 other partners",
+    "asset": "Stock markets abroad",
+    "expected": "Fall in the targeted countries. Tariffs make their exports dearer in the U.S., which hurts their companies' sales.",
+    "actual": "Taiwan's Taiex fell 4.80% and Europe's Stoxx 600 1.06%, while Mexico's index, which investors hoped was spared, jumped 2.99%.",
+    "why": "The link held, but tariffs were not the only cause. Capp Notes said the proposals hit trade-exposed markets abroad and Mexico rallied on optimism it was spared. It put Europe's fall down to rate-hike fears and AI doubts, and Asia also had a chip sell-off.",
+    "puzzle": false
+   },
+   {
+    "driver": "Deere missed profit forecasts and guided 2027 net income to $4.50 billion to $5.25 billion, below the about $5.9 billion expected",
+    "asset": "Deere's stock",
+    "expected": "Fall. A weaker profit forecast lowers what the company is worth to investors.",
+    "actual": "Deere fell nearly 5% before the open, then closed up 4.44% at $641.02.",
+    "why": "The sources read do not fully explain this. Yahoo Finance said the stock whipsawed on an uncertain farm rebound, and Capp Notes tied a rise in rival CNH to stronger farm-equipment sentiment after Deere's report, but no source says why investors looked past the forecast.",
+    "puzzle": true
+   }
+  ]
+ },
+ "headlines": [
+  "HP Inc. jumped 11.49% after a fiscal fourth-quarter beat, an upbeat outlook and a dividend increase to 31 cents a share, Capp Notes said.",
+  "Deere earned $3.89 a share, below a consensus range of $4.03 to $4.07, on revenue of $12.12 billion that beat forecasts, The Weekend Spread said; farm-equipment maker CNH Industrial rose 8.00%.",
+  "Nutanix sank 15.19% on a revenue forecast below expectations and the planned exit of its CEO, and Urban Outfitters fell 10.33% after comparable sales growth of 4.4% missed the 5.3% expected, Capp Notes said.",
+  "The $44 billion seven-year {{treasury-auction|Treasury auction}} tailed 1.0 basis point at 4.708%, meaning buyers demanded a little more yield than the market expected, The Weekend Spread said.",
+  "Goldman Sachs Research estimates the U.S. will add about 52 gigawatts of data center power capacity in 2028, nearly triple the 18 gigawatts expected this year, Yahoo Finance said."
+ ],
+ "watch": {
+  "when": "Fri, Nov. 27 · 8:30 a.m. ET; early close at 1:00 p.m. ET",
+  "title": "A short Friday, then Huang in front of Congress",
+  "text": "US markets are closed Thursday for Thanksgiving. On Friday stocks close at 1:00 p.m. ET and bonds at 2:00 p.m. ET, with the advance goods trade balance and retail and wholesale inventories at 8:30 a.m. ET, Capp Notes said. The bigger dates come next week: Jensen Huang appears before House committees on Monday, December 1, the November jobs report is due Friday, December 4, and the Fed meets December 8–9, The Weekend Spread said."
+ },
+ "sources": [
+  {
+   "name": "Capp Notes",
+   "title": "Closing Look — Wednesday, November 25, 2026",
+   "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+  },
+  {
+   "name": "Yahoo Finance",
+   "title": "Stock market today: Dow erases losses to end positive, S&P 500 and Nasdaq recover ground amid AI sell-off",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+  },
+  {
+   "name": "The Motley Fool",
+   "title": "Stock Market Today, Nov. 25: Dow Erases 1,100-Point Loss as Wall Street Stages Dramatic Late-Day Comeback",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/"
+  },
+  {
+   "name": "The Weekend Spread",
+   "title": "The Close: Wednesday, November 25, 2026",
+   "url": "https://theweekendspread.substack.com/p/the-close-wednesday-november-25-2026"
+  },
+  {
+   "name": "Stock Market Watch",
+   "title": "Market Digest — Wednesday, November 25, 2026",
+   "url": "https://stockmarketwatch.com/digest/2026-11-25"
+  },
+  {
+   "name": "U.S. Bureau of Economic Analysis",
+   "title": "GDP (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+   "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
+  },
+  {
+   "name": "U.S. Treasury",
+   "title": "Daily Treasury Par Yield Curve Rates",
+   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Core PCE inflation came in at 3.3%, above the 3.2% expected, yet the 2-year Treasury yield fell 2 basis points. What best explains the fall?",
+   "options": [
+    "The report showed inflation cooling, so traders priced out the December hike",
+    "Investors selling tech bought Treasurys, and a hike was already priced in",
+    "The Fed's Beige Book reported falling prices in most of its 12 districts",
+    "Weak third-quarter GDP growth pointed to a slowdown and future rate cuts"
+   ],
+   "answer": 1,
+   "explain": "Yahoo Finance said investors fled to Treasurys as they sold tech, a {{flight-to-safety|flight to safety}}. {{fedwatch|FedWatch}} still put a December {{rate-hike|hike}} at about 98%, so the hot {{pce-inflation|core PCE}} reading did not change the odds much. The Beige Book found sustained cost pressures, and {{gdp|GDP}} was revised up to 4.3%."
+  },
+  {
+   "type": "short",
+   "q": "Most S&P 500 stocks rose on Wednesday, yet the index itself fell 0.25%. What explains the gap, and what does the 370-to-128 figure show?",
+   "model": "Buyers stepped in on the fall ({{dip-buying|dip-buying}}) and most stocks ended higher: advancers beat decliners 370 to 128 and the {{equal-weight-index|equal-weight}} fund rose 0.83%. The S&P 500 is {{cap-weighting|cap-weighted}}, so losses in giant tech names such as Nvidia, Amazon and Alphabet outweighed the gains in hundreds of smaller companies.",
+   "points": [
+    "Most stocks rose: advancers beat decliners and the equal-weight fund rose",
+    "The S&P 500 is cap-weighted, so falls in a few giant tech stocks pulled it down",
+    "Technology was the weakest sector, down 0.83%"
+   ]
+  },
+  {
+   "q": "S&P Global placed Nvidia's AA credit rating on CreditWatch Negative. What does that action signal?",
+   "options": [
+    "Its bonds may be downgraded because leadership problems make it a riskier borrower",
+    "Its stock must leave the S&P 500 unless the price recovers within three months",
+    "Its bonds were downgraded to junk, so many funds now have to sell them at once",
+    "Its earnings forecast was cut by S&P analysts after the chip sell-off this week"
+   ],
+   "answer": 0,
+   "explain": "{{credit-watch|CreditWatch Negative}} means S&P Global is considering a downgrade, not that one has happened. It cited management and governance risk after the turmoil around Jensen Huang. Credit ratings grade bonds, not the stock or earnings forecasts."
+  },
+  {
+   "q": "The U.S. proposed new tariffs of up to 20% on China, the EU and 12 other partners. Why did Mexico's stock index jump 2.99% the same day?",
+   "options": [
+    "A weaker peso made Mexican exports cheaper, which lifted shares of exporters",
+    "Mexico raised its own interest rates, which drew foreign money into its shares",
+    "Investors were hopeful Mexico was spared, so its firms could gain U.S. sales",
+    "Oil's jump lifted Mexican energy shares, which dominate the country's index"
+   ],
+   "answer": 2,
+   "explain": "Capp Notes said Mexico's index rallied on optimism that Mexico was spared the new {{tariff|tariffs}}. Countries left off a tariff list can gain, because their goods become cheaper in the U.S. compared with goods from the targeted countries. No source read links the move to the peso, Mexican rates or oil."
+  }
+ ]
+}
