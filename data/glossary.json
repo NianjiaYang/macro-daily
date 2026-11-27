@@ -1,1506 +1,1577 @@
 {
-  "terms": {
-    "dip-buying": {
-      "term": "Dip-buying",
-      "category": "Market behavior",
-      "firstSeen": "2026-11-09",
-      "definition": "Buying an asset right after its price has dropped sharply, on the bet that the drop was overdone and the price will recover.",
-      "why": "Monday's rally was largely dip-buying in chip stocks after a four-week slide. It tells you investors haven't abandoned the AI story — they saw last week's prices as a discount, not a warning.",
-      "chain": [
-        "Chip stocks fell hard last week on fears that AI spending would slow after the midterms.",
-        "Lower prices made those companies look cheaper relative to the earnings investors still expect.",
-        "Over the weekend no new bad news hit the sector (Nvidia's issue was company-specific), so buyers stepped back in.",
-        "Traders who had bet against the stocks rushed to close those bets, adding fuel to the bounce.",
-        "Whether the bounce lasts depends on whether the original fear — slower AI investment — is actually disproven."
-      ],
-      "related": [
-        "relief-rally",
-        "sector-rotation"
-      ]
-    },
-    "relief-rally": {
-      "term": "Relief rally",
-      "category": "Market behavior",
-      "firstSeen": "2026-11-09",
-      "definition": "A short, sharp rise in prices during a broader downtrend, usually after selling exhausts itself or a feared event turns out less bad than expected.",
-      "why": "The key question after a +2–3% day following four down weeks: is this a real turn or just a relief rally? Analysts look at whether gains hold through the next big catalyst — here, Tuesday's {{cpi|CPI}} report.",
-      "chain": [
-        "After a long decline, many sellers have already sold — there's less selling pressure left.",
-        "Any neutral or slightly good news can then trigger outsized gains.",
-        "But if the underlying problem (here, AI-spending worries plus rising rates) hasn't changed, prices can resume falling.",
-        "A durable turn usually needs a fundamental change: better earnings, softer inflation, or a shift in Fed expectations."
-      ],
-      "related": [
-        "dip-buying",
-        "cpi"
-      ]
-    },
-    "magnificent-7": {
-      "term": "Magnificent 7",
-      "category": "Equities",
-      "firstSeen": "2026-11-09",
-      "definition": "Nickname for the seven mega-cap tech stocks — Apple, Microsoft, Alphabet, Amazon, Meta, Nvidia and Tesla — that dominate U.S. index returns.",
-      "why": "Together they make up roughly a third of the S&P 500's value, so how they trade largely decides whether the index is up or down. Nvidia being the only one down Monday was notable.",
-      "chain": [
-        "The S&P 500 is {{cap-weighting|cap-weighted}}: bigger companies count more.",
-        "The Mag 7 grew so large that their moves now swamp the other ~490 stocks.",
-        "So a 'market' rally or sell-off is often really a Mag 7 story.",
-        "Analysts check 'breadth' (how many stocks are rising) to see whether a move is broad or concentrated."
-      ],
-      "related": [
-        "cap-weighting",
-        "idiosyncratic-risk"
-      ]
-    },
-    "semiconductor-etf": {
-      "term": "Semiconductor ETF",
-      "category": "Equities",
-      "firstSeen": "2026-11-09",
-      "definition": "An exchange-traded fund that holds a basket of chip-company stocks and trades like a single stock. SOXX and SMH are the best-known examples.",
-      "why": "Its daily move is a quick read on sentiment toward the whole chip sector. SOXX rising 7.5% while Nvidia — one of its biggest holdings — fell 5% shows money moved within the sector, not out of it.",
-      "chain": [
-        "An ETF lets investors buy an entire sector in one trade.",
-        "Its price reflects the weighted performance of its holdings.",
-        "When one big holding falls but the ETF rises sharply, the other holdings must have risen even more.",
-        "That gap is evidence of {{sector-rotation|rotation within the sector}}."
-      ],
-      "related": [
-        "sector-rotation",
-        "cap-weighting"
-      ]
-    },
-    "sector-rotation": {
-      "term": "Sector rotation",
-      "category": "Market behavior",
-      "firstSeen": "2026-11-09",
-      "definition": "Investors moving money from one group of stocks to another — between sectors, or between companies within a sector — rather than leaving the market altogether.",
-      "why": "Monday's chip trade was a textbook case: investors sold Nvidia on leadership risk and bought AMD, Broadcom and Marvell. Their conviction in chips didn't change; their preferred way to own it did.",
-      "chain": [
-        "Weekend reports created uncertainty about Nvidia's CEO — a company-specific risk.",
-        "Investors still wanted exposure to the AI chip theme.",
-        "So they sold Nvidia and bought its peers instead.",
-        "Result: the sector ETF rose ~7.5% while its largest member fell ~5%.",
-        "Lesson: a falling leader doesn't always mean a falling theme — check what its peers are doing."
-      ],
-      "related": [
-        "idiosyncratic-risk",
-        "semiconductor-etf"
-      ]
-    },
-    "idiosyncratic-risk": {
-      "term": "Idiosyncratic risk",
-      "category": "Risk",
-      "firstSeen": "2026-11-09",
-      "definition": "Risk specific to a single company — a scandal, lawsuit or failed product — as opposed to systematic risk, which hits the whole market (like interest rates or recessions).",
-      "why": "The investigation into Nvidia's CEO is idiosyncratic: it hurts Nvidia but not the chip industry's prospects. That's why the stock fell while peers rallied.",
-      "chain": [
-        "Systematic risk (rates, the economy) moves everything together and can't be diversified away.",
-        "Idiosyncratic risk affects one name and can be diversified away by holding many stocks.",
-        "When a company-specific shock hits, investors often swap into similar companies to keep their theme exposure.",
-        "This is why diversified portfolios and ETFs dampen single-stock blowups."
-      ],
-      "related": [
-        "sector-rotation",
-        "magnificent-7"
-      ]
-    },
-    "cap-weighting": {
-      "term": "Cap-weighting",
-      "category": "Equities",
-      "firstSeen": "2026-11-09",
-      "definition": "An index method where each company's weight equals its market capitalization (share price × shares outstanding). Bigger companies move the index more.",
-      "why": "Over the past month the average Russell 1000 stock rose ~0.8%, yet the index lost ~$4.8 trillion in value — Nvidia alone accounted for ~$1.27 trillion of that. In a cap-weighted index, a few giants can outweigh hundreds of small winners.",
-      "chain": [
-        "Market cap = price × shares; Nvidia is one of the largest companies in the world.",
-        "In a cap-weighted index, a 10% drop in Nvidia matters far more than a 10% rise in a small company.",
-        "So 'the average stock' and 'the index' can tell opposite stories.",
-        "Equal-weight indexes (every stock counts the same) are a common comparison to see the difference."
-      ],
-      "related": [
-        "magnificent-7"
-      ]
-    },
-    "analyst-upgrade": {
-      "term": "Analyst upgrade",
-      "category": "Equities",
-      "firstSeen": "2026-11-09",
-      "definition": "When a sell-side research analyst raises their rating on a stock (e.g., from 'Perform' to 'Outperform'), signaling they expect it to do better.",
-      "why": "Oppenheimer's upgrade of AMD, plus news that Google Cloud picked AMD chips, helped send the stock up 13% — upgrades can move prices because many investors follow these calls.",
-      "chain": [
-        "Sell-side analysts at banks publish ratings and price targets for clients.",
-        "An upgrade signals new conviction, often based on a fresh catalyst (here, the Google Cloud win).",
-        "Fund managers who trust that analyst may buy, pushing the price up.",
-        "The effect is strongest when the upgrade comes alongside real business news, as it did here."
-      ],
-      "related": []
-    },
-    "treasury-yield": {
-      "term": "Treasury yield",
-      "category": "Rates",
-      "firstSeen": "2026-11-09",
-      "definition": "The annual return an investor earns for lending to the U.S. government by buying a Treasury bond. Yields move opposite to bond prices.",
-      "why": "Treasury yields are the base rate for almost all borrowing in the economy. The 10-year yield at 4.88% feeds directly into {{mortgage-rate|mortgage rates}} and corporate borrowing costs.",
-      "chain": [
-        "A bond pays a fixed coupon; if its price falls, that fixed coupon is a bigger percentage of the price — the yield rises.",
-        "Investors demand higher yields when they expect higher inflation or higher Fed rates.",
-        "Banks and companies price their loans as a spread above Treasury yields.",
-        "So rising Treasury yields ripple out to mortgages, car loans and corporate bonds."
-      ],
-      "related": [
-        "two-year-yield",
-        "basis-point",
-        "mortgage-rate"
-      ]
-    },
-    "two-year-yield": {
-      "term": "2-year Treasury yield",
-      "category": "Rates",
-      "firstSeen": "2026-11-09",
-      "definition": "The yield on two-year U.S. government debt. Because it covers only the next couple of years, it closely tracks where traders expect the Fed's policy rate to go.",
-      "why": "It rose 5 {{basis-point|bp}} to 4.56% Monday — the bond market's way of saying it expects the Fed to raise rates, not cut them, in December.",
-      "chain": [
-        "If you can earn the Fed's rate by rolling short-term bills, a 2-year note must offer about the average expected Fed rate over two years.",
-        "When traders expect a {{rate-hike|hike}}, that average goes up — and so does the 2-year yield.",
-        "That's why analysts call it 'the note that tracks Fed policy most closely.'",
-        "Comparing the 2-year to the 10-year (the 'yield curve') shows how the market sees short- vs. long-run rates."
-      ],
-      "related": [
-        "treasury-yield",
-        "fedwatch",
-        "rate-hike"
-      ]
-    },
-    "basis-point": {
-      "term": "Basis point (bp)",
-      "category": "Rates",
-      "firstSeen": "2026-11-09",
-      "definition": "One hundredth of a percentage point: 1 bp = 0.01%. A move from 4.51% to 4.56% is +5 bp.",
-      "why": "Rates people quote everything in basis points because small moves matter: on a $1 trillion of debt, 5 bp is $500 million a year in interest.",
-      "chain": [
-        "Saying 'up 0.05%' is ambiguous — is that 0.05 percentage points or 5% of the rate?",
-        "Basis points remove the ambiguity: always 0.01 percentage points.",
-        "Fed moves are typically 25 bp (a quarter point).",
-        "Credit spreads, yield moves and fees are all quoted this way."
-      ],
-      "related": [
-        "treasury-yield",
-        "rate-hike"
-      ]
-    },
-    "rate-hike": {
-      "term": "Rate hike",
-      "category": "Fed",
-      "firstSeen": "2026-11-09",
-      "definition": "When the Federal Reserve raises its target for the federal funds rate — the rate banks charge each other overnight — usually by 25 {{basis-point|bp}}.",
-      "why": "The Fed hiked in September (its first in three years), held in October, and markets now see ~85% odds of another hike on Dec. 9. Higher rates cool the economy but hit stock valuations and borrowers.",
-      "chain": [
-        "Inflation is running well above the Fed's 2% goal, partly from war-driven fuel prices.",
-        "The job market is strong (+165k jobs in October), so the Fed has little reason to worry about growth.",
-        "Raising rates makes borrowing more expensive, slowing spending and, eventually, inflation.",
-        "Higher rates also lower the present value of future profits — which hits long-duration growth stocks like tech hardest."
-      ],
-      "related": [
-        "fomc",
-        "fedwatch",
-        "core-inflation"
-      ]
-    },
-    "fomc": {
-      "term": "FOMC",
-      "category": "Fed",
-      "firstSeen": "2026-11-09",
-      "definition": "The Federal Open Market Committee — the 12-member Fed committee that votes on interest rates. It meets eight times a year; the next meeting is Dec. 9.",
-      "why": "Every FOMC meeting is a scheduled market event. The statement and the Chair's press conference (currently Kevin Warsh) are parsed word-by-word for hints about future moves.",
-      "chain": [
-        "The FOMC includes the 7 Fed governors, the New York Fed president, and 4 rotating regional presidents.",
-        "It sets a target range for the federal funds rate.",
-        "Markets price expected decisions in advance via {{fedwatch|fed funds futures}}.",
-        "Surprises versus those expectations — not the decision itself — are what move markets."
-      ],
-      "related": [
-        "rate-hike",
-        "fedwatch"
-      ]
-    },
-    "fedwatch": {
-      "term": "Fed funds futures / FedWatch",
-      "category": "Fed",
-      "firstSeen": "2026-11-09",
-      "definition": "Fed funds futures are contracts whose payoff depends on the average fed funds rate in a given month. CME's FedWatch tool converts their prices into probabilities for each Fed meeting.",
-      "why": "When you read '85% odds of a December hike,' this is where it comes from. It's the market's real-money bet, and it shifted sharply after Friday's jobs report.",
-      "chain": [
-        "A futures price implies an expected average rate for the month.",
-        "Compare that to today's rate and you can back out how likely a move is.",
-        "Strong data (like the jobs beat) pushed the implied rate — and hike odds — higher.",
-        "Watch how these odds move after Tuesday's CPI; a big swing means the data surprised."
-      ],
-      "related": [
-        "rate-hike",
-        "two-year-yield",
-        "jobs-report"
-      ]
-    },
-    "jobs-report": {
-      "term": "Jobs report (nonfarm payrolls)",
-      "category": "Economic data",
-      "firstSeen": "2026-11-09",
-      "definition": "The monthly Bureau of Labor Statistics release showing how many jobs the U.S. economy added (nonfarm payrolls) and the unemployment rate. Usually out the first Friday of the month.",
-      "why": "October's report showed +165k jobs vs. much lower expectations, and unemployment fell to 4.1%. A strong labor market gives the Fed room to {{rate-hike|hike}} without fearing a recession.",
-      "chain": [
-        "The Fed has a dual mandate: maximum employment and stable prices.",
-        "If employment is strong, the Fed can focus fully on fighting inflation.",
-        "A jobs 'beat' therefore raises the odds of tighter policy.",
-        "That's why the 10-year yield jumped after the report and hike odds rose to ~77–85%."
-      ],
-      "related": [
-        "fedwatch",
-        "rate-hike"
-      ]
-    },
-    "cpi": {
-      "term": "CPI (Consumer Price Index)",
-      "category": "Economic data",
-      "firstSeen": "2026-11-09",
-      "definition": "A monthly measure of the average change in prices paid by consumers for a basket of goods and services, published by the BLS. The headline inflation number most people hear.",
-      "why": "October CPI comes out Tuesday at 8:30 AM ET. Economists expect 3.9% year-over-year (up from 3.7%). A hot print would all but lock in a December {{rate-hike|hike}}.",
-      "chain": [
-        "CPI is reported month-over-month (m/m) and year-over-year (y/y).",
-        "Markets react to the surprise versus consensus forecasts, not the level itself.",
-        "Hotter-than-expected CPI → higher expected Fed rates → higher yields → pressure on stocks.",
-        "Cooler-than-expected CPI → the opposite, often sparking rallies in rate-sensitive stocks."
-      ],
-      "related": [
-        "core-inflation",
-        "rate-hike"
-      ]
-    },
-    "core-inflation": {
-      "term": "Core inflation",
-      "category": "Economic data",
-      "firstSeen": "2026-11-09",
-      "definition": "Inflation excluding food and energy prices, which swing a lot. It gives a cleaner read on underlying price pressure.",
-      "why": "Core CPI is expected at 2.7% y/y vs. 3.9% headline — the gap is mostly war-driven fuel prices. New Fed research says oil now passes into core more than it used to, weakening the case for 'looking through' energy shocks.",
-      "chain": [
-        "Central banks usually ignore one-off energy spikes because they fade on their own.",
-        "But if high oil prices raise transport and production costs, they bleed into core prices too.",
-        "Fed researchers find that pass-through has gotten stronger since the pandemic.",
-        "If true, the Fed can't simply wait out the oil shock — another reason markets expect a hike."
-      ],
-      "related": [
-        "cpi",
-        "wti",
-        "rate-hike"
-      ]
-    },
-    "wti": {
-      "term": "WTI crude",
-      "category": "Commodities",
-      "firstSeen": "2026-11-09",
-      "definition": "West Texas Intermediate — the main U.S. benchmark price for crude oil, traded as futures in dollars per barrel.",
-      "why": "WTI fell ~4.3% to ~$86.90, near its lowest since late August, on hopes the Iran war de-escalates. Cheaper oil eases inflation pressure, which could soften the case for Fed hikes.",
-      "chain": [
-        "War in a major oil region raises the risk of supply disruption, pushing prices up.",
-        "Hopes for de-escalation reduce that 'risk premium,' so prices fall.",
-        "Lower oil feeds into lower gasoline (now ~$4.00 vs. $4.40 in early October).",
-        "Lower fuel prices pull down headline {{cpi|CPI}} — and, with a lag, {{core-inflation|core}}."
-      ],
-      "related": [
-        "core-inflation",
-        "cpi"
-      ]
-    },
-    "mortgage-rate": {
-      "term": "Mortgage rate",
-      "category": "Rates",
-      "firstSeen": "2026-11-09",
-      "definition": "The interest rate on a home loan. The 30-year fixed rate tracks the 10-year {{treasury-yield|Treasury yield}} plus a spread.",
-      "why": "30-year mortgage rates are around 7.2%. With the 10-year at 4.88%, housing affordability stays tight — one reason housing and regional banks feel rate moves first.",
-      "chain": [
-        "Most mortgages are packaged into bonds that compete with Treasuries for investors.",
-        "So mortgage rates move with the 10-year yield, plus a spread for prepayment and credit risk.",
-        "Higher rates raise monthly payments, cooling home demand.",
-        "That slows housing activity — one channel through which Fed hikes cool the economy."
-      ],
-      "related": [
-        "treasury-yield"
-      ]
-    },
-    "going-concern": {
-      "term": "Going-concern warning",
-      "category": "Credit",
-      "firstSeen": "2026-11-09",
-      "definition": "A formal disclosure that there is 'substantial doubt' a company can keep operating over the next 12 months — usually because it may run out of cash to pay its bills.",
-      "why": "Sable Offshore's stock fell 75% after its quarterly filing included going-concern language; its only crude buyer had stopped purchasing. For credit analysts, this is a red flag for default.",
-      "chain": [
-        "Auditors and management must assess whether the company can meet obligations for the next year.",
-        "Relying on a single customer is concentration risk; when that buyer stopped, revenue dried up.",
-        "Without revenue, cash burns and debt payments loom.",
-        "The warning signals possible restructuring or {{chapter-11|bankruptcy}}, and equity holders are last in line."
-      ],
-      "related": [
-        "chapter-11"
-      ]
-    },
-    "chapter-11": {
-      "term": "Chapter 11",
-      "category": "Credit",
-      "firstSeen": "2026-11-09",
-      "definition": "A form of U.S. bankruptcy that lets a company keep operating while it restructures its debts under court supervision.",
-      "why": "JetBlue denied it plans to file for Chapter 11. A filing typically wipes out most of the value for stockholders, so even a rumor can move the stock sharply.",
-      "chain": [
-        "A company that can't pay its debts can file to get court protection from creditors.",
-        "It negotiates a plan to cut or swap its debt, often converting bonds into new equity.",
-        "Creditors are paid in order of seniority; existing shareholders usually get little or nothing.",
-        "That's why going-concern warnings and bankruptcy rumors crush stock prices."
-      ],
-      "related": [
-        "going-concern"
-      ]
-    },
-    "tokenization": {
-      "term": "Tokenization",
-      "category": "Market structure",
-      "firstSeen": "2026-11-09",
-      "definition": "Representing ownership of a real asset — like a share of stock — as a digital token on a blockchain, so it can be traded and settled electronically.",
-      "why": "NYSE said it will use the Avalanche blockchain to settle tokenized stock trades on its planned 24/7 platform — a sign traditional exchanges are adopting blockchain rails.",
-      "chain": [
-        "Today, stock trades settle one business day after the trade (T+1) through clearing houses.",
-        "A blockchain can record ownership transfer almost instantly, any hour.",
-        "That enables trading around the clock, including weekends.",
-        "Open questions: regulation, investor protection and how it links to existing systems."
-      ],
-      "related": []
-    },
-    "consensus-forecast": {
-      "term": "Consensus forecast",
-      "category": "Economic data",
-      "firstSeen": "2026-11-10",
-      "definition": "The average or middle prediction of economists surveyed before a data release. Markets react to how far the real number lands from it, not to the number alone.",
-      "why": "October CPI rose 0.4% against a 0.3% consensus, and core rose 0.3% against 0.2%. Those small misses moved every market on Tuesday because prices had been set for the forecast.",
-      "chain": [
-        "Before a release, news services survey economists and publish the consensus.",
-        "Traders set prices as if the consensus will come true.",
-        "If the number matches, little happens, even if the number is high.",
-        "If it is above the forecast (a 'hot' or 'beat' reading) or below it (a 'miss'), prices adjust at once.",
-        "That is why a 0.4% rise that was lower than last month's 0.6% still pushed yields up: it was higher than the 0.3% traders had priced."
-      ],
-      "related": [
-        "cpi",
-        "core-inflation"
-      ]
-    },
-    "month-over-month": {
-      "term": "Month-over-month (m/m) vs. year-over-year (y/y)",
-      "category": "Economic data",
-      "firstSeen": "2026-11-10",
-      "definition": "Two ways to state a change. Month-over-month compares with the previous month; year-over-year compares with the same month a year earlier.",
-      "why": "The BLS published no year-over-year inflation rate for October 2026 because the 2025 government shutdown stopped it from collecting October 2025 prices. Traders had only the month-over-month figures: 0.4% headline and 0.3% core.",
-      "chain": [
-        "A year-over-year rate needs the price level from twelve months ago.",
-        "The BLS did not collect October 2025 data during the shutdown, so that comparison does not exist.",
-        "Month-over-month numbers are newer and show the current pace, but they are noisier.",
-        "They also look small: a rate of 0.3% a month, kept up for a year, is well above the Fed's 2% target.",
-        "So a core reading of 0.3% a month is a warning sign even though the number looks tiny."
-      ],
-      "related": [
-        "cpi",
-        "consensus-forecast"
-      ]
-    },
-    "shelter-inflation": {
-      "term": "Shelter inflation",
-      "category": "Economic data",
-      "firstSeen": "2026-11-10",
-      "definition": "The part of CPI that measures the cost of housing: rent, and an estimate of what homeowners would pay to rent their own homes (owners' equivalent rent).",
-      "why": "Shelter rose 0.3% in October and made up more than 30% of the month's total price increase. It is part of core inflation, and it changes slowly, so it keeps inflation up even when fuel prices cool.",
-      "chain": [
-        "Housing is the largest single cost for most households, so it has a large weight in CPI.",
-        "Rents are set by leases that usually last a year, so shelter prices change slowly.",
-        "When shelter inflation is high, it tends to stay high for many months.",
-        "Cheaper oil does not lower anyone's rent.",
-        "That is why a report with slowing energy and steady shelter still worried the Fed and traders."
-      ],
-      "related": [
-        "core-inflation",
-        "cpi",
-        "mortgage-rate"
-      ]
-    },
-    "dollar-index": {
-      "term": "Dollar index (DXY)",
-      "category": "Currencies",
-      "firstSeen": "2026-11-10",
-      "definition": "A number that tracks the value of the US dollar against a group of major currencies, mainly the euro and the yen. When it rises, the dollar is getting stronger.",
-      "why": "The dollar index rose 0.6% to 102.25 on Tuesday as US yields jumped after the CPI report. Gold fell 2.6% the same day.",
-      "chain": [
-        "Hot inflation data raised the interest rates traders expect in the US.",
-        "Higher US rates mean dollar deposits and bonds pay more than before.",
-        "Investors around the world buy dollars to earn that return, so the dollar rises.",
-        "Gold and oil are priced in dollars, so a stronger dollar makes them more expensive for buyers who use other currencies.",
-        "That lowers demand and is one reason gold fell on the same day."
-      ],
-      "related": [
-        "treasury-yield",
-        "rate-hike"
-      ]
-    },
-    "risk-premium": {
-      "term": "Risk premium",
-      "category": "Risk",
-      "firstSeen": "2026-11-10",
-      "definition": "The extra amount built into a price to pay for a risk. In oil, a geopolitical risk premium is the extra dollars per barrel buyers pay because a war might cut off supply.",
-      "why": "Oil fell again on Tuesday after President Trump said on Monday that the Iran war could end 'fairly soon.' ING analysts said the market is unwinding some of its geopolitical risk premium. Brent briefly traded below $90 for the first time since August.",
-      "chain": [
-        "When a war threatens oil shipments, buyers pay more today to be sure of supply.",
-        "That extra amount is the risk premium. It is fear, not an actual shortage.",
-        "When the chance of disruption falls, the premium shrinks and the price drops.",
-        "This can happen fast and without any change in how much oil is pumped.",
-        "It can also come back just as fast if talks fail."
-      ],
-      "related": [
-        "wti",
-        "brent"
-      ]
-    },
-    "equal-weight-index": {
-      "term": "Equal-weight index",
-      "category": "Equities",
-      "firstSeen": "2026-11-10",
-      "definition": "A version of a stock index in which every company counts the same, no matter its size. The equal-weight S&P 500 gives each of its companies the same share.",
-      "why": "At midday Tuesday the S&P 500 was down nearly 1% while the equal-weight version was down only about 0.2%. The gap showed that a few very large technology stocks, led by Nvidia, were doing most of the falling.",
-      "chain": [
-        "The regular S&P 500 is cap-weighted, so the largest companies move it most.",
-        "The equal-weight version shows what the typical stock did.",
-        "If the regular index falls much more than the equal-weight one, the biggest stocks are dragging it down.",
-        "If the equal-weight index falls more, the weakness is broad and the giants are holding the index up.",
-        "Comparing the two is a quick way to see how wide a market move really is."
-      ],
-      "related": [
-        "cap-weighting",
-        "magnificent-7"
-      ]
-    },
-    "brent": {
-      "term": "Brent crude",
-      "category": "Commodities",
-      "firstSeen": "2026-11-10",
-      "definition": "The main international price for crude oil, based on oil from the North Sea. It is the benchmark for about 80% of the world's crude; WTI is the main US benchmark.",
-      "why": "Brent settled at $91.49 on Tuesday, down 1.2%, after briefly trading below $90 for the first time since August. It reacts most directly to Middle East news such as the Iran war.",
-      "chain": [
-        "Oil is not one product; each grade and location has its own price.",
-        "Brent is used to price most oil traded outside the US.",
-        "WTI is priced inside the US, so it usually trades a few dollars lower.",
-        "The two normally move together, as they did on Tuesday.",
-        "When a Middle East supply risk rises or falls, Brent tends to show it first."
-      ],
-      "related": [
-        "wti",
-        "risk-premium"
-      ]
-    },
-    "moving-average": {
-      "term": "Moving average",
-      "category": "Market behavior",
-      "firstSeen": "2026-11-10",
-      "definition": "The average closing price over a set number of past days, recalculated every day. The 50-day and 200-day averages are the most watched.",
-      "why": "Bitcoin slipped below its 200-day moving average on Tuesday. The S&P 500 is above its 200-day average but below its 50-day, while the Nasdaq is below both.",
-      "chain": [
-        "Daily prices jump around, so traders smooth them by averaging many days.",
-        "The 200-day average is read as the long-term trend and the 50-day as the medium-term trend.",
-        "A price above its average suggests an uptrend; below it suggests a downtrend.",
-        "Many traders use the same lines, so crossing one can trigger buying or selling by itself.",
-        "It describes the past. It does not predict the future."
-      ],
-      "related": [
-        "relief-rally",
-        "dip-buying"
-      ]
-    },
-    "earnings-guidance": {
-      "term": "Guidance (earnings guidance)",
-      "category": "Equities",
-      "firstSeen": "2026-11-11",
-      "definition": "A company's own forecast of its future revenue or profit, usually given with its quarterly results. “Raising guidance” means the company now expects to do better than it said before.",
-      "why": "CoreWeave raised its 2026 revenue guidance to $13.0–$13.3 billion from $12.4–$13.2 billion. The stock rose about 24%, and AI and chip stocks rose with it.",
-      "chain": [
-        "Each quarter a company reports what it earned and often says what it expects next.",
-        "Investors care more about the future than the past, so the forecast often matters more than the results.",
-        "A raised forecast tells investors that demand is stronger than the company thought a few months ago.",
-        "Analysts then lift their own estimates, and the stock price usually rises.",
-        "A “beat and raise” (results above forecasts plus higher guidance) is the strongest version of this signal."
-      ],
-      "related": [
-        "consensus-forecast",
-        "revenue-backlog"
-      ]
-    },
-    "revenue-backlog": {
-      "term": "Revenue backlog",
-      "category": "Equities",
-      "firstSeen": "2026-11-11",
-      "definition": "The value of signed customer contracts for work a company has not yet delivered or billed. It is future revenue that is already under contract.",
-      "why": "CoreWeave said its backlog reached about $132.5 billion at the end of September, up from $104 billion in June. That told investors demand for AI computing is still growing.",
-      "chain": [
-        "A customer signs a multi-year contract to rent computing power.",
-        "The company cannot count that money as revenue until it delivers the service.",
-        "Until then, the contract value sits in the backlog.",
-        "A growing backlog means future revenue is more predictable.",
-        "The risk: the company still has to build what it promised, and customers have to be able to pay."
-      ],
-      "related": [
-        "earnings-guidance"
-      ]
-    },
-    "high-yield-bond": {
-      "term": "High-yield (junk) bond",
-      "category": "Credit",
-      "firstSeen": "2026-11-11",
-      "definition": "A bond from a borrower that rating agencies judge more likely to miss payments. To attract buyers it has to pay a higher interest rate than safer bonds.",
-      "why": "Some CoreWeave bonds yielded more than 16% before its results, a sign investors doubted it could carry its debt. The company said it does not plan more of this kind of borrowing through 2027, which helped the stock.",
-      "chain": [
-        "Rating agencies grade borrowers on how likely they are to repay.",
-        "Borrowers below a certain grade are called high-yield, or junk.",
-        "Lenders demand extra interest to make up for the higher chance of loss.",
-        "When a bond's yield climbs far above safer bonds, the market is signaling worry about that borrower.",
-        "High interest costs then eat into profits, which can make the worry come true."
-      ],
-      "related": [
-        "treasury-yield",
-        "going-concern"
-      ]
-    },
-    "analyst-downgrade": {
-      "term": "Analyst downgrade",
-      "category": "Equities",
-      "firstSeen": "2026-11-11",
-      "definition": "When a research analyst lowers their rating on a stock, for example from “Outperform” to “Neutral,” signaling they expect it to do less well than before.",
-      "why": "Baird cut Nvidia to Neutral on Wednesday. The stock still rose 2.9% in regular trading, which shows a downgrade is one opinion among many and does not always win on the day.",
-      "chain": [
-        "Analysts at banks and brokers publish ratings on stocks for their clients.",
-        "A downgrade says the analyst sees less upside or more risk than before.",
-        "Some investors sell on the news, which can push the price down.",
-        "If other news is stronger, or the stock has already fallen a lot, the price may not drop at all."
-      ],
-      "related": [
-        "analyst-upgrade"
-      ]
-    },
-    "after-hours-trading": {
-      "term": "After-hours trading",
-      "category": "Market structure",
-      "firstSeen": "2026-11-11",
-      "definition": "Buying and selling of stocks after the regular session ends at 4:00 p.m. Eastern. Fewer people trade then, so prices can move more on less volume.",
-      "why": "Nvidia closed up 2.9% on Wednesday, then fell in after-hours trading on new media reports about its CEO. The closing price was not the last word on the day.",
-      "chain": [
-        "Regular US stock trading runs from 9:30 a.m. to 4:00 p.m. Eastern.",
-        "Companies often release earnings and big news after 4:00 p.m.",
-        "Electronic markets let investors trade on that news right away.",
-        "With fewer buyers and sellers, price swings can be larger than in the regular session.",
-        "The next morning's opening price usually reflects the after-hours move."
-      ],
-      "related": [
-        "idiosyncratic-risk"
-      ]
-    },
-    "vix": {
-      "term": "VIX (volatility index)",
-      "category": "Risk",
-      "firstSeen": "2026-11-11",
-      "definition": "An index that measures how much investors expect the S&P 500 to swing over the next 30 days, based on the prices of options. It is often called the market's “fear gauge.”",
-      "why": "The VIX fell about 10% to 17.49 on Wednesday as stocks rallied, showing that investors were paying less for protection than they were after Tuesday's inflation report.",
-      "chain": [
-        "Options are contracts that can protect a portfolio against a fall in stock prices.",
-        "When investors are nervous, they buy more protection and option prices rise.",
-        "The VIX turns those option prices into a single number.",
-        "A rising VIX means more fear; a falling VIX means investors are calmer.",
-        "It measures expected swings, not direction, and it can jump again quickly."
-      ],
-      "related": [
-        "relief-rally"
-      ]
-    },
-    "crude-inventories": {
-      "term": "Crude inventories",
-      "category": "Commodities",
-      "firstSeen": "2026-11-11",
-      "definition": "The amount of crude oil held in storage in the United States, reported every week. An industry group, the American Petroleum Institute, reports first; the government's Energy Information Administration follows with the official figure.",
-      "why": "Industry data showed US crude inventories rose by 9 million barrels last week. That sign of ample supply limited oil's bounce on Wednesday, even with new attacks on ships near the Strait of Hormuz.",
-      "chain": [
-        "Oil that is produced or imported but not yet used goes into storage.",
-        "If storage rises (a “build”), supply is running ahead of demand.",
-        "If storage falls (a “draw”), demand is running ahead of supply.",
-        "Traders compare the weekly change with what they expected.",
-        "A bigger build than expected usually pushes oil prices down."
-      ],
-      "related": [
-        "wti",
-        "brent",
-        "risk-premium"
-      ]
-    },
-    "key-person-risk": {
-      "term": "Key-person risk",
-      "category": "Risk",
-      "firstSeen": "2026-11-12",
-      "definition": "The risk that a company depends so much on one leader that losing that person hurts the business or the stock.",
-      "why": "Nvidia fell 4.3% on Thursday, and as much as 14% during the day, after CEO Jensen Huang resigned, even though nothing changed that day about its products or customers.",
-      "chain": [
-        "Some companies are closely tied to one founder or chief executive.",
-        "Investors pay a higher price partly because they trust that person's decisions.",
-        "If the person leaves suddenly, nobody knows yet whether the strategy will hold.",
-        "Uncertainty makes investors demand a lower price until they see evidence.",
-        "The next earnings report and the choice of a permanent successor usually settle the question."
-      ],
-      "related": [
-        "idiosyncratic-risk",
-        "cap-weighting"
-      ]
-    },
-    "price-weighted-index": {
-      "term": "Price-weighted index",
-      "category": "Equities",
-      "firstSeen": "2026-11-12",
-      "definition": "An index where each stock's weight depends on its share price, not on the size of the company. The Dow Jones Industrial Average works this way.",
-      "why": "CNBC noted that Nvidia is about 6% of the S&P 500 but only about 2% of the Dow, so the same fall in Nvidia hurts the S&P 500 more.",
-      "chain": [
-        "A price-weighted index adds up the share prices of its members and divides by a fixed number.",
-        "A stock with a high share price moves the index more than a stock with a low one.",
-        "Share price alone says nothing about how big a company is.",
-        "So a very large company with a modest share price has little pull on the index.",
-        "The S&P 500 uses {{cap-weighting|cap-weighting}} instead, where size sets the weight."
-      ],
-      "related": [
-        "cap-weighting",
-        "equal-weight-index"
-      ]
-    },
-    "small-cap": {
-      "term": "Small-cap stocks (Russell 2000)",
-      "category": "Equities",
-      "firstSeen": "2026-11-12",
-      "definition": "Shares of smaller companies. The Russell 2000 is the best-known index of them.",
-      "why": "The Russell 2000 fell about 1.7% on Thursday while the S&P 500 fell 0.35%, as Treasury yields jumped and raised borrowing costs.",
-      "chain": [
-        "Small companies usually have less cash and rely more on borrowing than large ones.",
-        "More of their debt is short-term or has a rate that resets.",
-        "When interest rates rise, their interest bills rise sooner.",
-        "Higher interest bills leave less profit.",
-        "So small-cap stocks often fall more than large ones on days when yields jump."
-      ],
-      "related": [
-        "treasury-yield",
-        "rate-hike"
-      ]
-    },
-    "yield-curve": {
-      "term": "Yield curve",
-      "category": "Rates",
-      "firstSeen": "2026-11-12",
-      "definition": "A line that plots Treasury yields from short maturities, such as 2 years, to long ones, such as 10 or 30 years. It is flattening when short-term yields rise faster than long-term yields.",
-      "why": "On Thursday the 2-year yield rose 13 basis points and the 10-year 12, and Reuters said the curve flattened for a fourth straight session as traders priced in Fed rate hikes.",
-      "chain": [
-        "Short-term yields mostly follow what investors expect the Fed to do soon.",
-        "Long-term yields also reflect expected growth and inflation over many years.",
-        "When the Fed is expected to raise rates, short-term yields climb fastest.",
-        "The gap between short and long yields shrinks, and the curve flattens.",
-        "A flatter curve often signals that investors expect tighter policy to slow the economy later."
-      ],
-      "related": [
-        "two-year-yield",
-        "treasury-yield",
-        "rate-hike"
-      ]
-    },
-    "treasury-auction": {
-      "term": "Treasury auction (and a “tail”)",
-      "category": "Rates",
-      "firstSeen": "2026-11-12",
-      "definition": "The sale where the US government borrows by selling new Treasury debt to bidders. An auction “tails” when the yield it has to pay comes out higher than the market expected just before the sale.",
-      "why": "Reuters said Thursday's sale of 30-year bonds drew lackluster demand and tailed by half a basis point, one more sign of pressure on bonds.",
-      "chain": [
-        "The Treasury announces how much debt it will sell.",
-        "Investors submit bids stating the yield they will accept.",
-        "The Treasury fills the lowest-yield bids first until all the debt is sold.",
-        "If demand is weak, it must accept higher-yield bids to sell everything.",
-        "A tail tells the market that buyers wanted more compensation, which can push yields up."
-      ],
-      "related": [
-        "treasury-yield",
-        "basis-point"
-      ]
-    },
-    "jobless-claims": {
-      "term": "Initial jobless claims",
-      "category": "Economic data",
-      "firstSeen": "2026-11-12",
-      "definition": "The number of people who filed for unemployment benefits for the first time in a week. It is published every Thursday and is one of the quickest readings on layoffs.",
-      "why": "Claims rose by 9,000 to 200,000 in the week ended November 7, above the 195,000 consensus, yet Treasury yields still rose because inflation worries dominated.",
-      "chain": [
-        "When people lose a job, they can file a claim for unemployment benefits.",
-        "The Labor Department counts new claims each week.",
-        "Rising claims suggest more layoffs and a weakening job market.",
-        "A weaker job market usually means less spending and less inflation pressure.",
-        "That normally lowers expectations for Fed rate hikes and pulls yields down."
-      ],
-      "related": [
-        "jobs-report",
-        "consensus-forecast"
-      ]
-    },
-    "existing-home-sales": {
-      "term": "Existing home sales",
-      "category": "Economic data",
-      "firstSeen": "2026-11-12",
-      "definition": "The number of previously owned homes sold in a month, reported as an annual rate. It covers most of the US housing market.",
-      "why": "Sales fell 5.5% in October to an annual rate of 3.75 million, the lowest since August 2010, with mortgage rates near their highest in decades.",
-      "chain": [
-        "Most buyers need a mortgage to buy a home.",
-        "When {{mortgage-rate|mortgage rates}} rise, monthly payments rise and fewer people can afford to buy.",
-        "Owners with older, cheaper mortgages also become reluctant to sell.",
-        "Fewer buyers and fewer sellers mean fewer sales.",
-        "Falling sales are an early sign that higher rates are slowing the economy."
-      ],
-      "related": [
-        "mortgage-rate",
-        "treasury-yield"
-      ]
-    },
-    "ppi": {
-      "term": "PPI (Producer Price Index)",
-      "category": "Economic data",
-      "firstSeen": "2026-11-13",
-      "definition": "A monthly measure of the change in prices that businesses receive for the goods and services they sell, published by the BLS. It is inflation measured at the producer's door instead of the shop counter.",
-      "why": "The PPI rose 0.3% in October, below the 0.4% forecast, but was up 6.5% from a year earlier, the largest 12-month rise since November 2022. Treasury yields rose anyway.",
-      "chain": [
-        "Businesses buy materials, fuel, freight and services from other businesses.",
-        "The PPI tracks the prices paid at that stage, before products reach shoppers.",
-        "When those costs rise, companies either accept lower profits or raise their own prices.",
-        "Price increases that are passed on show up later in the {{cpi|CPI}}.",
-        "So traders read the PPI as an early signal of consumer inflation, and of what the Fed may do about it."
-      ],
-      "related": [
-        "cpi",
-        "core-inflation",
-        "month-over-month"
-      ]
-    },
-    "hawkish": {
-      "term": "Hawkish (and dovish)",
-      "category": "Fed",
-      "firstSeen": "2026-11-13",
-      "definition": "A hawkish central banker leans toward higher interest rates to fight inflation. A dovish one leans toward lower rates to support jobs and growth.",
-      "why": "Boston Fed President Susan Collins said on Friday that “some additional firming, tightening of policy is appropriate” soon. Comments like that kept Treasury yields and the dollar rising even after a cooler PPI report.",
-      "chain": [
-        "Fed officials give speeches and interviews between meetings.",
-        "Traders listen for whether each official wants rates higher (hawkish) or lower (dovish).",
-        "Hawkish comments raise the interest rates that traders expect.",
-        "Higher expected rates push up {{treasury-yield|Treasury yields}} and the {{dollar-index|dollar}}.",
-        "They usually weigh on stocks and gold."
-      ],
-      "related": [
-        "rate-hike",
-        "fomc",
-        "fedwatch"
-      ]
-    },
-    "defensive-stocks": {
-      "term": "Defensive stocks",
-      "category": "Equities",
-      "firstSeen": "2026-11-13",
-      "definition": "Shares of companies whose sales hold steady in good and bad economies, such as makers of food and household goods (consumer staples), utilities and health care.",
-      "why": "On Friday the technology sector fell 2.0% while consumer staples rose 1.4%, as the 10-year Treasury yield climbed to 5.15%.",
-      "chain": [
-        "People keep buying food, soap and electricity whatever the economy does.",
-        "That makes these companies' profits steady and easy to predict.",
-        "Fast-growing technology companies are valued on profits expected far in the future.",
-        "Rising interest rates make those far-off profits worth less today.",
-        "So on days when yields rise, investors often move from technology into defensive stocks: a form of {{sector-rotation|sector rotation}}."
-      ],
-      "related": [
-        "sector-rotation",
-        "treasury-yield"
-      ]
-    },
-    "price-target": {
-      "term": "Price target",
-      "category": "Equities",
-      "firstSeen": "2026-11-13",
-      "definition": "An analyst's estimate of what a stock's share price will be at a future date, usually 12 months ahead. It comes with a rating such as buy, hold or sell.",
-      "why": "HSBC cut its price target for Nvidia to $170 from $365 and lowered its rating to hold from buy, after the CEO's resignation.",
-      "chain": [
-        "An analyst forecasts a company's future profits.",
-        "From those profits the analyst works out what the shares should be worth.",
-        "That value is published as a price target.",
-        "A large cut tells investors the analyst now expects lower profits or sees more risk.",
-        "It often arrives together with an {{analyst-downgrade|analyst downgrade}} and can push the stock down."
-      ],
-      "related": [
-        "analyst-downgrade",
-        "analyst-upgrade"
-      ]
-    },
-    "ipo": {
-      "term": "IPO (initial public offering)",
-      "category": "Market structure",
-      "firstSeen": "2026-11-13",
-      "definition": "The first sale of a company's shares to the public. After the IPO the shares trade on a stock exchange and anyone can buy them.",
-      "why": "Anthropic's IPO is expected to price on November 18 at $70 to $78 a share and begin trading on November 19.",
-      "chain": [
-        "A private company decides to sell shares to the public to raise money.",
-        "Banks collect orders from investors and help set a price range.",
-        "On the pricing date the company fixes the final price and sells the shares.",
-        "The next day the shares start trading on an exchange, where the price can jump or fall.",
-        "A very large IPO can pull money out of other stocks, because investors sell something else to pay for it."
-      ],
-      "related": [
-        "after-hours-trading"
-      ]
-    },
-    "retail-sales": {
-      "term": "Retail sales",
-      "category": "Economic data",
-      "firstSeen": "2026-11-13",
-      "definition": "A monthly Census Bureau report on how much money stores, restaurants and online sellers took in. It is the main quick reading on consumer spending.",
-      "why": "October retail sales are due on Tuesday, November 17. The consensus is a rise of 0.2%, after 0.8% the month before.",
-      "chain": [
-        "Consumer spending is the largest part of the US economy.",
-        "Retail sales show each month whether shoppers are spending more or less.",
-        "Strong spending means demand is strong, which lets businesses keep raising prices.",
-        "That would give the Fed more reason for a {{rate-hike|rate hike}}.",
-        "Weak spending points to a slowing economy and takes some pressure off."
-      ],
-      "related": [
-        "consensus-forecast",
-        "month-over-month",
-        "rate-hike"
-      ]
-    },
-    "fomc-minutes": {
-      "term": "FOMC minutes",
-      "category": "Fed",
-      "firstSeen": "2026-11-13",
-      "definition": "A detailed written record of a Fed policy meeting, published about three weeks after it. It shows what officials discussed and where they disagreed.",
-      "why": "The minutes of the Fed's October 27–28 meeting come out on Wednesday, November 18. They will show how close officials were to another hike before this week's inflation reports.",
-      "chain": [
-        "After each {{fomc|FOMC}} meeting the Fed publishes a short statement and its rate decision.",
-        "The statement says little about the debate behind the decision.",
-        "The minutes fill that in: how many officials worried about inflation, and how strongly.",
-        "Traders compare the tone with what they already expect.",
-        "If the minutes sound more {{hawkish|hawkish}} than expected, yields tend to rise."
-      ],
-      "related": [
-        "fomc",
-        "hawkish",
-        "rate-hike"
-      ]
-    },
-    "market-correction": {
-      "term": "Correction",
-      "category": "Market behavior",
-      "firstSeen": "2026-11-16",
-      "definition": "A fall of 10% or more in an index or stock from its most recent peak. A fall of 20% or more is called a bear market.",
-      "why": "The Nasdaq closed on Monday about 10.9% below its October 6 high, so it is now in a correction. The label shows the decline has lasted weeks, not one bad day.",
-      "chain": [
-        "An index reaches a high and then starts to fall.",
-        "Small falls are routine and get no special name.",
-        "Once the fall from the peak reaches 10%, it is called a correction.",
-        "The label describes the past. It does not say whether prices will fall further.",
-        "Investors watch whether buyers return, as in {{dip-buying|dip-buying}}, or the decline deepens."
-      ],
-      "related": [
-        "dip-buying",
-        "relief-rally",
-        "moving-average"
-      ]
-    },
-    "flight-to-safety": {
-      "term": "Flight to safety",
-      "category": "Market behavior",
-      "firstSeen": "2026-11-16",
-      "definition": "A move by investors out of risky assets such as stocks and into assets seen as safe, such as US Treasury bonds and the dollar, when they are worried.",
-      "why": "On Monday the Nasdaq fell 2.5% and the 10-year Treasury yield fell 3 basis points to 5.12%. Stocks and bond yields dropped together because money leaving stocks went into bonds.",
-      "chain": [
-        "Bad news makes investors less willing to hold stocks.",
-        "They sell stocks and look for somewhere safer to keep the money.",
-        "US Treasuries are a common choice, so demand for them rises.",
-        "Higher demand lifts bond prices, and yields fall when prices rise.",
-        "A falling {{treasury-yield|Treasury yield}} on a bad day for stocks is the sign of this move."
-      ],
-      "related": [
-        "treasury-yield",
-        "vix",
-        "defensive-stocks"
-      ]
-    },
-    "empire-state-survey": {
-      "term": "Empire State Manufacturing Survey",
-      "category": "Economic data",
-      "firstSeen": "2026-11-16",
-      "definition": "A monthly survey of manufacturers in New York State by the New York Fed. Its headline index is the share of firms saying business improved minus the share saying it got worse.",
-      "why": "November's index fell 18 points to 7.8, below the 16.7 economists expected. It is one of the first reports on each month's economy, so traders read it as an early signal for factories nationwide.",
-      "chain": [
-        "The New York Fed asks manufacturers whether orders, shipments, jobs and prices rose or fell.",
-        "For each question it subtracts the share answering “fell” from the share answering “rose.”",
-        "A number above zero means more firms are growing than shrinking.",
-        "The result comes out in the middle of the same month, before most national data.",
-        "A reading well below the {{consensus-forecast|consensus forecast}} suggests growth is slowing."
-      ],
-      "related": [
-        "consensus-forecast",
-        "ppi",
-        "retail-sales"
-      ]
-    },
-    "export-controls": {
-      "term": "Export controls",
-      "category": "Market structure",
-      "firstSeen": "2026-11-16",
-      "definition": "Government rules that limit which products a country's companies may sell abroad, and to whom. A company often needs a license before selling a controlled product.",
-      "why": "On Monday the Commerce Department issued a rule on remote access to advanced AI chips, aimed at Chinese companies that rent Nvidia computing power from data centers in other countries. AMD fell 5.6% and Nvidia 4.1%.",
-      "chain": [
-        "A government decides a technology is too sensitive to sell freely.",
-        "It requires companies to get a license before selling it to certain countries or buyers.",
-        "Buyers may look for a way around the rule, such as renting the technology in a third country.",
-        "The government tightens the rule to close that gap.",
-        "Each tightening shrinks the market the sellers can reach, so their share prices tend to fall."
-      ],
-      "related": [
-        "idiosyncratic-risk",
-        "semiconductor-etf"
-      ]
-    },
-    "market-breadth": {
-      "term": "Market breadth",
-      "category": "Equities",
-      "firstSeen": "2026-11-16",
-      "definition": "A measure of how many stocks are taking part in a market move, usually given as the number of rising stocks compared with falling ones.",
-      "why": "On Monday falling stocks outnumbered rising ones by 3.45 to 1 on the New York Stock Exchange. That shows the sell-off reached well beyond chipmakers.",
-      "chain": [
-        "Indexes such as the S&P 500 use {{cap-weighting|cap weighting}}, so a few giant companies can move them.",
-        "Breadth counts every stock equally: how many rose and how many fell.",
-        "If the index falls but most stocks rise, the drop comes from a few large names.",
-        "If most stocks fall too, the selling is broad.",
-        "Broad selling suggests a worry about the whole market, not one industry."
-      ],
-      "related": [
-        "cap-weighting",
-        "equal-weight-index",
-        "magnificent-7"
-      ]
-    },
-    "oil-surplus": {
-      "term": "Oil surplus",
-      "category": "Commodities",
-      "firstSeen": "2026-11-16",
-      "definition": "A period when the world produces more oil than it uses. The extra barrels go into storage, and prices tend to fall.",
-      "why": "The International Energy Agency now expects supply of 105 million barrels a day in the fourth quarter, 1.7 million more than forecast demand. Brent fell about 3.5% and WTI 3.2% on Monday.",
-      "chain": [
-        "Oil supply and demand rarely match exactly.",
-        "When supply is higher, the unsold barrels are stored and {{crude-inventories|crude inventories}} rise.",
-        "Sellers cut prices to find buyers.",
-        "Forecasters such as the International Energy Agency publish estimates of the gap.",
-        "When a forecast moves from shortfall to surplus, traders mark prices down at once."
-      ],
-      "related": [
-        "crude-inventories",
-        "wti",
-        "brent",
-        "risk-premium"
-      ]
-    },
-    "industrial-production": {
-      "term": "Industrial production",
-      "category": "Economic data",
-      "firstSeen": "2026-11-17",
-      "definition": "A monthly Federal Reserve measure of how much US factories, mines and utilities produce, adjusted for the time of year.",
-      "why": "October's figure fell 0.4% against an expected small gain, mostly because utilities fell. A weaker reading suggests slower growth, which can ease pressure on the Fed.",
-      "chain": [
-        "The Fed tracks the physical output of factories, mines and power and gas utilities.",
-        "Factories are the largest part, but utilities can swing a lot with the weather.",
-        "In October factory output rose while utility output fell sharply.",
-        "Traders compare the headline with the {{consensus-forecast|consensus forecast}}.",
-        "A miss points to slower growth and can push {{treasury-yield|yields}} down."
-      ],
-      "related": [
-        "empire-state-survey",
-        "consensus-forecast",
-        "retail-sales"
-      ]
-    },
-    "nahb-index": {
-      "term": "NAHB housing market index",
-      "category": "Economic data",
-      "firstSeen": "2026-11-17",
-      "definition": "A monthly survey of home builders by the National Association of Home Builders. Higher readings mean more builders see good conditions.",
-      "why": "November's index fell 4 points to 25, a 14-year low. It shows how hard high mortgage rates are hitting housing, which matters for builders and for stores such as Home Depot.",
-      "chain": [
-        "Builders rate current sales, expected sales and the number of buyers visiting.",
-        "The answers are combined into one index.",
-        "High {{mortgage-rate|mortgage rates}} make homes less affordable, so fewer buyers show up.",
-        "Builders start fewer homes, and owners put off renovations.",
-        "That reduces spending on materials, tools and furniture."
-      ],
-      "related": [
-        "mortgage-rate",
-        "existing-home-sales"
-      ]
-    },
-    "import-prices": {
-      "term": "Import prices",
-      "category": "Economic data",
-      "firstSeen": "2026-11-17",
-      "definition": "A monthly Bureau of Labor Statistics index of the prices of goods bought from other countries.",
-      "why": "Import prices rose 1.1% in October, more than the 0.7% expected. Dearer imports can show up later in what shoppers pay, so the Fed reads them as an early inflation signal.",
-      "chain": [
-        "US companies buy goods and materials from abroad.",
-        "If foreign costs, shipping or oil rise, those goods cost more at the border.",
-        "Importers pass some of the increase on to stores and then to shoppers.",
-        "That can push up {{cpi|CPI}} in later months.",
-        "A hot reading makes more Fed {{rate-hike|hikes}} more likely."
-      ],
-      "related": [
-        "cpi",
-        "ppi",
-        "dollar-index"
-      ]
-    },
-    "real-interest-rate": {
-      "term": "Real interest rate",
-      "category": "Fed",
-      "firstSeen": "2026-11-17",
-      "definition": "An interest rate minus inflation. It measures what borrowing really costs once rising prices are taken into account.",
-      "why": "St. Louis Fed President Musalem wants the real rate between 2% and 2.5% by spring and says it is about a point below that now. That gap is why he sees up to four more rate hikes.",
-      "chain": [
-        "The Fed sets a nominal rate, the number you see quoted.",
-        "Subtract inflation to get the real rate.",
-        "If inflation stays high, the real rate stays low even after hikes, so policy does little to slow the economy.",
-        "To raise the real rate, the Fed can raise its nominal rate or wait for inflation to fall.",
-        "Officials who expect inflation to stay high call for more {{rate-hike|hikes}}."
-      ],
-      "related": [
-        "rate-hike",
-        "cpi",
-        "hawkish"
-      ]
-    },
-    "gross-margin": {
-      "term": "Gross margin",
-      "category": "Equities",
-      "firstSeen": "2026-11-17",
-      "definition": "The share of each dollar of sales a company keeps after paying the direct cost of making what it sold.",
-      "why": "Nvidia's adjusted gross margin was 74.9%, and it expects 71% to 72% next quarter. Investors watch it to see whether a company can keep its prices high as costs rise.",
-      "chain": [
-        "Start with revenue.",
-        "Subtract the cost of goods sold, such as chips, memory and manufacturing.",
-        "Divide what is left by revenue to get the margin.",
-        "A high margin means customers pay well above cost, a sign of pricing power.",
-        "A falling margin in the {{earnings-guidance|guidance}} can worry investors even when revenue grows."
-      ],
-      "related": [
-        "earnings-guidance",
-        "revenue-backlog"
-      ]
-    },
-    "short-selling": {
-      "term": "Short selling",
-      "category": "Market behavior",
-      "firstSeen": "2026-11-19",
-      "definition": "Selling shares you have borrowed, hoping to buy them back later at a lower price and return them. The short seller profits if the price falls and loses if it rises.",
-      "why": "On November 19 the investigative outlet Hunterbrook disclosed that an affiliated fund was short AMD and published claims about AMD's chips reaching a blacklisted Chinese company. AMD fell 7.72%. The short seller gains from that fall, so readers should weigh the report knowing who benefits.",
-      "chain": [
-        "A short seller borrows shares from a broker and sells them right away.",
-        "Later the short seller must buy the same number of shares back to return them.",
-        "If the price has fallen, buying back costs less than the sale brought in, and the difference is profit.",
-        "Some short sellers publish research arguing a company has problems, which can push the price down.",
-        "The company usually disputes the claims, and the stock's next move depends on whether the claims hold up."
-      ],
-      "related": [
-        "export-controls",
-        "idiosyncratic-risk"
-      ]
-    },
-    "ipo-pop": {
-      "term": "IPO pop",
-      "category": "Market structure",
-      "firstSeen": "2026-11-19",
-      "definition": "The gain in a newly listed stock on its first day of trading, measured from the IPO price at which the company sold its shares.",
-      "why": "Anthropic sold shares at $83 and closed its first day at $97.17, a pop of about 17%. It opened at $111.50, so investors who bought at the first trade lost money by the close even though the IPO 'popped'.",
-      "chain": [
-        "Before listing, the company and its banks set an IPO price and sell shares to chosen investors at that price.",
-        "On the first day, anyone can trade the shares, and the price is set by supply and demand.",
-        "If demand is much bigger than the shares sold, the price jumps above the IPO price.",
-        "A big pop rewards the investors who got shares at the IPO price, but it also means the company could have sold its shares for more.",
-        "Whether the stock holds the gain in later days shows whether the first-day buyers were paying for lasting value or for excitement."
-      ],
-      "related": [
-        "ipo"
-      ]
-    },
-    "safe-haven": {
-      "term": "Safe haven",
-      "category": "Market behavior",
-      "firstSeen": "2026-11-19",
-      "definition": "An asset investors buy when they are worried, because they expect it to hold its value when riskier assets fall. Treasuries and gold are the classic examples.",
-      "why": "On November 19 Treasuries acted as a safe haven, with yields falling as stocks dropped 2%. Gold did not: it fell about 3% as the dollar rose and Fed hike bets grew, a reminder that safe havens do not always behave as expected.",
-      "chain": [
-        "When stocks fall sharply, investors look for places to park money that are less likely to lose value.",
-        "Buying Treasuries pushes their prices up and their yields down.",
-        "Gold is also bought in fearful times, because it is not tied to any one company or government.",
-        "But gold pays no interest, so when interest rates are expected to rise, holding gold costs more.",
-        "In a panic, investors may also sell gold to raise cash or cover losses elsewhere, so it can fall alongside stocks."
-      ],
-      "related": [
-        "flight-to-safety",
-        "dollar-index",
-        "treasury-yield"
-      ]
-    },
-    "philly-fed-index": {
-      "term": "Philadelphia Fed manufacturing index",
-      "category": "Economic data",
-      "firstSeen": "2026-11-19",
-      "definition": "A monthly survey of factories in the Philadelphia Fed's region. It subtracts the share of firms reporting worse conditions from the share reporting better ones, so a reading above zero means growth and below zero means shrinking.",
-      "why": "In November the index fell to 6.3 from 20.9, a six-month low. Factories in the region were still growing, but much more slowly, which added to signs of a slowing economy on the same day stocks fell 2%.",
-      "chain": [
-        "The Philadelphia Fed asks manufacturers each month whether business is better, worse or the same.",
-        "The index is the share saying better minus the share saying worse.",
-        "Because it comes out early in the month, it is one of the first readings on how factories are doing.",
-        "A sharp drop suggests demand for goods is slowing.",
-        "Slower growth can ease inflation pressure, which can pull bond yields down."
-      ],
-      "related": [
-        "empire-state-survey",
-        "industrial-production"
-      ]
-    },
-    "leading-economic-index": {
-      "term": "Leading Economic Index",
-      "category": "Economic data",
-      "firstSeen": "2026-11-19",
-      "definition": "A monthly index from the Conference Board that combines several measures that tend to turn before the overall economy does, such as building permits, jobless claims and stock prices.",
-      "why": "The index fell 0.3% in October to 99.3, pulled down by weak building permits. A falling leading index points to slower growth in the months ahead.",
-      "chain": [
-        "Some economic numbers change before the economy as a whole speeds up or slows down.",
-        "Building permits, for example, come before construction work, and jobless claims rise before broad job losses.",
-        "The Conference Board combines these signals into one index.",
-        "When the index falls, it suggests the economy is losing momentum.",
-        "Investors and the Fed weigh this against other data, such as inflation, when judging where rates should go."
-      ],
-      "related": [
-        "jobless-claims",
-        "existing-home-sales"
-      ]
-    },
-    "bear-market": {
-      "term": "Bear market",
-      "category": "Market behavior",
-      "firstSeen": "2026-11-20",
-      "definition": "A fall of 20% or more in an index or stock from its record high. A fall of 10% to 20% is called a correction.",
-      "why": "On Friday the Nasdaq-100 closed 19.84% below its record, 49 points above the bear market line, after dipping below it during the day.",
-      "chain": [
-        "An index sets a record and then falls.",
-        "At a 10% fall it is in a {{market-correction|correction}}.",
-        "At a 20% fall, measured on closing prices, it is in a bear market.",
-        "The label describes losses already taken; it does not predict what comes next.",
-        "It still matters because headlines use it and some rules-based funds cut their holdings when losses reach set levels."
-      ],
-      "related": [
-        "market-correction",
-        "relief-rally",
-        "dip-buying"
-      ]
-    },
-    "sec-investigation": {
-      "term": "SEC investigation",
-      "category": "Companies & regulation",
-      "firstSeen": "2026-11-20",
-      "definition": "An inquiry by the Securities and Exchange Commission, the US regulator of stock markets, into whether a company or person broke securities laws, for example by publishing misleading accounts.",
-      "why": "Reuters reported that SEC enforcement staff were examining possible accounting issues at Nvidia, and its shares fell 14%. An investigation is not proof of wrongdoing.",
-      "chain": [
-        "Investors value a company using the numbers it reports, such as revenue and profit.",
-        "The SEC enforces rules that those numbers and other disclosures be accurate and complete.",
-        "When the SEC investigates, investors worry the numbers may be revised or that fines may follow.",
-        "Many investigations close with no action, but the outcome can take months or years to learn.",
-        "Until then, buyers demand a lower price for holding the uncertainty, so the share price falls."
-      ],
-      "related": [
-        "key-person-risk",
-        "idiosyncratic-risk"
-      ]
-    },
-    "consumer-sentiment": {
-      "term": "Consumer sentiment",
-      "category": "Economic data",
-      "firstSeen": "2026-11-20",
-      "definition": "A monthly survey measure, best known from the University of Michigan, of how households feel about their finances and the economy.",
-      "why": "The final November reading rose to 51.5 from 48.0 in October, but the interviews ended before the week's steepest stock losses.",
-      "chain": [
-        "Consumer spending is the largest part of the US economy.",
-        "People who feel confident about their jobs and income tend to spend more.",
-        "The survey asks households how they see their finances and the economy now and ahead.",
-        "A rising reading suggests spending may hold up; a falling one warns it may slow.",
-        "Because surveys are taken over several days, a sudden market fall may not show up until the next reading."
-      ],
-      "related": [
-        "inflation-expectations",
-        "retail-sales"
-      ]
-    },
-    "inflation-expectations": {
-      "term": "Inflation expectations",
-      "category": "Inflation & prices",
-      "firstSeen": "2026-11-20",
-      "definition": "How fast people, businesses or investors expect prices to rise in the future. The University of Michigan survey asks households about the year ahead and the next five to ten years.",
-      "why": "One-year expectations fell to 3.7%, the lowest since March, from 4.3% at mid-month. That is welcome news for a Fed that is raising rates to fight inflation.",
-      "chain": [
-        "If people expect prices to keep rising, workers ask for bigger raises.",
-        "Businesses that expect higher costs raise their own prices sooner.",
-        "Those actions can make inflation keep going on its own.",
-        "So the Fed watches expectations closely and acts to keep them from drifting up.",
-        "When expectations fall, the Fed has less reason to raise rates quickly."
-      ],
-      "related": [
-        "cpi",
-        "rate-hike",
-        "consumer-sentiment"
-      ]
-    },
-    "credit-spread": {
-      "term": "Credit spread",
-      "category": "Rates & bonds",
-      "firstSeen": "2026-11-20",
-      "definition": "The extra yield a company's bonds pay over a Treasury bond of similar length. It is the reward investors demand for the risk that the company will not pay them back.",
-      "why": "The spread on high-yield bonds widened to 3.52 percentage points on Thursday from 3.47, up 18 basis points since Monday, even as Treasury yields fell.",
-      "chain": [
-        "The US government is treated as almost sure to repay, so Treasury yields are the base rate.",
-        "Companies can fail, so their bonds must pay more than Treasuries to attract buyers.",
-        "That extra yield is the credit spread.",
-        "When investors grow more worried about the economy or about borrowers, they demand more, so spreads widen.",
-        "Wider spreads raise borrowing costs for companies, which can slow investment and hiring."
-      ],
-      "related": [
-        "high-yield-bond",
-        "treasury-yield",
-        "risk-premium"
-      ]
-    },
-    "pmi": {
-      "term": "Purchasing managers' index (PMI)",
-      "category": "Economic data",
-      "firstSeen": "2026-11-23",
-      "definition": "A monthly survey of purchasing managers at companies, asking whether output, orders, prices and hiring went up or down. A reading above 50 means activity is growing; below 50 means it is shrinking.",
-      "why": "S&P Global's flash November composite PMI fell to 54.6 from 55.9, its lowest since July. That is still growth, only slower, so it did not stop stocks from rallying on Nvidia news.",
-      "chain": [
-        "Survey firms ask purchasing managers whether business got better or worse this month.",
-        "The answers are turned into an index where 50 means no change.",
-        "Purchasing managers see orders early, so the PMI is one of the first signs of where the economy is heading.",
-        "\"Flash\" readings come out near the end of the month, before the final numbers.",
-        "A falling PMI that stays above 50 means slower growth, not a contraction."
-      ],
-      "related": [
-        "consensus-forecast",
-        "industrial-production"
-      ]
-    },
-    "short-squeeze": {
-      "term": "Short squeeze",
-      "category": "Market behavior",
-      "firstSeen": "2026-11-23",
-      "definition": "A fast price rise that forces short sellers to buy shares back to limit their losses, and that buying pushes the price up even more.",
-      "why": "Nomura's Charlie McElligott, quoted by Yahoo Finance, said short squeezes and hedge unwinding were part of a surge of \"mechanical\" buying behind Monday's rally, when Nvidia rose 31% and the Nasdaq 6.5%.",
-      "chain": [
-        "After a long sell-off, many traders have bet on further falls by short selling.",
-        "Good news, such as Huang's return to Nvidia, sends the price up quickly.",
-        "Each short seller loses more as the price rises, so many buy back shares to close the bet.",
-        "Those forced purchases add to the buying and push the price up further.",
-        "Once the short sellers are out, that extra buying stops, so a squeeze says little about where prices go next."
-      ],
-      "related": [
-        "short-selling",
-        "relief-rally"
-      ]
-    },
-    "all-stock-deal": {
-      "term": "All-stock deal",
-      "category": "Companies & regulation",
-      "firstSeen": "2026-11-23",
-      "definition": "A takeover in which the buyer pays the target's owners with its own new shares instead of cash.",
-      "why": "CrowdStrike agreed to buy Zscaler for about $43.9 billion, paying 1.135 CrowdStrike shares for each Zscaler share. Zscaler rose 17.67% and CrowdStrike fell 8.92%.",
-      "chain": [
-        "The buyer offers its own shares, at a fixed exchange ratio, for each share of the target.",
-        "The target's shares jump toward the value of that offer.",
-        "The buyer issues new shares, so its existing owners each hold a smaller slice of the combined company.",
-        "Investors also ask whether the buyer is paying too much, which can push its stock down.",
-        "Because payment is in shares, the deal's value moves every day with the buyer's share price."
-      ],
-      "related": [
-        "idiosyncratic-risk"
-      ]
-    },
-    "consumer-confidence": {
-      "term": "Consumer confidence (Conference Board)",
-      "category": "Economic data",
-      "firstSeen": "2026-11-24",
-      "definition": "A monthly survey by the Conference Board of how households feel about business conditions, jobs and their incomes, now and over the next six months. It is a cousin of the University of Michigan's consumer sentiment survey.",
-      "why": "In November the index jumped 11.4 points to 103.3, far above the forecast of about 92. Retailers that reported the same day, like Kohl's and Dollar Tree, rose sharply.",
-      "chain": [
-        "Households answer questions about business conditions, jobs and income.",
-        "Answers are combined into one index; a higher number means more confidence.",
-        "Confident households tend to spend more, and consumer spending is most of the US economy.",
-        "So a big beat lifts hopes for retail sales and for consumer company stocks.",
-        "Strong spending can also keep inflation up, which supports the case for higher Fed rates."
-      ],
-      "related": [
-        "consumer-sentiment",
-        "retail-sales",
-        "consensus-forecast"
-      ]
-    },
-    "takeover-premium": {
-      "term": "Takeover premium",
-      "category": "Companies & regulation",
-      "firstSeen": "2026-11-24",
-      "definition": "The extra amount a buyer offers above a company's recent share price to win control of it, usually stated as a percentage.",
-      "why": "Sanofi offered $175 a share in cash for Insmed, a 17.4% premium to Monday's close. Insmed rose 14.13%, staying a little under the offer because the deal is not expected to close until the first half of 2027.",
-      "chain": [
-        "A buyer must persuade the owners to sell, so it offers more than today's market price.",
-        "The target's shares jump toward the offer price once the deal is announced.",
-        "They usually stay a little below it, because holders wait months to be paid.",
-        "The gap also reflects the risk that regulators or shareholders block the deal.",
-        "As the closing date nears and the risk shrinks, the gap usually narrows."
-      ],
-      "related": [
-        "all-stock-deal",
-        "idiosyncratic-risk"
-      ]
-    },
-    "profit-taking": {
-      "term": "Profit-taking",
-      "category": "Market behavior",
-      "firstSeen": "2026-11-24",
-      "definition": "Selling an asset after its price has risen in order to lock in the gain, which can push the price back down for a while.",
-      "why": "Nvidia fell 5.86% on Tuesday, a day after jumping 31.48%. The Motley Fool described it as traders taking profits in high-growth semiconductor names.",
-      "chain": [
-        "A stock jumps sharply in a short time.",
-        "Traders who bought before the jump now hold a large, fast gain.",
-        "Some sell to lock it in, especially before a holiday or with risks still open.",
-        "That extra selling pushes the price down even with no new bad news.",
-        "A fall from profit-taking says less about the company than a fall on fresh news."
-      ],
-      "related": [
-        "dip-buying",
-        "relief-rally",
-        "short-squeeze"
-      ]
-    },
-    "value-stocks": {
-      "term": "Value stocks",
-      "category": "Equities",
-      "firstSeen": "2026-11-24",
-      "definition": "Shares that trade cheaply compared with the company's current profits or assets, often in mature businesses such as banks, health care, retail and industrials. The opposite is growth stocks, priced for fast future growth, like most AI and tech names.",
-      "why": "On Tuesday the Motley Fool said investors favored value sectors while tech fell. Health care rose 2.95% and the Dow closed above 50,000, while the Nasdaq fell 1.5%.",
-      "chain": [
-        "Growth stocks are priced on profits expected far in the future.",
-        "When doubts about that future rise, as with AI spending, growth stocks fall hardest.",
-        "Investors move money into cheaper value stocks with steadier profits today.",
-        "Indexes heavy in value names, like the Dow, can then rise while the Nasdaq falls.",
-        "This is one form of sector rotation."
-      ],
-      "related": [
-        "sector-rotation",
-        "defensive-stocks",
-        "cap-weighting"
-      ]
-    },
-    "pce-inflation": {
-      "term": "PCE inflation",
-      "category": "Economic data",
-      "firstSeen": "2026-11-25",
-      "definition": "Inflation measured by the personal consumption expenditures (PCE) price index, published monthly by the Bureau of Economic Analysis. It tracks the prices of what households buy. Core PCE leaves out food and energy. It is the Fed's preferred inflation gauge.",
-      "why": "On Wednesday core PCE rose 3.3% from a year earlier, above the 3.2% expected and the highest in three years, and odds of a December Fed hike stayed at about 98%.",
-      "chain": [
-        "The Fed prefers PCE to CPI when it judges inflation.",
-        "A hotter core PCE reading tells the Fed inflation is not cooling on its own.",
-        "That supports raising interest rates.",
-        "Traders then price higher odds of a {{rate-hike|hike}}, which usually lifts short-term yields."
-      ],
-      "related": [
-        "core-inflation",
-        "cpi",
-        "rate-hike"
-      ]
-    },
-    "gdp": {
-      "term": "GDP (gross domestic product)",
-      "category": "Economic data",
-      "firstSeen": "2026-11-25",
-      "definition": "The total value of goods and services an economy produces. In the U.S. the Bureau of Economic Analysis reports quarterly growth as an annual rate, and revises each quarter twice after its first (advance) estimate.",
-      "why": "On Wednesday the second estimate put third-quarter growth at a 4.3% annual rate, up from the 3.4% first estimate, mainly because of stronger investment and consumer spending.",
-      "chain": [
-        "Faster GDP growth means more demand across the economy.",
-        "Strong demand makes it easier for companies to raise prices.",
-        "With inflation already above target, strong growth gives the Fed less reason to wait.",
-        "So good growth news can be bad news for rate-sensitive assets."
-      ],
-      "related": [
-        "pce-inflation",
-        "rate-hike",
-        "consensus-forecast"
-      ]
-    },
-    "beige-book": {
-      "term": "Beige Book",
-      "category": "Fed",
-      "firstSeen": "2026-11-25",
-      "definition": "A Federal Reserve report that collects comments from businesses and contacts in each of the Fed's 12 districts about growth, jobs and prices. It is stories rather than statistics, released several times a year ahead of Fed meetings.",
-      "why": "Wednesday's Beige Book said eight of 12 districts grew and found sustained cost pressures in energy, transportation, health care, insurance and tariff-related expenses.",
-      "chain": [
-        "Official data arrive with a delay; the Beige Book reports what businesses see now.",
-        "Fed officials read it before deciding on rates.",
-        "Reports of rising costs suggest inflation may stay high.",
-        "That supports the case for a {{rate-hike|rate hike}}."
-      ],
-      "related": [
-        "fomc",
-        "rate-hike",
-        "pce-inflation"
-      ]
-    },
-    "tariff": {
-      "term": "Tariff",
-      "category": "Companies & regulation",
-      "firstSeen": "2026-11-25",
-      "definition": "A tax a country charges on imported goods. It is paid when the goods enter the country, so it raises their cost and makes them less competitive with goods from elsewhere.",
-      "why": "On Wednesday the U.S. proposed new tariffs of up to 20% on China, the EU and 12 other partners. Mexico's index jumped 2.99% on hopes it was spared.",
-      "chain": [
-        "A tariff makes goods from the targeted country dearer for U.S. buyers.",
-        "Exporters there may sell less, so their shares can fall.",
-        "Countries left off the list can win U.S. sales from those that are on it.",
-        "Higher import costs can also push up U.S. prices, which matters for inflation."
-      ],
-      "related": [
-        "import-prices",
-        "export-controls",
-        "pce-inflation"
-      ]
-    },
-    "credit-watch": {
-      "term": "CreditWatch",
-      "category": "Credit",
-      "firstSeen": "2026-11-25",
-      "definition": "A warning by the rating agency S&P Global that it may soon change a borrower's credit rating. \"CreditWatch Negative\" means a downgrade is being considered. A credit rating grades how likely a borrower is to repay its debt, from AAA (safest) down to junk.",
-      "why": "On Wednesday S&P Global placed Nvidia's AA rating on CreditWatch Negative, citing management and governance risk, and Nvidia fell 3.91%.",
-      "chain": [
-        "A rating agency sees a new risk to a borrower, such as leadership turmoil.",
-        "It puts the rating on watch while it studies the risk.",
-        "A downgrade would make the company's borrowing more expensive.",
-        "Investors read the watch as a sign the risk is serious, which can weigh on the stock and bonds."
-      ],
-      "related": [
-        "credit-spread",
-        "key-person-risk",
-        "high-yield-bond"
-      ]
-    }
+ "terms": {
+  "dip-buying": {
+   "term": "Dip-buying",
+   "category": "Market behavior",
+   "firstSeen": "2026-11-09",
+   "definition": "Buying an asset right after its price has dropped sharply, on the bet that the drop was overdone and the price will recover.",
+   "why": "Monday's rally was largely dip-buying in chip stocks after a four-week slide. It tells you investors haven't abandoned the AI story — they saw last week's prices as a discount, not a warning.",
+   "chain": [
+    "Chip stocks fell hard last week on fears that AI spending would slow after the midterms.",
+    "Lower prices made those companies look cheaper relative to the earnings investors still expect.",
+    "Over the weekend no new bad news hit the sector (Nvidia's issue was company-specific), so buyers stepped back in.",
+    "Traders who had bet against the stocks rushed to close those bets, adding fuel to the bounce.",
+    "Whether the bounce lasts depends on whether the original fear — slower AI investment — is actually disproven."
+   ],
+   "related": [
+    "relief-rally",
+    "sector-rotation"
+   ]
+  },
+  "relief-rally": {
+   "term": "Relief rally",
+   "category": "Market behavior",
+   "firstSeen": "2026-11-09",
+   "definition": "A short, sharp rise in prices during a broader downtrend, usually after selling exhausts itself or a feared event turns out less bad than expected.",
+   "why": "The key question after a +2–3% day following four down weeks: is this a real turn or just a relief rally? Analysts look at whether gains hold through the next big catalyst — here, Tuesday's {{cpi|CPI}} report.",
+   "chain": [
+    "After a long decline, many sellers have already sold — there's less selling pressure left.",
+    "Any neutral or slightly good news can then trigger outsized gains.",
+    "But if the underlying problem (here, AI-spending worries plus rising rates) hasn't changed, prices can resume falling.",
+    "A durable turn usually needs a fundamental change: better earnings, softer inflation, or a shift in Fed expectations."
+   ],
+   "related": [
+    "dip-buying",
+    "cpi"
+   ]
+  },
+  "magnificent-7": {
+   "term": "Magnificent 7",
+   "category": "Equities",
+   "firstSeen": "2026-11-09",
+   "definition": "Nickname for the seven mega-cap tech stocks — Apple, Microsoft, Alphabet, Amazon, Meta, Nvidia and Tesla — that dominate U.S. index returns.",
+   "why": "Together they make up roughly a third of the S&P 500's value, so how they trade largely decides whether the index is up or down. Nvidia being the only one down Monday was notable.",
+   "chain": [
+    "The S&P 500 is {{cap-weighting|cap-weighted}}: bigger companies count more.",
+    "The Mag 7 grew so large that their moves now swamp the other ~490 stocks.",
+    "So a 'market' rally or sell-off is often really a Mag 7 story.",
+    "Analysts check 'breadth' (how many stocks are rising) to see whether a move is broad or concentrated."
+   ],
+   "related": [
+    "cap-weighting",
+    "idiosyncratic-risk"
+   ]
+  },
+  "semiconductor-etf": {
+   "term": "Semiconductor ETF",
+   "category": "Equities",
+   "firstSeen": "2026-11-09",
+   "definition": "An exchange-traded fund that holds a basket of chip-company stocks and trades like a single stock. SOXX and SMH are the best-known examples.",
+   "why": "Its daily move is a quick read on sentiment toward the whole chip sector. SOXX rising 7.5% while Nvidia — one of its biggest holdings — fell 5% shows money moved within the sector, not out of it.",
+   "chain": [
+    "An ETF lets investors buy an entire sector in one trade.",
+    "Its price reflects the weighted performance of its holdings.",
+    "When one big holding falls but the ETF rises sharply, the other holdings must have risen even more.",
+    "That gap is evidence of {{sector-rotation|rotation within the sector}}."
+   ],
+   "related": [
+    "sector-rotation",
+    "cap-weighting"
+   ]
+  },
+  "sector-rotation": {
+   "term": "Sector rotation",
+   "category": "Market behavior",
+   "firstSeen": "2026-11-09",
+   "definition": "Investors moving money from one group of stocks to another — between sectors, or between companies within a sector — rather than leaving the market altogether.",
+   "why": "Monday's chip trade was a textbook case: investors sold Nvidia on leadership risk and bought AMD, Broadcom and Marvell. Their conviction in chips didn't change; their preferred way to own it did.",
+   "chain": [
+    "Weekend reports created uncertainty about Nvidia's CEO — a company-specific risk.",
+    "Investors still wanted exposure to the AI chip theme.",
+    "So they sold Nvidia and bought its peers instead.",
+    "Result: the sector ETF rose ~7.5% while its largest member fell ~5%.",
+    "Lesson: a falling leader doesn't always mean a falling theme — check what its peers are doing."
+   ],
+   "related": [
+    "idiosyncratic-risk",
+    "semiconductor-etf"
+   ]
+  },
+  "idiosyncratic-risk": {
+   "term": "Idiosyncratic risk",
+   "category": "Risk",
+   "firstSeen": "2026-11-09",
+   "definition": "Risk specific to a single company — a scandal, lawsuit or failed product — as opposed to systematic risk, which hits the whole market (like interest rates or recessions).",
+   "why": "The investigation into Nvidia's CEO is idiosyncratic: it hurts Nvidia but not the chip industry's prospects. That's why the stock fell while peers rallied.",
+   "chain": [
+    "Systematic risk (rates, the economy) moves everything together and can't be diversified away.",
+    "Idiosyncratic risk affects one name and can be diversified away by holding many stocks.",
+    "When a company-specific shock hits, investors often swap into similar companies to keep their theme exposure.",
+    "This is why diversified portfolios and ETFs dampen single-stock blowups."
+   ],
+   "related": [
+    "sector-rotation",
+    "magnificent-7"
+   ]
+  },
+  "cap-weighting": {
+   "term": "Cap-weighting",
+   "category": "Equities",
+   "firstSeen": "2026-11-09",
+   "definition": "An index method where each company's weight equals its market capitalization (share price × shares outstanding). Bigger companies move the index more.",
+   "why": "Over the past month the average Russell 1000 stock rose ~0.8%, yet the index lost ~$4.8 trillion in value — Nvidia alone accounted for ~$1.27 trillion of that. In a cap-weighted index, a few giants can outweigh hundreds of small winners.",
+   "chain": [
+    "Market cap = price × shares; Nvidia is one of the largest companies in the world.",
+    "In a cap-weighted index, a 10% drop in Nvidia matters far more than a 10% rise in a small company.",
+    "So 'the average stock' and 'the index' can tell opposite stories.",
+    "Equal-weight indexes (every stock counts the same) are a common comparison to see the difference."
+   ],
+   "related": [
+    "magnificent-7"
+   ]
+  },
+  "analyst-upgrade": {
+   "term": "Analyst upgrade",
+   "category": "Equities",
+   "firstSeen": "2026-11-09",
+   "definition": "When a sell-side research analyst raises their rating on a stock (e.g., from 'Perform' to 'Outperform'), signaling they expect it to do better.",
+   "why": "Oppenheimer's upgrade of AMD, plus news that Google Cloud picked AMD chips, helped send the stock up 13% — upgrades can move prices because many investors follow these calls.",
+   "chain": [
+    "Sell-side analysts at banks publish ratings and price targets for clients.",
+    "An upgrade signals new conviction, often based on a fresh catalyst (here, the Google Cloud win).",
+    "Fund managers who trust that analyst may buy, pushing the price up.",
+    "The effect is strongest when the upgrade comes alongside real business news, as it did here."
+   ],
+   "related": []
+  },
+  "treasury-yield": {
+   "term": "Treasury yield",
+   "category": "Rates",
+   "firstSeen": "2026-11-09",
+   "definition": "The annual return an investor earns for lending to the U.S. government by buying a Treasury bond. Yields move opposite to bond prices.",
+   "why": "Treasury yields are the base rate for almost all borrowing in the economy. The 10-year yield at 4.88% feeds directly into {{mortgage-rate|mortgage rates}} and corporate borrowing costs.",
+   "chain": [
+    "A bond pays a fixed coupon; if its price falls, that fixed coupon is a bigger percentage of the price — the yield rises.",
+    "Investors demand higher yields when they expect higher inflation or higher Fed rates.",
+    "Banks and companies price their loans as a spread above Treasury yields.",
+    "So rising Treasury yields ripple out to mortgages, car loans and corporate bonds."
+   ],
+   "related": [
+    "two-year-yield",
+    "basis-point",
+    "mortgage-rate"
+   ]
+  },
+  "two-year-yield": {
+   "term": "2-year Treasury yield",
+   "category": "Rates",
+   "firstSeen": "2026-11-09",
+   "definition": "The yield on two-year U.S. government debt. Because it covers only the next couple of years, it closely tracks where traders expect the Fed's policy rate to go.",
+   "why": "It rose 5 {{basis-point|bp}} to 4.56% Monday — the bond market's way of saying it expects the Fed to raise rates, not cut them, in December.",
+   "chain": [
+    "If you can earn the Fed's rate by rolling short-term bills, a 2-year note must offer about the average expected Fed rate over two years.",
+    "When traders expect a {{rate-hike|hike}}, that average goes up — and so does the 2-year yield.",
+    "That's why analysts call it 'the note that tracks Fed policy most closely.'",
+    "Comparing the 2-year to the 10-year (the 'yield curve') shows how the market sees short- vs. long-run rates."
+   ],
+   "related": [
+    "treasury-yield",
+    "fedwatch",
+    "rate-hike"
+   ]
+  },
+  "basis-point": {
+   "term": "Basis point (bp)",
+   "category": "Rates",
+   "firstSeen": "2026-11-09",
+   "definition": "One hundredth of a percentage point: 1 bp = 0.01%. A move from 4.51% to 4.56% is +5 bp.",
+   "why": "Rates people quote everything in basis points because small moves matter: on a $1 trillion of debt, 5 bp is $500 million a year in interest.",
+   "chain": [
+    "Saying 'up 0.05%' is ambiguous — is that 0.05 percentage points or 5% of the rate?",
+    "Basis points remove the ambiguity: always 0.01 percentage points.",
+    "Fed moves are typically 25 bp (a quarter point).",
+    "Credit spreads, yield moves and fees are all quoted this way."
+   ],
+   "related": [
+    "treasury-yield",
+    "rate-hike"
+   ]
+  },
+  "rate-hike": {
+   "term": "Rate hike",
+   "category": "Fed",
+   "firstSeen": "2026-11-09",
+   "definition": "When the Federal Reserve raises its target for the federal funds rate — the rate banks charge each other overnight — usually by 25 {{basis-point|bp}}.",
+   "why": "The Fed hiked in September (its first in three years), held in October, and markets now see ~85% odds of another hike on Dec. 9. Higher rates cool the economy but hit stock valuations and borrowers.",
+   "chain": [
+    "Inflation is running well above the Fed's 2% goal, partly from war-driven fuel prices.",
+    "The job market is strong (+165k jobs in October), so the Fed has little reason to worry about growth.",
+    "Raising rates makes borrowing more expensive, slowing spending and, eventually, inflation.",
+    "Higher rates also lower the present value of future profits — which hits long-duration growth stocks like tech hardest."
+   ],
+   "related": [
+    "fomc",
+    "fedwatch",
+    "core-inflation"
+   ]
+  },
+  "fomc": {
+   "term": "FOMC",
+   "category": "Fed",
+   "firstSeen": "2026-11-09",
+   "definition": "The Federal Open Market Committee — the 12-member Fed committee that votes on interest rates. It meets eight times a year; the next meeting is Dec. 9.",
+   "why": "Every FOMC meeting is a scheduled market event. The statement and the Chair's press conference (currently Kevin Warsh) are parsed word-by-word for hints about future moves.",
+   "chain": [
+    "The FOMC includes the 7 Fed governors, the New York Fed president, and 4 rotating regional presidents.",
+    "It sets a target range for the federal funds rate.",
+    "Markets price expected decisions in advance via {{fedwatch|fed funds futures}}.",
+    "Surprises versus those expectations — not the decision itself — are what move markets."
+   ],
+   "related": [
+    "rate-hike",
+    "fedwatch"
+   ]
+  },
+  "fedwatch": {
+   "term": "Fed funds futures / FedWatch",
+   "category": "Fed",
+   "firstSeen": "2026-11-09",
+   "definition": "Fed funds futures are contracts whose payoff depends on the average fed funds rate in a given month. CME's FedWatch tool converts their prices into probabilities for each Fed meeting.",
+   "why": "When you read '85% odds of a December hike,' this is where it comes from. It's the market's real-money bet, and it shifted sharply after Friday's jobs report.",
+   "chain": [
+    "A futures price implies an expected average rate for the month.",
+    "Compare that to today's rate and you can back out how likely a move is.",
+    "Strong data (like the jobs beat) pushed the implied rate — and hike odds — higher.",
+    "Watch how these odds move after Tuesday's CPI; a big swing means the data surprised."
+   ],
+   "related": [
+    "rate-hike",
+    "two-year-yield",
+    "jobs-report"
+   ]
+  },
+  "jobs-report": {
+   "term": "Jobs report (nonfarm payrolls)",
+   "category": "Economic data",
+   "firstSeen": "2026-11-09",
+   "definition": "The monthly Bureau of Labor Statistics release showing how many jobs the U.S. economy added (nonfarm payrolls) and the unemployment rate. Usually out the first Friday of the month.",
+   "why": "October's report showed +165k jobs vs. much lower expectations, and unemployment fell to 4.1%. A strong labor market gives the Fed room to {{rate-hike|hike}} without fearing a recession.",
+   "chain": [
+    "The Fed has a dual mandate: maximum employment and stable prices.",
+    "If employment is strong, the Fed can focus fully on fighting inflation.",
+    "A jobs 'beat' therefore raises the odds of tighter policy.",
+    "That's why the 10-year yield jumped after the report and hike odds rose to ~77–85%."
+   ],
+   "related": [
+    "fedwatch",
+    "rate-hike"
+   ]
+  },
+  "cpi": {
+   "term": "CPI (Consumer Price Index)",
+   "category": "Economic data",
+   "firstSeen": "2026-11-09",
+   "definition": "A monthly measure of the average change in prices paid by consumers for a basket of goods and services, published by the BLS. The headline inflation number most people hear.",
+   "why": "October CPI comes out Tuesday at 8:30 AM ET. Economists expect 3.9% year-over-year (up from 3.7%). A hot print would all but lock in a December {{rate-hike|hike}}.",
+   "chain": [
+    "CPI is reported month-over-month (m/m) and year-over-year (y/y).",
+    "Markets react to the surprise versus consensus forecasts, not the level itself.",
+    "Hotter-than-expected CPI → higher expected Fed rates → higher yields → pressure on stocks.",
+    "Cooler-than-expected CPI → the opposite, often sparking rallies in rate-sensitive stocks."
+   ],
+   "related": [
+    "core-inflation",
+    "rate-hike"
+   ]
+  },
+  "core-inflation": {
+   "term": "Core inflation",
+   "category": "Economic data",
+   "firstSeen": "2026-11-09",
+   "definition": "Inflation excluding food and energy prices, which swing a lot. It gives a cleaner read on underlying price pressure.",
+   "why": "Core CPI is expected at 2.7% y/y vs. 3.9% headline — the gap is mostly war-driven fuel prices. New Fed research says oil now passes into core more than it used to, weakening the case for 'looking through' energy shocks.",
+   "chain": [
+    "Central banks usually ignore one-off energy spikes because they fade on their own.",
+    "But if high oil prices raise transport and production costs, they bleed into core prices too.",
+    "Fed researchers find that pass-through has gotten stronger since the pandemic.",
+    "If true, the Fed can't simply wait out the oil shock — another reason markets expect a hike."
+   ],
+   "related": [
+    "cpi",
+    "wti",
+    "rate-hike"
+   ]
+  },
+  "wti": {
+   "term": "WTI crude",
+   "category": "Commodities",
+   "firstSeen": "2026-11-09",
+   "definition": "West Texas Intermediate — the main U.S. benchmark price for crude oil, traded as futures in dollars per barrel.",
+   "why": "WTI fell ~4.3% to ~$86.90, near its lowest since late August, on hopes the Iran war de-escalates. Cheaper oil eases inflation pressure, which could soften the case for Fed hikes.",
+   "chain": [
+    "War in a major oil region raises the risk of supply disruption, pushing prices up.",
+    "Hopes for de-escalation reduce that 'risk premium,' so prices fall.",
+    "Lower oil feeds into lower gasoline (now ~$4.00 vs. $4.40 in early October).",
+    "Lower fuel prices pull down headline {{cpi|CPI}} — and, with a lag, {{core-inflation|core}}."
+   ],
+   "related": [
+    "core-inflation",
+    "cpi"
+   ]
+  },
+  "mortgage-rate": {
+   "term": "Mortgage rate",
+   "category": "Rates",
+   "firstSeen": "2026-11-09",
+   "definition": "The interest rate on a home loan. The 30-year fixed rate tracks the 10-year {{treasury-yield|Treasury yield}} plus a spread.",
+   "why": "30-year mortgage rates are around 7.2%. With the 10-year at 4.88%, housing affordability stays tight — one reason housing and regional banks feel rate moves first.",
+   "chain": [
+    "Most mortgages are packaged into bonds that compete with Treasuries for investors.",
+    "So mortgage rates move with the 10-year yield, plus a spread for prepayment and credit risk.",
+    "Higher rates raise monthly payments, cooling home demand.",
+    "That slows housing activity — one channel through which Fed hikes cool the economy."
+   ],
+   "related": [
+    "treasury-yield"
+   ]
+  },
+  "going-concern": {
+   "term": "Going-concern warning",
+   "category": "Credit",
+   "firstSeen": "2026-11-09",
+   "definition": "A formal disclosure that there is 'substantial doubt' a company can keep operating over the next 12 months — usually because it may run out of cash to pay its bills.",
+   "why": "Sable Offshore's stock fell 75% after its quarterly filing included going-concern language; its only crude buyer had stopped purchasing. For credit analysts, this is a red flag for default.",
+   "chain": [
+    "Auditors and management must assess whether the company can meet obligations for the next year.",
+    "Relying on a single customer is concentration risk; when that buyer stopped, revenue dried up.",
+    "Without revenue, cash burns and debt payments loom.",
+    "The warning signals possible restructuring or {{chapter-11|bankruptcy}}, and equity holders are last in line."
+   ],
+   "related": [
+    "chapter-11"
+   ]
+  },
+  "chapter-11": {
+   "term": "Chapter 11",
+   "category": "Credit",
+   "firstSeen": "2026-11-09",
+   "definition": "A form of U.S. bankruptcy that lets a company keep operating while it restructures its debts under court supervision.",
+   "why": "JetBlue denied it plans to file for Chapter 11. A filing typically wipes out most of the value for stockholders, so even a rumor can move the stock sharply.",
+   "chain": [
+    "A company that can't pay its debts can file to get court protection from creditors.",
+    "It negotiates a plan to cut or swap its debt, often converting bonds into new equity.",
+    "Creditors are paid in order of seniority; existing shareholders usually get little or nothing.",
+    "That's why going-concern warnings and bankruptcy rumors crush stock prices."
+   ],
+   "related": [
+    "going-concern"
+   ]
+  },
+  "tokenization": {
+   "term": "Tokenization",
+   "category": "Market structure",
+   "firstSeen": "2026-11-09",
+   "definition": "Representing ownership of a real asset — like a share of stock — as a digital token on a blockchain, so it can be traded and settled electronically.",
+   "why": "NYSE said it will use the Avalanche blockchain to settle tokenized stock trades on its planned 24/7 platform — a sign traditional exchanges are adopting blockchain rails.",
+   "chain": [
+    "Today, stock trades settle one business day after the trade (T+1) through clearing houses.",
+    "A blockchain can record ownership transfer almost instantly, any hour.",
+    "That enables trading around the clock, including weekends.",
+    "Open questions: regulation, investor protection and how it links to existing systems."
+   ],
+   "related": []
+  },
+  "consensus-forecast": {
+   "term": "Consensus forecast",
+   "category": "Economic data",
+   "firstSeen": "2026-11-10",
+   "definition": "The average or middle prediction of economists surveyed before a data release. Markets react to how far the real number lands from it, not to the number alone.",
+   "why": "October CPI rose 0.4% against a 0.3% consensus, and core rose 0.3% against 0.2%. Those small misses moved every market on Tuesday because prices had been set for the forecast.",
+   "chain": [
+    "Before a release, news services survey economists and publish the consensus.",
+    "Traders set prices as if the consensus will come true.",
+    "If the number matches, little happens, even if the number is high.",
+    "If it is above the forecast (a 'hot' or 'beat' reading) or below it (a 'miss'), prices adjust at once.",
+    "That is why a 0.4% rise that was lower than last month's 0.6% still pushed yields up: it was higher than the 0.3% traders had priced."
+   ],
+   "related": [
+    "cpi",
+    "core-inflation"
+   ]
+  },
+  "month-over-month": {
+   "term": "Month-over-month (m/m) vs. year-over-year (y/y)",
+   "category": "Economic data",
+   "firstSeen": "2026-11-10",
+   "definition": "Two ways to state a change. Month-over-month compares with the previous month; year-over-year compares with the same month a year earlier.",
+   "why": "The BLS published no year-over-year inflation rate for October 2026 because the 2025 government shutdown stopped it from collecting October 2025 prices. Traders had only the month-over-month figures: 0.4% headline and 0.3% core.",
+   "chain": [
+    "A year-over-year rate needs the price level from twelve months ago.",
+    "The BLS did not collect October 2025 data during the shutdown, so that comparison does not exist.",
+    "Month-over-month numbers are newer and show the current pace, but they are noisier.",
+    "They also look small: a rate of 0.3% a month, kept up for a year, is well above the Fed's 2% target.",
+    "So a core reading of 0.3% a month is a warning sign even though the number looks tiny."
+   ],
+   "related": [
+    "cpi",
+    "consensus-forecast"
+   ]
+  },
+  "shelter-inflation": {
+   "term": "Shelter inflation",
+   "category": "Economic data",
+   "firstSeen": "2026-11-10",
+   "definition": "The part of CPI that measures the cost of housing: rent, and an estimate of what homeowners would pay to rent their own homes (owners' equivalent rent).",
+   "why": "Shelter rose 0.3% in October and made up more than 30% of the month's total price increase. It is part of core inflation, and it changes slowly, so it keeps inflation up even when fuel prices cool.",
+   "chain": [
+    "Housing is the largest single cost for most households, so it has a large weight in CPI.",
+    "Rents are set by leases that usually last a year, so shelter prices change slowly.",
+    "When shelter inflation is high, it tends to stay high for many months.",
+    "Cheaper oil does not lower anyone's rent.",
+    "That is why a report with slowing energy and steady shelter still worried the Fed and traders."
+   ],
+   "related": [
+    "core-inflation",
+    "cpi",
+    "mortgage-rate"
+   ]
+  },
+  "dollar-index": {
+   "term": "Dollar index (DXY)",
+   "category": "Currencies",
+   "firstSeen": "2026-11-10",
+   "definition": "A number that tracks the value of the US dollar against a group of major currencies, mainly the euro and the yen. When it rises, the dollar is getting stronger.",
+   "why": "The dollar index rose 0.6% to 102.25 on Tuesday as US yields jumped after the CPI report. Gold fell 2.6% the same day.",
+   "chain": [
+    "Hot inflation data raised the interest rates traders expect in the US.",
+    "Higher US rates mean dollar deposits and bonds pay more than before.",
+    "Investors around the world buy dollars to earn that return, so the dollar rises.",
+    "Gold and oil are priced in dollars, so a stronger dollar makes them more expensive for buyers who use other currencies.",
+    "That lowers demand and is one reason gold fell on the same day."
+   ],
+   "related": [
+    "treasury-yield",
+    "rate-hike"
+   ]
+  },
+  "risk-premium": {
+   "term": "Risk premium",
+   "category": "Risk",
+   "firstSeen": "2026-11-10",
+   "definition": "The extra amount built into a price to pay for a risk. In oil, a geopolitical risk premium is the extra dollars per barrel buyers pay because a war might cut off supply.",
+   "why": "Oil fell again on Tuesday after President Trump said on Monday that the Iran war could end 'fairly soon.' ING analysts said the market is unwinding some of its geopolitical risk premium. Brent briefly traded below $90 for the first time since August.",
+   "chain": [
+    "When a war threatens oil shipments, buyers pay more today to be sure of supply.",
+    "That extra amount is the risk premium. It is fear, not an actual shortage.",
+    "When the chance of disruption falls, the premium shrinks and the price drops.",
+    "This can happen fast and without any change in how much oil is pumped.",
+    "It can also come back just as fast if talks fail."
+   ],
+   "related": [
+    "wti",
+    "brent"
+   ]
+  },
+  "equal-weight-index": {
+   "term": "Equal-weight index",
+   "category": "Equities",
+   "firstSeen": "2026-11-10",
+   "definition": "A version of a stock index in which every company counts the same, no matter its size. The equal-weight S&P 500 gives each of its companies the same share.",
+   "why": "At midday Tuesday the S&P 500 was down nearly 1% while the equal-weight version was down only about 0.2%. The gap showed that a few very large technology stocks, led by Nvidia, were doing most of the falling.",
+   "chain": [
+    "The regular S&P 500 is cap-weighted, so the largest companies move it most.",
+    "The equal-weight version shows what the typical stock did.",
+    "If the regular index falls much more than the equal-weight one, the biggest stocks are dragging it down.",
+    "If the equal-weight index falls more, the weakness is broad and the giants are holding the index up.",
+    "Comparing the two is a quick way to see how wide a market move really is."
+   ],
+   "related": [
+    "cap-weighting",
+    "magnificent-7"
+   ]
+  },
+  "brent": {
+   "term": "Brent crude",
+   "category": "Commodities",
+   "firstSeen": "2026-11-10",
+   "definition": "The main international price for crude oil, based on oil from the North Sea. It is the benchmark for about 80% of the world's crude; WTI is the main US benchmark.",
+   "why": "Brent settled at $91.49 on Tuesday, down 1.2%, after briefly trading below $90 for the first time since August. It reacts most directly to Middle East news such as the Iran war.",
+   "chain": [
+    "Oil is not one product; each grade and location has its own price.",
+    "Brent is used to price most oil traded outside the US.",
+    "WTI is priced inside the US, so it usually trades a few dollars lower.",
+    "The two normally move together, as they did on Tuesday.",
+    "When a Middle East supply risk rises or falls, Brent tends to show it first."
+   ],
+   "related": [
+    "wti",
+    "risk-premium"
+   ]
+  },
+  "moving-average": {
+   "term": "Moving average",
+   "category": "Market behavior",
+   "firstSeen": "2026-11-10",
+   "definition": "The average closing price over a set number of past days, recalculated every day. The 50-day and 200-day averages are the most watched.",
+   "why": "Bitcoin slipped below its 200-day moving average on Tuesday. The S&P 500 is above its 200-day average but below its 50-day, while the Nasdaq is below both.",
+   "chain": [
+    "Daily prices jump around, so traders smooth them by averaging many days.",
+    "The 200-day average is read as the long-term trend and the 50-day as the medium-term trend.",
+    "A price above its average suggests an uptrend; below it suggests a downtrend.",
+    "Many traders use the same lines, so crossing one can trigger buying or selling by itself.",
+    "It describes the past. It does not predict the future."
+   ],
+   "related": [
+    "relief-rally",
+    "dip-buying"
+   ]
+  },
+  "earnings-guidance": {
+   "term": "Guidance (earnings guidance)",
+   "category": "Equities",
+   "firstSeen": "2026-11-11",
+   "definition": "A company's own forecast of its future revenue or profit, usually given with its quarterly results. “Raising guidance” means the company now expects to do better than it said before.",
+   "why": "CoreWeave raised its 2026 revenue guidance to $13.0–$13.3 billion from $12.4–$13.2 billion. The stock rose about 24%, and AI and chip stocks rose with it.",
+   "chain": [
+    "Each quarter a company reports what it earned and often says what it expects next.",
+    "Investors care more about the future than the past, so the forecast often matters more than the results.",
+    "A raised forecast tells investors that demand is stronger than the company thought a few months ago.",
+    "Analysts then lift their own estimates, and the stock price usually rises.",
+    "A “beat and raise” (results above forecasts plus higher guidance) is the strongest version of this signal."
+   ],
+   "related": [
+    "consensus-forecast",
+    "revenue-backlog"
+   ]
+  },
+  "revenue-backlog": {
+   "term": "Revenue backlog",
+   "category": "Equities",
+   "firstSeen": "2026-11-11",
+   "definition": "The value of signed customer contracts for work a company has not yet delivered or billed. It is future revenue that is already under contract.",
+   "why": "CoreWeave said its backlog reached about $132.5 billion at the end of September, up from $104 billion in June. That told investors demand for AI computing is still growing.",
+   "chain": [
+    "A customer signs a multi-year contract to rent computing power.",
+    "The company cannot count that money as revenue until it delivers the service.",
+    "Until then, the contract value sits in the backlog.",
+    "A growing backlog means future revenue is more predictable.",
+    "The risk: the company still has to build what it promised, and customers have to be able to pay."
+   ],
+   "related": [
+    "earnings-guidance"
+   ]
+  },
+  "high-yield-bond": {
+   "term": "High-yield (junk) bond",
+   "category": "Credit",
+   "firstSeen": "2026-11-11",
+   "definition": "A bond from a borrower that rating agencies judge more likely to miss payments. To attract buyers it has to pay a higher interest rate than safer bonds.",
+   "why": "Some CoreWeave bonds yielded more than 16% before its results, a sign investors doubted it could carry its debt. The company said it does not plan more of this kind of borrowing through 2027, which helped the stock.",
+   "chain": [
+    "Rating agencies grade borrowers on how likely they are to repay.",
+    "Borrowers below a certain grade are called high-yield, or junk.",
+    "Lenders demand extra interest to make up for the higher chance of loss.",
+    "When a bond's yield climbs far above safer bonds, the market is signaling worry about that borrower.",
+    "High interest costs then eat into profits, which can make the worry come true."
+   ],
+   "related": [
+    "treasury-yield",
+    "going-concern"
+   ]
+  },
+  "analyst-downgrade": {
+   "term": "Analyst downgrade",
+   "category": "Equities",
+   "firstSeen": "2026-11-11",
+   "definition": "When a research analyst lowers their rating on a stock, for example from “Outperform” to “Neutral,” signaling they expect it to do less well than before.",
+   "why": "Baird cut Nvidia to Neutral on Wednesday. The stock still rose 2.9% in regular trading, which shows a downgrade is one opinion among many and does not always win on the day.",
+   "chain": [
+    "Analysts at banks and brokers publish ratings on stocks for their clients.",
+    "A downgrade says the analyst sees less upside or more risk than before.",
+    "Some investors sell on the news, which can push the price down.",
+    "If other news is stronger, or the stock has already fallen a lot, the price may not drop at all."
+   ],
+   "related": [
+    "analyst-upgrade"
+   ]
+  },
+  "after-hours-trading": {
+   "term": "After-hours trading",
+   "category": "Market structure",
+   "firstSeen": "2026-11-11",
+   "definition": "Buying and selling of stocks after the regular session ends at 4:00 p.m. Eastern. Fewer people trade then, so prices can move more on less volume.",
+   "why": "Nvidia closed up 2.9% on Wednesday, then fell in after-hours trading on new media reports about its CEO. The closing price was not the last word on the day.",
+   "chain": [
+    "Regular US stock trading runs from 9:30 a.m. to 4:00 p.m. Eastern.",
+    "Companies often release earnings and big news after 4:00 p.m.",
+    "Electronic markets let investors trade on that news right away.",
+    "With fewer buyers and sellers, price swings can be larger than in the regular session.",
+    "The next morning's opening price usually reflects the after-hours move."
+   ],
+   "related": [
+    "idiosyncratic-risk"
+   ]
+  },
+  "vix": {
+   "term": "VIX (volatility index)",
+   "category": "Risk",
+   "firstSeen": "2026-11-11",
+   "definition": "An index that measures how much investors expect the S&P 500 to swing over the next 30 days, based on the prices of options. It is often called the market's “fear gauge.”",
+   "why": "The VIX fell about 10% to 17.49 on Wednesday as stocks rallied, showing that investors were paying less for protection than they were after Tuesday's inflation report.",
+   "chain": [
+    "Options are contracts that can protect a portfolio against a fall in stock prices.",
+    "When investors are nervous, they buy more protection and option prices rise.",
+    "The VIX turns those option prices into a single number.",
+    "A rising VIX means more fear; a falling VIX means investors are calmer.",
+    "It measures expected swings, not direction, and it can jump again quickly."
+   ],
+   "related": [
+    "relief-rally"
+   ]
+  },
+  "crude-inventories": {
+   "term": "Crude inventories",
+   "category": "Commodities",
+   "firstSeen": "2026-11-11",
+   "definition": "The amount of crude oil held in storage in the United States, reported every week. An industry group, the American Petroleum Institute, reports first; the government's Energy Information Administration follows with the official figure.",
+   "why": "Industry data showed US crude inventories rose by 9 million barrels last week. That sign of ample supply limited oil's bounce on Wednesday, even with new attacks on ships near the Strait of Hormuz.",
+   "chain": [
+    "Oil that is produced or imported but not yet used goes into storage.",
+    "If storage rises (a “build”), supply is running ahead of demand.",
+    "If storage falls (a “draw”), demand is running ahead of supply.",
+    "Traders compare the weekly change with what they expected.",
+    "A bigger build than expected usually pushes oil prices down."
+   ],
+   "related": [
+    "wti",
+    "brent",
+    "risk-premium"
+   ]
+  },
+  "key-person-risk": {
+   "term": "Key-person risk",
+   "category": "Risk",
+   "firstSeen": "2026-11-12",
+   "definition": "The risk that a company depends so much on one leader that losing that person hurts the business or the stock.",
+   "why": "Nvidia fell 4.3% on Thursday, and as much as 14% during the day, after CEO Jensen Huang resigned, even though nothing changed that day about its products or customers.",
+   "chain": [
+    "Some companies are closely tied to one founder or chief executive.",
+    "Investors pay a higher price partly because they trust that person's decisions.",
+    "If the person leaves suddenly, nobody knows yet whether the strategy will hold.",
+    "Uncertainty makes investors demand a lower price until they see evidence.",
+    "The next earnings report and the choice of a permanent successor usually settle the question."
+   ],
+   "related": [
+    "idiosyncratic-risk",
+    "cap-weighting"
+   ]
+  },
+  "price-weighted-index": {
+   "term": "Price-weighted index",
+   "category": "Equities",
+   "firstSeen": "2026-11-12",
+   "definition": "An index where each stock's weight depends on its share price, not on the size of the company. The Dow Jones Industrial Average works this way.",
+   "why": "CNBC noted that Nvidia is about 6% of the S&P 500 but only about 2% of the Dow, so the same fall in Nvidia hurts the S&P 500 more.",
+   "chain": [
+    "A price-weighted index adds up the share prices of its members and divides by a fixed number.",
+    "A stock with a high share price moves the index more than a stock with a low one.",
+    "Share price alone says nothing about how big a company is.",
+    "So a very large company with a modest share price has little pull on the index.",
+    "The S&P 500 uses {{cap-weighting|cap-weighting}} instead, where size sets the weight."
+   ],
+   "related": [
+    "cap-weighting",
+    "equal-weight-index"
+   ]
+  },
+  "small-cap": {
+   "term": "Small-cap stocks (Russell 2000)",
+   "category": "Equities",
+   "firstSeen": "2026-11-12",
+   "definition": "Shares of smaller companies. The Russell 2000 is the best-known index of them.",
+   "why": "The Russell 2000 fell about 1.7% on Thursday while the S&P 500 fell 0.35%, as Treasury yields jumped and raised borrowing costs.",
+   "chain": [
+    "Small companies usually have less cash and rely more on borrowing than large ones.",
+    "More of their debt is short-term or has a rate that resets.",
+    "When interest rates rise, their interest bills rise sooner.",
+    "Higher interest bills leave less profit.",
+    "So small-cap stocks often fall more than large ones on days when yields jump."
+   ],
+   "related": [
+    "treasury-yield",
+    "rate-hike"
+   ]
+  },
+  "yield-curve": {
+   "term": "Yield curve",
+   "category": "Rates",
+   "firstSeen": "2026-11-12",
+   "definition": "A line that plots Treasury yields from short maturities, such as 2 years, to long ones, such as 10 or 30 years. It is flattening when short-term yields rise faster than long-term yields.",
+   "why": "On Thursday the 2-year yield rose 13 basis points and the 10-year 12, and Reuters said the curve flattened for a fourth straight session as traders priced in Fed rate hikes.",
+   "chain": [
+    "Short-term yields mostly follow what investors expect the Fed to do soon.",
+    "Long-term yields also reflect expected growth and inflation over many years.",
+    "When the Fed is expected to raise rates, short-term yields climb fastest.",
+    "The gap between short and long yields shrinks, and the curve flattens.",
+    "A flatter curve often signals that investors expect tighter policy to slow the economy later."
+   ],
+   "related": [
+    "two-year-yield",
+    "treasury-yield",
+    "rate-hike"
+   ]
+  },
+  "treasury-auction": {
+   "term": "Treasury auction (and a “tail”)",
+   "category": "Rates",
+   "firstSeen": "2026-11-12",
+   "definition": "The sale where the US government borrows by selling new Treasury debt to bidders. An auction “tails” when the yield it has to pay comes out higher than the market expected just before the sale.",
+   "why": "Reuters said Thursday's sale of 30-year bonds drew lackluster demand and tailed by half a basis point, one more sign of pressure on bonds.",
+   "chain": [
+    "The Treasury announces how much debt it will sell.",
+    "Investors submit bids stating the yield they will accept.",
+    "The Treasury fills the lowest-yield bids first until all the debt is sold.",
+    "If demand is weak, it must accept higher-yield bids to sell everything.",
+    "A tail tells the market that buyers wanted more compensation, which can push yields up."
+   ],
+   "related": [
+    "treasury-yield",
+    "basis-point"
+   ]
+  },
+  "jobless-claims": {
+   "term": "Initial jobless claims",
+   "category": "Economic data",
+   "firstSeen": "2026-11-12",
+   "definition": "The number of people who filed for unemployment benefits for the first time in a week. It is published every Thursday and is one of the quickest readings on layoffs.",
+   "why": "Claims rose by 9,000 to 200,000 in the week ended November 7, above the 195,000 consensus, yet Treasury yields still rose because inflation worries dominated.",
+   "chain": [
+    "When people lose a job, they can file a claim for unemployment benefits.",
+    "The Labor Department counts new claims each week.",
+    "Rising claims suggest more layoffs and a weakening job market.",
+    "A weaker job market usually means less spending and less inflation pressure.",
+    "That normally lowers expectations for Fed rate hikes and pulls yields down."
+   ],
+   "related": [
+    "jobs-report",
+    "consensus-forecast"
+   ]
+  },
+  "existing-home-sales": {
+   "term": "Existing home sales",
+   "category": "Economic data",
+   "firstSeen": "2026-11-12",
+   "definition": "The number of previously owned homes sold in a month, reported as an annual rate. It covers most of the US housing market.",
+   "why": "Sales fell 5.5% in October to an annual rate of 3.75 million, the lowest since August 2010, with mortgage rates near their highest in decades.",
+   "chain": [
+    "Most buyers need a mortgage to buy a home.",
+    "When {{mortgage-rate|mortgage rates}} rise, monthly payments rise and fewer people can afford to buy.",
+    "Owners with older, cheaper mortgages also become reluctant to sell.",
+    "Fewer buyers and fewer sellers mean fewer sales.",
+    "Falling sales are an early sign that higher rates are slowing the economy."
+   ],
+   "related": [
+    "mortgage-rate",
+    "treasury-yield"
+   ]
+  },
+  "ppi": {
+   "term": "PPI (Producer Price Index)",
+   "category": "Economic data",
+   "firstSeen": "2026-11-13",
+   "definition": "A monthly measure of the change in prices that businesses receive for the goods and services they sell, published by the BLS. It is inflation measured at the producer's door instead of the shop counter.",
+   "why": "The PPI rose 0.3% in October, below the 0.4% forecast, but was up 6.5% from a year earlier, the largest 12-month rise since November 2022. Treasury yields rose anyway.",
+   "chain": [
+    "Businesses buy materials, fuel, freight and services from other businesses.",
+    "The PPI tracks the prices paid at that stage, before products reach shoppers.",
+    "When those costs rise, companies either accept lower profits or raise their own prices.",
+    "Price increases that are passed on show up later in the {{cpi|CPI}}.",
+    "So traders read the PPI as an early signal of consumer inflation, and of what the Fed may do about it."
+   ],
+   "related": [
+    "cpi",
+    "core-inflation",
+    "month-over-month"
+   ]
+  },
+  "hawkish": {
+   "term": "Hawkish (and dovish)",
+   "category": "Fed",
+   "firstSeen": "2026-11-13",
+   "definition": "A hawkish central banker leans toward higher interest rates to fight inflation. A dovish one leans toward lower rates to support jobs and growth.",
+   "why": "Boston Fed President Susan Collins said on Friday that “some additional firming, tightening of policy is appropriate” soon. Comments like that kept Treasury yields and the dollar rising even after a cooler PPI report.",
+   "chain": [
+    "Fed officials give speeches and interviews between meetings.",
+    "Traders listen for whether each official wants rates higher (hawkish) or lower (dovish).",
+    "Hawkish comments raise the interest rates that traders expect.",
+    "Higher expected rates push up {{treasury-yield|Treasury yields}} and the {{dollar-index|dollar}}.",
+    "They usually weigh on stocks and gold."
+   ],
+   "related": [
+    "rate-hike",
+    "fomc",
+    "fedwatch"
+   ]
+  },
+  "defensive-stocks": {
+   "term": "Defensive stocks",
+   "category": "Equities",
+   "firstSeen": "2026-11-13",
+   "definition": "Shares of companies whose sales hold steady in good and bad economies, such as makers of food and household goods (consumer staples), utilities and health care.",
+   "why": "On Friday the technology sector fell 2.0% while consumer staples rose 1.4%, as the 10-year Treasury yield climbed to 5.15%.",
+   "chain": [
+    "People keep buying food, soap and electricity whatever the economy does.",
+    "That makes these companies' profits steady and easy to predict.",
+    "Fast-growing technology companies are valued on profits expected far in the future.",
+    "Rising interest rates make those far-off profits worth less today.",
+    "So on days when yields rise, investors often move from technology into defensive stocks: a form of {{sector-rotation|sector rotation}}."
+   ],
+   "related": [
+    "sector-rotation",
+    "treasury-yield"
+   ]
+  },
+  "price-target": {
+   "term": "Price target",
+   "category": "Equities",
+   "firstSeen": "2026-11-13",
+   "definition": "An analyst's estimate of what a stock's share price will be at a future date, usually 12 months ahead. It comes with a rating such as buy, hold or sell.",
+   "why": "HSBC cut its price target for Nvidia to $170 from $365 and lowered its rating to hold from buy, after the CEO's resignation.",
+   "chain": [
+    "An analyst forecasts a company's future profits.",
+    "From those profits the analyst works out what the shares should be worth.",
+    "That value is published as a price target.",
+    "A large cut tells investors the analyst now expects lower profits or sees more risk.",
+    "It often arrives together with an {{analyst-downgrade|analyst downgrade}} and can push the stock down."
+   ],
+   "related": [
+    "analyst-downgrade",
+    "analyst-upgrade"
+   ]
+  },
+  "ipo": {
+   "term": "IPO (initial public offering)",
+   "category": "Market structure",
+   "firstSeen": "2026-11-13",
+   "definition": "The first sale of a company's shares to the public. After the IPO the shares trade on a stock exchange and anyone can buy them.",
+   "why": "Anthropic's IPO is expected to price on November 18 at $70 to $78 a share and begin trading on November 19.",
+   "chain": [
+    "A private company decides to sell shares to the public to raise money.",
+    "Banks collect orders from investors and help set a price range.",
+    "On the pricing date the company fixes the final price and sells the shares.",
+    "The next day the shares start trading on an exchange, where the price can jump or fall.",
+    "A very large IPO can pull money out of other stocks, because investors sell something else to pay for it."
+   ],
+   "related": [
+    "after-hours-trading"
+   ]
+  },
+  "retail-sales": {
+   "term": "Retail sales",
+   "category": "Economic data",
+   "firstSeen": "2026-11-13",
+   "definition": "A monthly Census Bureau report on how much money stores, restaurants and online sellers took in. It is the main quick reading on consumer spending.",
+   "why": "October retail sales are due on Tuesday, November 17. The consensus is a rise of 0.2%, after 0.8% the month before.",
+   "chain": [
+    "Consumer spending is the largest part of the US economy.",
+    "Retail sales show each month whether shoppers are spending more or less.",
+    "Strong spending means demand is strong, which lets businesses keep raising prices.",
+    "That would give the Fed more reason for a {{rate-hike|rate hike}}.",
+    "Weak spending points to a slowing economy and takes some pressure off."
+   ],
+   "related": [
+    "consensus-forecast",
+    "month-over-month",
+    "rate-hike"
+   ]
+  },
+  "fomc-minutes": {
+   "term": "FOMC minutes",
+   "category": "Fed",
+   "firstSeen": "2026-11-13",
+   "definition": "A detailed written record of a Fed policy meeting, published about three weeks after it. It shows what officials discussed and where they disagreed.",
+   "why": "The minutes of the Fed's October 27–28 meeting come out on Wednesday, November 18. They will show how close officials were to another hike before this week's inflation reports.",
+   "chain": [
+    "After each {{fomc|FOMC}} meeting the Fed publishes a short statement and its rate decision.",
+    "The statement says little about the debate behind the decision.",
+    "The minutes fill that in: how many officials worried about inflation, and how strongly.",
+    "Traders compare the tone with what they already expect.",
+    "If the minutes sound more {{hawkish|hawkish}} than expected, yields tend to rise."
+   ],
+   "related": [
+    "fomc",
+    "hawkish",
+    "rate-hike"
+   ]
+  },
+  "market-correction": {
+   "term": "Correction",
+   "category": "Market behavior",
+   "firstSeen": "2026-11-16",
+   "definition": "A fall of 10% or more in an index or stock from its most recent peak. A fall of 20% or more is called a bear market.",
+   "why": "The Nasdaq closed on Monday about 10.9% below its October 6 high, so it is now in a correction. The label shows the decline has lasted weeks, not one bad day.",
+   "chain": [
+    "An index reaches a high and then starts to fall.",
+    "Small falls are routine and get no special name.",
+    "Once the fall from the peak reaches 10%, it is called a correction.",
+    "The label describes the past. It does not say whether prices will fall further.",
+    "Investors watch whether buyers return, as in {{dip-buying|dip-buying}}, or the decline deepens."
+   ],
+   "related": [
+    "dip-buying",
+    "relief-rally",
+    "moving-average"
+   ]
+  },
+  "flight-to-safety": {
+   "term": "Flight to safety",
+   "category": "Market behavior",
+   "firstSeen": "2026-11-16",
+   "definition": "A move by investors out of risky assets such as stocks and into assets seen as safe, such as US Treasury bonds and the dollar, when they are worried.",
+   "why": "On Monday the Nasdaq fell 2.5% and the 10-year Treasury yield fell 3 basis points to 5.12%. Stocks and bond yields dropped together because money leaving stocks went into bonds.",
+   "chain": [
+    "Bad news makes investors less willing to hold stocks.",
+    "They sell stocks and look for somewhere safer to keep the money.",
+    "US Treasuries are a common choice, so demand for them rises.",
+    "Higher demand lifts bond prices, and yields fall when prices rise.",
+    "A falling {{treasury-yield|Treasury yield}} on a bad day for stocks is the sign of this move."
+   ],
+   "related": [
+    "treasury-yield",
+    "vix",
+    "defensive-stocks"
+   ]
+  },
+  "empire-state-survey": {
+   "term": "Empire State Manufacturing Survey",
+   "category": "Economic data",
+   "firstSeen": "2026-11-16",
+   "definition": "A monthly survey of manufacturers in New York State by the New York Fed. Its headline index is the share of firms saying business improved minus the share saying it got worse.",
+   "why": "November's index fell 18 points to 7.8, below the 16.7 economists expected. It is one of the first reports on each month's economy, so traders read it as an early signal for factories nationwide.",
+   "chain": [
+    "The New York Fed asks manufacturers whether orders, shipments, jobs and prices rose or fell.",
+    "For each question it subtracts the share answering “fell” from the share answering “rose.”",
+    "A number above zero means more firms are growing than shrinking.",
+    "The result comes out in the middle of the same month, before most national data.",
+    "A reading well below the {{consensus-forecast|consensus forecast}} suggests growth is slowing."
+   ],
+   "related": [
+    "consensus-forecast",
+    "ppi",
+    "retail-sales"
+   ]
+  },
+  "export-controls": {
+   "term": "Export controls",
+   "category": "Market structure",
+   "firstSeen": "2026-11-16",
+   "definition": "Government rules that limit which products a country's companies may sell abroad, and to whom. A company often needs a license before selling a controlled product.",
+   "why": "On Monday the Commerce Department issued a rule on remote access to advanced AI chips, aimed at Chinese companies that rent Nvidia computing power from data centers in other countries. AMD fell 5.6% and Nvidia 4.1%.",
+   "chain": [
+    "A government decides a technology is too sensitive to sell freely.",
+    "It requires companies to get a license before selling it to certain countries or buyers.",
+    "Buyers may look for a way around the rule, such as renting the technology in a third country.",
+    "The government tightens the rule to close that gap.",
+    "Each tightening shrinks the market the sellers can reach, so their share prices tend to fall."
+   ],
+   "related": [
+    "idiosyncratic-risk",
+    "semiconductor-etf"
+   ]
+  },
+  "market-breadth": {
+   "term": "Market breadth",
+   "category": "Equities",
+   "firstSeen": "2026-11-16",
+   "definition": "A measure of how many stocks are taking part in a market move, usually given as the number of rising stocks compared with falling ones.",
+   "why": "On Monday falling stocks outnumbered rising ones by 3.45 to 1 on the New York Stock Exchange. That shows the sell-off reached well beyond chipmakers.",
+   "chain": [
+    "Indexes such as the S&P 500 use {{cap-weighting|cap weighting}}, so a few giant companies can move them.",
+    "Breadth counts every stock equally: how many rose and how many fell.",
+    "If the index falls but most stocks rise, the drop comes from a few large names.",
+    "If most stocks fall too, the selling is broad.",
+    "Broad selling suggests a worry about the whole market, not one industry."
+   ],
+   "related": [
+    "cap-weighting",
+    "equal-weight-index",
+    "magnificent-7"
+   ]
+  },
+  "oil-surplus": {
+   "term": "Oil surplus",
+   "category": "Commodities",
+   "firstSeen": "2026-11-16",
+   "definition": "A period when the world produces more oil than it uses. The extra barrels go into storage, and prices tend to fall.",
+   "why": "The International Energy Agency now expects supply of 105 million barrels a day in the fourth quarter, 1.7 million more than forecast demand. Brent fell about 3.5% and WTI 3.2% on Monday.",
+   "chain": [
+    "Oil supply and demand rarely match exactly.",
+    "When supply is higher, the unsold barrels are stored and {{crude-inventories|crude inventories}} rise.",
+    "Sellers cut prices to find buyers.",
+    "Forecasters such as the International Energy Agency publish estimates of the gap.",
+    "When a forecast moves from shortfall to surplus, traders mark prices down at once."
+   ],
+   "related": [
+    "crude-inventories",
+    "wti",
+    "brent",
+    "risk-premium"
+   ]
+  },
+  "industrial-production": {
+   "term": "Industrial production",
+   "category": "Economic data",
+   "firstSeen": "2026-11-17",
+   "definition": "A monthly Federal Reserve measure of how much US factories, mines and utilities produce, adjusted for the time of year.",
+   "why": "October's figure fell 0.4% against an expected small gain, mostly because utilities fell. A weaker reading suggests slower growth, which can ease pressure on the Fed.",
+   "chain": [
+    "The Fed tracks the physical output of factories, mines and power and gas utilities.",
+    "Factories are the largest part, but utilities can swing a lot with the weather.",
+    "In October factory output rose while utility output fell sharply.",
+    "Traders compare the headline with the {{consensus-forecast|consensus forecast}}.",
+    "A miss points to slower growth and can push {{treasury-yield|yields}} down."
+   ],
+   "related": [
+    "empire-state-survey",
+    "consensus-forecast",
+    "retail-sales"
+   ]
+  },
+  "nahb-index": {
+   "term": "NAHB housing market index",
+   "category": "Economic data",
+   "firstSeen": "2026-11-17",
+   "definition": "A monthly survey of home builders by the National Association of Home Builders. Higher readings mean more builders see good conditions.",
+   "why": "November's index fell 4 points to 25, a 14-year low. It shows how hard high mortgage rates are hitting housing, which matters for builders and for stores such as Home Depot.",
+   "chain": [
+    "Builders rate current sales, expected sales and the number of buyers visiting.",
+    "The answers are combined into one index.",
+    "High {{mortgage-rate|mortgage rates}} make homes less affordable, so fewer buyers show up.",
+    "Builders start fewer homes, and owners put off renovations.",
+    "That reduces spending on materials, tools and furniture."
+   ],
+   "related": [
+    "mortgage-rate",
+    "existing-home-sales"
+   ]
+  },
+  "import-prices": {
+   "term": "Import prices",
+   "category": "Economic data",
+   "firstSeen": "2026-11-17",
+   "definition": "A monthly Bureau of Labor Statistics index of the prices of goods bought from other countries.",
+   "why": "Import prices rose 1.1% in October, more than the 0.7% expected. Dearer imports can show up later in what shoppers pay, so the Fed reads them as an early inflation signal.",
+   "chain": [
+    "US companies buy goods and materials from abroad.",
+    "If foreign costs, shipping or oil rise, those goods cost more at the border.",
+    "Importers pass some of the increase on to stores and then to shoppers.",
+    "That can push up {{cpi|CPI}} in later months.",
+    "A hot reading makes more Fed {{rate-hike|hikes}} more likely."
+   ],
+   "related": [
+    "cpi",
+    "ppi",
+    "dollar-index"
+   ]
+  },
+  "real-interest-rate": {
+   "term": "Real interest rate",
+   "category": "Fed",
+   "firstSeen": "2026-11-17",
+   "definition": "An interest rate minus inflation. It measures what borrowing really costs once rising prices are taken into account.",
+   "why": "St. Louis Fed President Musalem wants the real rate between 2% and 2.5% by spring and says it is about a point below that now. That gap is why he sees up to four more rate hikes.",
+   "chain": [
+    "The Fed sets a nominal rate, the number you see quoted.",
+    "Subtract inflation to get the real rate.",
+    "If inflation stays high, the real rate stays low even after hikes, so policy does little to slow the economy.",
+    "To raise the real rate, the Fed can raise its nominal rate or wait for inflation to fall.",
+    "Officials who expect inflation to stay high call for more {{rate-hike|hikes}}."
+   ],
+   "related": [
+    "rate-hike",
+    "cpi",
+    "hawkish"
+   ]
+  },
+  "gross-margin": {
+   "term": "Gross margin",
+   "category": "Equities",
+   "firstSeen": "2026-11-17",
+   "definition": "The share of each dollar of sales a company keeps after paying the direct cost of making what it sold.",
+   "why": "Nvidia's adjusted gross margin was 74.9%, and it expects 71% to 72% next quarter. Investors watch it to see whether a company can keep its prices high as costs rise.",
+   "chain": [
+    "Start with revenue.",
+    "Subtract the cost of goods sold, such as chips, memory and manufacturing.",
+    "Divide what is left by revenue to get the margin.",
+    "A high margin means customers pay well above cost, a sign of pricing power.",
+    "A falling margin in the {{earnings-guidance|guidance}} can worry investors even when revenue grows."
+   ],
+   "related": [
+    "earnings-guidance",
+    "revenue-backlog"
+   ]
+  },
+  "short-selling": {
+   "term": "Short selling",
+   "category": "Market behavior",
+   "firstSeen": "2026-11-19",
+   "definition": "Selling shares you have borrowed, hoping to buy them back later at a lower price and return them. The short seller profits if the price falls and loses if it rises.",
+   "why": "On November 19 the investigative outlet Hunterbrook disclosed that an affiliated fund was short AMD and published claims about AMD's chips reaching a blacklisted Chinese company. AMD fell 7.72%. The short seller gains from that fall, so readers should weigh the report knowing who benefits.",
+   "chain": [
+    "A short seller borrows shares from a broker and sells them right away.",
+    "Later the short seller must buy the same number of shares back to return them.",
+    "If the price has fallen, buying back costs less than the sale brought in, and the difference is profit.",
+    "Some short sellers publish research arguing a company has problems, which can push the price down.",
+    "The company usually disputes the claims, and the stock's next move depends on whether the claims hold up."
+   ],
+   "related": [
+    "export-controls",
+    "idiosyncratic-risk"
+   ]
+  },
+  "ipo-pop": {
+   "term": "IPO pop",
+   "category": "Market structure",
+   "firstSeen": "2026-11-19",
+   "definition": "The gain in a newly listed stock on its first day of trading, measured from the IPO price at which the company sold its shares.",
+   "why": "Anthropic sold shares at $83 and closed its first day at $97.17, a pop of about 17%. It opened at $111.50, so investors who bought at the first trade lost money by the close even though the IPO 'popped'.",
+   "chain": [
+    "Before listing, the company and its banks set an IPO price and sell shares to chosen investors at that price.",
+    "On the first day, anyone can trade the shares, and the price is set by supply and demand.",
+    "If demand is much bigger than the shares sold, the price jumps above the IPO price.",
+    "A big pop rewards the investors who got shares at the IPO price, but it also means the company could have sold its shares for more.",
+    "Whether the stock holds the gain in later days shows whether the first-day buyers were paying for lasting value or for excitement."
+   ],
+   "related": [
+    "ipo"
+   ]
+  },
+  "safe-haven": {
+   "term": "Safe haven",
+   "category": "Market behavior",
+   "firstSeen": "2026-11-19",
+   "definition": "An asset investors buy when they are worried, because they expect it to hold its value when riskier assets fall. Treasuries and gold are the classic examples.",
+   "why": "On November 19 Treasuries acted as a safe haven, with yields falling as stocks dropped 2%. Gold did not: it fell about 3% as the dollar rose and Fed hike bets grew, a reminder that safe havens do not always behave as expected.",
+   "chain": [
+    "When stocks fall sharply, investors look for places to park money that are less likely to lose value.",
+    "Buying Treasuries pushes their prices up and their yields down.",
+    "Gold is also bought in fearful times, because it is not tied to any one company or government.",
+    "But gold pays no interest, so when interest rates are expected to rise, holding gold costs more.",
+    "In a panic, investors may also sell gold to raise cash or cover losses elsewhere, so it can fall alongside stocks."
+   ],
+   "related": [
+    "flight-to-safety",
+    "dollar-index",
+    "treasury-yield"
+   ]
+  },
+  "philly-fed-index": {
+   "term": "Philadelphia Fed manufacturing index",
+   "category": "Economic data",
+   "firstSeen": "2026-11-19",
+   "definition": "A monthly survey of factories in the Philadelphia Fed's region. It subtracts the share of firms reporting worse conditions from the share reporting better ones, so a reading above zero means growth and below zero means shrinking.",
+   "why": "In November the index fell to 6.3 from 20.9, a six-month low. Factories in the region were still growing, but much more slowly, which added to signs of a slowing economy on the same day stocks fell 2%.",
+   "chain": [
+    "The Philadelphia Fed asks manufacturers each month whether business is better, worse or the same.",
+    "The index is the share saying better minus the share saying worse.",
+    "Because it comes out early in the month, it is one of the first readings on how factories are doing.",
+    "A sharp drop suggests demand for goods is slowing.",
+    "Slower growth can ease inflation pressure, which can pull bond yields down."
+   ],
+   "related": [
+    "empire-state-survey",
+    "industrial-production"
+   ]
+  },
+  "leading-economic-index": {
+   "term": "Leading Economic Index",
+   "category": "Economic data",
+   "firstSeen": "2026-11-19",
+   "definition": "A monthly index from the Conference Board that combines several measures that tend to turn before the overall economy does, such as building permits, jobless claims and stock prices.",
+   "why": "The index fell 0.3% in October to 99.3, pulled down by weak building permits. A falling leading index points to slower growth in the months ahead.",
+   "chain": [
+    "Some economic numbers change before the economy as a whole speeds up or slows down.",
+    "Building permits, for example, come before construction work, and jobless claims rise before broad job losses.",
+    "The Conference Board combines these signals into one index.",
+    "When the index falls, it suggests the economy is losing momentum.",
+    "Investors and the Fed weigh this against other data, such as inflation, when judging where rates should go."
+   ],
+   "related": [
+    "jobless-claims",
+    "existing-home-sales"
+   ]
+  },
+  "bear-market": {
+   "term": "Bear market",
+   "category": "Market behavior",
+   "firstSeen": "2026-11-20",
+   "definition": "A fall of 20% or more in an index or stock from its record high. A fall of 10% to 20% is called a correction.",
+   "why": "On Friday the Nasdaq-100 closed 19.84% below its record, 49 points above the bear market line, after dipping below it during the day.",
+   "chain": [
+    "An index sets a record and then falls.",
+    "At a 10% fall it is in a {{market-correction|correction}}.",
+    "At a 20% fall, measured on closing prices, it is in a bear market.",
+    "The label describes losses already taken; it does not predict what comes next.",
+    "It still matters because headlines use it and some rules-based funds cut their holdings when losses reach set levels."
+   ],
+   "related": [
+    "market-correction",
+    "relief-rally",
+    "dip-buying"
+   ]
+  },
+  "sec-investigation": {
+   "term": "SEC investigation",
+   "category": "Companies & regulation",
+   "firstSeen": "2026-11-20",
+   "definition": "An inquiry by the Securities and Exchange Commission, the US regulator of stock markets, into whether a company or person broke securities laws, for example by publishing misleading accounts.",
+   "why": "Reuters reported that SEC enforcement staff were examining possible accounting issues at Nvidia, and its shares fell 14%. An investigation is not proof of wrongdoing.",
+   "chain": [
+    "Investors value a company using the numbers it reports, such as revenue and profit.",
+    "The SEC enforces rules that those numbers and other disclosures be accurate and complete.",
+    "When the SEC investigates, investors worry the numbers may be revised or that fines may follow.",
+    "Many investigations close with no action, but the outcome can take months or years to learn.",
+    "Until then, buyers demand a lower price for holding the uncertainty, so the share price falls."
+   ],
+   "related": [
+    "key-person-risk",
+    "idiosyncratic-risk"
+   ]
+  },
+  "consumer-sentiment": {
+   "term": "Consumer sentiment",
+   "category": "Economic data",
+   "firstSeen": "2026-11-20",
+   "definition": "A monthly survey measure, best known from the University of Michigan, of how households feel about their finances and the economy.",
+   "why": "The final November reading rose to 51.5 from 48.0 in October, but the interviews ended before the week's steepest stock losses.",
+   "chain": [
+    "Consumer spending is the largest part of the US economy.",
+    "People who feel confident about their jobs and income tend to spend more.",
+    "The survey asks households how they see their finances and the economy now and ahead.",
+    "A rising reading suggests spending may hold up; a falling one warns it may slow.",
+    "Because surveys are taken over several days, a sudden market fall may not show up until the next reading."
+   ],
+   "related": [
+    "inflation-expectations",
+    "retail-sales"
+   ]
+  },
+  "inflation-expectations": {
+   "term": "Inflation expectations",
+   "category": "Inflation & prices",
+   "firstSeen": "2026-11-20",
+   "definition": "How fast people, businesses or investors expect prices to rise in the future. The University of Michigan survey asks households about the year ahead and the next five to ten years.",
+   "why": "One-year expectations fell to 3.7%, the lowest since March, from 4.3% at mid-month. That is welcome news for a Fed that is raising rates to fight inflation.",
+   "chain": [
+    "If people expect prices to keep rising, workers ask for bigger raises.",
+    "Businesses that expect higher costs raise their own prices sooner.",
+    "Those actions can make inflation keep going on its own.",
+    "So the Fed watches expectations closely and acts to keep them from drifting up.",
+    "When expectations fall, the Fed has less reason to raise rates quickly."
+   ],
+   "related": [
+    "cpi",
+    "rate-hike",
+    "consumer-sentiment"
+   ]
+  },
+  "credit-spread": {
+   "term": "Credit spread",
+   "category": "Rates & bonds",
+   "firstSeen": "2026-11-20",
+   "definition": "The extra yield a company's bonds pay over a Treasury bond of similar length. It is the reward investors demand for the risk that the company will not pay them back.",
+   "why": "The spread on high-yield bonds widened to 3.52 percentage points on Thursday from 3.47, up 18 basis points since Monday, even as Treasury yields fell.",
+   "chain": [
+    "The US government is treated as almost sure to repay, so Treasury yields are the base rate.",
+    "Companies can fail, so their bonds must pay more than Treasuries to attract buyers.",
+    "That extra yield is the credit spread.",
+    "When investors grow more worried about the economy or about borrowers, they demand more, so spreads widen.",
+    "Wider spreads raise borrowing costs for companies, which can slow investment and hiring."
+   ],
+   "related": [
+    "high-yield-bond",
+    "treasury-yield",
+    "risk-premium"
+   ]
+  },
+  "pmi": {
+   "term": "Purchasing managers' index (PMI)",
+   "category": "Economic data",
+   "firstSeen": "2026-11-23",
+   "definition": "A monthly survey of purchasing managers at companies, asking whether output, orders, prices and hiring went up or down. A reading above 50 means activity is growing; below 50 means it is shrinking.",
+   "why": "S&P Global's flash November composite PMI fell to 54.6 from 55.9, its lowest since July. That is still growth, only slower, so it did not stop stocks from rallying on Nvidia news.",
+   "chain": [
+    "Survey firms ask purchasing managers whether business got better or worse this month.",
+    "The answers are turned into an index where 50 means no change.",
+    "Purchasing managers see orders early, so the PMI is one of the first signs of where the economy is heading.",
+    "\"Flash\" readings come out near the end of the month, before the final numbers.",
+    "A falling PMI that stays above 50 means slower growth, not a contraction."
+   ],
+   "related": [
+    "consensus-forecast",
+    "industrial-production"
+   ]
+  },
+  "short-squeeze": {
+   "term": "Short squeeze",
+   "category": "Market behavior",
+   "firstSeen": "2026-11-23",
+   "definition": "A fast price rise that forces short sellers to buy shares back to limit their losses, and that buying pushes the price up even more.",
+   "why": "Nomura's Charlie McElligott, quoted by Yahoo Finance, said short squeezes and hedge unwinding were part of a surge of \"mechanical\" buying behind Monday's rally, when Nvidia rose 31% and the Nasdaq 6.5%.",
+   "chain": [
+    "After a long sell-off, many traders have bet on further falls by short selling.",
+    "Good news, such as Huang's return to Nvidia, sends the price up quickly.",
+    "Each short seller loses more as the price rises, so many buy back shares to close the bet.",
+    "Those forced purchases add to the buying and push the price up further.",
+    "Once the short sellers are out, that extra buying stops, so a squeeze says little about where prices go next."
+   ],
+   "related": [
+    "short-selling",
+    "relief-rally"
+   ]
+  },
+  "all-stock-deal": {
+   "term": "All-stock deal",
+   "category": "Companies & regulation",
+   "firstSeen": "2026-11-23",
+   "definition": "A takeover in which the buyer pays the target's owners with its own new shares instead of cash.",
+   "why": "CrowdStrike agreed to buy Zscaler for about $43.9 billion, paying 1.135 CrowdStrike shares for each Zscaler share. Zscaler rose 17.67% and CrowdStrike fell 8.92%.",
+   "chain": [
+    "The buyer offers its own shares, at a fixed exchange ratio, for each share of the target.",
+    "The target's shares jump toward the value of that offer.",
+    "The buyer issues new shares, so its existing owners each hold a smaller slice of the combined company.",
+    "Investors also ask whether the buyer is paying too much, which can push its stock down.",
+    "Because payment is in shares, the deal's value moves every day with the buyer's share price."
+   ],
+   "related": [
+    "idiosyncratic-risk"
+   ]
+  },
+  "consumer-confidence": {
+   "term": "Consumer confidence (Conference Board)",
+   "category": "Economic data",
+   "firstSeen": "2026-11-24",
+   "definition": "A monthly survey by the Conference Board of how households feel about business conditions, jobs and their incomes, now and over the next six months. It is a cousin of the University of Michigan's consumer sentiment survey.",
+   "why": "In November the index jumped 11.4 points to 103.3, far above the forecast of about 92. Retailers that reported the same day, like Kohl's and Dollar Tree, rose sharply.",
+   "chain": [
+    "Households answer questions about business conditions, jobs and income.",
+    "Answers are combined into one index; a higher number means more confidence.",
+    "Confident households tend to spend more, and consumer spending is most of the US economy.",
+    "So a big beat lifts hopes for retail sales and for consumer company stocks.",
+    "Strong spending can also keep inflation up, which supports the case for higher Fed rates."
+   ],
+   "related": [
+    "consumer-sentiment",
+    "retail-sales",
+    "consensus-forecast"
+   ]
+  },
+  "takeover-premium": {
+   "term": "Takeover premium",
+   "category": "Companies & regulation",
+   "firstSeen": "2026-11-24",
+   "definition": "The extra amount a buyer offers above a company's recent share price to win control of it, usually stated as a percentage.",
+   "why": "Sanofi offered $175 a share in cash for Insmed, a 17.4% premium to Monday's close. Insmed rose 14.13%, staying a little under the offer because the deal is not expected to close until the first half of 2027.",
+   "chain": [
+    "A buyer must persuade the owners to sell, so it offers more than today's market price.",
+    "The target's shares jump toward the offer price once the deal is announced.",
+    "They usually stay a little below it, because holders wait months to be paid.",
+    "The gap also reflects the risk that regulators or shareholders block the deal.",
+    "As the closing date nears and the risk shrinks, the gap usually narrows."
+   ],
+   "related": [
+    "all-stock-deal",
+    "idiosyncratic-risk"
+   ]
+  },
+  "profit-taking": {
+   "term": "Profit-taking",
+   "category": "Market behavior",
+   "firstSeen": "2026-11-24",
+   "definition": "Selling an asset after its price has risen in order to lock in the gain, which can push the price back down for a while.",
+   "why": "Nvidia fell 5.86% on Tuesday, a day after jumping 31.48%. The Motley Fool described it as traders taking profits in high-growth semiconductor names.",
+   "chain": [
+    "A stock jumps sharply in a short time.",
+    "Traders who bought before the jump now hold a large, fast gain.",
+    "Some sell to lock it in, especially before a holiday or with risks still open.",
+    "That extra selling pushes the price down even with no new bad news.",
+    "A fall from profit-taking says less about the company than a fall on fresh news."
+   ],
+   "related": [
+    "dip-buying",
+    "relief-rally",
+    "short-squeeze"
+   ]
+  },
+  "value-stocks": {
+   "term": "Value stocks",
+   "category": "Equities",
+   "firstSeen": "2026-11-24",
+   "definition": "Shares that trade cheaply compared with the company's current profits or assets, often in mature businesses such as banks, health care, retail and industrials. The opposite is growth stocks, priced for fast future growth, like most AI and tech names.",
+   "why": "On Tuesday the Motley Fool said investors favored value sectors while tech fell. Health care rose 2.95% and the Dow closed above 50,000, while the Nasdaq fell 1.5%.",
+   "chain": [
+    "Growth stocks are priced on profits expected far in the future.",
+    "When doubts about that future rise, as with AI spending, growth stocks fall hardest.",
+    "Investors move money into cheaper value stocks with steadier profits today.",
+    "Indexes heavy in value names, like the Dow, can then rise while the Nasdaq falls.",
+    "This is one form of sector rotation."
+   ],
+   "related": [
+    "sector-rotation",
+    "defensive-stocks",
+    "cap-weighting"
+   ]
+  },
+  "pce-inflation": {
+   "term": "PCE inflation",
+   "category": "Economic data",
+   "firstSeen": "2026-11-25",
+   "definition": "Inflation measured by the personal consumption expenditures (PCE) price index, published monthly by the Bureau of Economic Analysis. It tracks the prices of what households buy. Core PCE leaves out food and energy. It is the Fed's preferred inflation gauge.",
+   "why": "On Wednesday core PCE rose 3.3% from a year earlier, above the 3.2% expected and the highest in three years, and odds of a December Fed hike stayed at about 98%.",
+   "chain": [
+    "The Fed prefers PCE to CPI when it judges inflation.",
+    "A hotter core PCE reading tells the Fed inflation is not cooling on its own.",
+    "That supports raising interest rates.",
+    "Traders then price higher odds of a {{rate-hike|hike}}, which usually lifts short-term yields."
+   ],
+   "related": [
+    "core-inflation",
+    "cpi",
+    "rate-hike"
+   ]
+  },
+  "gdp": {
+   "term": "GDP (gross domestic product)",
+   "category": "Economic data",
+   "firstSeen": "2026-11-25",
+   "definition": "The total value of goods and services an economy produces. In the U.S. the Bureau of Economic Analysis reports quarterly growth as an annual rate, and revises each quarter twice after its first (advance) estimate.",
+   "why": "On Wednesday the second estimate put third-quarter growth at a 4.3% annual rate, up from the 3.4% first estimate, mainly because of stronger investment and consumer spending.",
+   "chain": [
+    "Faster GDP growth means more demand across the economy.",
+    "Strong demand makes it easier for companies to raise prices.",
+    "With inflation already above target, strong growth gives the Fed less reason to wait.",
+    "So good growth news can be bad news for rate-sensitive assets."
+   ],
+   "related": [
+    "pce-inflation",
+    "rate-hike",
+    "consensus-forecast"
+   ]
+  },
+  "beige-book": {
+   "term": "Beige Book",
+   "category": "Fed",
+   "firstSeen": "2026-11-25",
+   "definition": "A Federal Reserve report that collects comments from businesses and contacts in each of the Fed's 12 districts about growth, jobs and prices. It is stories rather than statistics, released several times a year ahead of Fed meetings.",
+   "why": "Wednesday's Beige Book said eight of 12 districts grew and found sustained cost pressures in energy, transportation, health care, insurance and tariff-related expenses.",
+   "chain": [
+    "Official data arrive with a delay; the Beige Book reports what businesses see now.",
+    "Fed officials read it before deciding on rates.",
+    "Reports of rising costs suggest inflation may stay high.",
+    "That supports the case for a {{rate-hike|rate hike}}."
+   ],
+   "related": [
+    "fomc",
+    "rate-hike",
+    "pce-inflation"
+   ]
+  },
+  "tariff": {
+   "term": "Tariff",
+   "category": "Companies & regulation",
+   "firstSeen": "2026-11-25",
+   "definition": "A tax a country charges on imported goods. It is paid when the goods enter the country, so it raises their cost and makes them less competitive with goods from elsewhere.",
+   "why": "On Wednesday the U.S. proposed new tariffs of up to 20% on China, the EU and 12 other partners. Mexico's index jumped 2.99% on hopes it was spared.",
+   "chain": [
+    "A tariff makes goods from the targeted country dearer for U.S. buyers.",
+    "Exporters there may sell less, so their shares can fall.",
+    "Countries left off the list can win U.S. sales from those that are on it.",
+    "Higher import costs can also push up U.S. prices, which matters for inflation."
+   ],
+   "related": [
+    "import-prices",
+    "export-controls",
+    "pce-inflation"
+   ]
+  },
+  "credit-watch": {
+   "term": "CreditWatch",
+   "category": "Credit",
+   "firstSeen": "2026-11-25",
+   "definition": "A warning by the rating agency S&P Global that it may soon change a borrower's credit rating. \"CreditWatch Negative\" means a downgrade is being considered. A credit rating grades how likely a borrower is to repay its debt, from AAA (safest) down to junk.",
+   "why": "On Wednesday S&P Global placed Nvidia's AA rating on CreditWatch Negative, citing management and governance risk, and Nvidia fell 3.91%.",
+   "chain": [
+    "A rating agency sees a new risk to a borrower, such as leadership turmoil.",
+    "It puts the rating on watch while it studies the risk.",
+    "A downgrade would make the company's borrowing more expensive.",
+    "Investors read the watch as a sign the risk is serious, which can weigh on the stock and bonds."
+   ],
+   "related": [
+    "credit-spread",
+    "key-person-risk",
+    "high-yield-bond"
+   ]
+  },
+  "trade-deficit": {
+   "term": "Trade deficit (goods trade balance)",
+   "category": "Economic data",
+   "firstSeen": "2026-11-27",
+   "definition": "The amount by which a country's imports exceed its exports over a period. The goods trade balance is reported monthly; a negative balance is a deficit.",
+   "why": "On Friday the October goods trade deficit widened to $149.5 billion, far above the $133 billion forecast, because imports rose much faster than exports. That matters for growth: GDP counts exports minus imports.",
+   "chain": [
+    "Americans and US companies buy more goods from abroad than they sell abroad.",
+    "GDP measures what the country produces, so spending on imports is subtracted from it.",
+    "A wider-than-expected deficit can lower economists' growth estimates for the quarter.",
+    "One month can be noisy, so economists watch whether the gap persists."
+   ],
+   "related": [
+    "gdp",
+    "tariff",
+    "consensus-forecast"
+   ]
+  },
+  "stimulus": {
+   "term": "Stimulus",
+   "category": "Policy",
+   "firstSeen": "2026-11-27",
+   "definition": "Government or central bank action meant to boost growth or prop up markets: spending, tax cuts, cheaper loans, more cash in the banking system, or promises to support prices.",
+   "why": "On Friday China's State Council repeated its pledge to support the stock market and its central bank pledged ample liquidity. Chinese tech stocks soared and the rally spread to chip stocks in the US.",
+   "chain": [
+    "A government signals it will act to support growth or markets.",
+    "Investors expect stronger demand, cheaper money or official buying.",
+    "They buy ahead of that help, which lifts prices quickly.",
+    "Whether the gains last depends on whether real measures follow the promises."
+   ],
+   "related": [
+    "rate-hike",
+    "flight-to-safety"
+   ]
+  },
+  "fed-blackout": {
+   "term": "Fed blackout period",
+   "category": "Fed & rates",
+   "firstSeen": "2026-11-27",
+   "definition": "The days before each Fed policy meeting when Fed officials stop speaking publicly about the economy and interest rates.",
+   "why": "The blackout before the December 8–9 meeting starts on Saturday. Markets lose their main way to read the Fed's mood, so data such as the November jobs report carry more weight.",
+   "chain": [
+    "Fed officials go quiet before a meeting so they do not appear to commit in advance.",
+    "Traders can no longer adjust their bets on speeches.",
+    "Economic data released during the blackout becomes the main new information.",
+    "A surprise in that data can move rate expectations more than usual."
+   ],
+   "related": [
+    "fomc",
+    "fedwatch",
+    "jobs-report"
+   ]
+  },
+  "systematic-funds": {
+   "term": "Systematic funds",
+   "category": "Market behavior",
+   "firstSeen": "2026-11-27",
+   "definition": "Investment funds that buy and sell by fixed rules or computer models, for example by following price trends or targeting a set level of volatility, rather than by a manager's judgment.",
+   "why": "Goldman Sachs's trading desk estimated these funds sold about $70 billion of global stocks last week and could sell about $100 billion more, a reason some think Friday's rally may not last.",
+   "chain": [
+    "Prices fall and volatility rises, so the funds' rules tell them to cut stock holdings.",
+    "Their selling adds to the fall, whatever the news.",
+    "Once prices steady and volatility drops, the same rules tell them to buy back.",
+    "So their flows can make swings bigger in both directions."
+   ],
+   "related": [
+    "vix",
+    "short-squeeze",
+    "dip-buying"
+   ]
   }
+ }
 }

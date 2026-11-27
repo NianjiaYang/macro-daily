@@ -1,0 +1,299 @@
+{
+ "date": "2026-11-27",
+ "weekday": "Friday",
+ "title": "A half-day chip rally caps the Dow's best week since 2022",
+ "oneLiner": "In a shortened Black Friday session, stocks rose across the board: the S&P 500 gained 1.60%, the Nasdaq 2.31% and the Dow 1.18%. China's government repeated its pledge to support its stock market, Asian chip and tech shares soared overnight, and the rally carried into New York, where the Philadelphia Semiconductor index jumped 4.69%. For the week the Dow rose 5.46%, its biggest weekly gain since October 2022, though stocks are still down for November. Bonds sold off as money moved back into stocks, and gold jumped about 3%.",
+ "scoreboard": [
+  {
+   "label": "Dow Jones",
+   "value": "+1.18%",
+   "note": "50,774.94; +5.46% for the week",
+   "dir": "up"
+  },
+  {
+   "label": "S&P 500",
+   "value": "+1.60%",
+   "note": "7,297.49; +5.60% for the week",
+   "dir": "up",
+   "term": "cap-weighting"
+  },
+  {
+   "label": "Nasdaq",
+   "value": "+2.31%",
+   "note": "24,129.50; +6.68% for the week",
+   "dir": "up"
+  },
+  {
+   "label": "Nasdaq-100 (QQQ fund)",
+   "value": "+2.69%",
+   "note": "$650.99; +6.99% for the week",
+   "dir": "up"
+  },
+  {
+   "label": "Russell 2000",
+   "value": "+1.71%",
+   "note": "2,750.30; small companies",
+   "dir": "up",
+   "term": "small-cap"
+  },
+  {
+   "label": "Philadelphia Semiconductor",
+   "value": "+4.69%",
+   "note": "9,186.71; chips led",
+   "dir": "up",
+   "term": "semiconductor-etf"
+  },
+  {
+   "label": "Nvidia",
+   "value": "+0.80%",
+   "note": "$150.49; lagged the chip rally",
+   "dir": "up"
+  },
+  {
+   "label": "Anthropic (ANT)",
+   "value": "+10.98%",
+   "note": "$91.88; back above its $83 IPO price",
+   "dir": "up",
+   "term": "ipo"
+  },
+  {
+   "label": "10Y Treasury",
+   "value": "4.94%",
+   "note": "+9 bp",
+   "dir": "up",
+   "term": "treasury-yield"
+  },
+  {
+   "label": "2Y Treasury",
+   "value": "4.69%",
+   "note": "+8 bp",
+   "dir": "up",
+   "term": "two-year-yield"
+  },
+  {
+   "label": "Goods trade deficit (Oct.)",
+   "value": "$149.5B",
+   "note": "forecast $133B; widened $14.4B",
+   "dir": "up",
+   "term": "trade-deficit"
+  },
+  {
+   "label": "WTI crude",
+   "value": "$82.82",
+   "note": "−$0.86, about −1%",
+   "dir": "down",
+   "term": "wti"
+  },
+  {
+   "label": "Gold",
+   "value": "≈ +2.9%",
+   "note": "about $3,650–3,675 futures; off one-year lows",
+   "dir": "up",
+   "term": "safe-haven"
+  },
+  {
+   "label": "Dollar index",
+   "value": "≈ 104.0",
+   "note": "little changed to +0.33%",
+   "dir": "up",
+   "term": "dollar-index"
+  },
+  {
+   "label": "Bitcoin",
+   "value": "≈ $59,845",
+   "note": "−1.1%; did not join the rally",
+   "dir": "down"
+  },
+  {
+   "label": "VIX",
+   "value": "≈ 24.0–24.6",
+   "note": "down from 28.29 on Wednesday",
+   "dir": "down",
+   "term": "vix"
+  }
+ ],
+ "sections": [
+  {
+   "kicker": "Equities",
+   "title": "A short session finishes a big week",
+   "paragraphs": [
+    "US stock markets closed at 1:00 p.m. ET on the day after Thanksgiving, and bonds at 2:00 p.m. ET. Futures had already rallied on Thanksgiving night: at 8:06 a.m. ET S&P 500 futures were up 1.7% and Nasdaq-100 futures 2.4%, 24/7 Wall St. said. The gains held. The S&P 500 rose 1.60% to 7,297.49, the Nasdaq 2.31% to 24,129.50 and the Dow 591.99 points, or 1.18%, to 50,774.94, BigGo Finance said. The Russell 2000 index of {{small-cap|small-cap}} stocks rose 46.23 points, or 1.71%, to 2,750.30, Investrade and The Company Chronicle said.",
+    "Every one of the 11 S&P 500 sectors rose, Investrade said. Technology led, up 1.86%, The Weekend Spread said, followed by consumer discretionary and communications, Investrade said. The {{defensive-stocks|defensive}} sectors trailed: health care rose only 0.17% and utilities 0.25%. When investors feel braver they move money from safe, steady businesses into faster-growing ones, a form of {{sector-rotation|sector rotation}}.",
+    "The week was the mirror image of the week before. Last Friday's brief left the S&P 500 in a {{market-correction|correction}}; this week, helped by Monday's 4.7% jump on Jensen Huang's return to Nvidia, the S&P 500 rose 5.60%, the Nasdaq 6.68% and the Dow 5.46%, its biggest weekly gain since October 2022, BigGo Finance said. All 11 sectors had their best week since May 2025, Investrade said.",
+    "November is still a losing month. Even after Friday the S&P 500 is 3.7% below where October ended, the Nasdaq 5.1% and the Dow 1.9%, The Company Chronicle said, with one session, Monday, left in the month. The {{vix|VIX}} fell to about 24, from 28.29 on Wednesday: The Weekend Spread had it at 24.57 and The Company Chronicle at 24.01. The Weekend Spread said part of that fall reflects the holiday weekend, since fewer trading days ahead mean less room for surprises, and called the rally real but built on thin holiday trading."
+   ]
+  },
+  {
+   "kicker": "AI & chips",
+   "title": "Memory chips soar, Nvidia lags",
+   "paragraphs": [
+    "Chips led the day. The Philadelphia Semiconductor index rose 4.69% to 9,186.71, BigGo Finance said, and the semiconductor fund SMH, a {{semiconductor-etf|semiconductor ETF}}, rose 4.17%, The Weekend Spread said. Memory makers jumped most: Sandisk rose 15.96%, Micron 7.60% and SK Hynix's US-listed shares 7.52%, and TSMC's US shares rose 3.21% to $353.34, BigGo Finance said. 24/7 Wall St. credited easing worries about AI profits after Wednesday's sell-off.",
+    "Nvidia barely joined in. It rose 0.80% to $150.49, BigGo Finance and The Company Chronicle said, well below Monday's close of about $165 reported in Monday's brief. The Weekend Spread said a Bloomberg report held it back; Investrade described that report as saying Nvidia's Blackwell chips were found at a Shanghai site tied to a company called Megaspeed. Nvidia's leadership questions are also still open: S&P Global put its AA credit rating on {{credit-watch|CreditWatch Negative}} on Wednesday, BigGo Finance noted, and Huang appears before House committees behind closed doors on Tuesday, December 1, and testifies in public to the Senate Banking Committee on Thursday, December 3, The Weekend Spread said.",
+    "Anthropic rose 10.98% to $91.88, back above its $83 {{ipo|IPO}} price, The Weekend Spread said. It had closed below that price on Tuesday and Wednesday. Other big growth names rose too: Tesla gained 5.2% to $400.00 and Amazon 4.0% to $254.12, on a day when Black Friday sales dominated Amazon's news, The Company Chronicle said."
+   ]
+  },
+  {
+   "kicker": "World markets",
+   "title": "China's support pledge lights up Asia",
+   "paragraphs": [
+    "The rally started in Asia. China's State Council, its cabinet, repeated its pledge to support the country's stock market overnight, The Weekend Spread said, and Investrade said China's central bank pledged to keep ample liquidity, meaning enough cash in the banking system for lending. Promises like these are a form of government {{stimulus|stimulus}}: investors expect official help to hold up prices and growth, so they buy.",
+    "The Shanghai Composite jumped 3.73% to 3,606, Investrade said. The Weekend Spread had the CSI 300 index of large Chinese companies up 3.8%, the STAR 50 index of Chinese technology companies up 13.8% and the Hang Seng Tech index in Hong Kong up 6.3%. South Korea's Kospi rose 4.2%, after falling 6.16% on Wednesday. In New York, Chinese stocks such as Alibaba, Baidu and PDD rallied on the stimulus headlines, Investrade said.",
+    "Brazil had its own story. The iShares Brazil fund EWZ jumped 9.78% to $33.11, The Weekend Spread said, which it called a fiscal bounce now in its fourth session, with the real strengthening to 5.54 per dollar. Investrade said Brazilian banks surged after President Lula appointed Luiz Carlos Trabuco as finance minister."
+   ]
+  },
+  {
+   "kicker": "Economic data & the Fed",
+   "title": "A wider trade gap, strong online sales and a Fed going quiet",
+   "paragraphs": [
+    "The only US data release was trade. The October goods {{trade-deficit|trade deficit}} widened by $14.4 billion, or 10.7%, to $149.5 billion, far wider than the $133 billion {{consensus-forecast|forecast}}, Investrade said. Imports rose $21.1 billion to $365.3 billion while exports rose $6.7 billion to $215.8 billion. Imports count against {{gdp|GDP}}, so a deficit this much wider than expected would, if it lasts, subtract from fourth-quarter growth.",
+    "Shoppers were busy. Adobe, as reported by Investrade, said Americans spent $7.1 billion online on Thanksgiving Day, up 10.4% from a year earlier and above its $6.9 billion forecast. Adobe expects a record $12.9 billion online on Black Friday, up 9.2%, and $15.1 billion on Cyber Monday.",
+    "The Fed is about to go quiet. Its {{fed-blackout|blackout period}} starts Saturday, so officials will stop giving speeches before the December 8–9 meeting, Investrade said. A {{rate-hike|rate hike}} there is still fully expected: The Weekend Spread said December \"stayed priced as a hike\" after Wednesday's hot {{pce-inflation|core PCE}} reading of 3.3%, and BigGo Finance said sticky inflation has traders expecting the Fed may raise rates in December and January.",
+    "Not everyone is convinced the rally will last. Goldman Sachs's trading desk estimates that {{systematic-funds|systematic funds}}, which buy and sell by formula, sold about $70 billion of global stocks last week and could sell about $100 billion more, BigGo Finance and Investrade said. Investrade quoted Goldman saying that group is \"still in sell mode\"."
+   ]
+  },
+  {
+   "kicker": "Rates, currencies & commodities",
+   "title": "Bonds give back Wednesday's rally; gold bounces",
+   "paragraphs": [
+    "Bonds fell as stocks rose. By the U.S. Treasury's official closing figures, the {{two-year-yield|2-year yield}} rose 8 {{basis-point|basis points}} to 4.69% and the 10-year {{treasury-yield|Treasury yield}} rose 9 basis points to 4.94%, more than undoing Wednesday's 6-basis-point fall. The Weekend Spread said bonds sold off as money rotated back into stocks, the reverse of Wednesday's {{flight-to-safety|flight to safety}}.",
+    "The {{dollar-index|dollar index}} ended near 104: The Weekend Spread had it up 0.33% at 104.01, and Investrade called it little changed, after a 22-month high of 104.53 earlier in the week. The yen was at about 159.50 per dollar, still under 160, after Japanese officials warned about its weakness, The Weekend Spread said.",
+    "Oil slipped. {{wti|WTI}} crude fell $0.86 to $82.82, Investrade said; The Weekend Spread had it down 1.0% at $82.81. Brent is left off the scoreboard because the sources read give very different figures ($89.94 at Investrade, $97.50 in a morning read at The Weekend Spread). OPEC+ ministers meet on Sunday to set 2027 output policy, The Weekend Spread said.",
+    "Metals jumped. Gold rose about 2.9%: The Weekend Spread had futures at $3,675 and Investrade at $3,647.50, \"up nearly 3%\". Investrade said silver rose almost 6%, platinum almost 5% and copper about 4%, as most metals bounced from more than one-year lows, helped by China's support for its stock market. Bitcoin went the other way, down 1.1% to about $59,845, The Weekend Spread said, the one risk asset that did not rally."
+   ]
+  }
+ ],
+ "connections": {
+  "intro": "Markets move together, but not always the way the textbook predicts. Each card takes one of today's drivers, says what it should have done to another market, and compares that with what happened. The mismatches are where the day's real story is.",
+  "items": [
+   {
+    "driver": "China's State Council repeated its pledge to support the stock market",
+    "asset": "Chinese and Asian tech stocks, then US chip stocks",
+    "expected": "Rise. Government {{stimulus|support}} makes investors expect higher prices and stronger growth, so they buy.",
+    "actual": "The STAR 50 rose 13.8%, the Shanghai Composite 3.73% and the Kospi 4.2%; in New York the Philadelphia Semiconductor index rose 4.69%.",
+    "why": "The textbook link held. The Weekend Spread said Asia's overnight rally on the pledge carried into New York's thin holiday session, with chips leading.",
+    "puzzle": false
+   },
+   {
+    "driver": "Stocks rallied for the day and the week",
+    "asset": "The 10-year Treasury yield",
+    "expected": "Rise. When investors feel braver, they sell safe bonds to buy stocks, and lower bond prices mean higher yields.",
+    "actual": "The 10-year yield rose 9 basis points to 4.94% and the 2-year 8 basis points to 4.69%.",
+    "why": "The textbook link held. The Weekend Spread said bonds sold off as money rotated into stocks, the reverse of Wednesday, when a {{flight-to-safety|flight to safety}} pushed yields down.",
+    "puzzle": false
+   },
+   {
+    "driver": "Adobe said Thanksgiving Day online spending rose 10.4% to $7.1 billion, above its $6.9 billion forecast",
+    "asset": "Amazon's stock",
+    "expected": "Rise. Strong holiday spending points to higher sales for the biggest online retailer.",
+    "actual": "Amazon rose 4.0% to $254.12.",
+    "why": "The link held, but not alone. The Company Chronicle said Black Friday sales dominated Amazon's news, but the whole market rose and other large growth stocks such as Tesla rose more.",
+    "puzzle": false
+   },
+   {
+    "driver": "Fear eased: the {{vix|VIX}} fell to about 24 from 28.29 and every sector rose",
+    "asset": "Gold",
+    "expected": "Fall or stay flat. Gold is a {{safe-haven|safe haven}}, so it usually loses appeal when investors stop worrying.",
+    "actual": "Gold rose about 2.9%, and silver almost 6%.",
+    "why": "Other forces outweighed it. Investrade said most metals bounced from more than one-year lows, helped by China's support for its stock market. Rising yields and a firm dollar, which usually hurt gold, did not stop it.",
+    "puzzle": true
+   },
+   {
+    "driver": "Stocks and other risk assets rallied",
+    "asset": "Bitcoin",
+    "expected": "Rise. Bitcoin has tended to trade like a risky asset, rising when investors are confident.",
+    "actual": "It fell 1.1% to about $59,845.",
+    "why": "The sources read do not explain this. The Weekend Spread notes only that bitcoin was the one risk asset that did not rally.",
+    "puzzle": true
+   }
+  ]
+ },
+ "headlines": [
+  "The October goods trade deficit widened to $149.5 billion as imports rose $21.1 billion and exports only $6.7 billion, Investrade said.",
+  "Altria is considering an all-cash bid for Imperial Brands, and Japan Tobacco is also reported to be weighing a bid, Investrade said.",
+  "SAP is considering cutting at least 10,000 jobs, and Verizon is in talks on a $6 billion deal for Fidium, Investrade said.",
+  "JPMorgan downgraded Puma to Underweight and Adidas to Neutral, cutting price targets to €21 from €26 and €184 from €230, Investrade said.",
+  "Counterpoint forecasts global smartphone shipments to fall 13.9% in 2026 and a further 6% in 2027, Investrade said, a risk for chip suppliers such as Skyworks, Qualcomm and Cirrus Logic."
+ ],
+ "watch": {
+  "when": "Sun, Nov. 29 to Fri, Dec. 4",
+  "title": "OPEC+, Huang in Congress and the jobs report",
+  "text": "OPEC+ ministers meet on Sunday on 2027 output. Monday is the last trading day of November. On Tuesday, December 1, comes the ISM manufacturing index and Jensen Huang's closed-door House appearances, and on Thursday, December 3, his public testimony to the Senate Banking Committee, The Weekend Spread said. The November {{jobs-report|jobs report}} on Friday, December 4, is the last big number before the Fed's December 8–9 meeting: BigGo Finance said the market expects 90,000 jobs and 4.1% unemployment, after 165,000 jobs in October. The Fed is in its {{fed-blackout|blackout}} from Saturday, so there will be no Fed speeches to guide markets."
+ },
+ "sources": [
+  {
+   "name": "The Weekend Spread",
+   "title": "The Close: Friday, November 27, 2026",
+   "url": "https://theweekendspread.substack.com/p/the-close-friday-november-27-2026"
+  },
+  {
+   "name": "Investrade",
+   "title": "Market Review: November 27, 2026",
+   "url": "https://investrade.com/market-review-november-27-2026/"
+  },
+  {
+   "name": "BigGo Finance",
+   "title": "U.S. Stocks Rise Across All Four Major Indexes in Black Friday Half-Day Session",
+   "url": "https://finance.biggo.com/news/96a6dd9c-dfde-447d-9fba-83a4a62a0c21"
+  },
+  {
+   "name": "The Company Chronicle",
+   "title": "Stocks close: S&P 500 gains 1.6% and Nasdaq 2.3% in a half-day, but November is still down",
+   "url": "https://thecompanychronicle.com/story/stocks-close-sp500-up-1-6-percent-nasdaq-up-2-3-percent-vix-24-half-day-november-27-2026"
+  },
+  {
+   "name": "24/7 Wall St.",
+   "title": "Stock Market Today: Markets Off to a Strong Black Friday Start",
+   "url": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/"
+  },
+  {
+   "name": "U.S. Treasury",
+   "title": "Daily Treasury Par Yield Curve Rates",
+   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Stocks rallied on Friday and the 10-year Treasury yield rose 9 basis points to 4.94%. What best explains the rise in the yield?",
+   "options": [
+    "The trade report showed hotter inflation, which lifted hike odds",
+    "Investors sold safe bonds to buy stocks, so bond prices fell",
+    "The Fed began its blackout by signaling a half-point hike",
+    "Japan sold Treasurys to support the yen near 160 per dollar"
+   ],
+   "answer": 1,
+   "explain": "The Weekend Spread said bonds sold off as money rotated into stocks, the reverse of Wednesday's {{flight-to-safety|flight to safety}}. When bond prices fall, their {{treasury-yield|yields}} rise. The trade report measured imports and exports, not inflation, and the Fed's {{fed-blackout|blackout}} means no signals at all."
+  },
+  {
+   "q": "The October goods trade deficit widened to $149.5 billion, against a $133 billion forecast. What does a wider deficit like this do to GDP?",
+   "options": [
+    "Exports grew faster than imports, which adds to GDP",
+    "The government borrowed more, which adds to the GDP figure",
+    "A weaker dollar made imports cheaper, which lifts GDP",
+    "Imports grew faster than exports, which subtracts from GDP"
+   ],
+   "answer": 3,
+   "explain": "Imports rose $21.1 billion while exports rose only $6.7 billion, so the {{trade-deficit|trade deficit}} widened. {{gdp|GDP}} counts exports minus imports, so a wider gap lowers it. A trade deficit is not the government's budget deficit."
+  },
+  {
+   "q": "Gold rose about 2.9% on Friday even though fear eased and every stock sector rose. What reason did the sources give?",
+   "options": [
+    "A bounce from one-year lows, helped by China's stock support",
+    "A flight to safety as the VIX jumped above 30 in the morning",
+    "Falling Treasury yields, which cut the cost of holding gold",
+    "A weaker dollar, which made gold cheaper for foreign buyers"
+   ],
+   "answer": 0,
+   "explain": "Investrade said most metals bounced from more than one-year lows, helped by China's support for its stock market. The {{vix|VIX}} fell, yields rose and the dollar was firm, so none of the usual {{safe-haven|safe-haven}} reasons applied."
+  },
+  {
+   "type": "short",
+   "q": "There was little US news on Friday, yet US chip stocks jumped and the Philadelphia Semiconductor index rose 4.69%. What explains the rally?",
+   "model": "China's State Council repeated its pledge to support the stock market, a form of {{stimulus|stimulus}}, and Asian tech stocks soared overnight: the STAR 50 rose 13.8% and the Kospi 4.2%. The Weekend Spread said that rally carried into New York's thin holiday session, with chips leading, and 24/7 Wall St. pointed to easing worries about AI profits after Wednesday's sell-off.",
+   "points": [
+    "China's government repeated its pledge to support its stock market",
+    "Asian tech and chip stocks rallied overnight and the move carried into US trading",
+    "Worries about AI profits eased after Wednesday's sell-off"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+  "week": "2026-11-27",
+  "range": "Nov. 23–27, 2026",
+  "title": "Huang returns, inflation runs hot and the Dow has its best week since 2022",
+  "questions": [
+    {
+      "kind": "term",
+      "q": "On Monday stocks had their best day since April 2025. Nomura's McElligott said much of the buying was \"mechanical\", including short squeezes. What does a short squeeze involve?",
+      "options": [
+        "Traders who bet on falls buy shares back to cut losses, lifting prices",
+        "Funds that own shares sell them to lock in gains, pushing prices down",
+        "Companies buy back their own shares with cash, which lifts the price",
+        "Dealers lend more shares to short sellers, which makes falls bigger"
+      ],
+      "answer": 0,
+      "explain": "Short sellers profit when prices fall. When prices jump instead, they rush to buy shares back to limit losses, and that buying pushes prices up further. That is a {{short-squeeze|short squeeze}}, and McElligott warned that this kind of bounce guarantees nothing about what comes next.",
+      "days": [
+        "2026-11-23"
+      ]
+    },
+    {
+      "kind": "term",
+      "q": "Nvidia jumped 31.48% on Monday when Huang returned, then fell 5.86% on Tuesday. The Motley Fool described traders taking profits. What does that mean here?",
+      "options": [
+        "Investors judged Huang's return a mistake and sold the stock on it",
+        "S&P Global cut Nvidia's credit rating, forcing many funds to sell",
+        "Buyers who got in cheaply sold to lock in Monday's big gain",
+        "Nvidia reported lower profit margins, so its shares were marked down"
+      ],
+      "answer": 2,
+      "explain": "{{profit-taking|Profit-taking}} is selling after a sharp rise to lock in the gain. It is common after a very big one-day jump. S&P Global's {{credit-watch|CreditWatch}} warning came on Wednesday and was not a downgrade, and the margin warning on Tuesday came from Hewlett Packard Enterprise, not Nvidia.",
+      "days": [
+        "2026-11-24"
+      ]
+    },
+    {
+      "kind": "term",
+      "q": "On Tuesday the Dow rose 0.85% and closed above 50,000 while the Nasdaq fell 1.5%. Why could the two indexes go opposite ways?",
+      "options": [
+        "The Nasdaq is price-weighted, so its costliest shares count most",
+        "Investors favored value sectors, which weigh more in the Dow",
+        "The Dow holds mostly small companies, which rose that day",
+        "Rate-hike bets help tech companies and hurt older industries"
+      ],
+      "answer": 1,
+      "explain": "The Motley Fool said investors favored {{value-stocks|value}} sectors, which is why the Dow, with its older industrial, health care and consumer companies, rose while the tech-heavy Nasdaq fell. Health care led the sectors and technology fell 3.26%.",
+      "days": [
+        "2026-11-24"
+      ]
+    },
+    {
+      "kind": "term",
+      "type": "short",
+      "q": "On Wednesday core PCE inflation came in at 3.3%, above the 3.2% expected. Why does this particular reading matter so much for the Fed's December decision?",
+      "model": "{{pce-inflation|PCE inflation}} is the price gauge the Fed watches most, and the {{core-inflation|core}} version leaves out volatile food and energy. Core PCE at 3.3% was above forecasts and the highest in three years, so it backed the case for a {{rate-hike|rate hike}}: FedWatch put a December hike at about 98%, and on Friday The Weekend Spread said it stayed priced in.",
+      "points": [
+        "PCE is the inflation gauge the Fed watches most; core leaves out food and energy",
+        "It came in hotter than expected, at a three-year high",
+        "That supports a December hike, which traders priced as near certain"
+      ],
+      "days": [
+        "2026-11-25",
+        "2026-11-27"
+      ]
+    },
+    {
+      "kind": "connect",
+      "q": "On Wednesday the 10-year yield fell 6 basis points as AI stocks sold off; on Friday it rose 9 basis points to 4.94% as stocks rallied. What does the pair of moves show?",
+      "options": [
+        "Bonds tracked inflation news: hot PCE pushed yields down and up",
+        "Bonds tracked oil: the refinery attack and Friday's dip drove them",
+        "Bonds tracked the Fed: hike odds collapsed, then jumped back to 98%",
+        "Bonds acted as a haven: bought in the rout, sold in the rally"
+      ],
+      "answer": 3,
+      "explain": "Wednesday was a {{flight-to-safety|flight to safety}}: Yahoo Finance said investors fled to Treasurys as they sold tech. On Friday The Weekend Spread said bonds sold off as money rotated into stocks. Hike odds stayed near certain all week.",
+      "days": [
+        "2026-11-25",
+        "2026-11-27"
+      ]
+    },
+    {
+      "kind": "connect",
+      "q": "Anthropic listed at an $83 IPO price. It closed at $87.64 on Monday, $81.90 on Tuesday, $82.79 on Wednesday and $91.88 on Friday. Which summary is right?",
+      "options": [
+        "It stayed above its IPO price all week, then jumped on Friday",
+        "It fell below its IPO price on two days, then rose back above it",
+        "It fell below its IPO price on Monday and stayed below all week",
+        "It held above $87 until Friday, when it fell below its IPO price"
+      ],
+      "answer": 1,
+      "explain": "Anthropic closed below its $83 {{ipo|IPO}} price on Tuesday and Wednesday, then rose 10.98% on Friday to $91.88. A stock trading below its IPO price means those who bought in the offering are showing a loss.",
+      "days": [
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-27"
+      ]
+    },
+    {
+      "kind": "connect",
+      "q": "Gold fell about 2.5% to 2.7% on Tuesday and rose about 2.9% on Friday. Which reasons did the sources give for the two moves?",
+      "options": [
+        "Tuesday a stronger dollar; Friday a flight to safety from stocks",
+        "Tuesday a Saudi refinery attack; Friday falling Treasury yields",
+        "Tuesday hawkish Fed signals; Friday a bounce off one-year lows",
+        "Tuesday a hot PCE report; Friday weak Black Friday spending"
+      ],
+      "answer": 2,
+      "explain": "On Tuesday Capp Notes put gold's fall down to hawkish Fed signals, even though the dollar softened. On Friday Investrade said metals bounced from more than one-year lows, helped by China's {{stimulus|support}} for its stock market. Gold is a {{safe-haven|safe haven}}, but this week the Fed and China moved it more than fear did.",
+      "days": [
+        "2026-11-24",
+        "2026-11-27"
+      ]
+    },
+    {
+      "kind": "connect",
+      "type": "short",
+      "q": "Huang's return sent Nvidia up 31% to about $165 on Monday, yet it ended Friday at $150.49 and lagged that day's chip rally. Why did the rebound fade?",
+      "model": "On Tuesday traders took profits and Hewlett Packard Enterprise's margin warning hit AI hardware stocks, so Nvidia fell 5.86%. On Wednesday S&P Global put its AA rating on {{credit-watch|CreditWatch Negative}} over governance risk and it fell 3.91%. On Friday a Bloomberg report about its chips at a Shanghai site held it back while other chip stocks jumped.",
+      "points": [
+        "Profit-taking and HPE's margin warning on Tuesday",
+        "S&P Global's CreditWatch Negative on governance risk on Wednesday",
+        "Leadership and China questions remained open, so it lagged Friday's rally"
+      ],
+      "days": [
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-27"
+      ]
+    }
+  ]
+}
